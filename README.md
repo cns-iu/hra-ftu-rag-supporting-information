@@ -120,7 +120,7 @@ For full installation instructions, environment setup, and dependency management
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-org/HRAftu-LM-RAG.git
+   git clone https://github.com/cns-iu/hra-ftu-rag-supporting-information.git
    cd HRAftu-LM-RAG
    ```
 2. Follow the steps in `docs/installation.md` to install system dependencies (Docker, Python, CUDA), set up containers, and verify services.
