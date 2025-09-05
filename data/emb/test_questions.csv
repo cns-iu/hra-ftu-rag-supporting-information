@@ -1,0 +1,1000 @@
+Query content
+"Granulocyte-monocyte progenitors (GMPs) and monocyte-dendritic cell progenitors (MDPs) produce monocytes during homeostasis and in response to increased demand during infection. Both progenitor populations are thought to derive from common myeloid progenitors (CMPs), and a hierarchical relationship (CMP-GMP-MDP-monocyte) is presumed to underlie monocyte differentiation. Here, however, we demonstrate that mouse MDPs arose from CMPs independently of GMPs, and that GMPs and MDPs produced monocytes via similar, but distinct, monocyte-committed progenitors. GMPs and MDPs yielded classical (Ly6Chi) monocytes with gene expression signatures that were defined by their origins and impacted their function. GMPs produced a subset of ※neutrophil-like§ monocytes, whereas MDPs gave rise to a subset of monocytes that yielded monocyte-derived dendritic cells. GMPs and MDPs were also independently mobilized to produce specific combinations of myeloid cell types following the injection of microbial components. Thus, the balance of GMP and MDP differentiation shapes the myeloid cell repertoire during homeostasis and following infection."
+"Hematopoietic stem cells (HSCs) give rise to all blood lineages and permanently maintain the adult hematopoietic system throughout the entire lifespan of an individual via self-renewal and differentiation. Although the ontogeny of HSCs during development has been extensively investigated in animal models including zebrafish and mice, it is largely unclear in human embryos, given the limited accessibility of human embryonic tissues. By functional assessment with xenotransplantation, human HSCs are reported to be detected sequentially in multiple embryonic sites. Long-term multi-lineage repopulating HSCs are detected firstly in the aorta每gonad每mesonephros (AGM) region at Carnegie stage (CS) 14 (32 days post coitus, dpc), with a frequency of less than one per embryo equivalent, and then in the yolk sac several days later (CS 16, 35每38 dpc), showing an even lower frequency than that in the AGM region.1,2 The first human HSCs manifest a phenotype of CD34+CD144+CD45+KIT+CD90+Endoglin+RUNX1+CD38?/loCD45RA?, similar to those in the embryonic liver or cord blood,3每5 although the enrichment is yet far from being efficient. An evident presence of HSCs in the embryonic liver, the major organ for HSC expansion during embryogenesis, is witnessed only after CS 17 (39每42 dpc), generally from 7 to 8 weeks of gestation.1,2,6"
+"Here we performed an integrative analysis of scRNA-seq and scATAC-seq of more than 8,000 immunophenotypic HSPCs from 17每22 pcw human fetal liver, femur, and hip to define transcriptional and epigenetic changes during blood differentiation. We explored lineage priming at the transcriptional and chromatin levels in HSCs/MPPs and refined the sorting strategy for isolation of a highly enriched HSC/MPP population."
+"Next, we inferred trajectories of haematopoietic development. By force directed graph (FDG), we identify three connections to a central HSC/MPP node featuring erythroid-megakaryocyte-mast cells, B cell and innate/T-lymphoid cells and myeloid cells (Figure 3a and Supplementary Video 1). Partition based approximate graph abstraction (PAGA) also supports the presence of a shared megakaryocyte-erythroid-mast cell progenitor (MEMP) downstream of HSC/MPP (Extended Data 3a). Genes dynamically modulated in the specification of erythroid, megakaryocyte and mast cell lineages are distinct: TAL1 and KLF1 in erythroid; F11R, PBX1 and MEIS1 in megakaryocyte; and HES1 in mast cell differentiation (Extended Data 3b)12每15. We explored supporting factors for fetal liver erythropoiesis using CellPhoneDB16 to predict specific/enriched receptor-ligand interactions between erythroblasts and VCAM1+ EI macrophages (Extended Data 4a). We identify statistically significant interactions for VCAM1, ITGB1, ITGA4, SIGLEC1, ICAM4 and SPN, molecules known to be important in haematopoiesis (Extended Data 4a)17,18. The presence of VCAM1 on EI macrophages and ITGA4 on early/mid erythroid cells is confirmed by immunohistochemical analysis on serial fetal liver sections (Extended Data 4b). VCAM1+ EI macrophage interaction with erythroblasts is also observed using Imaging Flow Cytometry ImageStream analysis (Extended Data 4d) and may explain their combined erythroblast and macrophage transcriptome (Figure 2a), which has also been described in mouse central EI macrophages (Extended Data 4g)19."
+"Altogether our results suggest the VEGF-mediated induction of PLVAP+ ECs and DLL4+-mediated reprogramming of FOLR2+ TAM1s. We also observed co-localization of FOLR2+, PLVAP+, and TIGIT+ cells in HCC TME, suggesting the existence of an immunosuppressive niche. In order to systematically comprehend the extent of similarity between tumor and fetal ecosystem, we performed spatial transcriptomics assay (Figure 7C). We employed 96 immune, stromal, epithelial, and onco-fetal markers to profile three human fetal-liver, adjacent normal, and tumor tissues. In total, we profiled 108 regions from 9 slides followed by hierarchical clustering of highly variable genes. Interestingly, we observed that majority of tumor and fetal-liver sectors clustered together (Figures 7D and 7E; Table S5) and exhibited the classic hallmarks of immunosuppressive (FOXP3, CTLA4, LAG3, BATF3) T cells and onco-fetal ecosystem, i.e., FOLR2+ macrophages, PLVAP+ ECs, and Notch/VEGF receptor ligands. However, cluster 2 consisted of mostly adjacent normal tissue with some fetal and tumor sectors. Moreover, the cluster also displayed lower expression of markers associated with onco-fetal ecosystem, immunosuppressive T cells, and NOTCH/VEGF signaling. To explore the implication of fetal-like reprogramming beyond cancer, we performed partial liver hepatectomy in Ms4a3Cre-RosaTdT mice and analyzed ‵79,000 single cells from regenerating mouse liver at days 0, 7, 14, and 28 (Figures S7A每S7E). Interestingly, we observed an increase in FOLR2+ monocyte-derived (Tomato+) macrophages at days 7每28 (Figure S7F). Moreover, we also observed a concomitant increase in the PLVAP expression, components of Notch and VEGF pathway, as well as genes associated with immunosuppressive T cells during liver regeneration (Figure S7G). These results indicate the resurgence of a fetal-like ecosystem during liver regeneration similar to what we observed during human fetal-liver development and in HCC microenvironment."
+"Survival of the fetus depends on successful initiation of haematopoiesis in several organs across gestation. We reveal the complete establishment of haematopoiesis in the FBM within the first few weeks of the second trimester and identify the BM as a key site of neutrophil emergence, myeloid diversification and B lymphoid selection. We identify a unique intrinsic molecular profile of FBM HSC/MPPs, and an intrinsic bias of DS BM stem/progenitors underpinned by genome-wide transcriptional changes. A better understanding of human developmental haematopoiesis has the potential to inform regenerative and transplantation therapies, for example, through co-opting developmental programmes to accelerate reconstitution of haematopoietic stem cell transplants, and manipulating the lineage bias of differentiating progenitors to address specific deficiencies or for cellular therapy. For such endeavours to be successful, an initial phase of discovery science is critical. It is in this context that the current study provides the first comprehensive analysis of human FBM haematopoiesis to address a major previous knowledge gap."
+"The classical roadmap of hematopoietic hierarchy has been proposed for nearly 20 years and has become a dogma of stem cell research for most types of adult stem cells, including hematopoietic stem cells (HSCs). However, with the development of new technologies such as omics approaches at single-cell resolution, recent studies in vitro and in vivo have suggested that heterogeneity is a common feature of HSCs and their progenies. While these findings broaden our understanding of hematopoiesis, they also challenge the well-accepted hematopoietic hierarchy roadmap. Here, we review recent advances in the hematopoiesis field and provide an updated view to incorporate these new findings as well as to reflect on the complexity of HSCs and their derivatives in development and adulthood."
+"In mammals, the first transient waves of blood cells arise in the yolk sac (extra-embryonic haematopoiesis) and serve the immediate needs of the growing embryo (Silver and Palis, 1997). They include the most primitive wave, which consists mainly of large nucleated erythrocytes that is rapidly followed by a second wave of erythro-myeloid progenitors (EMPs) and lymphoid progenitors that transiently seed the foetal liver (B?iers et al., 2013; McGrath et al., 2015). The third wave, which includes self-renewing haematopoietic stem cells (HSCs) that give rise to the permanent adult haematopoietic system, emerges later inside the body of the embryo (intra-embryonic haematopoiesis) in the aorta-gonad-mesonephros (AGM) region, which is evolutionarily conserved in many vertebrates (Medvinsky et al., 1993; Medvinsky and Dzierzak, 1996). The process of HSC development in vertebrates is driven by largely conserved, although not entirely identical, molecular mechanisms (Medvinsky et al., 2011; Ciau-Uitz et al., 2016). The endothelial origin of haematopoietic progenitors and HSCs has been established by their emergence from the aortic endothelial layer (Garcia-Porrero et al., 1995; Tavian et al., 1996; Jaffredo et al., 1998), lineage tracing in vivo using genetic labelling (Zovein et al., 2008; Chen et al., 2009; Bertrand et al., 2010; Kissa and Herbomel, 2010) and observations of embryonic stem cells (ESCs) differentiating in vitro (Eilken et al., 2009; Lancrin et al., 2009). HSCs and non-self-renewing haematopoietic progenitor cells that emerge in the AGM region are organised within intra-aortic haematopoietic clusters (IAHCs). These bud predominantly from the endothelial floor of the dorsal aorta, which accordingly co-express endothelial and haematopoietic markers. The search for markers that would accurately identify developing HSCs and separate them from non-self-renewing progenitors is an important goal towards understanding the mechanisms that underlie HSC development (Rybtsov et al., 2014; Zhou et al., 2016). Important events that occur downstream of HSC emergence include colonisation and expansion of HSCs in the foetal liver and subsequent lodging in the adult bone marrow."
+"The trachea and proximal airways in humans as well as in the mouse consist of a pseudostratified epithelium, which contains multiple cell lineages, including multiciliated cells, secretory cells, goblet cells and basal stem/progenitor cells (BSCs) (Fig. 1b,c). Functionally, multiciliated cells have cilia on the apical surface that shuttle inhaled particulates and mucus out of the airways in a retrograde manner. Mucus-producing goblet and secretory cells are a critical first line of defence for trapping inhaled particulates and microorganisms. BSCs act as resident stem cells for the trachea and proximal airways of the human respiratory system and the trachea and main stem bronchi of the mouse respiratory system, and they are capable of repopulating the pseudostratified epithelium during homeostasis and after injury. The trachea and airways are underlined with heterogeneous mesenchymal cell lineages, including cartilage around the trachea, smooth muscle and interstitial fibroblasts. These cells can act as niche-supporting cells to regulate the regenerative response of airway epithelium after injury1,2 (see later for further details)."
+"HSC activity is detected in the third wave of definitive hematopoiesis, having the important abilities of self-renewal and multipotent differentiation for long-term hematopoietic maintenance. Live imaging and lineage tracing analyses in vertebrates have shown that embryonic HSCs arise from HE through EHT (Bertrand et al., 2010; Boisset et al., 2010; Kissa and Herbomel, 2010; Zovein et al., 2008). At least two HSC-competent intermediates have been defined as the precursors of HSC during EHT (Table 1): the type I pre-HSCs (CD144+CD45?CD41lowCD43+) and type II pre-HSCs (CD144+CD45+CD41lowCD43high). These HSC precursors will then mature into HSCs, which involves the simultaneous acquisition of hematopoietic potential and loss of the endothelial potential (Rybtsov et al., 2011; Taoudi et al., 2008; Zhou et al., 2016). In mice, HSCs and their immature precursors are observed within the intra-aortic hematopoietic clusters (IAHCs) of the para-aortic splanchnopleura, AGM region, vitelline arteries and umbilical arteries between E10.5 and E11 (Fig. 1C) (Costa et al., 2012; de Bruijn et al., 2000; Godin et al., 1995; Gordon-Keylock et al., 2013; Mikkola and Orkin, 2006; Nishikawa et al., 2001). From E11.5, HSC precursors and HSCs are released into circulating blood and gradually migrate into the fetal liver, where HSC precursors undergo maturation and HSCs differentiate into HPCs, including MPPs and lineage-restricted progenitor cells, and downstream lineages (Fig. 1D) (Ganuza et al., 2022; Kieusseian et al., 2012; Mikkola and Orkin, 2006; Rybtsov et al., 2016). In the fetal liver, the pool of HSCs expands simultaneously with their differentiation from E12.5 to E16.5 (Ema and Nakauchi, 2000; Swain et al., 2014). Subsequently, HSCs migrate into the bone marrow for maintenance throughout the adulthood from E17.5 onwards. Bone marrow HSCs are classified into two subpopulations: long-term (LT) HSCs and short-term (ST) HSCs. Compared with LT-HSCs, ST-HSCs exhibit a gradual decline in their self-renewal and reconstitution abilities (Morrison and Weissman, 1994; Yang et al., 2005)."
+"The function of the mammalian heart depends on the interplay between different cardiac cell types. The deployment of these cells, with precise spatiotemporal regulation, is also important during development to establish the heart structure. In this Review, we discuss the diverse origins of cardiac cell types and the lineage relationships between cells of a given type that contribute to different parts of the heart. The emerging lineage tree shows the progression of cell fate diversification, with patterning cues preceding cell type segregation, as well as points of convergence, with overlapping lineages contributing to a given tissue. Several cell lineage markers have been identified. However, caution is required with genetic-tracing experiments in comparison with clonal analyses. Genetic studies on cell populations provided insights into the mechanisms for lineage decisions. In the past 3 years, results of single-cell transcriptomics are beginning to reveal cell heterogeneity and early developmental trajectories. Equating this information with the in vivo location of cells and their lineage history is a current challenge. Characterization of the progenitor cells that form the heart and of the gene regulatory networks that control their deployment is of major importance for understanding the origin of congenital heart malformations and for producing cardiac tissue for use in regenerative medicine."
+"Pluripotent stem cell (PSC)-derived cardiac organoids have emerged as powerful in vitro models of human development and disease5,6, but none have yet demonstrated the spontaneous formation of a bona fide epicardial compartment. Here, we generated cardiac organoids showing self-organization of highly functional ventricular myocardium and epicardium, which we called epicardioids. Time course single-cell genomics in epicardioids combined with lineage tracing revealed principles of human epicardial origin and biology, including the developmental trajectories of the epicardial lineage and the functional cross-talk with other cardiac cell types. In addition, we show that epicardioids represent an advanced system to model multicellular mechanisms of heart disease."
+"The heart is the first functional organ and is critical for embryonic survival [1]. To perform its vital function as a pump, the heart consists of diverse origins of cell types that contribute to its different regions. Cardiac cell-type segregation is regulated in a spatiotemporal manner. Recent studies have revealed that two distinct sources of myocardial progenitor cells (first- and second-heart fields) are involved in early cardiogenesis. The first heart field (FHF) refers specifically to the first wave of mesodermal cells that differentiate into only cardiomyocytes to form the primitive heart tube and that express muscle-specific proteins. Instead, the secondary heart field (SHF) was found to lie posteriorly and medially to the FHF within the pharyngeal mesoderm and consists of not only cardiomyocytes but also endothelial cells and vascular smooth muscle cells [2]."
+"To explore the spatiotemporal dynamics of human Mf specification, we began with an unbiased approach by sorting all the immune cells (CD45+ cells) for single-cell RNA sequencing (scRNA-seq) analysis from 19 organs/tissues of 52 human embryos and fetuses. In total, we collected 367 prenatal samples spanning 19 time points encompassing postconceptional weeks (PCW) 4每26, from the mid-embryonic stage (Carnegie stage 11 [CS11]) to the early third trimester (26 PCW). In addition, we included data from adult skin and brain49,50 for the comparison with fetal Mf (Figure 1A; Table S1)."
+"To further prove that R26-TLR can be used to trace different/diverse cell populations simultaneously, we crossed the R26-TLR mouse line with the Tnni3-Dre and Tie2-Cre mouse lines, which specifically target cardiomyocytes and endothelial cell lineages, respectively (32, 35). As shown in the design, Dre expression driven by the Tnni3 promoter resulted in ZsGreen gene expression, and Tie2-derived Cre led to tdTomato gene expression (Fig. 2, A and B). For analysis, we collected hearts from E16.5 embryos of three genotypes: Tnni3-Dre;R26-TLR, Tie2-Cre;R26-TLR, and Tnni3-Dre;Tie2-Cre;R26-TLR (Fig. 2C). Whole-mount epifluorescence imaging showed ZsGreen+ but not tdTomato+ signals detected in Tnni3-Dre;R26-TLR hearts. In contrast, tdTomato+ but not ZsGreen+ signals in vascular patterns were detected in Tie2-Cre;R26-TLR hearts. As expected, both ZsGreen+ and tdTomato+ signals were detected in Tnni3-Dre;Tie2-Cre;R26-TLR triple-positive hearts (Fig. 2D). To further verify the labeling specificity, we performed immunostaining on heart sections with the cardiomyocyte marker Tnni3 and the endothelial cell marker Pecam. Immunostaining for ZsGreen, tdTomato, and Tnni3 on Tnni3-Dre;Tie2-Cre;R26-TLR triple-positive heart sections showed that over 99% of all cardiomyocytes were ZsGreen+ tdTomato? (Fig. 2, E and F). We also performed immunostaining for ZsGreen, tdTomato, and Pecam on triple-positive heart sections and detected that more than 99% of endothelial cells were tdTomato+ZsGreen? (Fig. 2, G and H). The distributions of ZsGreen+ cardiomyocytes and tdTomato+ endothelial cells were interleaved and connected to each other. Furthermore, we could hardly detect any yellow signals, indicating that the promoters of Tnni3 and Tie2 were less likely to be active in the same cell types (Fig. 2, E and G). Additionally, immunostaining data from the Tnni3-Dre;R26-TLR and Tie2-Cre;R26-TLR double-positive line confirmed no cross-talk between these two Dre-rox and Cre-loxP recombinations (Fig. S1, A and B). Together, these data demonstrate that R26-TLR can be used for simultaneous labeling of distinct cell populations."
+"Here we demonstrate the assembly of mouse embryonic and extraembryonic stem cells to form an embryo model that develops the brain, neural tube, heart, foregut, somite, allantois, primordial germ cells and yolk sac structures. This embryo model is able to achieve this entirely through self-organization of these three stem cell types, without the need to provide additional external signalling cues. In contrast to other stem cell-derived embryo models, neurulating embryoids undertake morphogenesis of headfold structures in a manner that closely resembles the natural embryo. This extended development of our embryoids probably relies on their ability to form the anterior signalling centre (the AVE), which protects the anterior embryonic regions from signals that promote posterior development and enables the correct positioning of the primitive streak for gastrulation, as in natural embryos. Together, these events enable the region anterior to the primitive streak to correctly direct formation of fore- and midbrain. The natural gastrulation movements of the ETiX embryoids enable them to proceed to neurulation with formation of the neural tube, initiation of somitogenesis, and the generation of mesodermal structures including a heart-like structure. So far, we have not studied development beyond the establishment of the endodermal progenitors for the gut and its associated organs and it may be necessary to optimize culture conditions to achieve this. However, there are no reasons to suspect that, given appropriate culture conditions, ETiX embryoid development will not proceed further in culture."
+"The Cre-loxP-mediated genetic lineage tracing system is essential for constructing the fate mapping of single-cell progeny or cell populations. Understanding the structural hierarchy of cardiac progenitor cells facilitates unraveling cell fate and origin issues in cardiac development. Several prospective Cre-loxP-based lineage-tracing systems have been used to analyze precisely the fate determination and developmental characteristics of endocardial cells (ECs), epicardial cells, and cardiomyocytes. Therefore, emerging lineage-tracing techniques advance the study of cardiovascular-related cellular plasticity. In this review, we illustrate the principles and methods of the emerging Cre-loxP-based genetic lineage tracing technology for trajectory monitoring of distinct cell lineages in the heart. The comprehensive demonstration of the differentiation process of single-cell progeny using genetic lineage tracing technology has made outstanding contributions to cardiac development and homeostasis, providing new therapeutic strategies for tissue regeneration in congenital and cardiovascular diseases (CVDs)."
+"During gastrulation, the craniocaudal arrangement of progenitors is shifted 90～: the most cranial cells in the epiblast become the most medial in the mesoderm and the most caudal cells in the epiblast become the most lateral in the mesoderm.9, 10 The chick embryo undergoes an extended period in which the bilateral heart fields remain as progenitors and do not show signs of differentiation until they move to the midline.11, 12 In contrast, in the mouse the cardiogenic fields move quickly to the midline, anterior to the forming neural plate, where they join to form a cardiac crescent of differentiating cardiomyocytes. In both chick and mouse, embryo folding to form the foregut pocket carries the cranial cells in the cardiogenic fields ventrocaudally resulting in an inversion of cardiogenic mesoderm.10 The cranial-lateral borders of the heart fields meet at E8.0 (HH9) to form the ventral seam of the early heart ※tube§ which is at this stage more accurately described as a myocardial trough open dorsally toward the ventral pharynx.10, 13 14"
+"MVD in the absence of infective endocarditis has traditionally been regarded as a ＆non-inflammatory＊ disease. In recent years, however, CD45+ haematopoietic cells have been detected in diseased human, sheep, and murine valves with myxomatous degeneration related to non-infective causes.13,53,76每78 Additional work characterizing these cells has demonstrated that they are predominantly macrophages, with smaller contributions from dendritic cells.10,11 A caveat for this interpretation is that CD45 expression can be induced by Tgf汕 signalling in mitral VECs in MVD after myocardial infarction in sheep.78,79 However, increased numbers of CD206+ macrophages in regions of ECM remodelling and myeloid-lineage macrophages in association with increased immunogenic proteoglycans further supports roles for distinct populations of macrophages in myxomatous alterations in human valves.10,28,44 Despite the identification of these heterogeneous macrophage populations, little is known regarding their origins or functions in valve disease initiation or progression."
+"At the end of the second week of development the mesodermal cells differentiating into cardiomyocytes cells begin to become electrically competent and begin to twitch. In the beginning of the third week of development (CS9坼10), when the linear heart tube has just formed, peristaltic contraction waves travel from inflow to outflow regions. An ECG can already be recorded at this stage and has a sinusoidal morphology (Christoffels, Smits, Kispert, & Moorman, 2010; Hoff, Kramer, DuBois, & Patten, 1939). It should be noted that at this stage of development, there is no morphologically distinguishable cardiac conduction system. The slow and long lasting contraction is the result of poorly electrically coupled cardiomyocytes, and at the same time the sarcomers and sarcoplasmic reticulum have yet to fully develop. The polarity of this contraction wave is due to the expression of the hyperpolarization activated pacemaker channel Hcn4 in the cardiomyocytes located at the inflow region of the heart tube (Mommersteeg and others, 2007b). Hcn4 is responsible for the spontaneous depolarizing ※funny§ current, a major component of pacemaker activity. Since pacemaker activity is always found at the most distal myocardial border of the inflow, the newly differentiated cardiomyocytes at the distal border of the inflow possess dominant pacemaker activity, determining the contraction rate of the heart (Moorman, Christoffels, & Bakker, 2011)."
+"Fibroblasts are present throughout the body and function to maintain tissue homeostasis. Recent studies have identified diverse fibroblast subsets in healthy and injured tissues1,2, but the origins and functional roles of injury-induced fibroblast lineages remain unclear. Here we show that lung-specialized alveolar fibroblasts take on multiple molecular states with distinct roles in facilitating responses to fibrotic lung injury. We generate a genetic tool that uniquely targets alveolar fibroblasts to demonstrate their role in providing niches for alveolar stem cells in homeostasis and show that loss of this niche leads to exaggerated responses to acute lung injury. Lineage tracing identifies alveolar fibroblasts as the dominant origin for multiple emergent fibroblast subsets sequentially driven by inflammatory and pro-fibrotic signals after injury. We identify similar, but not completely identical, fibroblast lineages in human pulmonary fibrosis. TGF汕 negatively regulates an inflammatory fibroblast subset that emerges early after injury and stimulates the differentiation into fibrotic fibroblasts to elicit intra-alveolar fibrosis. Blocking the induction of fibrotic fibroblasts in the alveolar fibroblast lineage abrogates fibrosis but exacerbates lung inflammation. These results demonstrate the multifaceted roles of the alveolar fibroblast lineage in maintaining normal alveolar homeostasis and orchestrating sequential responses to lung injury."
+"Maintenance of the integrity of the alveolar structure and function is essential for proper lung homeostasis and function.1 Structurally, the lung epithelium consists of the trachea, bronchioles, and alveolar regions. The identification of the molecular mechanisms by which lung epithelial stem/progenitor cells contribute to lung homeostasis provides invaluable insights into lung repair and regeneration after damage.1,2 Distinct stem/progenitor cell types reside in their local epithelial structure and are essential for maintenance and repair after lung injury.1 Club cells and neuroendocrine cells have been identified as bronchiolar resident progenitors that are involved in bronchiolar regeneration after injury.3,4,5 The alveolar region is composed of alveolar type 1 (AT1) cells, which are responsible for gas exchange, and AT2 cells, which are considered to be stem cells capable of self-renewal and differentiation into AT1 cells during homeostasis and after injury.6,7,8,9,10 Additionally, a population of multipotent stem cells called bronchioalveolar stem cells (BASCs) was reported to exist at the bronchioalveolar-duct junction,11 and they participate in the repair of bronchiolar and alveolar epithelium following lung injuries.11,12,13,14"
+"Neutrophils are among the first responders to infection and tissue damage (Powell and Huttenlocher, 2016). Neutrophils are present in the TIME of most solid tumors and can contribute to tumor progression by promoting cell growth, angiogenesis, metastasis and immune evasion, although they can play anti-tumor roles as well (Coffelt et al., 2016; Powell and Huttenlocher, 2016). A pan-cancer study of 25 malignancies including NSCLC showed that neutrophil abundance in the TIME is a leading predictor of poor outcome (Gentles et al., 2015). Similarly, a high neutrophil to lymphocyte ratio is associated with poor prognosis in many solid tumors, including NSCLC (Templeton et al., 2014). Mice bearing activating mutations in Kras and deficient for the tumor suppressor Lkb1 [KrasLSL-G12D/+;Lkb1fl/fl (KL mice)] harbor a spectrum of NSCLC histologies, and tumor-associated neutrophils (TANs) in this model demonstrate pro-tumor features (Koyama et al., 2016; Nagaraj et al., 2017)."
+"Given previous studies suggesting that AT2 cells are the origin of LUAD9,17, we calculated correlation coefficient of gene expression levels between different cell types and found that AT2-like cells correlated strongly with AT2 cells (Supplementary Data File 6), which was confirmed by comparison of gene expression profiles (Fig. S5) and the correlation coefficient among epithelial cell types (Supplementary Data File 7). Notably, we observed very small percentage of cells expressing cell proliferation markers, so we opt not to correct for the cell cycle effect (Fig. S6a, b). Overall, this analysis revealed AT2-like cells were associated with malignant cell population, and AT2 cells are likely the origin of LUAD."
+"Multiple mesenchymal cell populations have been shown to occupy distinct niches and provide inductive signals to neighbouring cells in the lung11,12,24. We annotated fibroblasts in our scRNA-seq data by comparing them to previously described human lung reference datasets11. We observed seven previously identified populations: alveolar, adventitial and myofibroblasts, fibromyocytes, pericytes, and vascular and airway smooth muscle cells. Interestingly, we identified a fibroblast cluster that is unique to our dataset (Fig. 2a). These fibroblasts are significantly enriched for LGR5, F13A1, PDGFRA, WNT5A, RSPO1, DLL1, TGFBI and DIO2 (Fig. 2b,c). Analysis of ST data revealed the expression of genes, including FGF14, enriched in LGR5+ fibroblasts around the airways but not in alveolar regions (Extended Data Fig. 7a). RNA-FISH showed that LGR5+ fibroblasts are located in the sub-epithelial mesenchyme of airways including TRBs (Fig. 2d, Extended Data Fig. 7b,c). Pathway analysis shows that LGR5-expressing cells are enriched for WNT, PDGF, BDNF and TGF汕 signalling pathways (Extended Data Fig. 7d). Further analysis revealed that LGR5+ fibroblasts are a source of FGF (FGF2, 7,10 and 14), BMP (BMP2, 4, 5, and 7), and WNT pathway ligands that signal through their cognate receptors (FGFR2每3, FZD6, and BMPR1B, and BMPR2) expressed in distal-BC12, and TRB-SCs. Conversely, distal-BC-1, distal-BC-2, and TRB-SCs express PDGF ligands whose receptors are expressed by the LGR5+ fibroblasts. These data suggest bi-directional signalling centred on LGR5+ fibroblasts and distal-BC1, distal-BC-2, and TRB-SCs (Extended Data Fig. 7d,e). Regulon activity further suggests that LGR5+ fibroblasts exhibit unique transcriptional regulation (Extended Data Fig. 7f,g)."
+"In this study, we report a single-cell transcriptome atlas of the human embryonic lung that comprises ~170,000 cells from CS12 to CS21. We characterized 6 major cell clusters which were further divided into 33 cell subtypes, and identified a series of novel cell type-specific signatures. More importantly, taking advantage of this dataset, we systematically investigated the human lung proximal每distal patterning and found that it occurred as early as week 4 upon the initiation of lung organogenesis. Based on the transcriptome-regulon analysis, we identified several novel TFs responsible for driving the proximal每distal patterning. Furthermore, we discovered a BDNF+ population as a new embryonic stromal cell subtype producing abundant niche factors such as BDNF, FGF10, WNT2B, and LAMA5. Finally, we deciphered developmental programs and signatures of two distinct SMC subtypes, VSMC and ASMC, and revealed their roles in establishing the microenvironment for epithelial morphogenesis. This study provides a useful resource for lung organogenesis research and regenerative medicine, especially stem cell-based strategies."
+"Lung cancer is the leading cause of cancer related death, and is divided into two major histological subtypes, non-small cell lung cancer (NSCLC) and small cell lung cancer (SCLC). Histological transformation from NSCLC to SCLC has been reported as a mechanism of treatment resistance in patients who received tyrosine kinase inhibitors (TKIs) targeting EGFR, ALK and ROS1 or immunotherapies. The transformed histology could be due to therapy-induced lineage plasticity or clonal selection of pre-existing SCLC cells. Evidence supporting either mechanism exist in the literature. Here, we discuss potential mechanisms of transformation and review the current knowledge about cell of origin of NSCLC and SCLC. In addition, we summarize genomic alterations that are frequently observed in both ""de novo"" and transformed SCLC, such as TP53, RB1 and PIK3CA. We also discuss treatment options for transformed SCLC, including chemotherapy, radiotherapy, TKIs, immunotherapy and anti-angiogenic agents."
+"The human conducting airway epithelium is composed of several functional cell types organized in a pseudostratified fashion atop a submucosal layer that transitions to a monolayer distally. The most abundantly encountered cell types include secretory cells (SCs), multiciliated cells (MCCs), and basal cells (BCs) (as shown in Fig. 1), followed by less frequent types such as neuroendocrine cells, goblet cells (GCs), brush cells, and ionocytes. The specific proximodistal distribution of cell types plays a variety of physiological roles, including providing host defense, repair, and regeneration of the airway epithelial cells. Of particular interest is this latter function provided by airway stem/progenitor cells. These cells are capable of self-renewal and generation of one or more mature cell types. Contrary to other epithelial systems, the airway epithelium is maintained by infrequent progenitor cell division as evidenced by a ciliated cell half-life of 17 months in a murine bronchus (157). A series of lineage-tracing strategies and airway injury experiments instigating a repair process has introduced a capacity to identify a whole host of surface epithelial, and some submucosal gland, cells to be responsible for epithelial or alveolar homeostasis (112, 160, 197). Newer studies involving single-cell RNA sequencing of human airway cells have provided more critical information on the stem cell subtypes, the transition states, and the intricate pathways that commit a stem cell to differentiate or to maintain plasticity (133, 149, 166)."
+"Development of the alveoli does not stop at birth; their number and surface area increases dramatically postnatally and continues for weeks (mice) and months (humans) with the formation of new secondary septa (Figure 1B and 2). The secondary septa arise from ridges on the wall of the alveolar sacs and the capillaries within them undergo remodeling by mechanisms that are poorly understood. The capillary meshwork also increases in size by a process known as intussusceptive microvascular growth (Burri et al., 2004). Only a very thin layer of matrix, a shared basal lamina, eventually separates AEC1s and the capillary endothelial cells. Stromal cells also move into the septa and differentiate into pericytes, lipofibroblasts, myofibroblasts, and other poorly defined lineages. Lipofibroblasts appear to associate closely with AEC2s while myofibroblasts lay down elastin fibers at the tip of the septa and in the stalks. These fibers form an integrated network throughout the alveolar region, providing a flexible and elastic scaffold that is critical for maintaining lung function and for keeping the small terminal airways and alveolar ducts open (Weibel, 2013). Mechanical forces and physical stress are emerging as key regulators of alveolar development, maintenance, repair and regrowth (reviewed in (Hsia et al., 2004; Wirtz and Dobbs, 2000)."
+"Towards late gestation, the differentiation of distal Sox9+/Id2+ progenitors into AT1 and AT2 cells is an important step in the process of generating functional alveolar gas exchange units. Recent evidence suggests the presence of a bipotent progenitor capable of equal differentiation into either AT1 or AT2 cells (Desai, Brownfield et al. 2014). This bipotent progenitor is thought to exist in late gestation and early alveologenesis in the mouse (E18-P0) and has been proposed to be responsible for generation of the lung alveolus. Specific markers for this bipotent progenitor remain unknown, but further characterization of its potential and what pathways regulate its behavior will be important for understanding its full contribution towards generating a functional lung alveolus."
+"The molecular and cellular processes that lead to renal damage and to the heterogeneity of lupus nephritis (LN) are not well understood. We applied single-cell RNA sequencing (scRNA-seq) to renal biopsies from patients with LN and evaluated skin biopsies as a potential source of diagnostic and prognostic markers of renal disease. Type I interferon (IFN)-response signatures in tubular cells and keratinocytes distinguished patients with LN from healthy control subjects. Moreover, a high IFN-response signature and fibrotic signature in tubular cells were each associated with failure to respond to treatment. Analysis of tubular cells from patients with proliferative, membranous and mixed LN indicated pathways relevant to inflammation and fibrosis, which offer insight into their histologic differences. In summary, we applied scRNA-seq to LN to deconstruct its heterogeneity and identify novel targets for personalized approaches to therapy."
+"AKI results in renal tubule cell death, predominantly in proximal tubules (PT), and triggers an intrinsic repair process characterized by dedifferentiation and proliferation of surviving proximal tubule cells (PTCs).3,4 In addition to injury-induced PTC proliferation, clonal expansion in epithelia of distal tubules and the collecting system has been reported.5 The AKI response can lead to adaptive or maladaptive renal repair.6,7 On the tissue and functional level, adaptive repair is defined as normal kidney structure and function, 90 days post-AKI.8 Maladaptive repair describes a process associated with altered renal structure and persistent reduction of kidney function.8 Recent single-cell and single-nucleus RNA-sequencing (snRNA-seq) studies have provided a new resolution to AKI,9每17 allowing for the definition of maladaptive PT repair on the cellular level as a persistent expression of injury markers, such as Havcr1, Krt20, and/or Vcam1, and downregulation of normal PT gene expression. More specifically, snRNA-seq studies identified a maladaptive Vcam1+/Ccl2+ population of failed-repair-PTCs (FR-PTCs) in mouse kidneys weeks after kidney function normalized following bilateral ischemia-reperfusion injury (IRI)9,10; Vcam1+ PTCs persist at least 6 months post-AKI in a unilateral IRI model.15"
+"Podocytes are terminally differentiated, arborized visceral epithelial cells that cover the outer surface of the glomerular basement membrane (GBM). Along with the fenestrated endothelium and basement membrane, the pedicles of the podocytes comprise the glomerular filtration barrier. Podocyte dysfunction as a result of either genetic and/or environmental insults is a leading cause of CKD worldwide. In proliferative glomerulopathies, such as rapidly progressive GN (RPGN) and collapsing and cellular subtypes of FSGS, podocyte injury contributes to the pathogenic activation and proliferation of neighboring parietal epithelial cells (PECs).1每4 Along with this agglomeration of activated PECs in Bowman's space, capillary injury leading to immune cell infiltration and necrosis comprise the pathogenic pleiomorphic crescent observed in RPGN.1每4 PECs are the predominant cellular constituent of these early cellular crescents, and as interstitial fibroblasts and extracellular matrix proteins invade the crescents, they become fibrocellular and eventually fibrotic structures compromising glomerular filtration. Although several immune disorders underlie crescentic GN, PEC activation and proliferation is common to all, yet there is no unifying mechanism to explain such aberrant cell growth. Similarly, PECs make up most of the abundant cellular material that occupies Bowman's space in the collapsing and cellular forms of FSGS.1每4 Although primary podocyte injury leading to severe proteinuria is the underlying pathology in these disorders, just how this leads to PEC activation and proliferation remains poorly understood. Furthermore, we observe a reactivation of signaling pathways involved in development in these activated PECs. Therefore, it is critical to understand not only the mechanisms mediating podocyte-PEC interdependence in these proliferative glomerulopathies but also the pathways that enable differentiation of podocytes and PECs in normal kidney development. Here, we review the developmental processes that give rise to distinct podocytes and PECs as well as the critical mediators involved in activation and proliferation of PECs as a result of podocyte injury in proliferative glomerulopathies."
+"Subsequent analyses focused on improving an understanding of nephron (N) and ureteric epithelium (UE) compartments given the key roles of this continuous epithelial network in renal physiology. Differentiation of N and UE progenitors in fetal and early postnatal development generates epithelial segments with distinct functions that are radially aligned along the cortical-medullary axis of the kidney (McMahon, 2016). The primary renal filtrate generated in the renal corpuscle passes through the proximal tubules, thin limbs of the loop of Henle and distal tubule segments to the UE-derived collecting system (Figure 2A). The origins of the connecting segment joining the nephron and ureteric networks has not been definitely reconciled. Developmental studies have suggested a UE origin (Howie et al., 1993), a N-progenitor origin (Kobayashi et al., 2008; Georgas et al., 2009), or a more complex hybrid with contributions from both lineages (Schmitt et al, 1999). Recognizing a difficulty in lineage assignment, clusters 12 (Calb1+/Slc12a3+) and 20 (Calb1+/Hsd11b2+/Aqp2+), which both display high levels of the connecting segment marker Calb1, were annotated to N and UE groupings, respectively (Figure 1B每C)."
+"To further investigate this unexpected cell type, we utilized the Monocle analysis toolkit to perform cell trajectory analysis using pseudotime reconstitution of clusters 6每8 (20). We found that the novel cells were located between PCs and ICs suggesting that cluster 8 is a transitional cell type (Fig. 3G). Transitional cells showed low expression levels of stress response genes and cell cycle genes and these cells were present in all batches of our kidney isolates (fig. S15, S16), excluding the possibility that they were injured cells or a proliferating subtype of collecting duct cells, or an artifact. Furthermore, cell trajectory analysis clearly separated IC into A- and B-IC types, and PC cells into their subtypes (principal cells and what are most likely connecting duct cells) as previously identified (Fig. 3G and fig. S17) (7, 25). These results indicate that the collecting duct contains not only PC and IC cells but a third distinct transitional cell type; this raises the possibility that IC and PC cells represent two ends of a spectrum of cellular phenotypes and that the two cell types may undergo cellular transitions."
+"Genetic fate tracing data in mice and histology analyses of human tissue have suggested epithelial, endothelial, hematopoietic cells and resident mesenchymal cells to contribute to fibrosis.1 Here we provide a comprehensive cell atlas of human and mouse kidney fibrosis demonstrating that the majority of scar tissue originates from Pdgfra+/Pdgfrb+ dual-positive fibroblasts and myofibroblasts. In both man and mice these myofibroblasts predominantly derive from pericytes and fibroblasts. Our scRNAseq strategy pointed to novel disease mechanisms and potential therapeutic targets, such as myofibroblast-expressed Nkd2. While Nkd2 has been reported as a Wnt inhibitor our data indicates that it may act also as an activator as some aspects of Wnt signaling."
+"The kidney is a complex organ consisting of various cell types. Previous studies have aimed to elucidate the cellular relationships among these cell types in developing and mature kidneys using Cre-loxP每based lineage tracing. However, this methodology falls short of fully capturing the heterogeneous nature of the kidney, making it less than ideal for comprehensively tracing cellular progression during kidney development and maintenance. Recent technological advancements in single-cell genomics have revolutionized lineage tracing methods. Single-cell lineage tracing enables the simultaneous tracing of multiple cell types within complex tissues and their transcriptomic profiles, thereby allowing the reconstruction of their lineage tree with cell state information. Although single-cell lineage tracing has been successfully applied to investigate cellular hierarchies in various organs and tissues, its application in kidney research is currently lacking. This review comprehensively consolidates the single-cell lineage tracing methods, divided into 4 categories (clustered regularly interspaced short palindromic repeat [CRISPR]/CRISPR-associated protein 9 [Cas9]每based, transposon-based, Polylox-based, and native barcoding methods), and outlines their technical advantages and disadvantages. Furthermore, we propose potential future research topics in kidney research that could benefit from single-cell lineage tracing and suggest suitable technical strategies to apply to these topics."
+"293 cell line (original name designates the number of a successful transformation experiment; more widely known as the Human Embryonic Kidney 293 cells (HEK293)) was derived in 1973 by exposing the human primary embryonic kidney cell culture of an aborted embryo to the mechanically sheared DNA of adenovirus type 5 (AD5) (Graham et al., 1977). A recent analysis showed that 293 cell line and its derivatives (e.g., 293T or 293S) harbor 5每6 copies of AD5 DNA fragments encoding early gene 1 (E1) (Lin et al., 2014), and this copy number did not change from that originally reported (4每5 fragments) (Graham et al., 1977). An AD5 DNA integration site is located in pregnancy-specific beta-1-glycoprotein 4 (PSG4) gene, which was mapped to the chromosome region 19q13.2 (Lin et al., 2014, Louis et al., 1997). 293 cell line and its derivatives have been the most frequently used cells after HeLa in cell biology studies and after CHO in biotechnology (Lin et al., 2014) as a vehicle for the production of adenoviral vaccines (Kovesdi and Hedley, 2010) and recombinant proteins (Geisse and Fux, 2009) as well as for analysis of the neuronal synapse formation in mixed-culture assays (Biederer and Scheiffele, 2007), in electrophysiology and neuropharmacology (Thomas and Smart, 2005, Varghese et al., 2006). Also, 293 cells were often used as a model for studying the transforming/oncogenic properties of cancer-associated genes (Table 1) but sometimes incorrectly supposed as non-tumorigenic or even ※normal§ human cell line (discussed in Kavsan et al., 2011, Stepanenko and Kavsan, 2012). Despite the widespread and historically long-term productive exploitation in cell biology, biotechnology, and cancer research, an origin, phenotype, karyotype instability, and tumorigenicity of 293 cell line are still disputed and debated."
+"During limb bud development, the active epithelial每mesenchymal interactions between ectoderm-expressed FGF (FGF8) and FGFR2b, and the mesenchyme-expressed FGF (FGF10) and FGFR1c, are indispensable for the outgrowth and patterning of limbs.103 FGFs 4, 8, 9, and 17 are specifically expressed in the mouse apical ectodermal ridge (AER), a major signaling center at the distal edge to ensure proper development of limb buds. FGF9 is located in regions corresponding to mesenchymal condensations in AER,104 and is only expressed in the mesenchyme surrounding the cartilaginous condensations at the later stage. FGF9 is then expressed in the perichondrium/periosteum and primary spongiosa.105 In rat, Lazarus et al.106 found that FGFs 1, 2, 6, 7, 9, 18, 21, and 22 are expressed in the perichondrium, while FGFs 2, 7, 18, and 22 are expressed in the growth plate. FGFs 1, 2, 17, and 19 are the predominant FGF ligands expressed in human fetal growth plate cartilage.107 FGF18 is expressed in the periosteum, the articular surface, synovial tissue, and in cells within the perichondrial groove of Ranvier.108 During intramembranous bone formation, FGF8 is expressed in developing calvarial osteoblasts, FGF9 is expressed in calvarial mesenchyme, and FGF18 is expressed in mesenchymal cells and differentiating osteoblasts, whereas FGF23 is mainly produced by differentiated osteoblasts and osteocytes.109"
+"Autosomal recessive polycystic kidney disease (ARPKD) is another cystic disease, which is caused by mutations in PKHD1 (Figure 2). While cyst formation in proximal tubules in homozygous patient-derived nephron organoids was reported previously,15 Hiratsuka et al. recently subjected the genome-edited PKHD1-null nephron organoids to flow in a millifluidic device that induced the clinically relevant phenotype: distal nephron dilatation.29 They identified mechano-sensing molecules, RAC1 and FOS, as potential therapeutic targets and found some drugs that suppressed cyst formation in distal renal tubules. The same device is expected to be applied to the ureteric bud/collecting duct organoids. Meanwhile, Howden et al. reported cyst formation in their PKHD1-null ureteric bud/collecting duct organoids that were converted from nephron organoids21 without using MPS."
+"While the roles of parenchymal microglia in brain homeostasis and disease are fairly clear, other brain-resident myeloid cells remain less well understood. By dissecting border regions and combining single-cell RNA-sequencing with high-dimensional cytometry, bulk RNA-sequencing, fate-mapping and microscopy, we reveal the diversity of non-parenchymal brain macrophages. Border-associated macrophages (BAMs) residing in the dura mater, subdural meninges and choroid plexus consisted of distinct subsets with tissue-specific transcriptional signatures, and their cellular composition changed during postnatal development. BAMs exhibited a mixed ontogeny, and subsets displayed distinct self-renewal capacity following depletion and repopulation. Single-cell and fate-mapping analysis both suggested that there is a unique microglial subset residing on the apical surface of the choroid plexus epithelium. Finally, gene network analysis and conditional deletion revealed IRF8 as a master regulator that drives the maturation and diversity of brain macrophages. Our results provide a framework for understanding host每macrophage interactions in both the healthy and diseased brain."
+"Multiple sclerosis (MS) is an autoimmune disease of the central nervous system (CNS) that afflicts approximately 2.8 million people worldwide. The majority of MS patients are under 40 years of age. CNS demyelinating lesions in MS and its animal model, experimental autoimmune encephalomyelitis (EAE), are characterized by massive CNS inflammatory infiltrates comprising an intricate coordination of the innate and adaptive immune systems. Among CNS-infiltrating immune cells, autoreactive T cells initiate CNS demyelinating lesions (Bar-Or and Li, 2021; Dong and Yong, 2019; Hohlfeld et al., 2016; Louveau et al., 2016; Nylander and Hafler, 2012; Ransohoff et al., 2015). Following entry into the CNS, autoreactive T cells induce a cascade of cytokines and chemokines that initiate local inflammation and recruit hematogenous myeloid cells, most notably neutrophils and monocytes (Bar-Or and Li, 2021; Dong and Yong, 2019; Goverman, 2009; Moser et al., 2020; Ransohoff et al., 2015; Thompson et al., 2018). These recruited myeloid cells further escalate CNS inflammation by producing inflammatory factors and reactivate autoreactive T cells (Dong and Yong, 2019; Kawakami et al., 2004; Nylander and Hafler, 2012; Thompson et al., 2018). Distinct from lymphocytes, neutrophils and monocytes have a rapid turnover rate of a few days due to their short life-span, and thus exist as a limited population in blood (Boettcher and Manz, 2017; Janssen et al., 2016; Leuschner et al., 2012). During the active phase of MS, the mobilization of myeloid cells from the marginal blood pool and other peripheral reserves leads to a surge of circulating myeloid cells associated with worsened disease activity (Hasselbalch et al., 2018; Kouwenhoven et al., 2001; Naegele et al., 2012; Reder et al., 1998; Rumble et al., 2015). However, the mechanisms of the continuous supply of newly generated myeloid cells and their impact on autoimmune inflammatory CNS injury remain unknown."
+"Tumor fitness, evolution, and resistance to therapy are governed by selection of malignant cells with specific genotypes, by expression programs related to cellular phenotypes, and by influences of the tumor microenvironment (TME). Although bulk tumor analysis can interrogate the genetic state of tumor cells with high precision, bulk expression profiles average the diverse cells within each tumor, thereby masking critical differences and providing limited insight into cancer cell programs and TME influences. Single-cell RNA sequencing (scRNA-seq) can help to address those challenges but incurs financial and logistic considerations, including the time required to accrue large cohorts of fresh tumor specimen for single-cell analysis."
+"The top scoring genes and functional enrichments of the meta-modules (Figure 2C and S2E; Tables S2 and S3) highlight two meta-modules that were associated with high expression of mesenchymal-related genes (e.g. VIM) and gene-sets (P<10?9, hypergeometric test). One of these meta-modules was strongly associated with hypoxia-response genes (e.g. HILPDA), stress (e.g. DDIT3) and glycolytic (e.g. ENO2, LDHA) genes, suggesting that in some tumors the mesenchymal state is linked to hypoxia and increased glycolysis. We defined these as mesenchymal-like (MES-like) meta-modules: hypoxia-independent (MES1) and dependent (MES2) signatures."
+"We next probed for expression of ISR activation biomarkers in imipridone-treated cells (Figure 4A). Treatment with both drugs resulted in upregulation of phospho-eIF2汐, ATF4, DR5, and CHOP, and downregulation of ClpX (Figure 4A, Supplementary Figure 1I每J). Peak expression of ISR proteins was observed at 5X drug IC50, or when ONC201 and ONC206 were combined at IC50 concentrations. A 10x increase in drug concentration did not elicit additional changes in protein expression. Furthermore, we showed that imipridones increased expression of apoptosis markers cleaved caspase-7 and -3, PARP, and XIAP (Figure 4B, Supplementary Figure 1K每L, Supplementary Figure 4), and combination treatment resulted in the strongest response."
+"By characterizing rare de novo and inherited coding variation from 35,584 individuals, including 11,986 with ASD, we implicate 102 genes in risk for ASD at an FDR of 0.1 or less (Figure 2), of which 30 are novel risk genes. Notably, analyses of the 102 risk genes led to novel genetic, phenotypic, and functional findings. Evidence of several of the genes is driven by missense variants, including confirmed gain-of-function mutations in the potassium channel KCNQ3 and possible gain-of-function mutations in DEAF1, SCN1A, and SLC6A1 (Figure 3). Further, we strengthen evidence for driver genes in genomic disorder loci and propose a new driver gene, BCL11A, for the recurrent CNV at 2p15-p16.1. By evaluating GWAS results for ASD and related phenotypes and asking whether their common variant association signals overlap significantly with the 102 risk genes, we find substantial enrichment of GWAS signals for two traits genetically correlated with ASD〞schizophrenia and educational attainment. For ASD itself, however, this enrichment is not significant, likely because of the limited power of the ASD GWAS. Despite this, KMT2E is significantly associated with ASD by both common and rare risk variation."
+"Chimeric antigen receptor (CAR) T cells are highly effective at targeting and eliminating cells of the B cell lineage. CAR T cell therapy has become a standard-of-care treatment for patients with relapsed or refractory B cell malignancies. In addition, the administration of genetically modified T cells with the capacity to deplete B cells and/or plasma cells has tremendous therapeutic potential in autoimmune diseases. In the past few years, CD19-based and B cell maturation antigen (BCMA)-based CAR T cell therapies have been applied to various B cell-mediated autoimmune diseases including systemic lupus erythematosus, idiopathic inflammatory myopathy, systemic sclerosis, neuromyelitis optica spectrum disorder, myasthenia gravis and multiple sclerosis. The scientific rationale behind this approach is that deep depletion of B cells, including autoreactive B cell clones, could restore normal immune function, referred to as an immune reset. In this Review, we discuss important aspects of CAR T cell therapy in autoimmune disease, including considerations relating to patient selection, safety, efficacy and medical management. These considerations are based on the early experiences of CAR T cell therapy in autoimmune diseases, and as the field of CAR T cell therapy in autoimmune diseases continues to rapidly evolve, these issues will remain subject to ongoing refinement and adaptation."
+"Mature VSMCs modulate the diameter of blood vessels and hence regulate blood flow distribution and blood pressure. In the blood vessels in adults, VSMCs exhibit low synthetic activity and proliferation rates and possess special signalling molecules, ion channels, and proteins that regulate the contraction of blood vessels. Differentiated VSMCs show a high level of plasticity, allowing them to flexibly change phenotypes depending on the local environmental stimuli [1]. However, most studies have traditionally focused on the conversion of VSMCs from contractile to secretory types, whereas the current research focuses on subsets of smooth muscle cells (SMCs) and their transformation to different cell types. Contractile VSMCs often alter their phenotypes and proliferation and migration patterns to participate in tissue repair. Once the reparative process ends, VSMCs regain their nonproliferating contractile phenotype. In atherosclerosis, a fibrous cap forms at the injury site. The restoration of VSMCs is dysregulated in certain contexts, leading to the transformation of VSMCs into other cell types, e.g., fibroblast-like cells [2, 3], macrophage-like cells [3每9], adipocyte-like cells [10, 11], and chondrocyte-like cells [2, 3, 12, 13]. In addition, accumulating evidence suggests that these transitions to an abnormal phenotype may contribute to vascular diseases, e.g., atherosclerosis. Understanding the mechanisms and signalling cascades that lead to a specific phenotype could uncover important avenues for designing effective interventions for vascular diseases."
+"CD133+ cells, first isolated from human peripheral blood, are multipotent stem cells with the capacity to repopulate the BM, and differentiate into endothelial cells (Torrente et al., 2004). CD133+ cells have also myogenic potential, as they express myogenic markers, and can give rise to satellite cells and to dystrophin positive myofibers after IM or intra-arterial transplantation into immunocompromised dystrophic mice (Meng et al., 2014; Negroni et al., 2009; Torrente et al., 2004). In 2007, a clinical trial of IM transplantation of DMD autologous CD133+ cells showed increased muscle vascularization, but no integration of the donor cells in the muscle fibers (Torrente et al., 2007)."
+"OLIG2 directly induces the expression of SRY-box 10 (SOX10), a transcription factor that is critical for oligodendrocyte maturation [12] (see Figure 1, Key Figure). In turn, the positive feedback loop between SOX10 and OLIG2 maintains OLIG2 expression in SOX10-expressing cells [13]. The calcineurin-mediated activation of the nuclear factor of activated T cells (NFAT) protein NFATC2 represses the inhibitory effect of OLIG2 on SOX10-mediated NKX2.2 expression and vice versa; NFATC2 also relieves the inhibitory effect of NKX2.2 on SOX10-mediated OLIG2 expression. Hence, calcineurin-mediated activation of NFATC2 allows for co-expression of OLIG2 and NKX2.2, which in turn results in the initiation of oligodendrocyte differentiation [14]."
+"The brain and gut are intricately connected and respond to various stimuli. Stress-induced brain-gut communication is implicated in the pathogenesis and relapse of gut disorders. The mechanism that relays psychological stress to the intestinal epithelium, resulting in maladaptation, remains poorly understood. Here, we describe a stress-responsive brain-to-gut metabolic axis that impairs intestinal stem cell (ISC) lineage commitment. Psychological stress-triggered sympathetic output enriches gut commensal Lactobacillus murinus, increasing the production of indole-3-acetate (IAA), which contributes to a transferrable loss of intestinal secretory cells. Bacterial IAA disrupts ISC mitochondrial bioenergetics and thereby prevents secretory lineage commitment in a cell-intrinsic manner. Oral 汐-ketoglutarate supplementation bolsters ISC differentiation and confers resilience to stress-triggered intestinal epithelial injury. We confirm that fecal IAA is higher in patients with mental distress and is correlated with gut dysfunction. These findings uncover a microbe-mediated brain-gut pathway that could be therapeutically targeted for stress-driven gut-brain comorbidities."
+"Although the brain is composed of functionally diverse anatomical regions, each brain region is composed of multiple cell types (Lein et al. 2007). Single-cell RNA sequencing provides an opportunity to decompose gene expression within brain regions and compare homologous cell types across species (La Manno et al. 2016; Saunders et al. 2018; Tosches et al. 2018; Zeisel et al. 2018). A single-cell level comparison between human and macaque transcriptomes in prenatal and adult dorsolateral prefrontal cortices indeed showed that all detected human cell types had a close homolog in macaques, and vice versa (Zhu et al. 2018). Furthermore, this study identified genes differentially expressed between humans and macaques in individual cell types. Similar results were obtained in studies of single-cell expression in human and chimpanzee cerebral organoids, indicating that cell-type composition can be accurately matched between closely related primate species and expression differences within each type identified (Mora-Berm迆dez et al. 2016; Kanton et al. 2019; Pollen et al. 2019)."
+"Recent studies show that PFA-EP resemble prenatal gliogenic progenitors21, while K27M HGG are presumed to originate in oligodendroglial precursor cells (OPC)22,23. There are, however, several waves of OPC specification with specific epigenomic landscapes and functional properties24每26 that could represent targets for oncohistone alterations and partner mutations. Distinct origins may explain the diverse enhancer landscapes and oncogenic pathways reported in each entity. Alternatively, these distinctive features may reflect downstream effects of oncohistones themselves: several reports indicate these alterations differentially affect PRC2 activity and epigenome remodeling, potentially reprogramming cell lineage27每29. EZHIP is suggested to have a higher inhibitory effect than H3K27M in vitro9每12, as is K27M in replication-dependent H3.1/2 compared to H3.3K27M29. Other studies suggest H3 variant-specific changes in regulatory elements depend on their differential incorporation on chromatin and local enrichment of H3.3K27M at H3.3-rich domains30,31. Thus, the unique molecular profiles of K27M-mutant HGG and PFA-EP could be a product of distinct cells-of-origin, distinct reprogramming of cell identity driven by each oncohistone/EZHIP, or a combination of both."
+"We captured neuronal (Tubb3 expressing) and glia-like (Slc1a3/EAAT1 or GFAP expressing) cells in the ChP across all ages, validated by immunostaining (Figures 1C,D,I, S1J-L), in agreement with previous studies (Lindvall et al., 1978). The neuro-glial populations were proportionally low (8%/2.5% of cells/nuclei, Figure S1B,G), yet sub-clustering revealed substantial diversity within each population."
+"We tested the association of gRNA detection on cell type abundance and on differential gene expression within cell types (Extended Data Fig. 8). We first hierarchically clustered Louvain clusters on the basis of gRNA abundance and observed grouping by brain region (Extended Data Fig. 8a). This showed that different brain regions exhibited unique gRNA compositions, suggesting region-specific effects of TF perturbations. We next stratified the detected gRNAs using a log-transformed odds ratio (P value based on a Cochran每Mantel每Haenszel test) and assessed the consistency of the effect across organoids and gRNAs (Extended Data Fig. 8b and Supplementary Table 5). On the basis of these metrics, we found that gRNAs targeting eight TFs showed consistent enrichment in the ventral telencephalon branch with corresponding depletion in the other regions, including the cortex (Fig. 3e; for example, GLI3, TBR1). Another set of perturbations showed the opposing effect, with enrichment of TF targeting gRNAs in the cortex and depletion in either the ventral telencephalon or non-telencephalon (such as HES1, HOPX). We focused on HES1 and GLI3, two genes that are expressed at the dorsoventral branchpoint and show opposing effects on dorsal telencephalon commitment (Fig. 3e,f). Both genes are known regulators of mouse cortical development33每35 and are associated with developmental disorders in humans14,36. We used the GRN inferred from the developmental time course to investigate how GLI3- and HES1-target gene expression is correlated with transition probabilities into dorsal telencephalon (Fig. 3g). We found that genes activated by GLI3 were positively correlated with cortical transition probabilities, whereas HES1 had a repressive effect on such genes. This suggests an antagonistic involvement of these two genes in shaping the dorsoventral fate decision in the human telencephalon. Notably, we also found that, for several TFs, perturbation led to detectable transcriptomic effects rather than composition changes (Extended Data Fig. 8c每f and Supplementary Tables 6 and 7). In particular, E2F2〞a crucial cell cycle regulator37〞altered the transcriptome of both dorsal and ventral telencephalic neurons, suggesting that misregulation of cell cycle exit has a substantial effect on the neuronal transcriptome state. Together, these data provide one of the first implementations of a multiplexed perturbation experiment in organoids to examine the effect of genetic perturbations on human brain cell fate and state development."
+"The combination of high-content perturbation screening and validation in a patient-specific context exemplifies the effectiveness of employing organoid systems to study NDDs. We discovered that loss of ARID1B leads to increased transition of ventral progenitors to early OPCs. Importantly, perturbations of three BAF complex members (ARID1B, BCL11A and SMARRC2) all lead to enrichment of v-RGCs, indicating the critical role of the BAF complex in regulating ventral telencephalon cell fate specification. Given the cell type-specific expression of each BAF subunit and their involvement in NDDs52, it would be interesting to investigate how ARID1B or other subunits regulate oligodendrocyte and interneuron specification, as well as their contribution to NDDs."
+"This review summarizes the changes in the 5th Edition of the WHO Classification of Endocrine and Neuroendocrine Tumors that relate to the pituitary gland. The new classification clearly distinguishes anterior lobe (adenohypophyseal) from posterior lobe (neurohypophyseal) and hypothalamic tumors. Other tumors arising in the sellar region are also discussed. Anterior lobe tumors include (i) well-differentiated adenohypophyseal tumors that are now classified as pituitary neuroendocrine tumors (PitNETs; formerly known as pituitary adenomas), (ii) pituitary blastoma, and (iii) the two types of craniopharyngioma. The new WHO classification provides detailed histological subtyping of a PitNET based on the tumor cell lineage, cell type, and related characteristics. The routine use of immunohistochemistry for pituitary transcription factors (PIT1, TPIT, SF1, GATA3, and ER汐) is endorsed in this classification. The major PIT1, TPIT, and SF1 lineage-defined PitNET types and subtypes feature distinct morphologic, molecular, and clinical differences. The ""null cell"" tumor, which is a diagnosis of exclusion, is reserved for PitNETs with no evidence of adenohypophyseal lineage differentiation. Unlike the 2017 WHO classification, mammosomatotroph and acidophil stem cell tumors represent distinct PIT1-lineage PitNETs. The diagnostic category of PIT1-positive plurihormonal tumor that was introduced in the 2017 WHO classification is replaced by two clinicopathologically distinct PitNETs: the immature PIT1-lineage tumor (formerly known as silent subtype 3 tumor) and the mature plurihormonal PIT1-lineage tumor. Rare unusual plurihormonal tumors feature multi-lineage differentiation. The importance of recognizing multiple synchronous PitNETs is emphasized to avoid misclassification. The term ""metastatic PitNET"" is advocated to replace the previous terminology ""pituitary carcinoma"" in order to avoid confusion with neuroendocrine carcinoma (a poorly differentiated epithelial neuroendocrine neoplasm). Subtypes of PitNETs that are associated with a high risk of adverse biology are emphasized within their cell lineage and cell type as well as based on clinical variables. Posterior lobe tumors, the family of pituicyte tumors, include the traditional pituicytoma, the oncocytic form (spindle cell oncocytoma), the granular cell form (granular cell tumor), and the ependymal type (sellar ependymoma). Although these historical terms are entrenched in the literature, they are nonspecific and confusing, such that oncocytic pituicytoma, granular cell pituicytoma, and ependymal pituicytoma are now proposed as more accurate. Tumors with hypothalamic neuronal differentiation are classified as gangliocytomas or neurocytomas based on large and small cell size, respectively. This classification sets the standard for a high degree of sophistication to allow individualized patient management approaches."
+"The development of cortical interneurons involves a series of crucial milestones over a protracted period (Figure 1). Interneurons are generated from progenitor cells in the embryonic subpallium. Shortly after becoming postmitotic, they undergo a long tangential migration and reach the pallium via several stereotyped streams. Interneurons continue to disperse throughout the developing cortex using the same migratory routes until they abandon them to adopt their final position within a region and layer of the cortex. Interneurons gradually acquire their biochemical markers during this process, although quite often they do not exhibit their characteristic morphology and connections until relatively late postnatal developmental stages. The long delay that exist between the time when interneurons are born and when they begin to display their mature features has led to very diverging views on the mechanisms controlling the generation of their diversity (Wamsley and Fishell, 2017), although a clearer picture is beginning to emerge from recent studies."
+"In the mammalian CNS, OL lineage cells include mature OLs and OPCs. OPCs are also called NG2 glia because they are identified by the expression of NG2-proteoglycan (also known as CSPG4) on the cell surface. They constitute a fourth large glial cell population in the CNS, distinct from mature OLs, astrocytes, and microglia [20]. Pericytes also express the NG2-proteoglycan; therefore, OL lineage cells that express this marker are best referred to as ※NG2 glia§ for the sake of precision [21, 22]. Recent studies have shown that the origin and differentiation of OPCs are different during mouse and human embryonic development. There are two waves of OPC generation in the human brain. Early OPCs originate from 9 gestational weeks (gw) in the ganglionic eminence and then spread to the cortex during the next few weeks [23每25]. Late OPCs appear in modest numbers at ~15 gw in both ganglionic eminences and cortical ventricular/subventricular zone (VZ/SVZ) [23每25]. The first myelin sheaths can be identified by myelin basic protein (MBP) expression at 18 gw in the thalamus and ~21 gw in the internal capsule [23每25]. At this stage, OPCs express platelet-derived growth factor receptor 汐 (PDGFR汐), the transcription factor SOX10, and NG2-proteoglycan and can be identified by the A2B5 antibody as well [26每28]. However, in studies using histological and fate mapping in Cre-loxP transgenic mice, OPCs arising from three different sources in continuous waves during early development have been found in the mouse forebrain. The first wave of OPCs is derived from the medial ganglionic eminence and anterior entopeduncular area in the ventral forebrain at approximately E11.5 (embryonic day 11.5). The second wave of OPCs arises from the lateral and/or caudal ganglionic eminences (LGE and CGE) at E15. The third wave arises from Emx1坼positive cells within the postnatal cortex [29]."
+"Remodelling is not limited to osteoclasts. Macrophages produce a wide range of proteases, growth factors and WNT ligands, which drive tissue organization and cellular composition30,37,46,138,148. Macrophages support vascular anastomosis34 and produce proangiogenic factors, such as VEGF-A in a HIF1- and HIF2-dependent manner, which induce the formation of vascular endothelial cells in response to hypoxia32,138. By contrast, retina macrophages also produce WNT ligands to suppress vascular overgrowth and fine-tune the retinal vascular plexus35. Tissue-resident macrophages sense osmolarity to regulate the growth of lymphatic vessels via VEGF-C30,36 and the proliferation and differentiation of various local parenchymal, stromal and progenitor cells37. Macrophages have the capacity to sense and respond to ECM components by producing proteases that aid in ECM degradation23,42,138 (Fig. 2). In response to tissue damage sensed via signals such as extracellular ATP, low pH or ECM fragments70, macrophages clear cellular debris and damaged cells, and secrete immunoregulatory molecules that mediate the recruitment of immune cells such as monocytes and neutrophils to disinfect the damaged tissue at the initial stages of injury70,143. They also secrete soluble mediators that stimulate the proliferation of local stromal and progenitor cells that participate in the repair process70. In response to tissue damage in the skin, dermal macrophages produce IGF1 and PDGF-CC to support myofibroblast proliferation and differentiation, a process that facilitates wound contraction and closure148. Depletion of macrophages at the early stages of wound repair in mouse skin prevents normal re-epithelialization and vascularization69. Depletion of macrophages in the late stages of tissue repair results in fibrosis in skin and liver42. Macrophages associated with muscle tissue secrete paracrine molecules such as IGF1149, the metalloprotease ADAMTS1150 and glutamine in response to injury, which stimulate proliferation and differentiation of muscle-resident stem cells (satellite cells) and induce myogenesis45. Kupffer cells promote liver regeneration upon injury by secreting WNT ligands and hepatocyte growth factors that stimulate the differentiation of hepatic progenitor cells into mature hepatocytes41. Accordingly, the absence of Kupffer cells results in a marked delay of liver repair and regeneration in a mouse model of acute liver injury41,42. Macrophages have also been shown to be important for mouse neonatal heart regeneration43, kidney repair44, digit tip regeneration151 and bone fracture healing152,153, as well as the regeneration of peripheral nerves and adult sensory neurons154,155. The regenerative properties of macrophages are conserved across species〞macrophages are required for full limb regeneration in salamanders156 and tail fin regeneration in zebrafish157, as well as repair after injury in zebrafish158 and Drosophila8,159. However, the experimental approaches used in several of the above studies do not allow the observed phenotype to be formally attributed to resident macrophages."
+"The coordinated spatial and temporal regulation of gene expression in the murine hindlimb determines the identity of mesenchymal progenitors and the development of diversity of musculoskeletal tissues they form. Hindlimb development has historically been studied with lineage tracing of individual genes selected a priori, or at the bulk tissue level, which does not allow for the determination of single cell transcriptional programs yielding mature cell types and tissues. To identify the cellular trajectories of lineage specification during limb bud development, we used single cell mRNA sequencing (scRNA-seq) to profile the developing murine hindlimb between embryonic days (E)11.5-E18.5. We found cell type heterogeneity at all time points, and the expected cell types that form the mouse hindlimb. In addition, we used RNA fluorescence in situ hybridization (FISH) to examine the spatial locations of cell types and cell trajectories to understand the ancestral continuum of cell maturation. This data provides a resource for the transcriptional program of hindlimb development that will support future studies of musculoskeletal development and generate hypotheses for tissue regeneration."
+"Here, we identified a subpopulation of TDPCs labeled by cathepsin K每Cre (Ctsk-Cre) that contribute to HO. Ctsk has been proven to be a marker of mature osteoclasts, perichondrial progenitors in the perichondrial groove, and periosteum stem/progenitor cells (22每25). We found that upregulation of Hh signaling by inactivation of Sufu in Ctsk-Cre每expressing cells induced progressive HO in tendons and ligaments. Lineage tracing studies showed that Ctsk-Cre could label a subpopulation of TDPCs expressing the tendon marker Scx in the midsubstance of the tendon that exhibit a strong self-renewal capacity and differentiation potential. Furthermore, pharmacological intervention in Hh signaling using the Hh signaling inhibitor JQ1 suppressed the development of HO. Overall, our results identified a subpopulation of TDPCs labeled by Ctsk-Cre, and demonstrated that activation of Hh signaling drives HO in tendons and ligaments in a cell-autonomous manner."
+"As one of the main cell groups in the skeletal muscle microenvironment, fibroblasts can respond to injury (6, 7). It is generally accepted that fibroblasts are classically associated with fibrosis and tissue repair but seldom associated with regeneration. A proregenerative role of the fibroblasts in the intestine, skin, liver, heart, and other organs is gradually being revealed (8每12). By using fibroblast lineage tracing in mice, a recent study reported that there is a subset of fibroblasts that express endothelial genes in ischemic skeletal muscle and contribute to angiogenesis (13). During tissue repair, fibroblasts are regulated by a diverse array of signaling pathways that act in autocrine, paracrine, and endocrine manners, and the tissue inflammatory environment plays a key role in this process (14, 15). However, the role of fibroblasts in promoting ischemic tissue regeneration is still not well understood. Whether proregenerative fibroblasts do exist and what roles they play in angiogenesis and regeneration within the ischemic tissue microenvironment remain to be studied."
+"We next sought to analyze how different CT cell subpopulations contribute to re-differentiated cell types in the regenerated limb. We first generated a new transgenic line using the Col1a2 promoter (Col1A2:ER-Cre-ER;Caggs:lp-Cherry = Col1A2:TFPnls-T2a-ERT2-Cre-ERT2;CAGGs:lp-GFP-3pA-lp-Cherry) in which only a subset of CT cells are labeled and tracked (fig. S7). Specifically, conversion of 3 cm larvae leads to limbs with genetic labeling primarily of skeleton, periskeleton, and tendons, but very few dermal fibroblasts and no interstitial fibroblasts, thus comprising a subset of cell types labeled in the Prrx1:Cre-ER;Caggs:lp-Cherry line (Fig. 4A and fig. S7A). ScRNA-seq on 36 sorted, labeled cells from the uninjured adult upper arm revealed periskeletal cells and tenocytes (bone cells were not recovered in the dissociation, but they do not contribute to the blastema), confirming the histological analysis of the labeled cells (Fig. 4B and Table S8). We next performed scRNA-seq on labeled Col1a2:ER-Cre-ER;Caggs:lp-Cherry (※Col1a2§) descendants in the 11 dpa blastema (349 cells), and could identify undifferentiated progenitors as well as immature skeletal and non-skeletal cell lineages (Fig. 4C and Table S8). A pseudotemporal trajectory displayed two branching paths; one transitioning from progenitors (Mycl, Matn4, Nrep) to non-skeletal cells (Tnmd, Fcn2, Aspn; likely precursors to tenocytes and periskeletal cells) and the other to skeletal cells (Cnmd/Lect1, Otos) (Fig. 4D, fig. S6I and Table S10)."
+"We recently reported that periosteal and endosteal bone is formed by different stem cell populations, which, alongside the work of others, indicated that bone is not formed by a single stem cell, but rather by a diverse set of stem cells, each with signature anatomic locations and functions5每7. Finding that the distinct physiology of different regions within a single bone is due to the presence of distinct stem cells raised the further question of whether the differences in biology between different bones could also be due to as of yet undiscovered stem cells. Based on this, we hypothesized that the vertebrae were likely to be formed from a distinct skeletal stem cell given that both the evolutionary history and developmental ontology of the vertebrae are markedly different than those of the limb bones8. This is supported by the observation that lineage tracing using Prrx1-cre provides robust labeling of long bones but not vertebrae (Extended Data Fig. 1a). The axial neural crest, notochord and muscle stem cells also do not contribute to vertebral bone (Extended Data Fig. 1a每d). To identify specific markers of vertebral stem cells (vSSC), we used the observation that skeletal stem cells (SSCs) at multiple anatomic sites, including calvarium, long bone periosteum and endosteum appear to share a core set of surface markers, all being Lineage-CD200+CD105-THY1每6C3-CD51+ cells (Extended Data Fig. 1b,c)5每7,9. To identify candidate genes that would, in combination with this immunotype, uniquely mark candidate vSSCs, cells bearing this immunophenotype were sorted from vertebrae and long bones (long bone SSCs, lbSSCs) and subjected to transcriptional profiling. This transcriptional profiling revealed that candidate vSSCs and lbSSCs displayed broadly different transcriptional profiles, supporting that candidate vSSCs represent a distinct cell type (Extended Data Fig. 1e,f)."
+"Although the patterning mechanisms during limb bud development have been well-studied and simulated by different models,15,17,19 the heterogeneity of human limb buds has been elusive. We identified 4 mesenchymal and 2 epithelial subsets in 5 WPC human limb buds. By analyzing Hox gene expression and well-known marker genes, we were able to align the 4 mesenchymal subsets along PD and AP axes (Fig. 2f, g). Importantly, we identified a highly proliferative LBM2 subset at the distal most mesenchyme, implicating immature mesenchymal progenitors underlying AER.21,65 We also identified an OCP subset with chondrogenic potential in the core mesenchyme. Unlike mouse limb bud mesenchymal progenitors (Sox9每Pdgfrahi) and OCPs (Sox9+Pdgfrahi),22 human limb bud OCPs are SOX9lowPDGFRAhi (Fig. 1d), suggesting that they are less differentiated than mouse OCPs. Interestingly, the E11.5 mouse limb buds lacked an equivalent LBM2 subset, showed early chondrogenic differentiation of OCP, and contained fewer proportion of AER cells (Supplementary information, Fig. S2). Together, these data suggested greater potential of human limb bud outgrowth that could possibly contribute to longer limb bones. Whether the novel regulons identified in human limb bud OCP (e.g., ZMIZ1 and KDM5A) critically control osteo-chondrogenic differentiation remains to be validated by functional studies."
+"The proliferation of cells with melanocytic lineage and a nested pattern has traditionally been regarded as a characteristic feature of a wide range of benign and malignant melanocytic proliferations. Herein, we report a series of 4 clear cell sarcomas, including 3 primary cutaneous and 1 metastatic to the skin, associated with a clear-cut intraepidermal proliferation of tumor cells representing a serious potential diagnostic pitfall. All patients were male individuals, aged from 17 to 71 years (mean: 42 y). The size of the tumors ranged from 8 to 55 mm (mean: 22.2 mm, median: 13 mm). Two tumors arose on a lower extremity and 1 each on the scalp and chest. Cutaneous metastasis developed on the limb proximal to the amputation site. Histologically, all tumors were variably circumscribed nodular or multinodular proliferations within the dermis, focally extending into the subcutis. They were composed of nests and fascicles of pale spindled and epithelioid cells with finely granular or pale cytoplasm, elongated nuclei with a single prominent nucleolus, featuring mild nuclear pleomorphism, and surrounded by delicate fibrous septa. Scattered wreath-like giant cells were present in all cases. Mitotic activity was low (mean and median: 3.5 mitoses/mm2). The intraepidermal component consisted in all 4 cases of nests of tumor cells localized at the dermal-epidermal junction. Nests were well-defined and composed of spindled or epithelioid cells with irregular hyperchromatic nuclei, prominent nucleoli, and scant to moderately abundant eosinophilic to pale cytoplasm. Lentiginous proliferation of epithelioid tumor cells was coupled with focal upward migration of isolated tumor cells in a single case. By immunohistochemistry, all tumors were S100 protein, melan A, and HMB45 positive. By fluorescence in situ hybridization analysis, 3 tumors displayed rearrangements in the EWSR1 gene, whereas reverse transcriptase polymerase chain reaction confirmed EWSR1(e8)/ATF1(e4) translocation in the remaining case. In conclusion, an epidermal component in primary cutaneous clear cell sarcomas, or cutaneous metastasis of the tumor, is exceptional and represents a potential diagnostic pitfall. Careful attention to the salient morphologic features in the dermal component of the tumor, as well as confirmation of EWSR1 gene rearrangement by fluorescence in situ hybridization or reverse transcriptase polymerase chain reaction, is necessary for correct recognition of the tumor and to avoid erroneous diagnosis of a benign or malignant melanocytic proliferation."
+"The ability to autonomously replace lost or damaged appendages with fully functional equivalents is an enviable trait shared by many animal species, though unfortunately not by homo sapiens. Some of the most primitive organisms, such as hydra and the planarian, have the most striking regenerative capabilities, possessing the ability to regrow large portions of their bodies: an entire hydra can be regenerated from a segment comprising 1% of the original organism's total volume.1-3 Amphibians are perhaps the most the well-known vertebrates that possess regenerative capabilities. Salamanders have been studied in this capacity for centuries, beginning with the observations of the 18th century Italian philosopher, Larazzo Spallanzani, who meticulously documented the phenomena of urodele tail and limb regrowth.4,5 In recent decades, studies in Urodela have been largely driven by the hypothesis that regeneration is dependent upon cellular machinery that is highly conserved between both regenerative and non-regenerative species.6 Indeed, recent novel evidence from fossil records suggests that salamander-like regeneration is an ancient feature of vertebrate tetrapods that is presently conserved in the modern salamander.7 As a result of studies in salamander regeneration, much progress has been made toward elucidating the process by which the blastema, a morphologically similar mass of cells, transforms into a completely regenerated limb. Advances in stem cell biology and the generation of transgenic animal strains have particularly facilitated discoveries in this area."
+"The first cells to express MRFs are located at the epaxial lip of the dermomyotome that activate Myf5 when exposed to WNT signals from the neural tube and ectoderm, and SHH signals from the notochord (Fig. 1B) (Buckingham and Rigby, 2014; Ott et al., 1991; Tajbakhsh et al., 1998). The effector proteins of the WNT and SHH signaling pathways, GLI and TCF, respectively, recognize their binding sites on the early epaxial enhancer (EEE) of Myf5 (-5.5 kb), activating its expression in these cells (Borello et al., 2006; Gustafsson et al., 2002). PAX3 also regulates Myf5 expression epaxially via an indirect mechanism by which it activates the transcription of Dmrt2 that in turn binds to the EEE of Myf5 and positively regulates its expression (Sato et al., 2010). The cells committed to the myogenic lineage delaminate and migrate under the dermomytome initiating myotome formation. While Myf5 expression in the epaxial domain of the dermomyotome can take place independently of PAX3, in the hypaxial domain, PAX3 binds directly to the -57.5 kb regulatory region of the Myf5 gene required for appropriate MYF5 expression (Fig. 1B) (Bajard et al., 2006). The expression of PAX3 is essential not only for activating myogenic specification but also for cell survival (Relaix et al., 2004, 2005). Members of the Sine oculis homeobox (SIX) and the Eyes absent homologue (EYA) protein families, including SIX1, SIX4, EYA1 and EYA2 are co-expressed with PAX3 in the dermomyotome and regulate its expression (Fig. 1B) (Grifone et al., 2005, 2007). Overexpression of the SIX family member SIX1 activates Pax3 in chick embryos (Heanue et al., 1999). In compound mouse mutants Six1;Six4 and Eya1;Eya2, Pax3 expression is lost and the embryos show a similar phenotype to Pax3-deficient embryos: a loss of the hypaxial lip domain and lack of limb muscles, showing that SIX and EYA transcription factors also lie genetically upstream of PAX3 (Grifone et al., 2007). SIX proteins also regulate myogenesis epaxially where SIX1 and SIX4 directly bind to regulatory sequences of MRF4 (Fig. 1B) (Grifone et al., 2005). In the Six1;Six4 double knockout embryos, Mrf4 expression is lost and consequently that of Myod is downregulated (Grifone et al., 2005; Relaix et al., 2013). In addition to the regulation of Myod expression by MRF4 epaxially; MRF4 and MYF5 can regulate MYOD expression hypaxially (Fig. 1B) (Kassar-Duchossoy et al., 2004)."
+"A powerful example of the evolutionary adaptability of the LPM is the connective tissue and skeleton of the paired appendages, which has been repeatedly reviewed (Hiscock et al., 2017; Petit et al., 2017; Zeller et al., 2009). Fore- and hindlimb buds emerge from the somatic LPM at specific positions along the A-P axis. RA signaling and Hox genes are involved in properly positioning the progenitor fields (Moreau et al., 2019). In close interplay with the ectoderm secreting FGF ligands (i.e. Fgf8), LPM-expressed Tbx5 and Tbx4, among other factors, contribute to initiating limb formation in the ALPM and PLPM, respectively (Bruneau et al., 2001; Koshiba-Takeuchi et al., 2009; Minguillon et al., 2012; Nishimoto and Logan, 2016; Rallis et al., 2003). The limb skeleton and connective tissue have been predominantly fate-mapped to an LPM origin, while limb musculature is contributed by paraxial/somitic mesoderm (Nishimoto and Logan, 2016; Tanaka, 2016b). Curiously, Tbx5 is required for both forelimb and heart development, and its expression encompasses the forelimb and heart field progenitors that emerge adjacently within the LPM (Bickley and Logan, 2014; Rallis et al., 2003). Whether Tbx5 expression is driven by a joint program in both progenitors or if each progenitor field responds to separate inputs remains uncertain (Minguillon et al., 2012)."
+"Epithelial organoids, such as those derived from stem cells of the intestine, have great potential for modelling tissue and disease biology1-4. However, the approaches that are used at present to derive these organoids in three-dimensional matrices5,6 result in stochastically developing tissues with a closed, cystic architecture that restricts lifespan and size, limits experimental manipulation and prohibits homeostasis. Here, by using tissue engineering and the intrinsic self-organization properties of cells, we induce intestinal stem cells to form tube-shaped epithelia with an accessible lumen and a similar spatial arrangement of crypt- and villus-like domains to that in vivo. When connected to an external pumping system, the mini-gut tubes are perfusable; this allows the continuous removal of dead cells to prolong tissue lifespan by several weeks, and also enables the tubes to be colonized with microorganisms for modelling host-microorganism interactions. The mini-intestines include rare, specialized cell types that are seldom found in conventional organoids. They retain key physiological hallmarks of the intestine and have a notable capacity to regenerate. Our concept for extrinsically guiding the self-organization of stem cells into functional organoids-on-a-chip is broadly applicable and will enable the attainment of more physiologically relevant organoid shapes, sizes and functions."
+"The small intestinal villi, tissue responsible for nutrient absorption, are renewed every 3每5 days by Lgr5+ intestinal stem cells (ISCs) located at the crypt base [1]. ISCs and Paneth cells form the stem cell zone and shape the crypt architecture [2每4]. Paneth cells are derived from ISCs and located at the base of crypts, where they secrete anti-microbial peptides (AMPs) including defensin/cryptdin/CRS molecules to fend off the microbiota (at the order of 102每107 cells/g in small intestines in human) [5, 6]. The villi are easily damaged by food-borne pathogens, carcinogenic agents, or radiation, which are repaired by ISCs or stem cells derived from committed or differentiated cells [7, 8]. Some injuries disrupt the physical barrier and result in microbial invasion and inflammation, which present an extra threat to ISCs [9]. The ISC activities in homeostasis and regeneration are regulated by niche cells, e.g., Paneth cells and stromal cells, which secrete molecules such as R-Spondin, Wnts, and BMPs [10每13]. Although the depletion of Paneth cells does not affect villus homeostasis [14, 15], there is evidence that both epithelial cells and stromal cells cooperate to support ISCs [16每19]."
+"In response to LGR5+ cell deficits, both Sec and enterocyte (Ent) progenitors (Tetteh et al., 2016; van Es et al., 2012), and occasionally even mature Paneth cells (Jones et al., 2018; Schmitt et al., 2018; Yu et al., 2018), contribute toward a replenished ISC pool. This facility is explained in part by the remarkably similar profiles of active histones in ISCs and villus Ent (Kim et al., 2014) and by the observation that areas of open chromatin specific to the Sec lineage reverse readily upon ISC damage (Jadhav et al., 2017); thus, chromatin barriers between crypt cell states are low or easily breached. Although crypt cells can dedifferentiate, it remains unclear (a) if they account for the bulk of ISC restoration, (b) which crypt cells harbor this latent potential, and (c) if homeostasis might reflect contributions from both LGR5+ cell derivatives and reserve ISCs. Here we report that nearly all regeneration after ISC injury occurs by ASCL2-dependent dedifferentiation of recent LGR5+ cell progeny."
+"Interestingly, we observed a similar recovery pattern with complete genetic blockade of Notch signaling by crossing Villin-CreERT2 with RbpjF/F mice, and treating with tamoxifen (Rbpj忖/忖). Administration of two doses of tamoxifen in this model results in complete goblet cell hyperplasia by day 7 followed by patchy normalization over time (Supplementary Fig. 2), indicating that this recovery response is not unique to N1 loss."
+"To test this, we performed IF staining of HES6 in the colon sample. It was observed that HES6+ cells tended to be located in the lower part of the crypt, which is suggestive of early differentiating secretory cells (Figure 5G). Then, we performed IF co-staining of HES6 and the proliferative marker KI67, as well as the differentiated goblet cell marker MUC2, in the IM samples. Morphologically, we found that many of the HES6+ cells were round, immature cells with a small amount of cytoplasm and a dark nucleus (Figure S14F). Moreover, HES6-expressing cells were present around MUC2-expressing goblet cells, and some of these cells overlapped with goblet cells (Figure 5H). HES6+ cells were also predominantly intermingled with proliferating Ki67+ cells, but few cells co-expressed Ki67 (Figure 5I). In addition, HES6 marked epithelial cells (Figure S14G). HES6 was reported as a transcriptional target of ATOH1, which is required for the creation of all secretory lineages within the epithelium. Based on the above evidences, we speculated that the HES6 could mark the early stage of goblet cell differentiation and could be used to mark cells with some goblet cell characteristics that are not yet morphologically identifiable as goblet cells, with the potential of identifying high-risk non-IM gastritis patients in clinical practice."
+"In our murine organoid system, CHIR is present from day 0 to day 2. We reveal that CHIR is required for IL-17RA-mediated induction of Atoh1 and secretory cell markers. CHIR is a highly selective GSK3 inhibitor. By inhibiting GSK3, CHIR activates Wnt signaling. Wnt signaling has been shown to be important for the self-renewal and function of Lgr5+ ISCs (Li et al., 2018; Mah et al., 2016; Yin et al., 2014). Therefore, the initial activation of Wnt signaling in stem cells may be involved in IL-17RA-mediated induction of Atoh1 and secretory cell lineage commitment. In vivo, continuous sources of Wnt are present in the gut epithelium from various cell types such as stromal cells and Paneth cells (Gregorieff et al., 2005; Sato et al., 2011b). Our data indicate that the requirement of CHIR for IL-17RA-mediated secretory cell lineage commitment in organoid systems is representative of normal physiological processes in the gut mucosa."
+"Intestinal stem cells at the bottom of crypts fuel the rapid renewal of the different cell types that constitute a multitasking tissue. The intestinal epithelium facilitates selective uptake of nutrients while acting as a barrier for hostile luminal contents. Recent discoveries have revealed that the lineage plasticity of committed cells - combined with redundant sources of niche signals - enables the epithelium to efficiently repair tissue damage. New approaches such as single-cell transcriptomics and the use of organoid models have led to the identification of the signals that guide fate specification of stem cell progeny into the six intestinal cell lineages. These cell types display context-dependent functionality and can adapt to different requirements over their lifetime, as dictated by their microenvironment. These new insights into stem cell regulation and fate specification could aid the development of therapies that exploit the regenerative capacity and functionality of the gut."
+"As we will detail in this review, multiple lines of evidence demonstrate the critical link between intestinal function and autophagy. This relation is complex, as autophagy can dramatically regulate multiple aspects of intestinal physiology, from maintenance of the epithelial architecture to metabolic regulation, function of specific intestinal epithelial subsets, regulation of inflammatory pathways, and defense against infection (Table 1). The tight link between autophagy and intestinal physiology might be best illustrated by the observation of the strong association between genes of the autophagy pathway and susceptibility to CD; those genes include ATG16L1 (Autophagy related 16 like 1), IRGM (immunity related GTPase M), ULK1 (unc51每like like autophagy activating kinase 1), and LRRK2 (leucine rich repeat kinase 2) [6每14]. Multiple review articles have provided an overview of the general role of autophagy in intestinal function [15-20]; here, we will focus specifically on the intestinal epithelial barrier, which serves not only as a first line of defense against enteric pathogens, but also plays essential roles in nutrient acquisition and in the crosstalk with the mucosal immune system. Indeed, while autophagy is certainly critical in regulating the function of most if not all cell types in the intestine, including innate and adaptive immune cells as well as stromal cells, a better understanding of the role of autophagy in IECs is rapidly emerging."
+"Epithelial Paneth cells produce WNT3, EGF, and DLL4 (Sato et al., 2011a) and they support stem cell metabolism by providing the stem cells with lactate as a substrate for oxidative phosphorylation (Rodr赤guez-Colman et al., 2017). A decrease in the number of Paneth cells correlates with a decrease in stem cells and their presence is vital for stem cell function in vitro (Sato et al., 2011a). Observations that the intestinal epithelium remains largely unaffected when Paneth cells are depleted in vivo, suggest that the niche-role of Paneth cells can be adopted by alternative sources (Durand et al., 2012; Kim et al., 2012). Indeed, enteroendocrine and tuft cells can replace ablated Paneth cells to serve as alternative sources of Notch signals (van Es et al., 2019), while the mesenchyme surrounding the intestinal epithelium secretes sufficient levels of Wnt ligands to ensure homeostasis (Farin et al., 2012; Kabiri et al., 2014)."
+"SPEM cells were first distinguished over 20 years ago when TFF2-expressing cells were observed in the bases of atrophic glands in the human corpus (TFF2 is usually confined to the mucous neck cells).20 Subsequently, SPEM was noted in rodent models including the H. felis-infected mouse54, 62, 63 and in rats and mice treated with the parietal cell toxic drug DMP-777.59, 60, 64 Further studies demonstrated the induction of SPEM with other parietal cell-toxic agents including L635, a molecular cousin of DMP-777,40, 60 and high doses of the drug tamoxifen.39, 65, 66 The induction of SPEM lineages by these parietal cell toxic agents is rapid, synchronous, and the entire corpus of the stomach converts to pyloric metaplasia with SPEM cells at the base of every gastric unit. All the mentioned drugs act as protonophores, likely inducing metaplasia by poisoning proton-secreting parietal cells, though injury/repair after each drug varies slightly.65 For example, DMP-777 induces SPEM without substantial infiltration of the mucosa by inflammatory cells, likely because the drug also acts as a neutrophil elastase inhibitor.60 L635 does not affect neutrophil elastase,60 kills parietal cells quickly, and induces robust inflammation.40 Tamoxifen induces intermediate inflammation.39 Despite variation in obvious inflammatory infiltrates, innate immune defense and cytokines are nonetheless likely critical for SPEM induction, no matter the injury. Together, drug-based models have allowed detailed analysis of the mechanisms required for induction of SPEM, because parietal cell loss and metaplasia induction are so rapid."
+"Inflammation is essential to the disruption of tissue homeostasis and can destabilize the identity of lineage-committed epithelial cells. Here, we employ lineage-traced mouse models, single-cell transcriptomic and chromatin analyses, and CUT&TAG to identify an epigenetic memory of inflammatory injury in the pancreatic acinar cell compartment. Despite resolution of pancreatitis, our data show that acinar cells fail to return to their molecular baseline, with retention of elevated chromatin accessibility and H3K4me1 at metaplasia genes, such that memory represents an incomplete cell fate decision. In vivo, we find this epigenetic memory controls lineage plasticity, with diminished metaplasia in response to a second insult but increased tumorigenesis with an oncogenic Kras mutation. The lowered threshold for oncogenic transformation, in turn, can be restored by blockade of MAPK signaling. Together, we define the chromatin dynamics, molecular encoding, and recall of a prolonged epigenetic memory of inflammatory injury that impacts future responses but remains reversible."
+"The pancreas is a vital organ whose disorders include diabetes mellitus, pancreatitis, cystic fibrosis and adenocarcinoma, estimated to affect over 10% of the world＊s population (L谷vy et al., 2014; NCD Risk Factor Collaboration, 2016; Wilschanski and Novak, 2013). During development, pancreatic epithelia are thought to derive from a multipotent progenitor formed in primitive ductal epithelium. Advances in the past two decades have identified cellular, genetic, signaling and molecular pathways that lead to formation of pancreatic exocrine and endocrine cells, the two major lineages in the pancreas. The exocrine pancreas is comprised of acinar cells that produce zymogens that hydrolyze macromolecules to aid digestion, and ductal cells that form branched tubules whose principal products include bicarbonate. The endocrine pancreas is comprised of hormone-secreting epithelial cells organized in structures called Islets of Langerhans. Islet cells synthesize and secrete hallmark hormone products, and include 汐-cells (glucagon), 汕-cells (insulin) and 汛-cells (somatostatin). Our understanding of the mechanisms underlying development is largely based on studies of rodents and other vertebrate models. While the adult mouse and human pancreas share similar functions and morphological features, much remains to be discovered about the mechanisms regulating human endocrine and exocrine cell development and diversification (Arda et al., 2013; Benitez et al., 2014; McKnight et al., 2010)."
+"We have recently shown that ADM results in the transdifferentiation of acinar cells to tuft cells, which are rare chemosensory cells typically absent from the normal mouse pancreas5. Using a combination of low-input RNA sequencing strategies, super resolution microscopy, and genetically engineered mouse models, we demonstrated that tuft cells inhibit pancreatic tumorigenesis by modulating tissue stroma5每7. These data demonstrate that rare ADM-derived cell types can significantly impact disease progression. Given the role of ADM in disease initiation and the potentially critical link between injury and tumorigenesis, we combined lineage tracing and single-cell RNA sequencing (scRNA-seq) to identify populations arising from ADM."
+"To identify regulators of pancreatic specification, we infected H1 iCas9 PDX1GFP/+ hESCs with a genome-scale CRISPR library35 using a pooled screening strategy36,37 (Fig. 1e). We targeted ~40 hours after GT when PDX1/GFP+ cells are steeply upregulated (Fig. 1e) to isolate PDX1/GFP+ and PDX1/GFP? cells through fluorescence-activated cell sorting (FACS). Next-generation sequencing was conducted to determine the abundance of individual gRNAs within each population (Fig. 1e and Supplementary Table 1). To distinguish genes specifically required for pancreatic differentiation from those that regulate earlier DE specification, we performed another screen using a SOX17GFP/+ DE reporter36 (Fig. 1e and Supplementary Table 1). Overlapping hits from both screens identified genes essential for DE formation, which included genes such as EOMES, GATA6, SMAD2, and SOX17 that were also identified in our previous DE screens36. Furthermore, the hits unique to the pancreatic screen, referred to as PP1 hits, included known pancreatic regulators such as PDX1, GATA4, and RFX6 (Fig. 1f,g). Gene set enrichment analysis (GSEA) uncovered genes related to maturity onset diabetes of the young (MODY) and regulation of 汕 cell development (Fig. 1h,i), highlighting the utility of unbiased genetic screens focused on the initiation of pancreatic differentiation for discovery of genes relevant to 汕 cell biology and diabetes risk."
+"In mouse pancreas development, a subset of multipotent pancreatic progenitors residing in the central or trunk region of the pancreas epithelium are known to differentiate into ductal or endocrine cells.53,54 To investigate whether such progenitors with bipotent ductal-endocrine fate exist in human fetal pancreas, we sub-clustered the epithelial cells (ductal and acinar, excluding the endocrine clusters) and this revealed the presence of ductal (ANXA4+ and CTFR+), ducto-acinar (KRT19+), trunk progenitors (HNF1B+, NKX6-1+), tip progenitors (RBPJL+, PTF1A), early acinar cells (CPA1+, CEL+), mesenchymal cells (COL3A1+), and INS+ beta cells (Figure 5A). We found proliferative multipotent pancreatic progenitors at 8 and 10 PCW expressing PDX1, SOX9, HNF1B, GATA6, NKX6-1, and MKI67,21,29,55 with decreasing expression as gestational age increased (Figure 5B). The UMAP plot showed two visually distinct regions: one characterized by high expression of RBPJL, PTF1A, and GP2 (Figure 5C), similar to mouse tip progenitors,53 and the other expressing HES1, HNF1B, and NKX6-1, similar to trunk progenitors.53,54 The majority (>75%) of the cells at 8 and 10 PCW are trunk progenitors, but their proportion diminished to less than 10% from 12 PCW onward, where about 25% each of the cells are tip progenitors and early acinar cells until 14 PCW (Figures 5D and 5E). The early acinar cells expanded rapidly at 16 PCW such that they represented approximately 75% of the cell population (Figure 5E). This analysis also indicated that pro-acinar genes (CPA1, PRSS1, GP2, and CTRC) are differentially expressed in tip progenitors, while pro-endocrine (MDK and SOX4) and pro-ductal genes (ANXA2) are expressed in the trunk progenitor population (Figure 5F)."
+"The KCNQ1 locus has a complex contribution to T2D involving at least 10 independent signals9. Among these was causal T2D variant rs231361, where genome editing in hESC beta cell models revealed effects on insulin transcript and protein levels. Chromatin conformation from 4C in EndoC-汕H1 cells72 revealed physical proximity between the enhancer and INS promoter, although we did not find corresponding evidence for an interaction in other 3C-based data from EndoC-汕H1 cells73, hESC beta cells or primary islets27,71. Thus, while our results support a possible cis-regulatory effect of rs231361 on INS expression, we cannot currently rule out that the observed effects instead occur in trans, secondary to other effects. We anticipate that future studies to resolve phase between variant alleles and INS allelic expression in heterozygous samples will further clarify the nature of these effects."
+"In this review, we detail the changes and the relevant features that are applied to neuroendocrine neoplasms (NENs) in the 2022 WHO Classification of Endocrine and Neuroendocrine Tumors. Using a question-and-answer approach, we discuss the consolidation of the nomenclature that distinguishes neuronal paragangliomas from epithelial neoplasms, which are divided into well-differentiated neuroendocrine tumors (NETs) and poorly differentiated neuroendocrine carcinomas (NECs). The criteria for these distinctions based on differentiation are outlined. NETs are generally (but not always) graded as G1, G2, and G3 based on proliferation, whereas NECs are by definition high grade; the importance of Ki67 as a tool for classification and grading is emphasized. The clinical relevance of proper classification is explained, and the importance of hormonal function is examined, including eutopic and ectopic hormone production. The tools available to pathologists for accurate classification include the conventional biomarkers of neuroendocrine lineage and differentiation, INSM1, synaptophysin, chromogranins, and somatostatin receptors (SSTRs), but also include transcription factors that can identify the site of origin of a metastatic lesion of unknown primary site, as well as hormones, enzymes, and keratins that play a role in functional and structural correlation. The recognition of highly proliferative, well-differentiated NETs has resulted in the need for biomarkers that can distinguish these G3 NETs from NECs, including stains to determine expression of SSTRs and those that can indicate the unique molecular pathogenetic alterations that underlie the distinction, for example, global loss of RB and aberrant p53 in pancreatic NECs compared with loss of ATRX, DAXX, and menin in pancreatic NETs. Other differential diagnoses are discussed with recommendations for biomarkers that can assist in correct classification, including the distinctions between epithelial and non-epithelial NENs that have allowed reclassification of epithelial NETs in the spine, in the duodenum, and in the middle ear; the first two may be composite tumors with neuronal and glial elements, and as this feature is integral to the duodenal lesion, it is now classified as composite gangliocytoma/neuroma and neuroendocrine tumor (CoGNET). The many other aspects of differential diagnosis are detailed with recommendations for biomarkers that can distinguish NENs from non-neuroendocrine lesions that can mimic their morphology. The concepts of mixed neuroendocrine and non-neuroendocrine (MiNEN) and amphicrine tumors are clarified with information about how to approach such lesions in routine practice. Theranostic biomarkers that assist patient management are reviewed. Given the significant proportion of NENs that are associated with germline mutations that predispose to this disease, we explain the role of the pathologist in identifying precursor lesions and applying molecular immunohistochemistry to guide genetic testing."
+"The pancreas consists of an exocrine compartment that produces digestive enzymes, and an endocrine compartment that generates pancreatic hormones. The exocrine compartment comprises acinar cells that secrete nutrient-digestive zymogens, and a ductal epithelium that neutralizes these enzymes and transports them into the duodenum. By contrast, endocrine cells mediate the regulatory function of the pancreas in glucose homeostasis by producing several peptide hormones that are secreted into the bloodstream. These cells cluster in the islets of Langerhans and include 汐-, 汕-, 汛-, PP- and ?-cells that synthesize glucagon, insulin, somatostatin, pancreatic polypeptide and ghrelin, respectively (reviewed by Pan and Wright, 2011; Shih et al., 2013). Malfunction of these hormone-producing cells can lead to abnormalities such as diabetes mellitus. Therefore, understanding how these endocrine cell types develop might help to unravel the pathogenesis of diabetes and identify molecular targets for therapeutic approaches. Furthermore, given that aberrant function of the exocrine pancreas can cause pancreatitis and pancreatic cancer, understanding the developmental mechanisms generating exocrine tissue might pinpoint molecular targets to treat these lethal diseases (reviewed by Dunne and Hezel, 2015; Murtaugh and Keefe, 2015)."
+"In the posterior ventral foregut, hepatic and pancreatic progenitors develop in close proximity to one another and express a set of common TFs, such as Prox1, Hhex, and members of the FoxA and Gata families (Sosa-Pineda et al. 2000; Bort et al. 2004; Watt et al. 2007; Zorn and Wells 2009; Zaret 2016). Fate mapping and lineage tracing experiments in mouse and fish, respectively, have supported the notion that both hepatic and pancreatic progenitors arise from a common bipotent progenitor domain in the ventral foregut and gradually segregate into lineage restricted progenitor populations as development progresses (Deutsch et al. 2001; Chung et al. 2008; Angelo et al. 2012). Yet, defining the precise nature of this population as well as the temporal dynamics of the segregation require more comprehensive in vivo analyses."
+"PRC1 is responsible for the mono-ubiquitylation of histone H2A at lysine residue 119 (H2AK119Ub1). RING1 (Really interesting new gene 1, RING1A, or RING1B) proteins along with a Polycomb group ring finger protein (PCGF1每6) form the PRC1 core (Wang et al., 2004; Scelfo et al., 2019; Tamburri et al., 2020). Classical or canonical PRC1 complexes contain the accessory proteins Chromobox (CBX) orthologs and human polyhomeotic homolog (HPH) (Gao et al., 2012; Fursova et al., 2019), while non-canonical complexes are formed in conjunction with Ring1 and ying yang 1-binding protein (RYBP) and lysine-specific demethylase 2B (KDM2B). Binding of PRC1 to their targets also 1) interferes with the formation of the transcription initiation complex, 2) induces non-enzymatic chromatin compaction, and 3) alters spatial arrangement by cordoning off bound DNA from the remaining non-bound chromatin (Dellino et al., 2004; Zhou et al., 2008; Kundu et al., 2017)."
+"The metabolic, digestive and homeostatic roles of the liver are dependent on proper crosstalk and organization of hepatic cell lineages. These hepatic cell lineages are derived from their respective progenitors early in organogenesis in a spatiotemporally controlled manner, contributing to the liver's specialized and diverse microarchitecture. Advances in genomics, lineage tracing and microscopy have led to seminal discoveries in the past decade that have elucidated liver cell lineage hierarchies. In particular, single-cell genomics has enabled researchers to explore diversity within the liver, especially early in development when the application of bulk genomics was previously constrained due to the organ's small scale, resulting in low cell numbers. These discoveries have substantially advanced our understanding of cell differentiation trajectories, cell fate decisions, cell lineage plasticity and the signalling microenvironment underlying the formation of the liver. In addition, they have provided insights into the pathogenesis of liver disease and cancer, in which developmental processes participate in disease emergence and regeneration. Future work will focus on the translation of this knowledge to optimize in vitro models of liver development and fine-tune regenerative medicine strategies to treat liver disease. In this Review, we discuss the emergence of hepatic parenchymal and non-parenchymal cells, advances that have been made in in vitro modelling of liver development and draw parallels between developmental and pathological processes."
+"The liver is the largest internal organ that controls metabolism, secretion, and detoxification, and those essential functions are mainly executed by hepatocytes [1]. Deciphering the mechanism of hepatocyte differentiation and maturation facilitates regenerative medicine, which is aimed to promote the generation of functional hepatocytes in vitro or in vivo for the treatment of liver diseases. Functional hepatocytes are generated through tightly controlled transcriptional programs in vivo. During liver development, the liver progenitor hepatoblasts are specified from the foregut of endoderm and then differentiate into hepatocytes and cholangiocytes [2]. Hepatocytes derived from liver progenitor-like cells are also observed in vivo, when the hepatic parenchyma is severely compromised during injuries [3每5]. It is known that transcription factors (TFs) such as FOXA2, HNF4汐, and CEBPA are required for the hepatocyte differentiation and maintenance of functional mature hepatocytes, and loss of any of those key TFs will lead to the degeneration of hepatocytes and liver diseases [2]. Based on the current understanding of hepatocyte specification, step-wised differentiation of hepatocytes from human pluripotent stem cells (PSC) has been established [6, 7]. However, the PSC-derived hepatocytes are not functionally mature, implying the unknown realm of hepatocyte differentiation and maturation."
+"In this study, we analyzed longitudinal single-cell and bulk tissue transcriptomic data from hepatocellular carcinoma (HCC) and intrahepatic cholangiocarcinoma (iCCA), two main clinical subtypes of liver cancer, under the NCI-CLARITY protocol (https://ccr.cancer.gov/liver-cancer-program/nci-clarity-study). We developed a bioinformatics tool, named Cancer Aggressiveness via Single-Cell Analysis During Evolution (or CASCADE), that uses tumor lineage and ecology to characterize a tumor ecosystem and its evolution in response to immunotherapy, based on the main concept from a consensus recommendation.12 We defined a lineage score based on different tumor cell states and an ecological score based on the dynamics of immune and stromal cells as being either hazardous or resourceful to tumor cells. We validate the CASCADE method in an independent single-cell cohort and four additional cohorts of bulk transcriptomic HCC and iCCA data. Collectively, we developed CASCADE as a stable platform to monitor tumor evolution in response to treatment. This method separates tumor samples into four quadrants in the lineage-ecological space, providing a framework for liver tumor classification that has potential implications in clinical practice."
+"To investigate whether multiple rounds of CARLIN labelling could be used to gain insight into cellular phylogeny in vivo as done in vitro (Figure 2D), we set up timed pregnancies and delivered three pulses of Dox to pregnant dams at E6.5, E9.5 and E13.5 (Figure 4A). When the 3x labelled CARLIN embryos reached 8 weeks of age, we collected RNA from the skin, heart, liver, intestine and colon, and also separately sampled the left and right brain, muscle, lung and bone marrow HSCs, MPPs, granulocytes, and B-cells. We employed the same tree reconstruction algorithm developed for analyzing the in vitro experiment with ES cells (Figure 2D). However, as a pre-processing step we only retained alleles whose observed frequency was significantly higher than their frequency in the bank (using a FDR=0.05 on their frequency p-values 每 see Methods; Figure 4B). Only a small fraction of CARLIN transcripts were discarded based on this filtering step across all tissues (Figure 4C). We computed a consensus lineage tree, by simulating 10,000 stochastic reconstructions (Methods), which allowed us to visualize a hierarchy of clades across multiple tissues (Figure 4D每G; Methods). Based on this lineage tree, we computed a pairwise similarity matrix of the tissues and observed that contra-lateral tissues were closely related, as were multiple cell types of hematopoietic origin, and tissues of endodermal origin (Figure 4H), which is consistent with known lineage relationships. We also observed a low level of allele sharing across other tissues, some of which were derived from the same embryonic germ layer (Figure 4F,H). This indicates limited lineage mixing between these tissues and suggests that they began to develop independently prior to the stages of induction used in our analysis. Taken together, CARLIN can be useful for multi-level tissue reconstruction in vivo."
+"To elucidate HSC activation during liver fibrosis, we extracted transcriptomic information on all HSCs for further analysis. Uniform Manifold Approximation and Projection (UMAP) visualization showed that HSCs could be divided into two distinct clusters: qHSCs and active HSCs (aHSCs) (Fig. 2A). In accordance with the established dogma that aHSCs up坼regulate migration and ECM坼associated genes during liver fibrosis,( 4 ) the aHSCs from both the CCL4坼treated and BDL livers showed increased actin alpha 2, smooth muscle (Acta2), transgelin (Tagln), Col1a1, Col1a2, and Timp1 expression (Fig. 2B,C). On the contrary, a group of genes including Lrat and Rgs5, Ecm1, Angptl6, Vipr1, Gucy1a1, and Gucy1b1〞which were highly expressed in qHSCs〞were markedly down坼regulated in aHSCs (Fig. 2B,C); this indicates that a dramatic transcriptional reprogramming occurs during HSC activation."
+"Here, using scRNA-seq and spatial mapping, we resolve the fibrotic niche of human liver cirrhosis, identifying pathogenic subpopulations of TREM2+CD9+ macrophages, ACKR1+ and PLVAP+ endothelial cells and PDGFR汐+ collagen-producing myofibroblasts. We dissect a complex, pro-fibrotic interactome between multiple scar-associated cell lineages and identify highly relevant intra-scar pathways that are potentially druggable. In this era of precision medicine, this unbiased multi-lineage approach should inform the design of highly-targeted combination therapies which will very likely be necessary to achieve effective antifibrotic potency3,4."
+"Following injury, the liver's epithelial cells regenerate efficiently with rapid proliferation of hepatocytes and biliary cells. However, when proliferation of resident epithelial cells is impaired, alternative regeneration mechanisms can occur. Intricate lineage-tracing strategies and experimental models of regenerative stress have revealed a degree of plasticity between hepatocytes and biliary cells. New technologies such as single-cell omics, in combination with functional studies, will be instrumental to uncover the remaining unknowns in the field. In this review, we evaluate the experimental and clinical evidence for epithelial plasticity in the liver and how this influences the development of therapeutic strategies for chronic liver disease."
+"The first human pluripotent stem cell line, a line of human embryonic stem cells (ESCs), was established in 1998,2 almost two decades after the exploration of mouse pluripotent cell lines reported in 1981.3,4 Thereafter, Kazutoshi Takahashi and Shinya Yamanaka reprogrammed mouse fibroblast cells to become PSCs in 2006 by inserting four transcription factors encoding genes Oct4, Sox2, Klf4, and c-Myc. These cells, which were similar to ESCs with regard to their gene expression and potential to develop into three germ layers, were termed induced PSCs (iPSCs). Human iPSC (hiPSC) technology was first established in 20075,6 and has been widely used to generate human ※disease-in-a-dish§ models. This technology may enable personalized disease modeling that will become an important part of precision medicine. Furthermore, the development of clustered regulatory interspaced short palindromic repeat (CRISPR)/Cas9 endonuclease7每9 enabled the creation of genetically edited hiPSC-based disease models. Early approaches focused on iPSC-derived 2D cell cultures, which often lack cell每cell interactions, diversity and microcircuits. Recently, the emergence of in vitro human three-dimensional (3D) organ culture approaches has received widespread attention because it allows more complex organ-like structures and different cell types to be modeled simultaneously."
+"Multiple groups have performed fate tracing using cholangiocytes markers (including SOX9, HNF1汕, CK19 or OPN) to label LPCs (Table 1). Intriguingly, Furuyama et al. found Sox9-expressing cells contributed significantly to the hepatocytes pool under homeostasis and liver injury induced by CCl4, BDL or MCDE in SOX9IRES-CreERT knockin mouse strain,22 whereas Tarlow et al showed hepatocytes rarely came from Sox9+ cells in various liver injury using BAC transgenic SOX9CreERT2 mice strain.23 The discrepancy between these studies could be due to the different promotor specificity and sensitivity in the SOX9 genetic labelling mouse tools. HNF1汕, CK19 or OPN labelled cholangiocytes also show limited contributions to liver regeneration under physiological conditions and during liver injury.24-27 One explanation underlying the limited role of those cells is the incomplete blockade of hepatocyte proliferation in mouse liver injury model, which could not faithfully reflect the impaired proliferation of hepatocytes in human chronic liver disease.16, 28 This notion is supported by the study that inhibition of hepatocyte proliferation through overexpressing p21 leads to significant regenerated hepatocytes from CK19+ cholangiocytes.29"
+"Starting in late gestation, embryonic mast cell populations are gradually replaced by definitive, HSC-derived progenitors and yolk sac-derived mast cells largely disappear in most tissues by early adulthood. The skin is first seeded by mast cell progenitors around E15, and mature skin mast cells appear two days later. In the skin, mast cells of yolk sac origin are already reduced to half of the total mast cell population at birth and are lost completely by postnatal week 6 [19,20]. Adult mice maintain populations of committed mast cell progenitors in the bone marrow and spleen [24]. Perturbation of the maternal environment leads to the production of cytokines that cause epigenetic alterations in erythromyeloid progenitors and thereby the chronic activation of erythromyeloid progenitors-derived immune cells, including mast cells, after birth [25]. Around ED 16.5, the bone marrow begins to take over as the key site of hematopoiesis, which persists until after birth and into adulthood [21]."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

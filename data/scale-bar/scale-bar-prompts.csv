@@ -1,0 +1,1680 @@
+prompt
+"Extract the descriptor type, value, units, original description, and panel information for each size descriptor from the following figure caption. Please note that the Notes section refers to the original text describing the size.
+
+Output format:
+{
+  ""Descriptor Type"": ""<descriptor type>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<units>"",
+  ""Notes"": ""<original description of the size from the figure caption>"",
+  ""Panel"": ""<corresponding panel information>""
+}"
+"From the following figure caption, extract the descriptor type, value, units, the original description of the size, and the panel information for each size descriptor. The ""Notes"" section refers to the original description of the size.
+
+Output format:
+{
+  ""Descriptor Type"": ""<descriptor type>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<units>"",
+  ""Notes"": ""<original description of the size from the figure caption>"",
+  ""Panel"": ""<panel information>""
+}
+"
+"From the following figure caption, identify and extract the following details:
+1. The descriptor type (e.g., Magnification, Scale Bar, Pixel Size, etc.).
+2. The value and its corresponding units (e.g., 100x, 50 microns, etc.).
+3. The original text describing the size (Notes).
+4. The panel information that corresponds to each size description.
+
+Ensure that each size descriptor¡¯s Notes and Panel are properly paired with the correct descriptor type and corresponding units.
+
+Output format:
+{
+  ""Descriptor Type"": ""<descriptor type>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<units>"",
+  ""Notes"": ""<original description of the size from the figure caption>"",
+  ""Panel"": ""<panel information>""
+}
+"
+"Please extract the following details from the figure caption:
+- **Descriptor Type** (such as Magnification, Scale Bar, etc.)
+- **Value** (e.g., 100x, 50 microns)
+- **Units** (x, microns, etc.)
+- **Notes** (the original text that describes the size)
+- **Panel** (the panel information that corresponds to each descriptor)
+
+Make sure that each extracted size description is accurately matched with its corresponding descriptor type, value, units, and panel.
+
+Output format:
+{
+  ""Descriptor Type"": ""<descriptor type>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<units>"",
+  ""Notes"": ""<original description of the size>"",
+  ""Panel"": ""<panel>""
+}
+"
+"From the provided figure caption, extract the following components for each size description:
+1. The **Descriptor Type** (e.g., Magnification, Scale Bar, etc.)
+2. The **Value** and **Units** (e.g., 100x, 50 microns, etc.)
+3. The **Notes** (this refers to the text describing the size, from the figure caption)
+4. The **Panel** (the panel where this size description appears)
+
+Each description should be paired with the appropriate descriptor type and panel information.
+
+Output format:
+{
+  ""Descriptor Type"": ""<type of descriptor>"",
+  ""Value"": ""<numerical value>"",
+  ""Units"": ""<units>"",
+  ""Notes"": ""<description from the caption>"",
+  ""Panel"": ""<panel identifier>""
+}
+"
+"From the given figure caption, please extract the following details for each size descriptor:
+1. **Descriptor Type** ( Magnification, Scale Bar, Voxel Size, Pixel Size, Section Thickness, Scan Area, Numerical Aperture (NA))
+2. **Value** (the numerical size, such as 100x or 50 microns)
+3. **Units** (such as x, microns, etc.)
+4. **Notes** (which refers to the exact text describing the size in the figure caption)
+5. **Panel** (the panel identifier for the image part that contains this descriptor)
+
+Please ensure that all elements¡ªvalue, units, Notes, and Panel¡ªare paired correctly with the right Descriptor Type.
+
+Output format:
+{
+  ""Descriptor Type"": ""<descriptor type>"",
+  ""Value"": ""<numerical value>"",
+  ""Units"": ""<unit of measurement>"",
+  ""Notes"": ""<original text describing the size>"",
+  ""Panel"": ""<panel identifier>""
+}
+"
+"From the following figure caption, extract the following details for each size descriptor, grouped by the corresponding panel:
+1. **Descriptor Type** ( Magnification, Scale Bar, Voxel Size, Pixel Size, Section Thickness, Scan Area, Numerical Aperture (NA))
+2. **Value** and **Units** (e.g., 100x, microns, etc.)
+3. **Notes** (the text that describes the size in the figure caption)
+4. **Panel** (the panel each size description corresponds to)
+
+Ensure that each group contains all relevant information for one size description and is associated with the correct panel.
+
+Output format:
+{
+  ""Descriptor Type"": ""<type of descriptor>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<units>"",
+  ""Notes"": ""<size description>"",
+  ""Panel"": ""<panel>""
+}
+"
+"From the following figure caption, extract the Descriptor Type, Value, Units, Notes, and Panel for each size description.
+
+Output format:
+{
+  ""Descriptor Type"": ""<descriptor type>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<units>"",
+  ""Notes"": ""<description from the caption>"",
+  ""Panel"": ""<panel identifier>""
+}
+"
+"For each size description in the following figure caption, extract the Descriptor Type, Value, Units, the corresponding Notes (original text describing the size), and Panel information. Each descriptor¡¯s Notes section should reflect the exact text describing the size from the figure.
+
+Output format:
+{
+  ""Descriptor Type"": ""<descriptor type>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<units>"",
+  ""Notes"": ""<figure caption description>"",
+  ""Panel"": ""<panel>""
+}
+"
+"Extract the following details for each size description in the provided figure caption:
+1. **Descriptor Type** (e.g., Magnification, Scale Bar, Pixel Size, Section Thickness, etc.)
+2. **Value** (numerical value, such as 100, 50, etc.)
+3. **Units** (e.g., x, microns, etc.)
+4. **Notes** (the text from the figure caption describing the size, please be precise)
+5. **Panel** (the corresponding panel for this size description)
+
+Make sure all fields are matched correctly with the appropriate descriptor, value, units, and panel.
+
+Output format:
+{
+  ""Descriptor Type"": ""<type of descriptor>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<units>"",
+  ""Notes"": ""<exact description from the caption>"",
+  ""Panel"": ""<panel>""
+}
+"
+"From the figure caption below, extract the following for each size descriptor:
+- The **Descriptor Type** (e.g., Magnification, Scale Bar, etc.)
+- The **Value** and **Units** (e.g., 100x, 50 microns)
+- The **Notes** (the full description from the figure caption for each size descriptor)
+- The **Panel** (the specific panel where this size description appears)
+
+Please be sure to match each Notes with the correct Descriptor Type and Panel.
+
+Output format:
+{
+  ""Descriptor Type"": ""<descriptor type>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<units>"",
+  ""Notes"": ""<exact text describing the size>"",
+  ""Panel"": ""<panel identifier>""
+}
+"
+"Extract the following details for each size descriptor in the figure caption:
+1. **Descriptor Type** (such as Magnification, Scale Bar, etc.)
+2. **Value** (the numerical value, e.g., 100, 50)
+3. **Units** (such as x, microns, etc.)
+4. **Notes** (the full original text from the figure caption describing the size)
+5. **Panel** (the panel in which this description appears)
+
+Ensure each item (Descriptor Type, Value, Units, Notes, and Panel) is properly matched to the correct description in the figure.
+
+Output format:
+{
+  ""Descriptor Type"": ""<descriptor type>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<units>"",
+  ""Notes"": ""<full text from the caption>"",
+  ""Panel"": ""<panel label>""
+}
+"
+"For each size descriptor in the following figure caption, extract:
+1. **Descriptor Type** (e.g., Magnification, Scale Bar)
+2. **Value** (the numerical value, e.g., 100, 50, etc.)
+3. **Units** (e.g., x, microns, etc.)
+4. **Notes** (the text from the caption describing the size)
+5. **Panel** (the corresponding panel for each size description)
+
+Ensure that each size description is paired with its correct panel and descriptors.
+
+Output format:
+{
+  ""Descriptor Type"": ""<type>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<units>"",
+  ""Notes"": ""<description>"",
+  ""Panel"": ""<panel identifier>""
+}
+"
+"From the following figure caption, extract each size descriptor's details:
+1. **Descriptor Type** (e.g., Magnification, Scale Bar, etc.)
+2. **Value** (e.g., 100x, 50 microns, etc.)
+3. **Units** (x, microns, etc.)
+4. **Notes** (the original description of the size)
+5. **Panel** (the panel where this size descriptor is found)
+
+Be sure that each Notes entry is aligned with its correct descriptor type, value, units, and panel.
+
+Output format:
+{
+  ""Descriptor Type"": ""<descriptor type>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<unit>"",
+  ""Notes"": ""<full text from the caption>"",
+  ""Panel"": ""<panel>""
+}
+"
+"For the following figure caption, extract each size description by:
+1. Identifying the **Descriptor Type** (e.g., Magnification, Scale Bar, etc.)
+2. Extracting the **Value** and **Units** (e.g., 100x, 50 microns)
+3. Extracting the **Notes** section (the original description of the size)
+4. Identifying the **Panel** for each size descriptor
+
+Ensure that all components¡ªDescriptor Type, Value, Units, Notes, and Panel¡ªare accurately extracted and matched.
+
+Output format:
+{
+  ""Descriptor Type"": ""<type>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<unit>"",
+  ""Notes"": ""<original description>"",
+  ""Panel"": ""<panel label>""
+}
+"
+"From the given figure caption, extract the following for each size descriptor:
+1. The **Descriptor Type** (such as Magnification, Scale Bar, etc.)
+2. The **Value** and **Units** (e.g., 100x, microns, etc.)
+3. The **Notes** (this is the original text describing the size in the figure caption)
+4. The **Panel** information (the panel where each descriptor is mentioned)
+
+Make sure all information is clearly extracted and matched correctly.
+
+Output format:
+{
+  ""Descriptor Type"": ""<descriptor type>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<units>"",
+  ""Notes"": ""<original text from caption>"",
+  ""Panel"": ""<panel>""
+}
+"
+"Extract the following details from the figure caption:
+1. **Descriptor Type** (e.g., Magnification, Scale Bar, etc.)
+2. **Value** (the numerical size, such as 100x, 50 microns)
+3. **Units** (e.g., x, microns)
+4. **Notes** (the full description of the size from the caption)
+5. **Panel** (the panel associated with each descriptor)
+
+Ensure each section is accurately paired with its respective description and panel.
+
+Output format:
+{
+  ""Descriptor Type"": ""<type>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<unit>"",
+  ""Notes"": ""<description from figure caption>"",
+  ""Panel"": ""<panel>""
+}
+"
+"For each size descriptor in the following figure caption, extract the following components:
+1. **Descriptor Type** (e.g., Magnification, Scale Bar, etc.)
+2. **Value** (e.g., 100, 200, etc.)
+3. **Units** (e.g., x, microns, etc.)
+4. **Notes** (the exact text that describes the size)
+5. **Panel** (the panel where the size description is located)
+
+Group all details into one cohesive entry for each size descriptor.
+
+Output format:
+{
+  ""Descriptor Type"": ""<type>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<unit>"",
+  ""Notes"": ""<full description from figure caption>"",
+  ""Panel"": ""<panel>""
+}
+"
+"For each size descriptor in the following figure caption, please extract the following information:
+1. **Descriptor Type**: The type of size descriptor (e.g., Magnification, Scale Bar, etc.)
+2. **Value**: The numerical value of the size (e.g., 100x, 50 microns)
+3. **Units**: The units of measurement (e.g., x, microns)
+4. **Notes**: The exact original text from the figure caption that describes the size
+5. **Panel**: The panel identifier (e.g., A, B, C)
+
+Ensure all components are correctly matched with their respective descriptors.
+
+Output format:
+{
+  ""Descriptor Type"": ""<descriptor type>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<unit>"",
+  ""Notes"": ""<original description from the figure caption>"",
+  ""Panel"": ""<panel>""
+}
+"
+"From the following figure caption, extract each size description¡¯s details, including:
+1. **Descriptor Type** (e.g., Magnification, Scale Bar)
+2. **Value** and **Units** (e.g., 100x, 50 microns)
+3. **Notes** (the original description that explains the size in the figure)
+4. **Panel** (the panel to which this size descriptor belongs)
+
+Please ensure that all extracted information is clearly grouped and matched correctly.
+
+Output format:
+{
+  ""Descriptor Type"": ""<type of descriptor>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<unit>"",
+  ""Notes"": ""<exact text describing the size>"",
+  ""Panel"": ""<panel>""
+}
+"
+"Please extract the following details from the given figure caption:
+1. **Descriptor Type** (e.g., Magnification, Scale Bar, Pixel Size)
+2. **Value** (the numerical size, such as 100, 200, etc.)
+3. **Units** (e.g., x, microns)
+4. **Notes** (the full text from the figure caption describing the size)
+5. **Panel** (the corresponding panel in which this size is described)
+
+Ensure that each size descriptor is correctly paired with its value, units, notes, and panel.
+
+Output format:
+{
+  ""Descriptor Type"": ""<descriptor type>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<units>"",
+  ""Notes"": ""<original caption description>"",
+  ""Panel"": ""<panel>""
+}
+"
+"For the following figure caption, please extract each size descriptor¡¯s details:
+1. **Descriptor Type**: The type of size descriptor (e.g., Magnification, Scale Bar, Section Thickness, etc.)
+2. **Value**: The numerical value (e.g., 100x, 50 microns)
+3. **Units**: The corresponding unit of measurement (e.g., x, microns)
+4. **Notes**: The exact description of the size from the caption
+5. **Panel**: The panel number or identifier where the description is located
+
+Ensure all elements are accurately extracted and grouped together.
+
+Output format:
+{
+  ""Descriptor Type"": ""<descriptor type>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<unit>"",
+  ""Notes"": ""<full description from the caption>"",
+  ""Panel"": ""<panel>""
+}
+"
+"From the following figure caption, extract the following for each size descriptor:
+1. **Descriptor Type** (e.g., Magnification, Scale Bar, etc.)
+2. **Value** and **Units** (e.g., 100x, 50 microns)
+3. **Notes** (original text describing the size in the caption)
+4. **Panel** (the panel number or identifier for the description)
+
+Ensure each part of the description is correctly aligned and grouped for each panel.
+
+Output format:
+{
+  ""Descriptor Type"": ""<type of descriptor>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<units>"",
+  ""Notes"": ""<text from figure caption describing the size>"",
+  ""Panel"": ""<panel identifier>""
+}
+"
+"Extract the following components for each size description from the provided figure caption:
+1. **Descriptor Type**: The descriptor's type (e.g., Magnification, Scale Bar, Pixel Size)
+2. **Value**: The numerical size (e.g., 100x, 50 microns)
+3. **Units**: The unit of measurement (e.g., x, microns)
+4. **Notes**: The original text that describes the size
+5. **Panel**: The panel associated with each size description
+
+Make sure each size description is matched to its correct descriptor, value, units, notes, and panel.
+
+Output format:
+{
+  ""Descriptor Type"": ""<type of descriptor>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<unit>"",
+  ""Notes"": ""<full description>"",
+  ""Panel"": ""<panel>""
+}
+"
+"From the following figure caption, extract each size descriptor¡¯s details:
+1. **Descriptor Type**: Magnification, Scale Bar, etc.
+2. **Value**: The numerical value (e.g., 100x, 50 microns)
+3. **Units**: The unit (e.g., x, microns)
+4. **Notes**: The text in the figure caption describing the size
+5. **Panel**: The panel where the size is located
+
+Ensure that each field is extracted and matched correctly.
+
+Output format:
+{
+  ""Descriptor Type"": ""<descriptor type>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<unit>"",
+  ""Notes"": ""<description>"",
+  ""Panel"": ""<panel>""
+}
+"
+"Please extract the following for each size description in the given figure caption:
+1. **Descriptor Type** (e.g., Magnification, Scale Bar, etc.)
+2. **Value** (the numerical value of the size, e.g., 100, 50)
+3. **Units** (the corresponding units for the value, e.g., x, microns)
+4. **Notes** (the exact original description from the figure caption)
+5. **Panel** (the panel where the size descriptor appears)
+
+Ensure all extracted information is accurate and correctly aligned.
+
+Output format:
+{
+  ""Descriptor Type"": ""<descriptor type>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<units>"",
+  ""Notes"": ""<full text describing the size>"",
+  ""Panel"": ""<panel>""
+}
+"
+"From the following figure caption, extract for each size descriptor:
+1. **Descriptor Type** (such as Magnification, Scale Bar, etc.)
+2. **Value** (the numerical value such as 100x, 50 microns)
+3. **Units** (e.g., x, microns)
+4. **Notes** (the original description of the size in the figure caption)
+5. **Panel** (the corresponding panel information)
+
+Ensure each size descriptor is paired accurately with the correct descriptor type, value, units, notes, and panel.
+
+Output format:
+{
+  ""Descriptor Type"": ""<type>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<units>"",
+  ""Notes"": ""<original description>"",
+  ""Panel"": ""<panel>""
+}
+"
+"From the figure caption below, extract the following details for each size descriptor:
+1. **Descriptor Type**: The type of descriptor (e.g., Magnification, Scale Bar)
+2. **Value**: The numerical value (e.g., 100, 50)
+3. **Units**: The units (e.g., x, microns)
+4. **Notes**: The text from the figure caption describing the size
+5. **Panel**: The panel corresponding to this size description
+
+Please make sure to align each size descriptor with the correct value, units, and panel.
+
+Output format:
+{
+  ""Descriptor Type"": ""<descriptor type>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<units>"",
+  ""Notes"": ""<caption description>"",
+  ""Panel"": ""<panel>""
+}
+"
+"From the figure caption provided, extract the following for each size descriptor:
+1. **Descriptor Type** (e.g., Magnification, Scale Bar, Section Thickness, etc.)
+2. **Value** (e.g., 100x, 50 microns)
+3. **Units** (x, microns, etc.)
+4. **Notes** (the original text describing the size in the figure caption)
+5. **Panel** (the panel that contains the size descriptor)
+
+Ensure that all fields (Descriptor Type, Value, Units, Notes, and Panel) are matched correctly.
+
+Output format:
+{
+  ""Descriptor Type"": ""<descriptor type>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<units>"",
+  ""Notes"": ""<exact description from figure caption>"",
+  ""Panel"": ""<panel identifier>""
+}
+"
+"For each size description in the following figure caption:
+1. Identify the **Descriptor Type** (e.g., Magnification, Scale Bar, etc.)
+2. Extract the **Value** (e.g., 100x, 50 microns) and the **Units** (e.g., x, microns)
+3. Extract the **Notes** (the original description from the figure caption describing the size)
+4. Determine the **Panel** (which panel this description belongs to)
+
+Ensure that all extracted information corresponds correctly to each descriptor type and is aligned with the appropriate panel.
+
+Output format:
+{
+  ""Descriptor Type"": ""<type of descriptor>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<units>"",
+  ""Notes"": ""<full description from the caption>"",
+  ""Panel"": ""<panel>""
+}
+"
+"From the provided figure caption, extract the following components for each size descriptor:
+1. **Descriptor Type** (e.g., Magnification, Scale Bar)
+2. **Value** (numerical size, e.g., 100, 50)
+3. **Units** (e.g., x, microns)
+4. **Notes** (the full description from the figure caption)
+5. **Panel** (the panel identifier where this description is located)
+
+Group all details related to each descriptor type in a consistent structure.
+
+Output format:
+{
+  ""Descriptor Type"": ""<type>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<units>"",
+  ""Notes"": ""<full description from figure caption>"",
+  ""Panel"": ""<panel>""
+}
+"
+"Extract the following for each size descriptor in the figure caption:
+1. **Descriptor Type** (such as Magnification, Scale Bar, etc.)
+2. **Value** (numerical value such as 100, 50, etc.)
+3. **Units** (e.g., x, microns)
+4. **Notes** (the full description of the size from the figure caption)
+5. **Panel** (the panel where this size description is found)
+
+Ensure that all elements are extracted and paired accurately in the final result.
+
+Output format:
+{
+  ""Descriptor Type"": ""<type of descriptor>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<units>"",
+  ""Notes"": ""<exact description from the caption>"",
+  ""Panel"": ""<panel identifier>""
+}
+"
+"For each size descriptor in the provided figure caption, please extract:
+1. **Descriptor Type** (e.g., Magnification, Scale Bar)
+2. **Value and Units** (e.g., 100x, 50 microns)
+3. **Notes** (original text describing the size)
+4. **Panel** (panel associated with the size description)
+
+Ensure each size descriptor has the full, accurate extraction of its details.
+
+Output format:
+{
+  ""Descriptor Type"": ""<descriptor type>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<unit>"",
+  ""Notes"": ""<description from figure caption>"",
+  ""Panel"": ""<panel>""
+}
+"
+"From the following figure caption, please extract the following details for each size descriptor:
+1. **Descriptor Type** (e.g., Magnification, Scale Bar, Pixel Size, etc.)
+2. **Value** (e.g., 100x, 50 microns)
+3. **Units** (e.g., x, microns)
+4. **Notes** (the exact description of the size from the figure caption)
+5. **Panel** (the panel in which this description appears)
+
+Ensure that each part of the size description is correctly identified and paired with its corresponding value, units, and panel.
+
+Output format:
+{
+  ""Descriptor Type"": ""<type of descriptor>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<unit>"",
+  ""Notes"": ""<exact description from caption>"",
+  ""Panel"": ""<panel>""
+}
+"
+"From the following figure caption, extract:
+1. **Descriptor Type** (e.g., Magnification, Scale Bar, Pixel Size, etc.)
+2. **Value** (the numerical value such as 100, 50, etc.)
+3. **Units** (e.g., x, microns)
+4. **Notes** (original description of the size from the caption)
+5. **Panel** (the panel number or identifier)
+
+Ensure that each **Value** and **Units** are matched correctly with the appropriate **Descriptor Type** and **Notes**.
+
+Output format:
+{
+  ""Descriptor Type"": ""<descriptor type>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<unit>"",
+  ""Notes"": ""<full description>"",
+  ""Panel"": ""<panel identifier>""
+}
+"
+"For each size descriptor in the following figure caption, extract:
+1. **Descriptor Type** (e.g., Magnification, Scale Bar, Section Thickness)
+2. **Value and Units** (e.g., 100x, 50 microns)
+3. **Notes** (the original text from the figure caption that describes the size)
+4. **Panel** (the panel where this size is described)
+
+Ensure that each component (value, unit, notes, and panel) is paired correctly with its respective descriptor type.
+
+Output format:
+{
+  ""Descriptor Type"": ""<descriptor type>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<units>"",
+  ""Notes"": ""<description from caption>"",
+  ""Panel"": ""<panel>""
+}
+"
+"From the figure caption below, extract the following for each size descriptor:
+1. **Descriptor Type** (e.g., Magnification, Scale Bar)
+2. **Value** and **Units** (e.g., 100x, 50 microns)
+3. **Notes** (the text from the figure caption describing the size)
+4. **Panel** (the corresponding panel identifier)
+
+Ensure that all components are accurately extracted and displayed in the format below.
+
+Output format:
+{
+  ""Descriptor Type"": ""<descriptor type>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<unit>"",
+  ""Notes"": ""<full description from the caption>"",
+  ""Panel"": ""<panel>""
+}
+"
+"For each size descriptor in the provided figure caption, please extract:
+1. **Descriptor Type** (such as Magnification, Scale Bar, Section Thickness, etc.)
+2. **Value** (the numerical size, e.g., 100x, 50 microns)
+3. **Units** (e.g., x, microns)
+4. **Notes** (the original text from the figure caption)
+5. **Panel** (the panel associated with this description)
+
+Make sure each extracted part is clearly matched and accurately paired.
+
+Output format:
+{
+  ""Descriptor Type"": ""<descriptor type>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<unit>"",
+  ""Notes"": ""<description>"",
+  ""Panel"": ""<panel>""
+}
+"
+"From the provided figure caption, extract the following details for each size description:
+1. **Descriptor Type**: The type of descriptor (e.g., Magnification, Scale Bar, Section Thickness, etc.)
+2. **Value**: The numerical value associated with the size descriptor (e.g., 100x, 50 microns)
+3. **Units**: The corresponding units for the value (e.g., x, microns)
+4. **Notes**: The exact description from the figure caption for this size
+5. **Panel**: The panel that corresponds to this size description
+
+Ensure each descriptor, value, unit, notes, and panel are properly aligned.
+
+Output format:
+{
+  ""Descriptor Type"": ""<descriptor type>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<units>"",
+  ""Notes"": ""<original description>"",
+  ""Panel"": ""<panel>""
+}
+"
+"For each size descriptor in the figure caption, extract the following:
+1. **Descriptor Type** (e.g., Magnification, Scale Bar, etc.)
+2. **Value** (numerical size, e.g., 100x, 50 microns)
+3. **Units** (e.g., x, microns)
+4. **Notes** (the full description of the size from the figure caption)
+5. **Panel** (the corresponding panel for the size description)
+
+Ensure that the Notes section corresponds correctly with the appropriate Descriptor Type, Value, Units, and Panel.
+
+Output format:
+{
+  ""Descriptor Type"": ""<type of descriptor>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<unit>"",
+  ""Notes"": ""<description from figure caption>"",
+  ""Panel"": ""<panel>""
+}
+"
+"From the following figure caption, extract:
+1. **Descriptor Type** (e.g., Magnification, Scale Bar, Pixel Size)
+2. **Value** (e.g., 100x, 50 microns)
+3. **Units** (e.g., x, microns)
+4. **Notes** (the original description of the size from the figure caption)
+5. **Panel** (the panel associated with this size description)
+
+Ensure the units are accurately matched with the correct value and descriptor type.
+
+Output format:
+{
+  ""Descriptor Type"": ""<descriptor type>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<units>"",
+  ""Notes"": ""<text from caption describing the size>"",
+  ""Panel"": ""<panel>""
+}
+"
+"For each size description in the figure caption, extract the following:
+1. **Descriptor Type** (e.g., Magnification, Scale Bar, etc.)
+2. **Value and Units** (e.g., 100x, 50 microns)
+3. **Notes** (the exact description from the figure caption)
+4. **Panel** (the panel identifier where the description is found)
+
+Please ensure each extracted component corresponds directly to the correct size descriptor.
+
+Output format:
+{
+  ""Descriptor Type"": ""<type>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<units>"",
+  ""Notes"": ""<description>"",
+  ""Panel"": ""<panel>""
+}
+"
+"From the following figure caption, extract the following:
+1. **Descriptor Type** (e.g., Magnification, Scale Bar, Pixel Size, etc.)
+2. **Value** and **Units** (e.g., 100x, 50 microns)
+3. **Notes** (the full description of the size)
+4. **Panel** (the corresponding panel identifier)
+
+Make sure the Notes section is accurately matched with the correct Descriptor Type and Panel.
+
+Output format:
+{
+  ""Descriptor Type"": ""<descriptor type>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<units>"",
+  ""Notes"": ""<original description>"",
+  ""Panel"": ""<panel>""
+}
+"
+"For each size descriptor in the following figure caption, extract and structure the following:
+1. **Descriptor Type** (e.g., Magnification, Scale Bar, Pixel Size)
+2. **Value** (the numerical value, such as 100x, 50 microns)
+3. **Units** (e.g., x, microns)
+4. **Notes** (the original description from the figure caption)
+5. **Panel** (the panel in which the size description appears)
+
+Ensure clarity in matching each part of the description with its appropriate information.
+
+Output format:
+{
+  ""Descriptor Type"": ""<descriptor type>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<units>"",
+  ""Notes"": ""<full description>"",
+  ""Panel"": ""<panel>""
+}
+"
+"From the following figure caption, please extract the following details for each size description:
+1. **Descriptor Type** (e.g., Magnification, Scale Bar, etc.)
+2. **Value** (e.g., 100x, 50 microns)
+3. **Units** (e.g., x, microns)
+4. **Notes** (the full description of the size from the figure caption)
+5. **Panel** (the corresponding panel identifier)
+
+Make sure to focus on ensuring that the panel is accurately matched with the correct size description.
+
+Output format:
+{
+  ""Descriptor Type"": ""<descriptor type>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<units>"",
+  ""Notes"": ""<description>"",
+  ""Panel"": ""<panel>""
+}
+"
+"Please extract the following details for each size description in the provided figure caption:
+1. **Descriptor Type** (such as Magnification, Scale Bar, etc.)
+2. **Value** and **Units** (e.g., 100x, 50 microns)
+3. **Notes** (the original description from the figure caption)
+4. **Panel** (the panel where this size description is located)
+
+Ensure each piece of data aligns properly and is matched with the correct descriptor.
+
+Output format:
+{
+  ""Descriptor Type"": ""<type>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<units>"",
+  ""Notes"": ""<description from the caption>"",
+  ""Panel"": ""<panel>""
+}
+"
+"From the provided figure caption, extract:
+1. **Descriptor Type** (e.g., Magnification, Scale Bar, Pixel Size)
+2. **Value** (numerical value such as 100, 50)
+3. **Units** (e.g., x, microns)
+4. **Notes** (the full original description of the size from the figure caption)
+5. **Panel** (the panel identifier where the description is located)
+
+Ensure each size description is accurately matched to its corresponding panel.
+
+Output format:
+{
+  ""Descriptor Type"": ""<descriptor type>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<units>"",
+  ""Notes"": ""<full description from the caption>"",
+  ""Panel"": ""<panel>""
+}
+"
+"For the following figure caption, extract the following details:
+1. **Descriptor Type** (e.g., Magnification, Scale Bar, Pixel Size, etc.)
+2. **Value** (numerical value, e.g., 100x, 50 microns)
+3. **Units** (e.g., x, microns)
+4. **Notes** (the text describing the size in the caption)
+5. **Panel** (the panel where the description appears)
+
+Ensure the correct extraction of each element associated with the size descriptor.
+
+Output format:
+{
+  ""Descriptor Type"": ""<descriptor type>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<units>"",
+  ""Notes"": ""<description>"",
+  ""Panel"": ""<panel>""
+}
+"
+"From the figure caption below, extract the following details:
+1. **Descriptor Type** (e.g., Magnification, Scale Bar)
+2. **Value and Units** (e.g., 100x, 50 microns)
+3. **Notes** (original description from the figure caption)
+4. **Panel** (panel number or identifier)
+
+Ensure that the **Panel** is properly aligned with its respective **Descriptor Type**, **Value**, **Units**, and **Notes**.
+
+Output format:
+{
+  ""Descriptor Type"": ""<descriptor type>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<units>"",
+  ""Notes"": ""<full description from the caption>"",
+  ""Panel"": ""<panel>""
+}
+"
+"For each size descriptor in the figure caption, extract the following:
+1. **Descriptor Type** (e.g., Magnification, Scale Bar, Section Thickness, etc.)
+2. **Value** and **Units** (e.g., 100x, 50 microns)
+3. **Notes** (the full description of the size from the figure caption)
+4. **Panel** (the panel corresponding to the size description)
+
+Please ensure that all parts are correctly matched to their respective descriptors.
+
+Output format:
+{
+  ""Descriptor Type"": ""<descriptor type>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<unit>"",
+  ""Notes"": ""<full description from figure caption>"",
+  ""Panel"": ""<panel>""
+}
+"
+"From the following figure caption, extract each size descriptor's information:
+1. **Descriptor Type** (such as Magnification, Scale Bar, etc.)
+2. **Value** (e.g., 100x, 50 microns)
+3. **Units** (e.g., x, microns)
+4. **Notes** (the original description of the size)
+5. **Panel** (the panel where the description is located)
+
+Make sure to keep each description aligned with the correct value, unit, and panel information.
+
+Output format:
+{
+  ""Descriptor Type"": ""<descriptor type>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<units>"",
+  ""Notes"": ""<original description>"",
+  ""Panel"": ""<panel>""
+}
+"
+"From the figure caption, extract:
+1. **Descriptor Type** (e.g., Magnification, Scale Bar)
+2. **Value** (numerical value, e.g., 100, 50)
+3. **Units** (e.g., x, microns)
+4. **Notes** (description of the size from the figure caption)
+5. **Panel** (panel in which the size description is located)
+
+Ensure that the **Notes** are aligned with the **Descriptor Type**, **Value**, **Units**, and **Panel**.
+
+Output format:
+{
+  ""Descriptor Type"": ""<descriptor type>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<units>"",
+  ""Notes"": ""<description>"",
+  ""Panel"": ""<panel>""
+}
+"
+"For each size descriptor in the following figure caption, extract:
+1. **Descriptor Type** (e.g., Magnification, Scale Bar)
+2. **Value and Units** (e.g., 100x, 50 microns)
+3. **Notes** (full description of the size)
+4. **Panel** (the panel where this description appears)
+
+Ensure that each size description is grouped with the correct value, unit, and panel information.
+
+Output format:
+{
+  ""Descriptor Type"": ""<descriptor type>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<units>"",
+  ""Notes"": ""<description from caption>"",
+  ""Panel"": ""<panel>""
+}
+"
+"From the following figure caption, extract the following information for each size descriptor:
+1. **Descriptor Type** (e.g., Magnification, Scale Bar, etc.)
+2. **Value** and **Units** (e.g., 100x, 50 microns)
+3. **Notes** (the exact text describing the size from the caption)
+4. **Panel** (the corresponding panel identifier)
+
+Make sure each part is properly matched to its respective descriptor type and the correct panel.
+
+Output format:
+{
+  ""Descriptor Type"": ""<descriptor type>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<units>"",
+  ""Notes"": ""<original description>"",
+  ""Panel"": ""<panel>""
+}
+"
+"For each size descriptor in the following figure caption, extract and align:
+1. **Descriptor Type** (e.g., Magnification, Scale Bar)
+2. **Value** and **Units** (e.g., 100x, 50 microns)
+3. **Notes** (the description of the size in the figure caption)
+4. **Panel** (panel number or identifier)
+
+Ensure that each description is aligned with its appropriate type, value, units, and panel.
+
+Output format:
+{
+  ""Descriptor Type"": ""<type>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<units>"",
+  ""Notes"": ""<full description from the figure caption>"",
+  ""Panel"": ""<panel>""
+}
+"
+"From the following figure caption, extract the following details:
+1. **Descriptor Type** (e.g., Magnification, Scale Bar)
+2. **Value** (the size value, e.g., 100x, 50 microns)
+3. **Units** (e.g., x, microns)
+4. **Notes** (the text describing the size from the figure caption)
+5. **Panel** (the panel where the size description appears)
+
+Ensure each descriptor type is accurately paired with its value, units, and panel.
+
+Output format:
+{
+  ""Descriptor Type"": ""<descriptor type>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<unit>"",
+  ""Notes"": ""<description from the caption>"",
+  ""Panel"": ""<panel>""
+}
+"
+"For each size description in the provided figure caption, extract:
+1. **Descriptor Type** (e.g., Magnification, Scale Bar)
+2. **Value and Units** (e.g., 100x, 50 microns)
+3. **Notes** (the description of the size from the caption)
+4. **Panel** (the panel that contains the size description)
+
+Ensure the **Panel** is matched with the correct **Descriptor Type**, **Value**, and **Notes**.
+
+Output format:
+{
+  ""Descriptor Type"": ""<descriptor type>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<units>"",
+  ""Notes"": ""<full description from figure caption>"",
+  ""Panel"": ""<panel>""
+}
+"
+"From the figure caption below, extract and group the following information for each size description:
+1. **Descriptor Type** (e.g., Magnification, Scale Bar)
+2. **Value and Units** (e.g., 100x, 50 microns)
+3. **Notes** (the full original description of the size)
+4. **Panel** (the panel identifier)
+
+Ensure the grouping of each description with the correct value, units, notes, and panel.
+
+Output format:
+{
+  ""Descriptor Type"": ""<descriptor type>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<units>"",
+  ""Notes"": ""<description from caption>"",
+  ""Panel"": ""<panel>""
+}
+"
+"From the following figure caption, extract the following details for each size descriptor:
+1. **Descriptor Type** (e.g., Magnification, Scale Bar, etc.)
+2. **Value** (the numerical size, e.g., 100, 50)
+3. **Units** (e.g., x, microns)
+4. **Notes** (the description of the size in the caption)
+5. **Panel** (the corresponding panel)
+
+Make sure that each size description's value, units, notes, and panel are correctly aligned.
+
+Output format:
+{
+  ""Descriptor Type"": ""<descriptor type>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<unit>"",
+  ""Notes"": ""<full description>"",
+  ""Panel"": ""<panel>""
+}
+"
+"From the figure caption, extract the following details for each size description:
+1. **Descriptor Type** (e.g., Magnification, Scale Bar)
+2. **Value and Units** (e.g., 100x, 50 microns)
+3. **Notes** (the full description from the figure caption)
+4. **Panel** (panel identifier)
+
+Ensure that each size description is correctly matched to its respective descriptor type, value, units, and panel.
+
+Output format:
+{
+  ""Descriptor Type"": ""<descriptor type>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<units>"",
+  ""Notes"": ""<description>"",
+  ""Panel"": ""<panel>""
+}
+"
+"For each size descriptor in the following figure caption, extract:
+1. **Descriptor Type** (e.g., Magnification, Scale Bar, etc.)
+2. **Value** and **Units** (e.g., 100x, 50 microns)
+3. **Notes** (full description from the caption)
+4. **Panel** (the panel number or identifier)
+
+Ensure that the **Panel** is accurately aligned with the corresponding size descriptor, value, and units.
+
+Output format:
+{
+  ""Descriptor Type"": ""<descriptor type>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<units>"",
+  ""Notes"": ""<full description>"",
+  ""Panel"": ""<panel>""
+}
+"
+"From the following figure caption, extract the essential details for each size descriptor:
+- Descriptor Type (e.g., Magnification, Scale Bar)
+- Value (numerical figure)
+- Units (e.g., x, microns)
+- Notes (the exact text describing the size)
+- Panel (the corresponding panel)
+
+Output format:
+{
+  ""Descriptor Type"": ""<descriptor type>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<units>"",
+  ""Notes"": ""<exact description>"",
+  ""Panel"": ""<panel>""
+}
+"
+"Extract from the provided figure caption for each size descriptor:
+1. **Descriptor Type** (e.g., Magnification, Scale Bar, etc.)
+2. **Value** (the numerical part, e.g., 100, 50)
+3. **Units** (the measurement unit, e.g., x, microns)
+4. **Notes** (the original text that describes the size exactly as in the caption)
+5. **Panel** (the panel identifier where the descriptor is mentioned)
+
+Output format:
+{
+  ""Descriptor Type"": ""<descriptor type>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<units>"",
+  ""Notes"": ""<original text>"",
+  ""Panel"": ""<panel>""
+}
+"
+"For each size descriptor in the figure caption, extract:
+- Descriptor Type (e.g., Magnification, Scale Bar, etc.)
+- Value (e.g., 100, 50)
+- Units (e.g., x, microns)
+- Notes (the full original description of the size)
+- Panel (the corresponding panel)
+
+Make sure every field is consistently formatted and aligned.
+
+Output format:
+{
+  ""Descriptor Type"": ""<descriptor type>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<units>"",
+  ""Notes"": ""<full original description>"",
+  ""Panel"": ""<panel>""
+}
+"
+"From the following figure caption, extract the following details for each size descriptor with clear formatting:
+1. **Descriptor Type**: The type of size descriptor (e.g., Magnification, Scale Bar).
+2. **Value**: The numerical value associated (e.g., 100, 50).
+3. **Units**: The unit of measurement (e.g., x, microns).
+4. **Notes**: The exact phrase from the caption that describes the size.
+5. **Panel**: The panel identifier where the description appears.
+
+Output format:
+{
+  ""Descriptor Type"": ""<descriptor type>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<units>"",
+  ""Notes"": ""<exact phrase from caption>"",
+  ""Panel"": ""<panel>""
+}
+"
+"Extract from the figure caption for each size descriptor:
+- **Descriptor Type** (e.g., Magnification, Scale Bar, etc.)
+- **Value** (the numerical value, e.g., 100, 50)
+- **Units** (the measurement unit, e.g., x, microns)
+- **Notes** (the complete text snippet that describes the size)
+- **Panel** (the corresponding panel where this description is located)
+
+Ensure that every detail is precisely paired with its corresponding descriptor.
+
+Output format:
+{
+  ""Descriptor Type"": ""<descriptor type>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<units>"",
+  ""Notes"": ""<complete description>"",
+  ""Panel"": ""<panel>""
+}
+"
+"Extract from the figure caption for each size descriptor:
+- **Descriptor Type** (e.g., Magnification, Scale Bar, etc.)
+- **Value** (the numerical value, e.g., 100, 50)
+- **Units** (the measurement unit, e.g., x, microns)
+- **Notes** (the complete text snippet that describes the size)
+- **Panel** (the corresponding panel where this description is located)
+
+Ensure that every detail is precisely paired with its corresponding descriptor.
+
+Output format:
+{
+  ""Descriptor Type"": ""<descriptor type>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<units>"",
+  ""Notes"": ""<complete description>"",
+  ""Panel"": ""<panel>""
+}
+"
+"From the following figure caption, extract for each size descriptor:
+- Descriptor Type (e.g., Magnification, Scale Bar, etc.)
+- Value+Unit (e.g., ""100x"", ""50 microns"" ¡ª combine the numerical value and its unit into one field)
+- Notes (the exact text from the caption describing the size)
+- Panel (the panel identifier where the description appears)
+
+Output format:
+{
+  ""Descriptor Type"": ""<descriptor type>"",
+  ""Value+Unit"": ""<combined value and unit>"",
+  ""Notes"": ""<exact description from caption>"",
+  ""Panel"": ""<panel>""
+}
+"
+"Extract the following details in the order they appear in the figure caption for each size descriptor:
+1. Descriptor Type (e.g., Magnification, Scale Bar, etc.)
+2. Value (the numerical component, e.g., 100, 50)
+3. Units (e.g., x, microns)
+4. Notes (the exact phrase describing the size as it appears in the caption)
+5. Panel (the corresponding panel identifier)
+
+Output format:
+{
+  ""Descriptor Type"": ""<descriptor type>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<units>"",
+  ""Notes"": ""<exact text from caption>"",
+  ""Panel"": ""<panel>""
+}
+"
+"From the provided figure caption, extract for each size descriptor the following clearly defined fields:
+- Descriptor Type: Identify the type (e.g., Magnification, Scale Bar, Pixel Size)
+- Value: The numerical figure (e.g., 100, 50)
+- Units: The measurement unit (e.g., x, microns)
+- Notes: The full, original snippet describing the size from the caption
+- Panel: The panel number or letter where the descriptor is mentioned
+
+Output format:
+{
+  ""Descriptor Type"": ""<descriptor type>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<units>"",
+  ""Notes"": ""<full original snippet>"",
+  ""Panel"": ""<panel>""
+}
+"
+"For each size descriptor in the figure caption, extract the following details:
+- Descriptor Type (e.g., Magnification, Scale Bar, etc.)
+- Value (e.g., 100, 50)
+- Units (e.g., x, microns)
+- Notes (the complete sentence or phrase describing the size)
+- Panel (the panel identifier where this description appears)
+Additionally, if available, include any contextual modifiers (e.g., ""approx."", ""estimated"") as part of the Notes.
+
+Output format:
+{
+  ""Descriptor Type"": ""<descriptor type>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<units>"",
+  ""Notes"": ""<complete descriptive sentence, including modifiers if any>"",
+  ""Panel"": ""<panel>""
+}
+"
+"Extract the following for each size descriptor in the figure caption using camelCase for field names:
+- descriptorType (e.g., Magnification, Scale Bar, etc.)
+- value (the numerical part, e.g., 100, 50)
+- units (e.g., x, microns)
+- notes (the exact text describing the size)
+- panel (the panel identifier)
+
+Output format:
+{
+  ""descriptorType"": ""<descriptor type>"",
+  ""value"": ""<value>"",
+  ""units"": ""<units>"",
+  ""notes"": ""<exact text from caption>"",
+  ""panel"": ""<panel>""
+}
+"
+"From the following figure caption, extract each size descriptor into a list of objects with the following fields:
+- ""Descriptor Type"" (e.g., Magnification, Scale Bar, etc.)
+- ""Value"" (numerical part, e.g., 100, 50)
+- ""Units"" (e.g., x, microns)
+- ""Notes"" (the exact text snippet describing the size)
+- ""Panel"" (the panel identifier)
+
+Output should be a JSON list, for example:
+[
+  {
+    ""Descriptor Type"": ""<descriptor type>"",
+    ""Value"": ""<value>"",
+    ""Units"": ""<units>"",
+    ""Notes"": ""<exact description>"",
+    ""Panel"": ""<panel>""
+  },
+  ...
+]
+"
+"Extract each size descriptor from the figure caption and assign a unique ""ID"" along with the following fields:
+- ""ID"": a unique identifier for the descriptor
+- ""Descriptor Type"" (e.g., Magnification, Scale Bar, etc.)
+- ""Value"" (numerical part, e.g., 100, 50)
+- ""Units"" (e.g., x, microns)
+- ""Notes"" (the full text describing the size)
+- ""Panel"" (the panel identifier)
+
+Output format:
+[
+  {
+    ""ID"": ""1"",
+    ""Descriptor Type"": ""<descriptor type>"",
+    ""Value"": ""<value>"",
+    ""Units"": ""<units>"",
+    ""Notes"": ""<description>"",
+    ""Panel"": ""<panel>""
+  },
+  ...
+]
+"
+"From the following figure caption, extract for each size descriptor:
+- ""Descriptor Type"" (e.g., Magnification, Scale Bar, etc.)
+- ""ValueUnit"": A combined field containing both the numerical value and its unit (e.g., ""100x"" or ""50 microns"")
+- ""Notes"": The exact text from the caption that describes the size
+- ""Panel"": The panel identifier where this descriptor appears
+
+Output format:
+{
+  ""Descriptor Type"": ""<descriptor type>"",
+  ""ValueUnit"": ""<combined value and unit>"",
+  ""Notes"": ""<exact description>"",
+  ""Panel"": ""<panel>""
+}
+"
+"Extract from the provided figure caption each size descriptor while preserving the order in which they appear. For each descriptor, include:
+1. ""Descriptor Type"" (e.g., Magnification, Scale Bar, etc.)
+2. ""Value"" (the numerical value, e.g., 100, 50)
+3. ""Units"" (e.g., x, microns)
+4. ""Notes"" (the exact phrase as it appears in the caption)
+5. ""Panel"" (the corresponding panel identifier)
+
+Output format:
+[
+  {
+    ""Descriptor Type"": ""<descriptor type>"",
+    ""Value"": ""<value>"",
+    ""Units"": ""<units>"",
+    ""Notes"": ""<original phrase>"",
+    ""Panel"": ""<panel>""
+  },
+  ...
+]
+"
+"From the figure caption, extract the following for each size descriptor. If any additional comments or modifiers (e.g., ""approximately"", ""estimated"") are present in the description, include them in a ""Comments"" field; otherwise, leave it blank.
+- ""Descriptor Type"" (e.g., Magnification, Scale Bar, etc.)
+- ""Value"" (numerical value, e.g., 100, 50)
+- ""Units"" (e.g., x, microns)
+- ""Notes"" (the complete original description of the size)
+- ""Panel"" (the panel identifier)
+
+Output format:
+{
+  ""Descriptor Type"": ""<descriptor type>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<units>"",
+  ""Notes"": ""<full description>"",
+  ""Panel"": ""<panel>""
+}"
+"From the following figure caption, extract each size descriptor along with any contextual phrases that immediately precede or follow it. For each descriptor, include:
+- ""Descriptor Type"" (e.g., Magnification, Scale Bar, etc.)
+- ""Value"" (the numerical figure, e.g., 100, 50)
+- ""Units"" (e.g., x, microns)
+- ""Context"" (any words or phrases immediately surrounding the size descriptor)
+- ""Notes"" (the exact snippet describing the size)
+- ""Panel"" (the panel identifier)
+
+Output format:
+{
+  ""Descriptor Type"": ""<descriptor type>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<units>"",
+  ""Context"": ""<contextual phrase>"",
+  ""Notes"": ""<exact description>"",
+  ""Panel"": ""<panel>""
+}
+"
+"Extract from the provided figure caption each size descriptor and separate any modifiers into two fields:
+- ""Descriptor Type"" (e.g., Magnification, Scale Bar, etc.)
+- ""Value"" (numerical value, e.g., 100, 50)
+- ""Units"" (e.g., x, microns)
+- ""PreModifier"" (text appearing immediately before the size descriptor, if any)
+- ""PostModifier"" (text appearing immediately after the size descriptor, if any)
+- ""Notes"" (the complete phrase from the caption describing the size)
+- ""Panel"" (the corresponding panel identifier)
+
+Output format:
+{
+  ""Descriptor Type"": ""<descriptor type>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<units>"",
+  ""PreModifier"": ""<modifier before, or leave blank>"",
+  ""PostModifier"": ""<modifier after, or leave blank>"",
+  ""Notes"": ""<full description>"",
+  ""Panel"": ""<panel>""
+}
+"
+"For the following figure caption, extract each size descriptor and maintain a hierarchical structure:
+- ""Section"": The section of the caption where the descriptor is found (if applicable)
+- ""Descriptor Type"" (e.g., Magnification, Scale Bar)
+- ""Value"" (e.g., 100, 50)
+- ""Units"" (e.g., x, microns)
+- ""Notes"" (the exact text describing the size)
+- ""Panel"" (the panel identifier)
+
+Output format:
+{
+  ""Section"": ""<section of caption (if applicable)>"",
+  ""Descriptor Type"": ""<descriptor type>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<units>"",
+  ""Notes"": ""<exact description>"",
+  ""Panel"": ""<panel>""
+}
+"
+"From the figure caption, extract details for each size descriptor. Additionally, check if any date/time or extra attribute is mentioned with the descriptor and include it in an ""Extra"" field.
+- ""Descriptor Type"" (e.g., Magnification, Scale Bar)
+- ""Value"" (numerical part, e.g., 100, 50)
+- ""Units"" (e.g., x, microns)
+- ""Notes"" (the full text snippet describing the size)
+- ""Panel"" (the panel identifier)
+- ""Extra"" (any additional attribute such as a date, time, or modifier; otherwise, leave blank)
+
+Output format:
+{
+  ""Descriptor Type"": ""<descriptor type>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<units>"",
+  ""Notes"": ""<full description>"",
+  ""Panel"": ""<panel>"",
+  ""Extra"": ""<additional attribute or blank>""
+}
+"
+"From the following figure caption, extract each size descriptor and output a simple JSON array where each element contains:
+- ""Descriptor Type"" (e.g., Magnification, Scale Bar)
+- ""Value"" (e.g., 100, 50)
+- ""Units"" (e.g., x, microns)
+- ""Notes"" (the exact description from the caption)
+- ""Panel"" (the panel identifier)
+
+Output format:
+[
+  {
+    ""Descriptor Type"": ""<descriptor type>"",
+    ""Value"": ""<value>"",
+    ""Units"": ""<units>"",
+    ""Notes"": ""<exact description>"",
+    ""Panel"": ""<panel>""
+  },
+  ...
+]
+"
+"From the figure caption below, extract each size descriptor along with surrounding contextual segments. For each descriptor, include:
+- ""Descriptor Type"" (e.g., Magnification, Scale Bar, etc.)
+- ""Value"" (the numerical part, e.g., 100, 50)
+- ""Units"" (e.g., x, microns)
+- ""ContextBefore"" (a short text segment immediately before the descriptor)
+- ""ContextAfter"" (a short text segment immediately after the descriptor)
+- ""Notes"" (the complete phrase describing the size)
+- ""Panel"" (the panel identifier)
+
+Output format:
+{
+  ""Descriptor Type"": ""<descriptor type>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<units>"",
+  ""ContextBefore"": ""<text before>"",
+  ""ContextAfter"": ""<text after>"",
+  ""Notes"": ""<complete description>"",
+  ""Panel"": ""<panel>""
+}
+"
+"For each size descriptor in the following figure caption, extract the details separated by a delimiter. The fields to extract are:
+- Descriptor Type (e.g., Magnification, Scale Bar, etc.)
+- Value (e.g., 100, 50)
+- Units (e.g., x, microns)
+- Notes (the full descriptive text from the caption)
+- Panel (the panel identifier)
+
+Present the output as a JSON object with each field separated by a specified delimiter (for example, ""||"") in a combined string.
+Example output:
+{
+  ""Combined"": ""Descriptor Type: <descriptor type> || Value: <value> || Units: <units> || Notes: <notes> || Panel: <panel>""
+}
+"
+"Extract the following details for each size descriptor from the figure caption. If any field is not present, return an empty string for that field:
+- ""Descriptor Type"" (e.g., Magnification, Scale Bar)
+- ""Value"" (numerical value, e.g., 100, 50)
+- ""Units"" (e.g., x, microns)
+- ""Notes"" (the exact descriptive text from the caption)
+- ""Panel"" (the panel identifier)
+
+Output format:
+{
+  ""Descriptor Type"": ""<descriptor type or empty>"",
+  ""Value"": ""<value or empty>"",
+  ""Units"": ""<units or empty>"",
+  ""Notes"": ""<notes or empty>"",
+  ""Panel"": ""<panel or empty>""
+}
+"
+"From the provided figure caption, extract the details of each size descriptor and preserve the original order as they appear in the text. For each descriptor, include:
+- ""Descriptor Type"" (e.g., Magnification, Scale Bar, etc.)
+- ""Value"" (e.g., 100, 50)
+- ""Units"" (e.g., x, microns)
+- ""Notes"" (the original description text)
+- ""Panel"" (the panel identifier)
+
+Return the output as a JSON array in the same order as the descriptors appear.
+Example:
+[
+  {
+    ""Descriptor Type"": ""<descriptor type>"",
+    ""Value"": ""<value>"",
+    ""Units"": ""<units>"",
+    ""Notes"": ""<notes>"",
+    ""Panel"": ""<panel>""
+  },
+  ...
+]
+"
+"From the figure caption below, extract each size descriptor along with meta information about the extraction process. For each descriptor, include:
+- ""Descriptor Type"" (e.g., Magnification, Scale Bar)
+- ""Value"" (numerical part, e.g., 100, 50)
+- ""Units"" (e.g., x, microns)
+- ""Notes"" (the complete text describing the size)
+- ""Panel"" (the panel identifier)
+- ""ExtractionConfidence"" (a field to indicate confidence level, e.g., ""high"", ""medium"", ""low"" ¡ª you may default to ""high"" if not specified)
+
+Output format:
+{
+  ""Descriptor Type"": ""<descriptor type>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<units>"",
+  ""Notes"": ""<complete description>"",
+  ""Panel"": ""<panel>"",
+  ""ExtractionConfidence"": ""<confidence level>""
+}
+"
+"From the following figure caption, extract each size descriptor using conditional logic. For each descriptor, include:
+- ""Descriptor Type"" (e.g., Magnification, Scale Bar; if not explicitly mentioned, return ""Unknown"")
+- ""Value"" (numerical value, e.g., 100, 50; if missing, return an empty string)
+- ""Units"" (e.g., x, microns; if missing, return an empty string)
+- ""Notes"" (the exact text snippet describing the size)
+- ""Panel"" (the panel identifier; if not found, return ""None"")
+
+Output format:
+{
+  ""Descriptor Type"": ""<descriptor type or 'Unknown'>"",
+  ""Value"": ""<value or empty>"",
+  ""Units"": ""<units or empty>"",
+  ""Notes"": ""<exact description>"",
+  ""Panel"": ""<panel or 'None'>""
+}
+"
+"Extract the following for each size descriptor from the figure caption using alternative field names:
+- ""descType"" (e.g., Magnification, Scale Bar)
+- ""num"" (the numerical value, e.g., 100, 50)
+- ""unit"" (measurement unit, e.g., x, microns)
+- ""rawText"" (the full text snippet describing the size)
+- ""panelId"" (the panel identifier)
+
+Output format:
+{
+  ""descType"": ""<descriptor type>"",
+  ""num"": ""<value>"",
+  ""unit"": ""<units>"",
+  ""rawText"": ""<full description>"",
+  ""panelId"": ""<panel>""
+}
+"
+"From the following figure caption, extract each size descriptor and group the results by panel. For each panel group, include:
+- ""Panel"" (the panel identifier)
+- ""Descriptors"": A list of objects, each containing:
+  - ""Descriptor Type"" (e.g., Magnification, Scale Bar)
+  - ""Value"" (e.g., 100, 50)
+  - ""Units"" (e.g., x, microns)
+  - ""Notes"" (the exact description from the caption)
+
+Output format:
+[
+  {
+    ""Panel"": ""<panel>"",
+    ""Descriptors"": [
+      {
+        ""Descriptor Type"": ""<descriptor type>"",
+        ""Value"": ""<value>"",
+        ""Units"": ""<units>"",
+        ""Notes"": ""<description>""
+      },
+      ...
+    ]
+  },
+  ...
+]
+"
+"From the provided figure caption, extract the following for each size descriptor:
+- ""Descriptor Type"" (e.g., Magnification, Scale Bar)
+- ""Value"" (numerical value, e.g., 100, 50)
+- ""Units"" (measurement unit, e.g., x, microns)
+- ""Notes"" (the exact text describing the size)
+- ""Panel"" (the panel identifier)
+- ""Commentary"" (any additional explanatory or contextual text adjacent to the descriptor; if none, leave as an empty string)
+
+Output format:
+{
+  ""Descriptor Type"": ""<descriptor type>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<units>"",
+  ""Notes"": ""<exact description>"",
+  ""Panel"": ""<panel>"",
+  ""Commentary"": ""<additional commentary or empty>""
+}
+"
+"For each size descriptor in the figure caption, extract a succinct summary along with key details:
+- ""Descriptor"" (a brief summary combining Descriptor Type, Value, and Units, e.g., ""Magnification 100x"")
+- ""DetailedNotes"" (the full original text describing the size)
+- ""Panel"" (the panel identifier)
+- ""Hint"" (a brief note or hint if any ambiguity is detected in the text; if clear, return ""Clear"")
+
+Output format:
+{
+  ""Descriptor"": ""<brief summary>"",
+  ""DetailedNotes"": ""<full description>"",
+  ""Panel"": ""<panel>"",
+  ""Hint"": ""<hint or 'Clear'>""
+}
+"
+"From the following figure caption, extract each size descriptor using PascalCase for field names. For each descriptor, include:
+- DescriptorType (e.g., Magnification, Scale Bar)
+- Value (the numerical value, e.g., 100, 50)
+- Units (e.g., x, microns)
+- Notes (the exact phrase from the caption that describes the size)
+- Panel (the panel identifier)
+
+Output format:
+{
+  ""DescriptorType"": ""<descriptor type>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<units>"",
+  ""Notes"": ""<exact description>"",
+  ""Panel"": ""<panel>""
+}
+"
+"Extract the following for each size descriptor in the figure caption. If any field is missing, use a fallback value (""Not Provided"" for text fields, ""0"" for numerical values):
+- ""Descriptor Type"" (e.g., Magnification, Scale Bar)
+- ""Value"" (numerical value, e.g., 100, 50)
+- ""Units"" (e.g., x, microns)
+- ""Notes"" (the exact descriptive text)
+- ""Panel"" (the panel identifier)
+
+Output format:
+{
+  ""Descriptor Type"": ""<descriptor type or 'Not Provided'>"",
+  ""Value"": ""<value or '0'>"",
+  ""Units"": ""<units or 'Not Provided'>"",
+  ""Notes"": ""<description or 'Not Provided'>"",
+  ""Panel"": ""<panel or 'Not Provided'>""
+}
+"
+"From the following figure caption, extract each size descriptor with special attention to highlighting the units. For each descriptor, include:
+- ""Descriptor Type"" (e.g., Magnification, Scale Bar)
+- ""Value"" (e.g., 100, 50)
+- ""Units"" (e.g., x, microns, ensure these are clearly identified)
+- ""Notes"" (the full original text describing the size)
+- ""Panel"" (the panel identifier)
+
+Output format:
+{
+  ""Descriptor Type"": ""<descriptor type>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<units>"",
+  ""Notes"": ""<exact description>"",
+  ""Panel"": ""<panel>""
+}
+"
+"From the provided figure caption, extract each size descriptor and also generate an ""AdditionalCommentary"" field that offers any extra context (if available). For each descriptor, include:
+- ""Descriptor Type"" (e.g., Magnification, Scale Bar)
+- ""Value"" (the numerical figure, e.g., 100, 50)
+- ""Units"" (e.g., x, microns)
+- ""Notes"" (the complete text snippet describing the size)
+- ""Panel"" (the panel identifier)
+
+Output format:
+{
+  ""Descriptor Type"": ""<descriptor type>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<units>"",
+  ""Notes"": ""<full description>"",
+  ""Panel"": ""<panel>""
+}
+"
+"From the following figure caption, extract each size descriptor and provide a brief explanation for each field. For each descriptor, include:
+- ""Descriptor Type"" (e.g., Magnification, Scale Bar)
+- ""Value"" (the numerical value, e.g., 100, 50)
+- ""Units"" (e.g., x, microns)
+- ""Notes"" (the exact phrase describing the size)
+- ""Panel"" (the panel identifier)
+
+Output format:
+{
+  ""Descriptor Type"": ""<descriptor type>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<units>"",
+  ""Notes"": ""<exact description>"",
+  ""Panel"": ""<panel>""
+}
+"
+"From the following figure caption, extract each size descriptor. In addition to the required fields, include an ""UncertaintyFlag"" field to indicate whether any ambiguity was detected (""Yes"" or ""No""). For each descriptor, extract:
+- ""Descriptor Type"" (e.g., Magnification, Scale Bar)
+- ""Value"" (the numerical value, e.g., 100, 50)
+- ""Units"" (e.g., x, microns)
+- ""Notes"" (the exact description text)
+- ""Panel"" (the panel identifier)
+
+Output format:
+{
+  ""Descriptor Type"": ""<descriptor type>"",
+  ""Value"": ""<value>"",
+  ""Units"": ""<units>"",
+  ""Notes"": ""<exact description>"",
+  ""Panel"": ""<panel>""
+}
+"

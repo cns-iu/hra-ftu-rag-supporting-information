@@ -1,0 +1,16 @@
+For each size descriptor in the following figure caption, extract:
+1. **Descriptor Type** (e.g., Magnification, Scale Bar, etc.)
+2. **Value** and **Units** (e.g., 100x, 50 microns)
+3. **Notes** (full description from the caption)
+4. **Panel** (the panel number or identifier)
+
+Ensure that the **Panel** is accurately aligned with the corresponding size descriptor, value, and units.
+
+Output format:
+{
+  "Descriptor Type": "<descriptor type>",
+  "Value": "<value>",
+  "Units": "<units>",
+  "Notes": "<full description>",
+  "Panel": "<panel>"
+}

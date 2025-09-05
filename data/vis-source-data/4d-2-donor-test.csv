@@ -1,0 +1,5 @@
+LLM,Similarity,Avg Response Time (s)
+gemma,0.738820106,17.5168
+llama31,0.765300265,29.9482
+llama32,0.650715849,27.832
+qwen,0.769570106,54.29

@@ -1,0 +1,1151 @@
+type,num,itype,pmcid,content,answer
+figure-nodes,1,micro,PMC2171774,"{
+  ""entities"": [
+    ""WT"",
+    ""KO"",
+    ""Umbilical vessel"",
+    ""Epidermal ridge"",
+    ""Liver"",
+    ""Intestine"",
+    ""15.5 dpc"",
+    ""16.5 dpc"",
+    ""Midgut loop"",
+    ""Umbilical ring"",
+    ""Ectoderm"",
+    ""Amnion"",
+    ""Phospho-MLC"",
+    ""Phalloidin"",
+    ""Keratin 5"",
+    ""Phalloidin"",
+    ""Merge""
+  ]
+}
+","{
+  ""entities"": [
+    ""WT"",
+    ""KO"",
+    ""Umbilical vessel"",
+    ""Epidermal ridge"",
+    ""Liver"",
+    ""Intestine"",
+    ""15.5 dpc"",
+    ""16.5 dpc"",
+    ""Midgut loop"",
+    ""Umbilical ring"",
+    ""Ectoderm"",
+    ""Amnion"",
+    ""Phospho-MLC"",
+    ""Phalloidin"",
+    ""Keratin 5"",
+    ""Phalloidin"",
+    ""Merge""
+  ]
+}
+"
+figure-nodes,2,micro,PMC4619463,"{
+  ""entities"": [
+    ""Islet of Langerhans""
+  ]
+}
+","{
+  ""entities"": [
+    ""Islet of Langerhans""
+  ]
+}
+"
+figure-nodes,3,micro,PMC4718555,"{
+  ""entities"": [
+    ""Ventral Lobe"",
+    ""Dorsal Lobe"",
+    ""MHC Class I"",
+    ""Ki67"",
+    ""Insulin""
+  ]
+}
+","{
+  ""entities"": [
+    ""Ventral Lobe"",
+    ""Dorsal Lobe"",
+    ""MHC Class I"",
+    ""Ki67"",
+    ""Insulin""
+  ]
+}
+"
+figure-nodes,4,micro,PMC5495778,"{
+  ""entities"": [
+    ""LHX1"",
+    ""ECAD"",
+    ""CDH6"",
+    ""NCAM"",
+    ""ECAD/LTL"",
+    ""WT1/NEPHRIN""
+  ]
+}
+","{
+  ""entities"": [
+    ""LHX1"",
+    ""ECAD"",
+    ""CDH6"",
+    ""NCAM"",
+    ""ECAD/LTL"",
+    ""WT1/NEPHRIN""
+  ]
+}
+"
+figure-nodes,5,micro,PMC7136145,"{
+  ""entities"": [
+    ""miR-210 WT"",
+    ""miR-210 KO"",
+    ""Hematoxylin/Eosin"",
+    ""Six2/Ncam"",
+    ""Lef1/DBA"",
+    ""Jag1/DBA""
+  ]
+}
+","{
+  ""entities"": [
+    ""miR-210 WT"",
+    ""miR-210 KO"",
+    ""Hematoxylin/Eosin"",
+    ""Six2/Ncam"",
+    ""Lef1/DBA"",
+    ""Jag1/DBA""
+  ]
+}
+"
+figure-nodes,6,micro,PMC10525157,"{
+  ""entities"": [
+    ""CON"",
+    ""AlCl3"",
+    ""MTF"",
+    ""VIT-E"",
+    ""MTF+VIT-E"",
+    ""Heart"",
+    ""Brain""
+  ]
+}
+","{
+  ""entities"": [
+    ""AlCl3"",
+    ""MTF"",
+    ""VIT-E"",
+    ""MTF+VIT-E"",
+    ""Heart"",
+    ""Brain""
+  ]
+}
+"
+figure-nodes,7,micro,PMC10537695,"{
+  ""entities"": [
+    ""Naive"",
+    ""PnPP-15"",
+    ""STZ"",
+    ""STZ + PnPP-15"",
+    ""Kidney"",
+    ""Liver"",
+    ""Lungs"",
+    ""Heart"",
+    ""Brain""
+  ]
+}
+","{
+  ""entities"": [
+    ""PnPP-15"",
+    ""STZ"",
+    ""STZ + PnPP-15"",
+    ""Kidney"",
+    ""Liver"",
+    ""Lungs"",
+    ""Heart"",
+    ""Brain""
+  ]
+}
+"
+figure-nodes,8,micro,PMC10571605,"{
+  ""entities"": [
+    ""UT"",
+    ""h.19-m.28z"",
+    ""m.uPAR-m.28z"",
+    ""Brain"",
+    ""Heart"",
+    ""Lung"",
+    ""Liver"",
+    ""Kidney"",
+    ""Pancreas""
+  ]
+}
+","{
+  ""entities"": [
+    ""UT"",
+    ""h.19-m.28z"",
+    ""m.uPAR-m.28z"",
+    ""Brain"",
+    ""Heart"",
+    ""Lung"",
+    ""Liver"",
+    ""Kidney"",
+    ""Pancreas""
+  ]
+}
+"
+figure-nodes,9,micro,PMC10812640,"{
+  ""entities"": [
+    ""Pancreas"",
+    ""Normal"",
+    ""STZ-Induced"",
+    ""Kidney"",
+    ""Liver"",
+    ""Yellow arrows"",
+    ""Black arrows""
+  ]
+}
+","{
+  ""entities"": [
+    ""Pancreas"",
+    ""Kidney"",
+    ""Liver""
+  ]
+}
+"
+figure-nodes,10,micro,PMC10942781,"{
+  ""entities"": [
+    ""Normal pancreas"",
+    ""ROI 1"",
+    ""ROI 2"",
+    ""H&E"",
+    ""Acini & islet"",
+    ""Depth 1"",
+    ""Depth 2"",
+    ""Islet"",
+    ""Duct"",
+    ""Premalignant pancreas"",
+    ""ROI 3"",
+    ""IPMN"",
+    ""PanIN""
+  ]
+}
+","{
+  ""entities"": [
+    ""Pancreas"", ""Acini"", ""Islet"", ""Duct""
+  ]
+}
+"
+figure-nodes,11,schema,PMC5412859,"{
+  ""entities"": [
+    ""Villus tip"",
+    ""Direction of enterocyte migration during maturation"",
+    ""Enterocyte"",
+    ""Villus Capillary"",
+    ""Mucus secreting Goblet cell"",
+    ""Lacteal"",
+    ""Lamina Propria"",
+    ""Serosa"",
+    ""Crypt"",
+    ""Mucosa"",
+    ""Sub-mucosa"",
+    ""Circular Muscle Layer"",
+    ""Longitudinal Muscle Layer""
+  ]
+}
+","{
+  ""entities"": [
+    ""Villus tip"",
+    ""Enterocyte"",
+    ""Villus Capillary"",
+    ""Mucus secreting Goblet cell"",
+    ""Lacteal"",
+    ""Lamina Propria"",
+    ""Serosa"",
+    ""Crypt"",
+    ""Mucosa"",
+    ""Sub-mucosa"",
+    ""Circular Muscle Layer"",
+    ""Longitudinal Muscle Layer""
+  ]
+}
+"
+figure-nodes,12,schema,PMC5451551,"{
+  ""entities"": [
+    ""Proximal tubule"",
+    ""Distal tubule"",
+    ""Macula Densa"",
+    ""Cortex"",
+    ""Medulla"",
+    ""Bowman¡¯s capsule"",
+    ""Descending limb of loop begins"",
+    ""Ascending limb of loop ends"",
+    ""Descending limb"",
+    ""Ascending limb"",
+    ""Loop of Henle"",
+    ""Collecting duct"",
+    ""To bladder""
+  ]
+}
+","{
+  ""entities"": [
+    ""Proximal tubule"",
+    ""Distal tubule"",
+    ""Macula Densa"",
+    ""Cortex"",
+    ""Medulla"",
+    ""Bowman¡¯s capsule"",
+    ""Descending limb"",
+    ""Ascending limb"",
+    ""Loop of Henle"",
+    ""Collecting duct""
+  ]
+}
+"
+figure-nodes,13,schema,PMC5749540,"{
+  ""entities"": [
+    ""Hair"",
+    ""Interfollicular epidermis"",
+    ""Follicular epidermis"",
+    ""Basement membrane"",
+    ""Sebaceous gland"",
+    ""Arrector pili muscle"",
+    ""Fibroblasts"",
+    ""Dermal papilla"",
+    ""ECM"",
+    ""Hypodermis"",
+    ""PD"",
+    ""RD""
+  ]
+}
+","{
+  ""entities"": [
+    ""Hair"",
+    ""Interfollicular epidermis"",
+    ""Follicular epidermis"",
+    ""Basement membrane"",
+    ""Sebaceous gland"",
+    ""Arrector pili muscle"",
+    ""Fibroblasts"",
+    ""Dermal papilla"",
+    ""Hypodermis""
+  ]
+}
+"
+figure-nodes,14,schema,PMC7609538,"{
+  ""entities"": [
+    ""Spleen"",
+    ""Sinusoid"",
+    ""Red pulp"",
+    ""White pulp"",
+    ""MZ"",
+    ""Artery"",
+    ""Vein"",
+    ""Migration track (S1P signal)"",
+    ""Passive entrance"",
+    ""TZ (T cell zone)"",
+    ""T"",
+    ""Lymph node"",
+    ""Cortex"",
+    ""Paracortex"",
+    ""Medulla"",
+    ""Hilum"",
+    ""HEV"",
+    ""Afferent Lymphatic"",
+    ""Efferent Lymphatic"",
+    ""F"",
+    ""TZ Active entrance""
+  ]
+}
+","{
+  ""entities"": [
+    ""Spleen"",
+    ""Sinusoid"",
+    ""Red pulp"",
+    ""White pulp"",
+    ""Artery"",
+    ""Vein"",
+    ""T"",
+    ""Lymph node"",
+    ""Cortex"",
+    ""Paracortex"",
+    ""Medulla"",
+    ""Hilum"",
+    ""HEV"",
+    ""Afferent Lymphatic"",
+    ""Efferent Lymphatic""
+  ]
+}
+"
+figure-nodes,15,schema,PMC7668137,"{
+  ""entities"": [
+    ""Barriers to migration of prostate cancer cell for metastasis"",
+    ""Stem cell"",
+    ""Basal cell"",
+    ""Columnar cell"",
+    ""Basement membrane"",
+    ""Lumen"",
+    ""Capillary"",
+    ""Lymphatic vessel"",
+    ""To pelvic nodes"",
+    ""Stem cell detach from acinar cell"",
+    ""Passage through basement membrane"",
+    ""Enter capillary in prostate"",
+    ""General circulation"",
+    ""Exit capillary to organ"",
+    ""Metastasis""
+  ]
+}
+","{
+  ""entities"": [
+    ""Stem cell"",
+    ""Basal cell"",
+    ""Columnar cell"",
+    ""Basement membrane"",
+    ""Lumen"",
+    ""Capillary"",
+    ""Lymphatic vessel""
+  ]
+}
+"
+figure-nodes,16,schema,PMC8026474,"{
+  ""entities"": [
+    ""Corpus"",
+    ""Pylorus"",
+    ""Duodenum"",
+    ""Jejunum"",
+    ""Ileum"",
+    ""Mucus layer"",
+    ""Peyer¡¯s patch"",
+    ""Proximal"",
+    ""Distal"",
+    ""Outer mucus layer"",
+    ""Inner mucus layer"",
+    ""Pit-mucus cell"",
+    ""Gland-mucus cell"",
+    ""Endocrine cell"",
+    ""Isthmus cell"",
+    ""Parietal cell"",
+    ""Chief cell"",
+    ""Enterocyte"",
+    ""TA cell"",
+    ""Goblet cell"",
+    ""Enteroendocrine cell"",
+    ""Paneth cell"",
+    ""Stem cell"",
+    ""Tuft cell"",
+    ""Microfold (M) cell""
+  ]
+}
+","{
+  ""entities"": [
+    ""Corpus"",
+    ""Pylorus"",
+    ""Duodenum"",
+    ""Jejunum"",
+    ""Ileum"",
+    ""Mucus layer"",
+    ""Peyer¡¯s patch"",
+    ""Outer mucus layer"",
+    ""Inner mucus layer"",
+    ""Pit-mucus cell"",
+    ""Gland-mucus cell"",
+    ""Endocrine cell"",
+    ""Isthmus cell"",
+    ""Parietal cell"",
+    ""Chief cell"",
+    ""Enterocyte"",
+    ""TA cell"",
+    ""Goblet cell"",
+    ""Enteroendocrine cell"",
+    ""Paneth cell"",
+    ""Stem cell"",
+    ""Tuft cell"",
+    ""Microfold (M) cell""
+  ]
+}
+"
+figure-nodes,17,schema,PMC8267661,"{
+  ""entities"": [
+    ""Immune cell"",
+    ""Red blood cell"",
+    ""Ductal cell"",
+    ""Transdifferentiation"",
+    ""Acinar cell"",
+    ""Self-duplication"",
+    ""Centroacinar cell"",
+    ""Quiescent PSc"",
+    ""Islet of Langerhans"",
+    ""¦Â cell"",
+    ""¦Á cell"",
+    ""¦Ä cell"",
+    ""¦Ã cell"",
+    ""PP cell"",
+    ""Endocrine"",
+    ""Exocrine""
+  ]
+}
+","{
+  ""entities"": [
+    ""Immune cell"",
+    ""Red blood cell"",
+    ""Ductal cell"",
+    ""Acinar cell"",
+    ""Centroacinar cell"",
+    ""Quiescent PSc"",
+    ""Islet of Langerhans"",
+    ""¦Â cell"",
+    ""¦Á cell"",
+    ""¦Ä cell"",
+    ""¦Ã cell"",
+    ""PP cell""
+  ]
+}
+"
+figure-nodes,18,schema,PMC10348424,"{
+  ""entities"": [
+    ""Central vein"",
+    ""Kupffer cell"",
+    ""Portal vein"",
+    ""Hepatic artery"",
+    ""Hepatocyte"",
+    ""Bile duct""
+  ]
+}
+","{
+  ""entities"": [
+    ""Central vein"",
+    ""Kupffer cell"",
+    ""Portal vein"",
+    ""Hepatic artery"",
+    ""Hepatocyte"",
+    ""Bile duct""
+  ]
+}
+"
+figure-nodes,19,schema,PMC10855305,"{
+  ""entities"": [
+    ""RBC"",
+    ""Endothelial cell"",
+    ""Neutrophil"",
+    ""Alveolar macrophage"",
+    ""Type I pneumocyte"",
+    ""Type II pneumocyte"",
+    ""Cytokine/Chemokine"",
+    ""Neutrophil extruding NETs"",
+    ""Fibrosis"",
+    ""Activated neutrophil"",
+    ""Edema"",
+    ""Inflamed endothelial cell"",
+    ""Gap formation"",
+    ""Platelets"",
+    ""Activated platelets""
+  ]
+}
+","{
+  ""entities"": [
+    ""RBC"",
+    ""Endothelial cell"",
+    ""Neutrophil"",
+    ""Alveolar macrophage"",
+    ""Type I pneumocyte"",
+    ""Type II pneumocyte"",
+    ""Platelets"",
+    ""Cytokine/Chemokine""
+  ]
+}
+"
+figure-nodes,20,schema,PMC11273826,"{
+  ""entities"": [
+    ""TGF-¦Â"",
+    ""CD147"",
+    ""FGF-21"",
+    ""miR-181a-5p"",
+    ""miR-200"",
+    ""miR-205"",
+    ""Cortical epithelial cell"",
+    ""Medullary epithelial cell"",
+    ""Dendritic cell"",
+    ""Macrophage"",
+    ""Lipid-loaded macrophage"",
+    ""Adipocyte"",
+    ""Double-negative T-lymphocyte"",
+    ""Double-positive T-lymphocyte"",
+    ""Single-positive T-lymphocyte"",
+    ""Young thymus"",
+    ""Old thymus""
+  ]
+}
+","{
+  ""entities"": [
+    ""TGF-¦Â"",
+    ""CD147"",
+    ""FGF-21"",
+    ""miR-181a-5p"",
+    ""miR-200"",
+    ""miR-205"",
+    ""Cortical epithelial cell"",
+    ""Medullary epithelial cell"",
+    ""Dendritic cell"",
+    ""Macrophage"",
+    ""Lipid-loaded macrophage"",
+    ""Adipocyte"",
+    ""Double-negative T-lymphocyte"",
+    ""Double-positive T-lymphocyte"",
+    ""Single-positive T-lymphocyte"",
+    ""Young thymus"",
+    ""Old thymus""
+  ]
+}
+"
+figure-caption,1,micro,PMC5484618,"(A) IC proteins were expressed at E18 in presumptive PC cells. Co-expression of Atp6b1 (typical of ICs, red) and Calbindin (typical of PCs, blue) is shown in Tfcp2l1+ cells in the cortical region of the collecting duct. (white arrows) Bar = 10 ¦Ìm. (B) Lineage of ICs and PCs was detected with genetic reporters. HoxB7-Cre;mTmG (green) marked every cell in the collecting duct including AQP2+ PC cells (red-yellow) and Atp6b1+ IC cells (blue-green). Atp6b1-Cre;mTmG labeled every IC cell (endogenous Atp6b1+; blue-green), as well as some Aqp2+ PCs (white arrows, yellow). Atp6b1-Cre;mTmG-negative PC cells are also found (Aqp2+, Atp6b1-, Atp6b1-Cre;mTmG-, red) (Bars= top 5 ¦Ìm, bottom 20 ¦Ìm).","{
+  ""entities"": [
+    ""TGF-¦Â"",""collecting duct"", ""cortical region"",""PC cells"", ""IC cells"",""Atp6b1"", ""HoxB7-Cre"", ""Atp6b1-Cre"", ""mTmG"", ""Aqp2"",""Calbindin""
+  ]
+}
+"
+figure-caption,2,micro,PMC10892485,"Light microscopic images of H&E-stained sections of the small intestine sections in all the studied groups. (a¨Cf) Groups I and III show normal histological structure of the small intestine. The small intestine is formed of the mucosa (M), submucosa (sm) and muscularis propria (Ms). The surface epithelial cells are arranged in villi (V) lined by absorptive and goblet cells (thick arrows). The lamina propria (LP) underlies the epithelium; just beneath this is a thin muscularis mucosae of smooth muscle (mm). The intestinal crypts (C) with paneth cells (*) can be seen. (c,b) Group II shows a shortening of the villi and dense infiltration of the lamina propria by mononuclear cells (star). (g,h) Group IV shows restoration to the normal histological appearance of the small intestine (H&E ¡Á 200, scale bar = 100 ¦Ìm; H&E ¡Á 400, scale bar = 50 ¦Ìm).","{
+  ""entities"": [
+    ""small intestine"",
+    ""mucosa"",
+    ""submucosa"",
+    ""muscularis propria"",
+    ""villi"",
+    ""lamina propria"",
+    ""muscularis mucosae"",
+    ""intestinal crypts""
+    ""epithelial cells"",
+    ""absorptive cells"",
+    ""goblet cells"",
+    ""paneth cells"",
+    ""mononuclear cells"",
+    ""smooth muscle""
+  ]
+}"
+figure-caption,3,micro,PMC4928277,"Histopathologic findings in the liver. a: typical microscopic pattern of the mouse liver ¨C the control group. b-h: CNT exposed groups. b: 1 day after instillation (a.i.) to 54 ¦Ìg: hypertrophy of Kupffer cells (long arrows), numerous binucleate hepatocytes (short arrows); c: 28 days a.i. to 54 ¦Ìg: ? granuloma surrounded by eosinophilic necrotic hepatocytes (long arrow), vacuolar degeneration (short arrows); d: 28 days a.i. to 54 ¦Ìg: ? macrophages (arrows), parenchymatous degeneration; e, f: 1 day after instillation (a.i.) to 162 ¦Ìg: macrophages (long arrows), vacuolar degeneration (short arrows); g: 3 days a.i. to 162 ¦Ìg: pronounced vacuolar degeneration in the central zone of the liver lobule, numerous binucleate hepatocytes (arrows); h: 28 days a.i. to 162 ¦Ìg: foci of necrosis (asterisks), small granuloma (head of arrow), hypertrophy of Kupffer cells (long arrows), oedema (short arrows). i-j: The EPOXY-REF exposed groups, dose 486 ¦Ìg i ¨C 3 day a.i.: small degree vacuolar degeneration of hepatocytes; j ¨C 28 days a.i.: typical pattern of the liver. k-n: The EPOXY-CNT exposed groups. k - 3 days a.i. to 162 ¦Ìg: hyperplasia of Kupffer cells (arrows); l - 28 days a.i. to 162 ¦Ìg: vacuolar degeneration on the whole area of the liver lobule, hyperplasia of the bile ducts epithelium (arrows); m - 28 days a.i. to 162 ¦Ìg: mild-zonal vacuolar degeneration; n - 3 days a.i.to 486 ¦Ìg: vacuolar degeneration of hepatocytes on the whole area of the liver lobule. Staining HE, magnification on the figures a ¨C e and g - m as scale on the figure (n). o-u: The EPOCYL exposed groups. o - 1 day a.i. to 54 ¦Ìg: hypertrophy of Kupffer cells (arrows); p ¨C 28 days a.i. to 54 ¦Ìg: vacuolar degeneration on the whole area of the liver lobule, hyperplasia of the bile ducts epithelium (arrows); r - 1 day a.i. to 162 ¦Ìg: vacuolar degeneration on the whole area of the liver lobule, hypertrophy of Kupffer cells (arrows); s ¨C 3 days a.i. to 162 ¦Ìg: mild-zonal vacuolar degeneration of hepatocytes; t - 3 days a.i. to 486 ¦Ìg: vacuolar degeneration of hepatocytes on the whole area of the liver lobule, granuloma surrounded by eosinophilic necrotic hepatocytes (arrow), u: same pattern as on the figure (t) in double magnification. Staining HE, magnification on the figures (o ¨C s) as scale on the figure (t)","{
+  ""entities"": [
+    ""liver"", ""liver lobule"", ""bile ducts"", ""Kupffer cells"", ""hepatocytes"", ""macrophages"", ""bile ducts epithelium""
+  ]
+}
+"
+figure-caption,4,micro,PMC6749046,"Histology of the first trimester Lm infection. (A) Umbilical cord. Neutrophilic umbilical arteritis. Arrow points to clustered neutrophils. Cy30.2. H&E, 20x. (B) Control umbilical cord. Cy26c H&E, 20x. (C) Amniotic membranes with Gram-positive bacteria and neutrophilic infiltrate (asterisk). Cy30.2. H&E, 4x. (D) Control amniotic membranes. Cy26c H&E, 20x. (E) Fetal lung with listerial infiltration of pulmonary interstitium between alveoli. Arrows point to bacterial foci. Cy30.2 H&E, 20x. (F) Control fetal lung. A indicates alveolus. Cy26c H&E, 20x.","{
+  ""entities"": [
+    ""Umbilical cord"",
+    ""Amniotic membranes"",
+    ""Fetal lung"",
+    ""pulmonary interstitium"",
+    ""alveoli"",
+    ""Neutrophils""
+  ]
+}
+"
+figure-caption,5,micro,PMC9039101,"Normal: Pancreas of the Normal animal showing normal histology of the pancreas tissues; Diabetic: Pancreas of the Diabetic non-treated animal showing destroyed, diminished size and shape of ¦Â-cells and damaged acinar cells with an abnormal structure of islet of Langerhans (yellow arrow), and disorganized interlobular duct (blue arrow); MET: Pancreas showing mild hyperplasia of the islet cells (blue arrow), normal acinar cell observed (blue arrow); CPAQ400: Pancrease showing an improved histopathological architecture and reorganized interlobular duct (blue arrow); CPME400: Pancreas of the CPME400-treated animal showing normal histopathology indicating ameliorative effects; CPAQ200+MET: Pancreas showing no defined pathological lesions in histoarchitecture of islets of Langerhans and acinar cells; CPME200+MET: Pancreas showing no defined pathological lesions in histoarchitecture of islets of Langerhans and acinar cells; CPAQ400+MET: Pancreas showing no pathological alteration of the ¦Â-cells of islets of Langerhans and normal appearance of acinar cells; CPME400+MET: Pancreas showing significant improvement in pancreatic morphological changes.","{
+  ""entities"": [
+    ""Pancreas"", ""islet of Langerhans"", ""acinar cells"", ""interlobular duct"", ""¦Â-cells"", ""islet cells""
+  ]
+}
+"
+figure-caption,6,micro,PMC10017286,"The collecting duct of the prostate gland. (A) The collecting duct transferring to the prostatic urethra. The epithelial cells of the collecting duct were paler in color and swollen than those of the prostatic urethra. (B) The enlarged view of the collecting duct near the urethra. The most surficial cells were cuboidal in shape, and the cytoplasm was more acidophilic. The collecting duct had intraepithelial cysts with secretion (arrows). (C) The collecting ducts in the distal part. The number of epithelial cell layers decreased. (D) The enlarged view of the collecting ducts in the transitional part to the acinus (arrows). The epithelium of the collecting ducts showed almost two cell layers. (E) The intraepithelial cysts including secretion (arrows) and the superficial epithelial cells (arrowheads) of the collecting duct were periodic acid-Schiff (PAS)-positive. Insert shows enlargement of a cyst (bar=10 ¦Ìm). (F) The superficial epithelial cells (arrowheads) and the epithelial cells which form the cysts (arrows) showed alcian blue (AB)-positive. On the other hand, occasionally the secretion within the cysts was AB-positive although it was mainly AB-negative. An insert shows an enlargement of two cysts with different AB stainability in the secretion (bar=50 ¦Ìm). (G) The basal epithelium of the collecting duct showed p63 expression, but no p63 expression in the upper and middle part of the epithelial layer. (H) Androgen receptor expression was also found mainly in the basal layer cells. cd, collecting duct; gl, glandular lumen; pu, prostatic urethra. A¨CD, HE staining; E, PAS staining; F, AB staining.","{
+  ""entities"": [
+    ""collecting duct"",
+    ""prostatic urethra"",
+    ""glandular lumen"",
+    ""acinus"",
+    ""basal epithelium"",
+    ""epithelium"",
+    ""epithelial cells"", ""p63"", ""Androgen receptor""
+  ]
+}
+"
+figure-caption,7,micro,PMC4043338,"A: Fstl1 is expressed in connective tissue and dermis, and not in the epidermal layer of the skin. Expression can also be seen in hair germs. B: In the hair follicle, Fstl1 expression is limited to the dermal papilla, and cannot be seen in hair sheath, inner or outer root sheaths. C: In developing teeth, Fstl1 is strongly expressed in the dental papilla and moderately expressed in odontoblasts, ameloblasts and outer enamel epithelium. AB: ameloblast, CT: connective tissue, D: dermis, DeP: dental papilla, DP: dermal papilla, ED: epidermis, HG: hair germ, HS: hair shaft, IRS: inner root sheath, OB: odontoblast, OEE: outer enamel epithelium, ORS: outer root sheath. Scale bars represent 100¦Ìms.","{
+  ""entities"": [
+    ""connective tissue"",
+    ""dermis"",
+    ""epidermal layer"",
+    ""skin"",
+    ""hair germs"",
+    ""hair follicle"",
+    ""dermal papilla"",
+    ""hair sheath"",
+    ""inner root sheaths"",
+    ""outer root sheaths"",
+    ""developing teeth"",
+    ""dental papilla"",
+    ""outer enamel epithelium"",
+    ""odontoblasts"",
+    ""ameloblasts"",
+    ""Fstl1""
+  ]
+}
+"
+figure-caption,8,micro,PMC6399856,Histopathology of the small intestine. H&E-stained small intestinal villi of a PbA-C57BL/6 mouse on day 8 and a PbA-BALB/c mouse on day 15 are shown with uninfected controls. a The villus of a control C57BL/6 mouse. b Enlarged villus goblet cells of a PbA-C57BL/6 mouse. c The villus of a control BALB/c mouse. d Villus goblet cells of a PbA-BALB/c mouse,"{
+  ""entities"": [
+    ""small intestine"", ""villi"",
+    ""goblet cells""
+  ]
+}
+"
+figure-caption,9,micro,PMC5943606,"Photomicrographs of spleen tissues of a normal adult rat (A, B), normal aged (C, D), normal aged treated with either melatonin (E, F) or turmeric (G, H). (A) Spleen of an adult rat showing the splenic red pulp (RP). Note the less-thickened capsule (arrow). (B) Spleen of an adult rat showing the PALS and marginal zones (mz). Note the presence of follicles containing prominent germinal centers (gc) with tangible body macrophages which appeared with cytoplasmic engulfed apoptotic debris. (C) Spleen of a normal aged rat revealed the decreased cellularity of both white pulp and red pulp areas. Note the lymphocytic depletion of the white pulp (W) and the marginal zone is hardly defined. (D) Spleen of a normal aged rat showing the lymphocytic depletion of the white pulp (W) with shrinkage and apoptotic cells. Note the tangible body macrophages with cytoplasmic engulfed apoptotic bodies. (H&E, 400X). (E) Spleen of a normal aged rat treated with melatonin showing the increased lymphocytic population of the splenic red pulp. Note the less-thickened capsule (thin arrow) and trabeculae (thick arrow). (F) Spleen of a normal aged rat treated with melatonin showing a marked improvement where the lymphocytic population of the white pulp was increased. (G) Spleen of a normal aged rat treated with turmeric showing the increased lymphocytic population of the splenic red pulp. Note the less-thickened capsule (thin arrow) and trabeculae (thick arrow) and the decrease number of pigments. (H) Spleen of a normal aged rat treated with turmeric showing apparent increase in the lymphocyte population of white pulp. (H&E, 400X).","{
+  ""entities"": [
+    ""spleen"",
+    ""splenic red pulp"",
+    ""capsule"",
+    ""PALS"",
+    ""marginal zones"",
+    ""white pulp"",
+    ""trabeculae"",
+    ""macrophages"",
+    ""lymphocytes""
+  ]
+}
+"
+figure-caption,10,micro,PMC1891923,"A: A marked swelling of dark purple lymph nodes with severe hemophagocytosis. B: Cross-section of the enlarged spleen showing small white nodular lesions. C: Diffuse infiltration of atypical large lymphoid cells in the spleen. D: Periportal infiltration of atypical large lymphoid cells and marked central necrosis of the hepatic lobule. E: The lymph node showing diffuse infiltration of atypical lymphoid cells and marked erythrophagocytosis in the sinus. F: Atypical lymphoid cells with EBER1 expression diffusely infiltrated the parenchyma of the lymph node with severe sinus hemophagocytosis. G: Hemophagocytosis in the bone marrow. H Infiltrated atypical lymphocytes and hemophagocytic cells with multiple ingested cell debris, lymphocytes, and erythrocytes observed in the thymus. I: High-power view of the lymph node showing atypical large lymphoid cell infiltration in both sinus and medulla. J: Marked infiltration of rabbit CD5-positive lymphoid cells in the lymph node. Original magnifications: ¡Á150 (hematoxylin and eosin; C and D), ¡Á300 (hematoxylin and eosin; E and G), ¡Á750 (hematoxylin and eosin; H and I), ¡Á150 (EBER1 in situ hybridization; F), and ¡Á200 (rabbit CD5; J).","{
+  ""entities"": [
+    ""lymph nodes"",
+    ""spleen"",
+    ""hepatic lobule"",
+    ""bone marrow"",
+    ""thymus"",
+    ""sinus"",
+    ""medulla"",
+    ""parenchyma"",
+    ""lymphoid cells"",
+    ""lymphocytes"",
+    ""hemophagocytic cells"",
+    ""erythrocytes"", ""CD5""
+  ]
+}
+"
+figure-caption,11,schema,PMC3891254,"Schematic of distal nephron composition. The distal nephron consists of 1-mm distal convoluted tubule (DCT), 2 mm connecting tubule (CNT), 2-mm cortical collecting duct (CCD), 2-mm outer medullary collecting duct (OMCD), and 5-mm inner medullary collecting duct (IMCD). Within CNT, the 36,000 tubules coalesce linearly to form 7,200 CCD. Within IMCD, the tubules coalesce exponentially so that final urine flows through only 113 papillary collecting ducts (110).","{
+  ""entities"": [
+    ""distal nephron"",
+    ""distal convoluted tubule (DCT)"",
+    ""connecting tubule (CNT)"",
+    ""cortical collecting duct (CCD)"",
+    ""outer medullary collecting duct (OMCD)"",
+    ""inner medullary collecting duct (IMCD)"",
+    ""papillary collecting ducts""
+  ]
+}
+"
+figure-caption,12,schema,PMC4382993,"In the small intestine, the biotin level is high, and the expression of BirA is upregulated, repressing the expression of fur. The activation of LEE genes is inhibited, and adherence is therefore prevented. In the large intestine, the biotin level is low, and the expression of BirA is downregulated. The repression of fur is removed, allowing the activation of LEE genes by Fur to promote adherence.","{
+  ""entities"": [
+    ""small intestine"", ""large intestine"", ""BirA"", ""fur"", ""LEE genes"", ""Fur"", ""biotin""
+  ]
+}
+"
+figure-caption,13,schema,PMC8586687,"The sinusoids are covered by LSEC, which consist of some open pores, named fenestrae, which occupy 20% of the LSEC surface, and filter blood between the sinusoidal lumen and the space of Disse, further allowing the blood to pass through the underlying hepatocytes (Figure 3). 21 Liver©\resident macrophages, called Kupffer cells, reside in the sinusoidal lumen area and play an important role in engulfing and scavenging harmful foreign substances originating from the gut (Figure 3). Additionally, pattern recognition receptors, such as Toll©\like receptors (TLR), which are crucial for the innate immune recognition and response by Kupffer cells, bind to MAMPs from the intestine and DAMPs, primarily derived from damaged hepatocytes (Figure 1). 22 Upon binding, these MAMPs and DAMPs are phagocytosed and subsequently degraded by Kupffer cells without the production of the inflammatory mediators that usually accompany innate immune signaling. Therefore, the body of the host is protected from excessive immune activation within the liver. However, excessive amounts of immunogenic molecules from gut bacteria, such as LPS or LTA, alter immunogenic responses to inflammatory reactions with TLR4 and TLR2, respectively (Figures 1 and 3). Similarly, bacteria©\derived DNA mediate immune activation via TLR9. These TLRs function as primary drivers of inflammatory responses in liver disease. Additionally, TLR signaling in Kupffer cells activates the downstream proinflammatory cascade, leading to MyD88©\mediated activation of NF©\kB. 20","{
+  ""entities"": [
+    ""sinusoids"",
+    ""sinusoidal lumen"",
+    ""space of Disse"",
+    ""liver"",
+    ""LSEC"",
+    ""hepatocytes"",
+    ""Kupffer cells"",
+      ""Toll©\like receptors (TLR)"",
+      ""LPS"",
+      ""LTA"",
+      ""TLR4"",
+      ""TLR2"",
+      ""TLR9"",
+      ""MyD88"",
+      ""NF©\kB""
+  ]
+}
+"
+figure-caption,14,schema,PMC7176238,"The normal alveolus and the alveolus in acute lung injury. Neutrophil is shown migrating through a gap in the capillary endothelium into the alveolar space (activated neutrophil). In the alveolar space, an alveolar macrophage is secreting cytokines: tumor necrosis factor (TNF)-¦Á, interleukin (IL)-1¦Â, IL-6, IL-8, and IL-10. The alveolar type I cells are damaged or necrotic, while alveolar type II cells are intact and release cytokines. The tissue architecture is disrupted with the formation of hyaline membranes on the denuded basement membrane. The alveolar space is filled by protein-rich edema fluid","{
+  ""entities"": [
+    ""alveolus"",
+    ""capillary endothelium"",
+    ""alveolar space"",
+    ""basement membrane"",
+    ""Neutrophil"",
+    ""alveolar macrophage"",
+    ""alveolar type I cells"",
+    ""alveolar type II cells"",
+      ""tumor necrosis factor (TNF)-¦Á"",
+      ""interleukin (IL)-1¦Â"",
+      ""IL-6"",
+      ""IL-8"",
+      ""IL-10""
+  ]
+}
+"
+figure-caption,15,schema,PMC5318414,"Models for beta cell failure in T2D. The illustration shows the architecture and endocrine cell composition of a normal pancreatic islet of Langerhans (top) and potential changes, distinguished by beta cell fate, that lead to beta cell failure in T2D (bottom). Different colors indicate different islet cell type. ¦Å, ghrelin; G, gastrin, E, endocrine cell with empty granules (no hormone is produced).","{
+  ""entities"": [
+    ""pancreatic islet of Langerhans"", ""beta cell"", ""endocrine cell"", ""ghrelin"", ""gastrin""
+  ]
+}
+"
+figure-caption,16,schema,PMC7602609,"The prostate gland, located beneath the bladder, secretes alkaline prostatic fluid that constitutes 30% of the semen [1]. The prostate is composed of three distinct zones: the central zone (CZ), which includes the ductal tube from the seminal vesicle to the descending urethra, the peripheral zone (PZ), which is situated at the posterior of the gland and the transitional zone (TZ), which surrounds the transitional urethra [1]. The normal prostatic acinus consists of an epithelial structure of basal and luminal cells surrounded by fibromuscular stroma (Figure 1). Luminal, basal, and neuroendocrine cells constitute the normal prostate epithelia in a roughly 60:40:1 ratio [2]. Prostate cancer (PCa) develops most often in the PZ, less often in the TZ, and rarely in the CZ [3,4]. Upon development of PCa, the ratio of luminal to basal percentages are greatly altered, with the luminal cells constituting >99% of the tumor [2] (Figure 1).","{
+  ""entities"": [
+    ""prostate gland"",
+    ""bladder"",
+    ""central zone (CZ)"",
+    ""ductal tube"",
+    ""seminal vesicle"",
+    ""descending urethra"",
+    ""peripheral zone (PZ)"",
+    ""transitional zone (TZ)"",
+    ""transitional urethra"",
+    ""prostatic acinus"",
+    ""fibromuscular stroma"",
+    ""prostate epithelia"",
+    ""basal cells"",
+    ""luminal cells"",
+    ""neuroendocrine cells""
+  ]
+}
+"
+figure-caption,17,schema,PMC11528461,"The schematic diagram illustrating how truncated AIMP1 stimulates DPCs to promote hair growth. Wnt3a stimulation induces AIMP1 cleavage via MMP1 activation in hair follicle stem cells (HFSCs), leading to the release of a truncated form of AIMP1. The secreted AIMP1 enhances hair growth by upregulating hair growth-promoting molecules in dermal papilla cells (DPCs), subsequently activating ¦Â-catenin, ALP, p-AKT, and p-ERK signaling pathways, thereby facilitating anagen transition and promoting hair growth.","{
+  ""entities"": [
+    ""hair follicle"",
+    ""dermal papilla cells (DPCs)"",
+    ""hair follicle stem cells (HFSCs)"",
+      ""AIMP1"",
+      ""Wnt3a"",
+      ""MMP1"",
+      ""¦Â-catenin"",
+      ""ALP"",
+      ""p-AKT"",
+      ""p-ERK""
+  ]
+}
+"
+figure-caption,18,schema,PMC7775856,Anatomy of mammalian small intestine and colon.  a A schematic showing the general tissue structure of the mammalian small intestine.  b The enlarged view of the luminal surface of the small intestine.  Each villus is surrounded by on average six crypts.  c The enlarged view of the cellular architecture of the small intestine (left) and colon (right),"{
+  ""entities"": [
+    ""small intestine"",
+    ""colon"",
+    ""villus"",
+    ""crypts"",
+    ""luminal surface""
+  ]
+}
+"
+figure-caption,19,schema,PMC9963977,"Splenic filtration of altered RBCs. (A) Schematic diagram of blood circulation through splenic red pulp, including closed circulation and open circulation. The splenic filtration of altered RBCs is achieved in the open circulation in the red pulp, through macrophages (M-filter) and the splenic IESs (S-filter). (B) Schematic diagram of the oxygen gradient near the sinus. The two structural and functional spleen filters, the S-filter and M-filter, respectively, are modeled in vitro using the S-Chip and M-Chip, respectively. Created with BioRender.com.","{
+  ""entities"": [
+    ""spleen"",
+    ""splenic red pulp"",
+    ""sinus"", ""macrophages""
+  ]
+}
+"
+figure-caption,20,schema,PMC9280625,"Thymus cell architecture (A), and T cell and innate lymphoid cell (ILC) development in the thymus (B). The thymus consists of two lobes that are separated by connective tissue strands (trabeculae) in lobules. Each thymic lobule consisted of the cortex and medulla. The cortex contains CD34+ uncommitted pluripotent hematopoietic precursor cells (HPCs) entering the thymus at the cortico-medullary junction (CMJ) and migrating to the capsule, committed double negative (DN) CD4?CD8? T precursor cells (TPCs) located in the subcapsular region (DN1¨CDN4 stages), and immature double positive (DP) CD4+CD8+ (Pre-DP) cortical thymocytes migrating through the cortex and CMJ to the medullar zone. The medulla contains single positive (SP) CD4+ and CD8+ na?ve thymocytes migrating to the periphery after maturing. Stromal-epithelial compartment of the thymus is submitted by minor populations of EpCam+ (CD326+) Foxn1+ bipotent thymic epithelial precursor cells/thymic epithelial stem cells (TEPCs/TESCs), and mesenchymal stem cells (MSCs) located probably into the thymic parenchyma close to the CMJ region, as well as EpCam+CD205+ cortical thymic epithelial cells (cTECs) located in the cortex and EpCam+Air+ medullary thymic epithelial cells (mTECs) located in the medulla. The cortex and medulla also contain macrophages (MFs), fibroblasts (Fbs), and dendritic cells (DCs) that, together with cTECs and mTECs, participate in the differentiation, maturation, and positive and negative selection of thymocytes. T cell and ILC lineages diverge at the stages of early T precursors/double negative 1 (ETP/DN1) and the DN2-DN3 transition stage. Depending on the status of the TCR loci, the strength of Notch signaling and activities of E-ld proteins and Bcl11b, multipotent TLPs may develop conventional ¦Á¦Â T cells or acquire innate-like properties and give rise to thymic natural killer (NK) cells, DCs, granulocytes, B cells, one of three ILC subsets and invariant ¦Ã¦Ä T cells. Resident ILC progenitors have been suggested to originate from failed T cell development and locally maintain the mature ILC pool. BV, Blood Vessel; DT, Dead Thymocytes; HC, Hassall¡¯s Corpuscle. (A) modified from Shichkin and Antica, 2020 (9); the article is licensed under a Creative Commons Attribution 4.0 International License. (B) modified from Shin and McNagny, 2021 (138); the article is distributed under the terms of the Creative Commons Attribution License (CC BY).","{
+  ""entities"": [
+    ""thymus"",
+    ""lobes"",
+    ""trabeculae"",
+    ""lobules"",
+    ""cortex"",
+    ""medulla"",
+    ""cortico-medullary junction (CMJ)"",
+    ""subcapsular region"",
+    ""thymic parenchyma"",
+    ""blood vessel (BV)"",
+    ""Hassall¡¯s Corpuscle (HC)"",
+    ""hematopoietic precursor cells (HPCs)"",
+    ""T precursor cells (TPCs)"",
+    ""thymocytes"",
+    ""thymic epithelial precursor cells/thymic epithelial stem cells (TEPCs/TESCs)"",
+    ""mesenchymal stem cells (MSCs)"",
+    ""cortical thymic epithelial cells (cTECs)"",
+    ""medullary thymic epithelial cells (mTECs)"",
+    ""macrophages (MFs)"",
+    ""fibroblasts (Fbs)"",
+    ""dendritic cells (DCs)"",
+    ""T cells"",
+    ""innate lymphoid cell (ILC)"",
+    ""natural killer (NK) cells"",
+    ""granulocytes"",
+    ""B cells"",
+      ""TCR loci"",
+      ""Bcl11b"",
+      ""CD34"",
+      ""CD4"",
+      ""CD8"",
+      ""EpCam (CD326)"",
+      ""Foxn1"",
+      ""Air"",
+      ""CD205"",
+      ""Notch"",
+      ""E-ld proteins""
+  ]
+}
+"
+reference-text,1,micro,PMC5578634,"To test the effect of acid loading on UPS in vivo, either HCl or NH4Cl were loaded into mice and the protein expressions of H+-ATPase B1/2 and ubiquitin were examined by immunohistochemistry. H+-ATPase B1/2 was mainly expressed in some cells in the cortical collecting ducts (CCDs) and outer medullary collecting ducts (OMCDs) under basal conditions (Fig 6A and 6D). HCl loading increased the expression of H+-ATPase B1/2 and caused the hypertrophy of cells expressing H+-ATPase B1/2, suggesting that the cells are intercalated cells (Fig 6B, 6C, 6E and 6F) [43]. Ubiquitin was expressed in the nucleus of cells along the nephron, but not in the peritubular cells, under basal conditions (Fig 7A and 7D). HCl loading largely increased expression in the cytoplasm and the nucleus in the CCD and OMCD cells (Fig 7B, 7C, 7E and 7F). Double staining with anti-aquaporin-2 antibody revealed that higher ubiquitin protein expression in the principal cells than in intercalated cells under basal conditions (Fig 8A, 8C, 8G and 8I). NH4Cl loading increased ubiquitin expression in both the principal and the intercalated cells (Fig 8D, 8F, 8J and 8L). The localization of aquaporin-2 protein at the apical membrane was inhibited by NH4Cl loading, consistent with a previous report (Fig 8B, 8E, 8H and 8K) [44]. These results suggest that the activation of UPS by metabolic acidosis is physiologically relevant.","{
+  ""entities"": [
+    ""cortical collecting ducts (CCDs)"",
+    ""outer medullary collecting ducts (OMCDs)"",
+    ""nephron"",
+    ""peritubular cells"",
+    ""nucleus"",
+    ""cytoplasm"",
+    ""apical membrane"",
+    ""intercalated cells"",
+    ""principal cells"",
+      ""H+-ATPase B1/2"",
+      ""ubiquitin"",
+      ""aquaporin-2""
+  ]
+}
+"
+reference-text,2,micro,PMC6656812,"Sections stained with AB, PAS and AB-PAS showed that the distribution of mucous cells was remarkably different along the oro-anal axis of the large intestine (Figs. 6 and 7). In general, mucous cells were the fewest in the cecum and most numerous in the fusus coli. Most of the individual mucous cells were stained with both AB and PAS, unless otherwise mentioned below.","{
+  ""entities"": [
+    ""large intestine"",
+    ""cecum"",
+    ""fusus coli"", ""mucous cells""
+  ]
+}
+"
+reference-text,3,micro,PMC4386049,"Figure 7 to 24 represent the results of the histopathological examination of P. truncatum and its invasive effect on the liver of P. caspica. Figure 7 shows the route of the trematode through a hepatic lobule displacing the hepatocytes. Nucleated blood cells are visible as well as the canals between the hepatocytes. Figure 8 is a section through a normal hepatic lobule showing hepatic ducts and canals leading to the bile ducts. A hepatic blood vessel is visible on the slide, which is lined with an intact endothelium (Fig. 8). Surrounding the hepatic lobule is a network of connective tissue. Blood cells are visible flowing through the vessels. The invading fluke is visible with a section depicted by figure 9. Necrotic tissue and hemorrhaging are extensive next to the parasite.","{
+  ""entities"": [
+    ""liver"",
+    ""hepatic lobule"",
+    ""bile ducts"",
+    ""hepatic blood vessel"",
+    ""vessels"",
+    ""connective tissue"", ""hepatocytes"", ""blood cells"", ""endothelium""
+  ]
+}
+"
+reference-text,4,micro,PMC8017595,"To characterize topographic distribution of FOXL1 expression in the lungs, we performed RNA ISH and immunohistochemistry. FOXL1 mRNA (Figures 3A and E3) and protein (Figure 3B) showed concordant expression patterns throughout the airway, and nuclear positivity for FOXL1 was detected in the airway epithelium. FOXL1-positive cells were also found in the submucosal interstitium, where fibroblasts reside. Positive staining of FOXL1 in interstitial cells was commonly observed among the analyzed lung specimens. FOXL1 expression was also observed in the nuclei of alveolar cells by both RNA ISH (Figure 3A) and immunohistochemistry (Figure 3B), although it was hard to identify each cell type. Importantly, immunohistochemical studies indicated that FOXL1-positive interstitial cells were also stained for vimentin (Figure 3B), suggesting the presence of resident fibroblasts expressing FOXL1.","{
+  ""entities"": [
+    ""lungs"",
+    ""airway"",
+    ""airway epithelium"",
+    ""submucosal interstitium"",
+    ""alveolar cells"",""fibroblasts"", ""FOXL1 mRNA"", ""FOXL1"", ""vimentin"" 
+  ]
+}
+"
+reference-text,5,micro,PMC4534923,"Examination of sections of pancreas from the diabetic rats stained differentially for islet cells revealed apparently total degranulation of B-cells without cytologic disintegration. But A-cells and acinar cells were normal without any inflammatory cell infiltration (Fig. 6, 7). The ultrastructural study of islet cells revealed the loss of cytoplasmic matrix, the vesiculation of rough endoplasmic reticulum and the disintegration of mitochondria of B-cells. The A-cells were intact (Fig. 8, 9).","{
+  ""entities"": [
+    ""pancreas"", ""islet cells"", ""B-cells"", ""A-cells"", ""acinar cells""
+  ]
+}
+"
+reference-text,6,micro,PMC3402831,"Expression of ARR2PBi-Cre is strongest post-puberty, as a result of the androgen-¦Â1 integrin plays in normal prostate tissue maintenance, we examined ventral, lateral, and dorsal prostate lobes at 9, 26 (Figure 2a), and 60 weeks of age, using H&E staining. These analyses reveal no gross morphological differences between the two genotypes, indicating no essential requirement for ¦Â1 integrin in post-pubertal prostate development, nor in prostate tissue maintenance.","{
+  ""entities"": [
+    ""prostate tissue"",
+    ""ventral prostate lobes"",
+    ""lateral prostate lobes"",
+    ""dorsal prostate lobes"",""ARR2PBi-Cre"",""¦Â1 integrin""
+  ]
+}
+"
+reference-text,7,micro,PMC10691264,"The structural characteristics of the yak skin were visualized using Sacpic staining, in which pigment particles were stained black, collagen fibers blue, smooth muscle fibers green, inner root sheath bright red, outer root sheath gray-green, connective tissue sheath blue-green, nucleus blue-purple, and keratin yellow. Microscopic observation revealed hair follicles were arranged in groups and enclosed by a connective tissue sheath (Figure 2).","{
+  ""entities"": [
+    ""yak skin"",
+    ""hair follicles"",
+    ""connective tissue sheath"",
+    ""inner root sheath"",
+    ""outer root sheath"", ""smooth muscle fibers""
+  ]
+}
+"
+reference-text,8,micro,PMC2717174,"Both Ihh and Shh are expressed robustly in the multilayered E10.5 endoderm throughout midgut and hindgut as documented previously10. Ptch1LacZ/+ is expressed in mesenchymal cells of the presumptive antrum (data not shown) and midgut (Figure 1A). However, on the dorsal side of the hindgut epithelium and post-anal portion of the tail gut, Ptch1LacZ/+ staining is clearly seen in the epithelium (Figure 1B,C). In contrast, Gli1LacZ/+ staining is strictly mesenchymal in all of these tissues (Figure D-F). Since Gli1 expression requires Hh ligands while Ptch1 may be expressed independently33, 34, we conclude that Hh signaling is paracrine in these tissues at this time. Gli3 is also highly expressed in the early intestinal mesenchyme and is progressively down-regulated during fetal development (Supplementary Information 1).","{
+  ""entities"": [
+    ""midgut"",
+    ""hindgut"",
+    ""presumptive antrum"",
+    ""epithelium"",
+    ""tail gut"",
+    ""intestinal mesenchyme"", ""mesenchymal cells"",
+      ""Ihh"",
+      ""Shh"",
+      ""Ptch1LacZ"",
+      ""Gli1LacZ"",
+      ""Gli1"",
+      ""Gli3""
+  ]
+}
+"
+reference-text,9,micro,PMC4564542,"On day 3, MARV antigen¨Cpositive mononuclear/dendritiform cells were observed for both MARV-Rav¨Cinfected GPs (3 of 4) and MARV-Ang¨Cinfected GPs (4 of 4; Figure 3B and 3E). Key differences on day 3 were immunoreactive cells scattered throughout the red pulp only for MARV-Rav¨Cinfected GPs and small clusters of immunoreactive cells within the red and white pulp for MARV-Ang¨Cinfected GPs. Corresponding congestion and tingible body macrophages were noted on H/E-stained sections of spleens from both MARV-Rav¨Cinfected GPs and MARV-Ang¨Cinfected GPs. Immunoreactive cells within the spleen peaked at day 3 for MARV-Ang¨Cinfected GPs (Figure 3E) and by day 5 for MARV-Rav¨Cinfected GPs (Figure 3H), with dispersion of MARV antigen¨Cpositive cells throughout the spleen by the end of the study. All animals, beginning on day 3 and continuing to death, had progressive lymphocyte depletion with tingible body macrophages, hemorrhage, and fibrin deposition within the white pulp. TUNEL staining of apoptotic populations within the splenic germinal centers increased over time, with peak intensity on day 5 for MARV-Ang¨Cinfected GPs (Figure 3L) and in terminal specimens for MARV-Rav¨Cinfected GPs (Figure 3U). Fibrin was scattered throughout the red pulp and clustered within the white pulp in MARV-Rav¨Cinfected GPs (Figure 4B). Fibrin immunolabeling of strands and aggregates within vessels, along the endothelium, and in clusters that disperse into the adjacent red and white pulp were present in MARV-Ang¨Cinfected GPs (Figure 4C and 4D).","{
+  ""entities"": [
+    ""red pulp"",
+    ""white pulp"",
+    ""spleens"",
+    ""spleen"",
+    ""splenic germinal centers"",
+    ""vessels"",
+    ""endothelium"",
+    ""mononuclear/dendritiform cells"",
+    ""macrophages"",
+    ""lymphocytes"", ""MARV antigen"", ""fibrin""
+  ]
+}
+"
+reference-text,10,micro,PMC1483230,"In addition to soluble moieties, the intrathymic production of ECM is altered in infectious diseases (Figure 4). By using immunohistochemistry, we found increased deposition of ECM components such as laminin, fibronectin, and type IV collagen in various human and experimental acute infectious diseases, including rabies, syphilis, measles, Chagas disease, and schistosomiasis [32]. One could argue that such an increased in the intrathymic contents of ECM molecules merely reflects the atrophy of the organ, with a densification of the ECM-containing network as a result of thymocyte loss. Although such mechanical response is likely to occur, at least in experimental Chagas disease it does not solely account for the ECM increase, since in vitro T. cruzi infection of cultured thymic epithelial cells, as well as TEC cultures derived from in vivo-infected animals, does result in a enhancement of ECM production [62]. Moreover, it is interesting to note that in thymuses from T. cruzi acutely infected mice, thymocytes exhibit an increase in membrane density of ECM receptors for fibronectin and laminin [63]. As detailed below, such features are likely related to alterations in the migratory patterns of thymocytes.","{
+  ""entities"": [
+    ""thymus"", ""thymic epithelial cells"", ""thymocytes"", ""laminin"", ""fibronectin"", ""type IV collagen""
+  ]
+}
+"
+reference-text,11,schema,PMC2582196,"NAD(P)H oxidase, as well as other metabolic oxidases such as xanthine oxidase and mitochondrial respiratory chain enzymes (I¨CIV), are functional in the kidney (278). However, we and others have identified NAD(P)H oxidase¨Cinduced ROS production as a primary initiator of oxidative stress within the kidney (183, 353, 355, 356). Various cells in the kidney have now been shown to possess a fully functional NAD(P)H oxidase system, which produces O2¡¤? free radicals under stimulation by cues such as Ang II, agonists that bind to D1-like receptors, and to H+ fluxes (28, 89, 146, 184, 259, 353, 377, 384) (Figs. 6 through 9). Nox4 is expressed at high levels in kidney and other Noxs, including Nox1, Nox2, and Nox-regulatory subunits, are expressed at lower but quantitatively significant levels (4, 78, 146, 214, 244, 259, 303) making Nox enzymes attractive candidates for the origin of renal ROS, including the relatively high levels of H2O2 seen in urine (172). No consensus appears to exist for the corticomedullary differences between the different subunits, as the literature has data from different animals undergoing different treatments. Indeed, a few studies demonstrated no or very little expression of the regulatory subunits in the medulla. However, one report shows that, in SHRs, the expression of Nox1, Nox2, and p67phox is higher in the renal medulla as compared with the cortex, and the expression of Nox4 and p22phox is higher in the cortex than in the medulla (291). Per this group, the expression of p47 is about the same in the cortex versus medulla. The mesangial cells are unique in that they express Nox1, Nox4, and p22phox, p47phox, and p67phox, but not Nox2 (86, 127, 146, 164, 214, 223, 371, 380) (Fig. 6). This may be biologically important, as some data support the fact that mesangial cells may be similar to VSMCs, which also lack Nox2 (expressed at very low levels) (Stockand et al.). In mesangial cells, NO inhibits the expression of Nox1, suggesting cross-talk between NO and O2¡¤?-generating systems (244). p22phox, p47phox, and p67phox are all expressed in the PCT, DCT, CCD, and the macula densa cells (12, 72, 107, 139, 148, 342, 366) (Fig. 6). Nox2 expression has been shown in the PCT and CCD; Nox4, in the PCT and DCT; whereas Nox1 expression is confined to the PCT, once again demonstrating differential regulation of redox control within the cortex. In situ hybridization experiments initially localized Nox4 mRNA expression to the renal cortex, whereas the medulla showed much lower expression (244, 303). However, immunohistochemical studies also demonstrate Nox4 expression in distal portions of the human nephron, and Nox4 mRNA has been demonstrated in medullary collecting ducts (244, 303). Moreover, as mentioned earlier, the data for Nox4 were obtained from different animal groups. The Nox4 isoform of NAD(P)H oxidase is unique in that it also can use NADH as the substrate for generating O2¡¤? (173). This may be relevant to the kidneys, as the cortex and outer medulla preferentially use NADH as a substrate and express Nox4 at high levels in these regions (387).","{
+  ""entities"": [
+    ""kidney"",
+    ""renal medulla"",
+    ""cortex"",
+    ""mesangial cells"",
+    ""PCT"",
+    ""DCT"",
+    ""CCD"",
+    ""macula densa cells"",
+    ""human nephron"",
+    ""medullary collecting ducts"",
+    ""outer medulla"",
+      ""Nox4 mRNA"",
+      ""NAD(P)H oxidase"",
+      ""xanthine oxidase"",
+      ""mitochondrial respiratory chain enzymes (I¨CIV)"",
+      ""ROS"",
+      ""Ang II"",
+      ""D1-like receptors"",
+      ""H+"",
+      ""Nox4"",
+      ""Nox1"",
+      ""Nox2"",
+      ""Nox-regulatory subunits"",
+      ""H2O2"",
+      ""p67phox"",
+      ""p22phox"",
+      ""p47"",
+      ""NO"",
+      ""NADH""
+  ]
+}
+"
+reference-text,12,schema,PMC8865330,"The large intestine of mammals (Figure 3) is a fermenter in which environmental conditions are favorable to microbial activity. It is the part of the digestive tract that follows the small intestine and begins at the cecum and includes the appendix (humans only), colon, rectum, and anus.32 The large intestine contains a minority of microorganisms that are able to degrade cellulose, including bacteria, and certain anaerobic eukaryotes (fungi and protozoa).16,33 In contrast, the abundance of microorganisms growing on soluble polysaccharides resulting from the ¡°primary¡± cellulose degradation is high.16,34 In the present review, cellulolytic bacteria were focused. Despite their small quantity, cellulolytic bacteria play a crucial role, i.e., a ¡°keystone¡± role, in this process, as their absence would, e.g., greatly decrease the degradation and utilization of an important substrate, thus affecting the remainder of the microbial community.33","{
+  ""entities"": [
+    ""large intestine"",
+    ""cecum"",
+    ""appendix"",
+    ""colon"",
+    ""rectum"",
+    ""anus"",
+    ""digestive tract"",
+    ""small intestine"", ""bacteria"", ""fungi"", ""protozoa"", ""cellulose"", ""soluble polysaccharides""
+  ]
+}
+"
+reference-text,13,schema,PMC2423614,"Non-genotoxic hepatotoxins are examples of agents that could be responsible for changes in the liver that would enhance the ability of oncogenes such as MYC to induce liver tumorigenesis. CCl4 is a well characterized carcinogen that causes centrilobular destruction of hepatocytes and triggers mature hepatocytes to proliferate and reconstitute the lost liver mass (Figure 1A) [27], [28]. Other agents such as DDC have also been reported to cause liver damage associated with the proliferation of oval cells in the periportal area of the hepatic lobule, however, as of yet have not been reported to be carcinogens (Figure 1A) [29]¨C[31]. Here we show that both DDC and CCl4 similarly facilitate MYC-induced initiation of hepatocyte proliferation and tumorigenesis in the adult liver. Our findings suggest a model whereby external stimuli may unveil latent oncogene activation in the mature liver.","{
+  ""entities"": [
+    ""liver"", ""hepatic lobule"", ""hepatocytes"", ""oval cells"", ""MYC""
+  ]
+}
+"
+reference-text,14,schema,PMC8021898,"To understand how famotidine may act to reduce pulmonary COVID-19 symptoms requires an understanding of COVID-19 lung pathophysiology, which appears to have two principal disease phases. In turn, this requires an appreciation of pulmonary tissue and cell types. Pulmonary edema results from loss of a regulation of fluid transfer that occurs at several levels in the alveolus, as diagrammed in Figure 8. In the capillary wall, there are the glycocalyx, the endothelial cell with associated tight junctions, and the basement membrane. In the epithelium there is a surfactant layer on the alveolar lining fluid, manufactured and secreted by the Type II pneumocyte, and the Type I pneumocyte itself with its tight junctions and negatively charged basement membrane which restricts albumin. The pulmonary pericytes located in the terminal conducting airway region play a critical role in synthesizing the endothelial basement membrane and regulating blood flow in the precapillary arteriole, the capillary and the postcapillary venule. Disruption of any of these cells or layers can lead to edema. This edema fluid may be a transudate in milder dysfunctions or an exudate when inflammation or necrosis develop. Two possible pathologies that could result in edema of the alveolar wall and space include infection of cells by SARS-CoV-2 and mast cell degranulation with release of hundreds of compounds that can impact on cellular and basement membrane functions, glycocalyx and tight junction integrity. These compounds include histamine, bradykinin, heparin, tryptase and cytokines.","{
+  ""entities"": [
+    ""lung"",
+    ""pulmonary tissue"",
+    ""alveolus"",
+    ""capillary wall"",
+    ""epithelium"",
+    ""alveolar lining fluid"",
+    ""terminal conducting airway region"",
+    ""precapillary arteriole"",
+    ""capillary"",
+    ""postcapillary venule"",
+    ""alveolar wall"",
+    ""alveolar space"",
+    ""endothelial cell"",
+    ""Type II pneumocyte"",
+    ""Type I pneumocyte"",
+    ""pulmonary pericytes"",
+    ""mast cell"",
+      ""albumin"",
+      ""histamine"",
+      ""bradykinin"",
+      ""heparin"",
+      ""tryptase"",
+      ""cytokines""
+  ]
+}
+"
+reference-text,15,schema,PMC9452644,"Human pancreas is a unique and complex organ that contains both exocrine and endocrine tissues. The exocrine part accounts for 98% of the organ parenchyma and secretes pancreatic juice into the duodenum for correct digestion and assimilation of nutrients (27). The endocrine compartment represents the remaining 2%. The endocrine side is organized into independent cluster units (27) scattered throughout the exocrine parenchyma, best known as the islet of Langerhans (27,28). They are embedded within a capsule consisting of an extracellular matrix (ECM) and fibroblasts, in which endocrine cells are non randomly aggregated. Islets are independently fed by a dense network of highly fenestrated capillaries, which allows each endocrine cell to be in close contact with the blood (28). Specific organization of the ECM, cells, and microvasculature consitutes the endocrine niche (Figure 1). Owing to the evaluation of the endocrine niche, it was possible to identify the fundamental features useful for bioengineering endocrine pancreatic tissues. Thus, the role of each component will be briefly reviewed, identifying it as an essential part of the niche microenvironment that synergistically supports endocrine functions.","{
+  ""entities"": [
+    ""human pancreas"",
+    ""duodenum"",
+    ""islet of Langerhans"",
+    ""capsule"",
+    ""extracellular matrix (ECM)"",
+    ""capillaries"",
+    ""endocrine niche"",""fibroblasts"", ""endocrine cells"", ""pancreatic juice""
+  ]
+}
+"
+reference-text,16,schema,PMC3552388,"a | Infection. Chronic bacterial prostatitis is a rare recurring infection in which pathogenic bacteria are cultured from prostatic fluid. Viruses, fungi, mycobacteria and parasites can also infect the prostate and incite inflammation. The figure represents two prostate cells infected either by bacteria or viruses. b | Hormones. Hormonal alterations such as oestrogen exposure at crucial developmental junctures can result in architectural alterations in the prostate that produce an inflammatory response. c | Physical trauma. Corpora amylacea can traumatize the prostate on a microscopic level. The figure shows a corpora within a prostatic acinus in which its edges appear to be eroding the epithelium, resulting in an increase in expression of the stress enzyme cyclooxygenase 2 (PTGS2), represented by brown immunostaining. Prostate cell nuclei are visible in violet following haematoxylin staining. d | Urine reflux. Urine that travels up back towards the bladder (¡®retrograde¡¯ movement) can penetrate the ducts and acini of the prostate. Some compounds, such as crystalline uric acid, can directly activate innate inflammatory cells. Although these compounds would not be expected to traverse the prostate epithelium, if the epithelium was already damaged this would facilitate the leakage of these compounds into the stromal space where they would readily activate inflammatory cells. e | Dietary habits. Ingested carcinogens (for example 2-amino-1-methyl-6-phenylimidazo[4,5-b]pyridine (PhIP), which derives from charred meat) can reach the prostate through the bloodstream or by urine reflux and cause DNA damage and mutations, and result in an influx of inflammatory cells.","{
+  ""entities"": [
+    ""prostatic fluid"",
+    ""prostate"",
+    ""prostatic acinus"",
+    ""ducts"",
+    ""urine"",
+    ""bladder"",
+    ""epithelium"",
+    ""stromal space"",""prostate cells"", ""inflammatory cells"", ""cyclooxygenase 2 (PTGS2)"", ""uric acid""
+  ]
+}
+"
+reference-text,17,schema,PMC11312048,"Moreover, our study showed that NSO can regulate the pathway associated with hair growth development, as evidenced by the upregulation of MAPK, FGF, and mTOR after NSO treatment (Figure 4b). In HF, the MAPK protein is involved in regulating root tip growth, stimulating proliferation, and inducing and prolonging the growth period [40]. The mTOR pathway regulates cell proliferation and cycle development in the hair cycle by interacting with the MAPK pathway [41]. The interactions and communication in these pathways continue throughout the hair growth cycle. In our investigation, the NSO extract actively stimulated the DPC growth-related gene FGF2. FGF2 sustains the high proliferation and multipotency of mesenchymal stem cells derived from human hair follicles, which is necessary for promoting the growth phase and HF morphogenesis [42]. Hydrogen peroxide can cause cell damage by producing ROS, which can downregulate cell growth, accelerate the cell aging process, and ultimately lead to hair loss [43]. In this study, we chose to treat DPCs with 200 ¦ÌM H2O2 for 1.5 h, and then significant changes were observed in the cell survival rate and ROS production. TXNRD2 eliminates free radicals by increasing the SOD, CAT, and GSH levels, thereby reducing ROS content [44]. In different types of vascular cells, HMOX1 converts cellular heme into carbon monoxide (CO), biliverdin, and Fe2+, which is crucial in the fight against inflammation, oxidative damage, apoptosis, and thrombosis [45]. As a key cytoplasmic peroxidation inhibitor protein, the lack of GPX4 enhances cellular lipid peroxidation. Iron accumulation, cytotoxic ROS, and lipid oxidation are characteristics of ferroptosis, and the inactivation of or reduction in GPX4 will lead to ferroptosis [46]. Research has shown that ferroptosis inhibitors can protect cells from damaging cell stress or prevent cell death by increasing GPX4 expression [47]. The inhibition and imbalance of genes associated with hair growth lead to an early entry into the regression period and a longer resting period, leading to hair loss eventually. The results show that NSO promotes cell proliferation and resists oxidative damage by regulating genes related to the proliferation (FGF2, MAPK3, and AKT2) and antioxidation (TXNRD2, HMOX1, GPX4) of DPC (Figure 4c and Figure 8).","{
+  ""entities"": [
+    ""HF"", 
+    ""DPCs"",
+    ""mesenchymal stem cells"",
+    ""vascular cells"",
+      ""FGF2"",
+      ""MAPK3"",
+      ""AKT2"",
+      ""TXNRD2"",
+      ""HMOX1"",
+      ""GPX4"", ""MAPK"", ""FGF"", ""mTOR"", ""SOD"", ""CAT"", ""GSH"",""ROS"", ""hydrogen peroxide""
+  ]
+}
+"
+reference-text,18,schema,PMC8128104,"The intestinal mucosal immune system can be divided into effector sites and inductive sites as illustrated in Figure 3.19.2. The effector sites are composed of the lamina propria (LP), which lies below the basement membrane in the intestinal villi, and the intraepithelial compartment, which contains intraepithelial lymphocytes (IEL) and is located just above the basement membrane juxtaposed between columnar epithelial cells. Intestinal inductive sites are composed of a network of Peyer¡¯s patches, which are organized lymphoid structures (akin to lymph nodes) embedded in the gut wall and the draining mesenteric lymph nodes. The LP, PP, and IEL lymphoid populations form a complex, interconnected network that responds to immunological insults in the intestine (Mowat, 2003; Sheridan and Lefrancois, 2010, 2011). Therefore, these lymphocyte populations should be analyzed when studying the immunological status of the intestine, for example in oral immunization, inflammatory bowel disease, infection, or tumors.","{
+  ""entities"": [
+    ""intestinal mucosa"",
+    ""lamina propria (LP)"",
+    ""intestinal villi"",
+    ""intraepithelial compartment"",
+    ""Peyer¡¯s patches"",
+    ""gut wall"",
+    ""mesenteric lymph nodes"",
+    ""intestine"",
+    ""intraepithelial lymphocytes (IEL)"",
+    ""columnar epithelial cells"",
+    ""lymphocytes""
+  ]
+}
+"
+reference-text,19,schema,PMC5486072,"Splenic sinuses are unique structures different from conventional capillaries. They are essentially cavities lined up by a discontinuous endothelium. Endothelial cells are disposed in parallel, hence delimiting narrow slits that represent the anatomical site where the sieving activity of the spleen is exerted (Figure 1A). Splenic sinuses continue in venules that anastomose to form veins of progressively larger caliber. Splenic cords are cavities inside the stroma of the red pulp that are filled up by red and white cells. Splenic cords are not lined by endothelium, but represent a specialization of the stroma and, as such, are delimited by fibroblasts and extracellular matrix. Red blood cells in splenic cords have to squeeze across the splits of the splenic sinusoids to return to the general circulation (Figure 1A). Aged and diseased erythrocytes that are not deformable enough to cross these slits are retained in the red pulp and destroyed [8]. As we will discuss later, this is also a mechanism involved in nanoparticle sequestration by the spleen. There has been a long controversy on how the splenic sinuses and cords are fed by the penicillary arteries in human spleen. For a long time, the prevalent model has been that penicillary arteries open up in the red pulp with no direct continuity with the wall of sinuses, hence making an open circulatory system in which blood may freely exit from the arterial compartment [9,10]. Further studies suggested instead that penicillary arteries directly continue in sinuses (closed circulation models), and combined models in which both open and closed circulation coexist were proposed, as well. In 2011, Steiniger et al. reported a detailed 3D reconstruction of red pulp vessels of the human spleen showing that virtually all of the circulation was of an open type [7]. Furthermore, another area of controversy concerning the blood supply of the white pulp has been recently addressed by 3D reconstruction studies. Kusumi et al. [11] showed that different from what was suggested by previous evidence, the central arteries do not directly contribute to the vascularization of the white pulp. The white pulp is, instead, irrorated by harpin loop arterioles emerging from the penicillary artery; after that, it leaves the follicle or the lymphoid sheath surrounding the central artery. An important contribution also comes from the central arteries of neighbor follicles. The arterioles that emerge from the penicillary arteries and those that come from neighbor follicles give rise to discontinuous capillary-like structures, the marginal sinuses, at the junction between the red and the white pulp (Figure 1B). This region known as the marginal zone (MZ) is well defined in rats and mice, but not in humans [5]. MZ is populated by resident IgM+/IgD? memory B lymphocytes, and it is easily identifiable in histological preparations, being demarcated by a uniform population of metallophilic macrophages (Figure 1B). ","{
+  ""entities"": [
+    ""splenic sinuses"",
+    ""capillaries"",
+    ""spleen"",
+    ""venules"",
+    ""veins"",
+    ""splenic cords"",
+    ""stroma"",
+    ""red pulp"",
+    ""penicillary arteries"",
+    ""arterial compartment"",
+    ""human spleen"",
+    ""white pulp"",
+    ""central arteries"",
+    ""follicle"",
+    ""lymphoid sheath"",
+    ""marginal sinuses"",
+    ""marginal zone (MZ)"",
+    ""red and white pulp"",
+    ""junction"",
+    ""endothelial cells"",
+    ""fibroblasts"",
+    ""red blood cells"",
+    ""macrophages"",
+    ""B lymphocytes"",""IgM"", ""IgD""
+  ]
+}
+"
+reference-text,20,schema,PMC7492291,"Conjointly, these data indicate that thymic depletion of DP thymocytes in acute T. cruzi infection is primarily caused by GC enhancement, and perhaps this pathway can be modulated by multiple interactions involving both endogenous factors and infectious agent-derived moieties. This complex scenario is summarized in Figure 1.","{
+  ""entities"": [
+    ""thymus"", ""DP thymocytes"", ""GC""
+  ]
+}
+"

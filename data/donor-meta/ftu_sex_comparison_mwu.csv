@@ -1,0 +1,23 @@
+ftu,male_median,female_median,n_male,n_female,p_value,male_gt_female
+alveolus of lung,75.0,75.0,86,82,0.6362118506721188,0
+bronchus submucosal gland,44.0,50.0,78,45,0.15780381490212536,0
+cortical collecting duct,50.0,50.0,77,94,0.8078467276768477,0
+crypt of Lieberkuhn of large intestine,50.0,50.0,293,336,0.7052123474028175,0
+descending limb of loop of Henle,50.0,50.0,128,145,0.7652873803400145,0
+epidermal ridge of digit,40.0,35.0,241,350,0.7614329134412751,1
+inner medullary collecting duct,50.0,50.0,47,68,0.8838899550524715,0
+intercalated duct of pancreas,50.0,50.0,10,14,0.15553751772046137,0
+intestinal villus,100.0,50.0,288,397,0.009375176708843335,1
+islet of Langerhans,50.0,50.0,132,146,0.4776584993879124,0
+liver lobule,50.0,50.0,168,175,0.09926058196905344,0
+loop of Henle ascending limb thin segment,60.0,125.0,6,10,0.6205586209555332,0
+nephron,50.0,50.0,732,596,0.2535641414795259,0
+outer medullary collecting duct,100.0,100.0,26,35,0.47642693140018466,0
+pancreatic acinus,50.0,50.0,154,181,0.08602937560775138,0
+papillary layer of dermis,100.0,50.0,316,457,0.04781549326035489,1
+prostate glandular acinus,50.0,50.0,204,205,0.04110984728006443,0
+red pulp of spleen,100.0,100.0,265,407,0.2385580941977269,0
+renal corpuscle,50.0,25.0,25,28,0.6337904354257935,1
+thick ascending limb of loop of Henle,50.0,50.0,61,99,0.13810031179428509,0
+thymus lobule,50.0,40.0,3,10,0.853734624660014,1
+white pulp of spleen,100.0,100.0,209,270,0.21725824474724142,0

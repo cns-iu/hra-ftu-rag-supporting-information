@@ -1,0 +1,23 @@
+organ,ftu,young,medium,old
+Kidney,cortical collecting duct,50.0,50.0,75.0
+Kidney,descending limb of loop of Henle,100.0,50.0,200.0
+Kidney,inner medullary collecting duct,100.0,50.0,
+Kidney,loop of Henle ascending limb thin segment,17500.0,200.0,2500.0
+Kidney,nephron,50.0,50.0,21.0
+Kidney,outer medullary collecting duct,100.0,50.0,
+Kidney,renal corpuscle,50.0,1.0,
+Kidney,thick ascending limb of loop of Henle,50.0,50.0,100.0
+Large Intestine,crypt of Lieberkuhn of large intestine,50.0,50.0,100.0
+Liver,liver lobule,50.0,50.0,1000.0
+Lung,alveolus of lung,75.0,100.0,100.0
+Lung,bronchus submucosal gland,100.0,50.0,50.0
+Pancreas,intercalated duct of pancreas,50.0,20.0,
+Pancreas,islet of Langerhans,50.0,50.0,100.0
+Pancreas,pancreatic acinus,80.0,50.0,100.0
+Prostate Gland,prostate glandular acinus,50.0,55.0,100.0
+Skin,epidermal ridge of digit,50.0,50.0,10.0
+Skin,papillary layer of dermis,100.0,100.0,50.0
+Small Intestine,intestinal villus,50.0,50.0,15.0
+Spleen,red pulp of spleen,75.0,100.0,100.0
+Spleen,white pulp of spleen,77.5,100.0,100.0
+Thymus,thymus lobule,50.0,,35.0

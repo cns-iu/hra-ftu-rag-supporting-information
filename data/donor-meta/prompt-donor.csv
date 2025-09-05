@@ -1,0 +1,1626 @@
+prompt
+"You will be given a scientific abstract as content. Your task is to extract information related to any donor or sample mentioned.
+
+For each distinct donor or sample group described in the abstract, extract the following fields in this exact order:
+- species
+- sex
+- age
+- BMI
+- height
+- weight
+
+If a value is explicitly mentioned, extract it. If not mentioned, write ""unknown"". If multiple donors or groups are described, return a JSON array with one object per donor or group.
+
+Output only a valid JSON array. Do not include any explanation or extra text.
+"
+"You will be given a scientific abstract as content. Your task is to extract information related to any donor or sample mentioned.
+
+For each distinct donor or sample group described in the abstract, extract the following fields in this exact order:
+- species
+- sex
+- age
+- BMI
+- height
+- weight
+
+If a value is explicitly mentioned, extract it. If not mentioned, write ""unknown"". If multiple donors or groups are described, return a JSON array with one object per donor or group.
+
+Output only a valid JSON array. Do not include any explanation or extra text.
+
+Output format example:
+[
+  {
+    ""species"": ""human"",
+    ""sex"": ""male"",
+    ""age"": ""69 years old"",
+    ""BMI"": ""27.5"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  },
+  {
+    ""species"": ""human"",
+    ""sex"": ""male"",
+    ""age"": ""66 years old"",
+    ""BMI"": ""34.3"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  }
+]
+"
+"Given the following scientific abstract, your task is to extract any donor or sample data related to the species, sex, age, BMI, height, and weight. If the data is available, extract the value. If it¡¯s not mentioned, use ¡°unknown¡±. Return the extracted information in the following exact format:
+
+[
+  {
+    ""species"": ""species_name"",
+    ""sex"": ""sex"",
+    ""age"": ""age"",
+    ""BMI"": ""BMI_value"",
+    ""height"": ""height_value"",
+    ""weight"": ""weight_value""
+  }
+]
+
+Ensure you only include relevant data for each donor or sample group in separate JSON objects.
+"
+"You are provided with a scientific abstract that mentions one or more sample groups or donors. Your task is to extract the following data for each donor or sample group:
+- species (e.g., human, mouse, etc.)
+- sex (e.g., male, female, unknown)
+- age (e.g., 30 years old, unknown)
+- BMI (Body Mass Index, if mentioned, else ""unknown"")
+- height (if mentioned, else ""unknown"")
+- weight (if mentioned, else ""unknown"")
+
+Format the output as a JSON array, with each group or donor having their own object in the array. If any detail is not explicitly mentioned, use ""unknown"" for that field. Return only the JSON formatted response.
+"
+"Please extract the following information from the given scientific abstract for each distinct donor or sample group:
+- Species
+- Sex
+- Age
+- BMI
+- Height
+- Weight
+
+For each group, if a specific value is mentioned, extract it. If any value is not provided, write ""unknown"". Return your answer as a valid JSON array where each object corresponds to a sample or donor group. The format should look like this:
+
+[
+  {
+    ""species"": ""species_name"",
+    ""sex"": ""sex"",
+    ""age"": ""age"",
+    ""BMI"": ""BMI_value"",
+    ""height"": ""height_value"",
+    ""weight"": ""weight_value""
+  }
+]
+
+Ensure that no extra explanation is provided, only the output in JSON format.
+"
+"You have been given a scientific abstract describing one or more sample groups or donors. Your task is to extract the following information for each donor or sample group:
+
+- Species: The type of species (e.g., human, mouse, etc.)
+- Sex: Male, female, or unknown
+- Age: Age in years (e.g., 65 years old, 1 year old) or ""unknown""
+- BMI: If available, extract the BMI value (e.g., 23.4), else ""unknown""
+- Height: If available, extract the height value (e.g., 160 cm), else ""unknown""
+- Weight: If available, extract the weight value (e.g., 70 kg), else ""unknown""
+
+The response should be in a JSON array format, with one object per donor or sample group. If any of the attributes (sex, age, BMI, height, weight) are not mentioned, mark them as ""unknown"". Do not include any other information or explanations, only the required output in the specified JSON format.
+"
+"You are tasked with extracting donor or sample data from a scientific abstract. For each donor or sample group mentioned, extract the following attributes:
+- species (e.g., human, mouse, etc.)
+- sex (male, female, unknown)
+- age (e.g., 25 years old, 60 years old, unknown)
+- BMI (e.g., 23.5, unknown)
+- height (e.g., 160 cm, unknown)
+- weight (e.g., 70 kg, unknown)
+
+For each distinct donor or sample, return a JSON object in the following format:
+
+[
+  {
+    ""species"": ""species_name"",
+    ""sex"": ""sex_value"",
+    ""age"": ""age_value"",
+    ""BMI"": ""BMI_value"",
+    ""height"": ""height_value"",
+    ""weight"": ""weight_value""
+  }
+]
+
+If a value is not available, set it as ""unknown"". Your output should only contain this structured JSON without any explanation or additional text.
+"
+"Extract the species, sex, age, BMI, height, and weight from the provided scientific abstract. If any information is missing, mark it as ""unknown"". Provide the result as a JSON array, each object representing a donor or sample.
+
+Example format:
+[
+  {
+    ""species"": ""human"",
+    ""sex"": ""male"",
+    ""age"": ""unknown"",
+    ""BMI"": ""25.0"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  }
+]
+"
+"For each donor or sample group in the abstract, extract the following details:
+- Species
+- Sex
+- Age
+- BMI
+- Height
+- Weight
+
+If the value for any field is not provided, use ""unknown"". Your response should be in a valid JSON array, where each item in the array corresponds to a distinct donor or sample group. Format the output as shown:
+
+[
+  {
+    ""species"": ""species_name"",
+    ""sex"": ""sex_value"",
+    ""age"": ""age_value"",
+    ""BMI"": ""BMI_value"",
+    ""height"": ""height_value"",
+    ""weight"": ""weight_value""
+  }
+]
+"
+"Extract the following data from the provided abstract for each donor or sample group:
+- Species
+- Sex
+- Age
+- BMI
+- Height
+- Weight
+
+If a value is missing for any field, write ""unknown"". Return the information in a JSON array. Each donor or sample group should have its own object in the array. The format should be as follows:
+
+[
+  {
+    ""species"": ""species_name"",
+    ""sex"": ""sex_value"",
+    ""age"": ""age_value"",
+    ""BMI"": ""BMI_value"",
+    ""height"": ""height_value"",
+    ""weight"": ""weight_value""
+  }
+]
+"
+"Read the abstract and extract the following details for each donor or sample group:
+1. Species (e.g., human, mouse)
+2. Sex (male, female, or unknown)
+3. Age (e.g., 35 years old, 1 year old, or unknown)
+4. BMI (if provided, e.g., 24.5, or unknown)
+5. Height (if mentioned, e.g., 170 cm, or unknown)
+6. Weight (if mentioned, e.g., 65 kg, or unknown)
+
+Return a JSON array with one object per donor or sample group, and ensure missing values are listed as ""unknown"". Example:
+
+[
+  {
+    ""species"": ""human"",
+    ""sex"": ""male"",
+    ""age"": ""30 years old"",
+    ""BMI"": ""24.0"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  }
+]
+"
+"For each donor or sample group mentioned in the abstract, extract the following fields:
+- Species: the type of species (e.g., human, mouse)
+- Sex: the sex (male, female, or unknown)
+- Age: the age of the donor or sample group (e.g., 5 years old, unknown)
+- BMI: the Body Mass Index (if provided, otherwise ""unknown"")
+- Height: the height of the donor (if mentioned, otherwise ""unknown"")
+- Weight: the weight of the donor (if provided, otherwise ""unknown"")
+
+Return your response as a valid JSON array. Each donor or sample group should be represented as a separate object. If a value is not available for any of the fields, please use ""unknown"". The expected output format is:
+
+[
+  {
+    ""species"": ""species_name"",
+    ""sex"": ""sex_value"",
+    ""age"": ""age_value"",
+    ""BMI"": ""BMI_value"",
+    ""height"": ""height_value"",
+    ""weight"": ""weight_value""
+  }
+]
+"
+"From the abstract provided, extract the following details for each donor or sample:
+- species
+- sex
+- age
+- BMI
+- height
+- weight
+
+If a field is not mentioned, use ""unknown"". Provide the result as a JSON array. Format should be:
+
+[
+  {
+    ""species"": ""species_name"",
+    ""sex"": ""sex_value"",
+    ""age"": ""age_value"",
+    ""BMI"": ""BMI_value"",
+    ""height"": ""height_value"",
+    ""weight"": ""weight_value""
+  }
+]
+"
+"For each donor or sample group mentioned in the abstract, extract and return the following information:
+- Species: e.g., human, mouse
+- Sex: male, female, or unknown
+- Age: e.g., 20 years, 1 year, unknown
+- BMI: e.g., 25.5, unknown
+- Height: e.g., 160 cm, unknown
+- Weight: e.g., 70 kg, unknown
+
+Return the extracted data as a JSON array. Here is the example format:
+
+[
+  {
+    ""species"": ""human"",
+    ""sex"": ""male"",
+    ""age"": ""25 years"",
+    ""BMI"": ""23.5"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  }
+]
+"
+"In the abstract provided, identify each donor or sample group described and extract the following details:
+- Species (e.g., human, mouse)
+- Sex (male, female, or unknown)
+- Age (e.g., 40 years, 5 years, or unknown)
+- BMI (Body Mass Index, e.g., 22.4, or unknown)
+- Height (e.g., 180 cm, or unknown)
+- Weight (e.g., 70 kg, or unknown)
+
+Each donor or sample should be represented as a separate object in a JSON array. If any data is not mentioned, label it as ""unknown"". The output format should look like this:
+
+[
+  {
+    ""species"": ""species_name"",
+    ""sex"": ""sex_value"",
+    ""age"": ""age_value"",
+    ""BMI"": ""BMI_value"",
+    ""height"": ""height_value"",
+    ""weight"": ""weight_value""
+  }
+]
+"
+"Extract the following information for each donor or sample group from the abstract:
+- Species
+- Sex
+- Age
+- BMI
+- Height
+- Weight
+
+Return the result as a JSON array with each donor or sample group as an individual object. If a field is missing, use ""unknown"" for that field. The output format should be:
+
+[
+  {
+    ""species"": ""species_name"",
+    ""sex"": ""sex_value"",
+    ""age"": ""age_value"",
+    ""BMI"": ""BMI_value"",
+    ""height"": ""height_value"",
+    ""weight"": ""weight_value""
+  }
+]
+"
+"For each donor or sample group mentioned in the provided abstract, extract these details:
+1. Species (e.g., human, mouse, etc.)
+2. Sex (male, female, or unknown)
+3. Age (in years or ""unknown"")
+4. BMI (if mentioned, else ""unknown"")
+5. Height (if mentioned, else ""unknown"")
+6. Weight (if mentioned, else ""unknown"")
+
+Format the extracted data in a JSON array with each donor or sample group represented as an object. If a value for any field is missing, return ""unknown"". Output the data as follows:
+
+[
+  {
+    ""species"": ""species_name"",
+    ""sex"": ""sex_value"",
+    ""age"": ""age_value"",
+    ""BMI"": ""BMI_value"",
+    ""height"": ""height_value"",
+    ""weight"": ""weight_value""
+  }
+]
+"
+"Please extract the following data for each donor or sample group from the provided abstract:
+- species
+- sex
+- age
+- BMI
+- height
+- weight
+
+If any data is missing, write ""unknown"". Return your response as a JSON array, with each object representing a unique donor or sample group.
+
+Output format example:
+
+[
+  {
+    ""species"": ""species_name"",
+    ""sex"": ""sex_value"",
+    ""age"": ""age_value"",
+    ""BMI"": ""BMI_value"",
+    ""height"": ""height_value"",
+    ""weight"": ""weight_value""
+  }
+]
+"
+"From the given abstract, extract the following attributes for each donor or sample group:
+1. Species (e.g., human, mouse)
+2. Sex (male, female, or unknown)
+3. Age (in years or ""unknown"")
+4. BMI (if available, otherwise ""unknown"")
+5. Height (if mentioned, otherwise ""unknown"")
+6. Weight (if mentioned, otherwise ""unknown"")
+
+Provide your result in a JSON array format, where each item corresponds to a distinct donor or sample. For missing values, use ""unknown"". Do not include any additional explanations or text.
+
+Example format:
+[
+  {
+    ""species"": ""species_name"",
+    ""sex"": ""sex_value"",
+    ""age"": ""age_value"",
+    ""BMI"": ""BMI_value"",
+    ""height"": ""height_value"",
+    ""weight"": ""weight_value""
+  }
+]
+"
+"Your task is to extract the following information for each donor or sample group mentioned in the abstract:
+- Species: The species of the donor or sample (e.g., human, mouse)
+- Sex: Male, female, or unknown
+- Age: Age of the donor or sample (e.g., 25 years old, or unknown)
+- BMI: Body Mass Index (if mentioned, otherwise ""unknown"")
+- Height: Height of the donor (if available, otherwise ""unknown"")
+- Weight: Weight of the donor (if mentioned, otherwise ""unknown"")
+
+Output your response as a JSON array. Each donor or sample should be represented as an individual object. If any data is not provided, replace it with ""unknown"". 
+
+Output format:
+[
+  {
+    ""species"": ""species_name"",
+    ""sex"": ""sex_value"",
+    ""age"": ""age_value"",
+    ""BMI"": ""BMI_value"",
+    ""height"": ""height_value"",
+    ""weight"": ""weight_value""
+  }
+]
+"
+"From the abstract, extract the following details for each donor or sample group:
+- Species
+- Sex
+- Age
+- BMI
+- Height
+- Weight
+
+If any value is missing, mark it as ""unknown"". Return the result as a valid JSON array. Each donor or sample should be represented as a separate object. 
+
+Example format:
+[
+  {
+    ""species"": ""species_name"",
+    ""sex"": ""sex_value"",
+    ""age"": ""age_value"",
+    ""BMI"": ""BMI_value"",
+    ""height"": ""height_value"",
+    ""weight"": ""weight_value""
+  }
+]
+"
+"Please extract and list the following attributes for each donor or sample group mentioned in the abstract:
+- Species (e.g., human, mouse)
+- Sex (male, female, or unknown)
+- Age (e.g., 30 years old, unknown)
+- BMI (Body Mass Index, e.g., 25.4, unknown)
+- Height (if available, otherwise ""unknown"")
+- Weight (if provided, otherwise ""unknown"")
+
+Return your result as a JSON array. If any value is missing for a field, use ""unknown"". Do not include additional explanations, only the JSON output.
+
+Format:
+[
+  {
+    ""species"": ""species_name"",
+    ""sex"": ""sex_value"",
+    ""age"": ""age_value"",
+    ""BMI"": ""BMI_value"",
+    ""height"": ""height_value"",
+    ""weight"": ""weight_value""
+  }
+]
+"
+"From the abstract provided, extract the following details for each donor or sample group:
+- Species (e.g., human, mouse)
+- Sex (male, female, or unknown)
+- Age (in years or ""unknown"")
+- BMI (if mentioned, otherwise ""unknown"")
+- Height (if provided, otherwise ""unknown"")
+- Weight (if provided, otherwise ""unknown"")
+
+Return the extracted information as a JSON array, with each donor or sample group as a separate object. If a value is not provided, use ""unknown"" for that field.
+
+Example output:
+[
+  {
+    ""species"": ""species_name"",
+    ""sex"": ""sex_value"",
+    ""age"": ""age_value"",
+    ""BMI"": ""BMI_value"",
+    ""height"": ""height_value"",
+    ""weight"": ""weight_value""
+  }
+]
+"
+"Please extract the following fields for each donor or sample group mentioned in the abstract:
+- Species
+- Sex
+- Age
+- BMI
+- Height
+- Weight
+
+If any information is missing for a field, write ""unknown"". Output your result as a valid JSON array with each donor or sample represented as an object.
+
+Example format:
+[
+  {
+    ""species"": ""species_name"",
+    ""sex"": ""sex_value"",
+    ""age"": ""age_value"",
+    ""BMI"": ""BMI_value"",
+    ""height"": ""height_value"",
+    ""weight"": ""weight_value""
+  }
+]
+"
+"From the abstract, please extract the following details for each donor or sample:
+- Species
+- Sex
+- Age
+- BMI
+- Height
+- Weight
+
+If any of these details are not mentioned, return ""unknown"" for the corresponding field. Present the information in a JSON array format, with one object per donor or sample group.
+
+Format:
+[
+  {
+    ""species"": ""species_name"",
+    ""sex"": ""sex_value"",
+    ""age"": ""age_value"",
+    ""BMI"": ""BMI_value"",
+    ""height"": ""height_value"",
+    ""weight"": ""weight_value""
+  }
+]
+"
+"Extract the following fields for each donor or sample group from the abstract:
+- species
+- sex
+- age
+- BMI
+- height
+- weight
+
+If any field is missing or not mentioned, use ""unknown"" for that field. Return the extracted data in a JSON array, with each group as an individual object. The output format should be:
+
+[
+  {
+    ""species"": ""species_name"",
+    ""sex"": ""sex_value"",
+    ""age"": ""age_value"",
+    ""BMI"": ""BMI_value"",
+    ""height"": ""height_value"",
+    ""weight"": ""weight_value""
+  }
+]
+"
+"For each donor or sample group in the abstract, extract the following attributes:
+1. Species
+2. Sex
+3. Age
+4. BMI
+5. Height
+6. Weight
+
+If any attribute is not available, mark it as ""unknown"". Format the output as a valid JSON array with one object per donor or sample group.
+
+Example:
+[
+  {
+    ""species"": ""species_name"",
+    ""sex"": ""sex_value"",
+    ""age"": ""age_value"",
+    ""BMI"": ""BMI_value"",
+    ""height"": ""height_value"",
+    ""weight"": ""weight_value""
+  }
+]
+"
+"Extract the following information from the provided abstract for each donor or sample group:
+- Species (e.g., human, mouse)
+- Sex (male, female, unknown)
+- Age (e.g., 25 years old, unknown)
+- BMI (e.g., 24.5, unknown)
+- Height (e.g., 170 cm, unknown)
+- Weight (e.g., 70 kg, unknown)
+
+Return the extracted details as a JSON array. For each donor or sample, create one object. If any field is not provided, use ""unknown"". The output format should look like this:
+
+[
+  {
+    ""species"": ""species_name"",
+    ""sex"": ""sex_value"",
+    ""age"": ""age_value"",
+    ""BMI"": ""BMI_value"",
+    ""height"": ""height_value"",
+    ""weight"": ""weight_value""
+  }
+]"
+"For each donor or sample group described in the abstract, extract the following fields:
+- Species: What is the species of the donor or sample? (e.g., human, mouse)
+- Sex: What is the sex of the donor or sample? (e.g., male, female, or unknown)
+- Age: What is the age of the donor or sample? (e.g., 30 years old, 1 year old, unknown)
+- BMI: If available, extract the BMI value (e.g., 25.0, or ""unknown"")
+- Height: If mentioned, extract the height value (e.g., 170 cm, or ""unknown"")
+- Weight: If mentioned, extract the weight value (e.g., 70 kg, or ""unknown"")
+
+Provide the result in a JSON array format, with one object for each donor or sample. If any value is missing, replace it with ""unknown"". Here is the required format:
+
+[
+  {
+    ""species"": ""species_name"",
+    ""sex"": ""sex_value"",
+    ""age"": ""age_value"",
+    ""BMI"": ""BMI_value"",
+    ""height"": ""height_value"",
+    ""weight"": ""weight_value""
+  }
+]
+"
+"In the provided abstract, there are multiple donor or sample groups. For each group, extract the following details:
+1. Species (e.g., human, mouse)
+2. Sex (male, female, or unknown)
+3. Age (e.g., 25 years, 30 years, or unknown)
+4. BMI (if mentioned, e.g., 22.5, or unknown)
+5. Height (if mentioned, e.g., 170 cm, or unknown)
+6. Weight (if mentioned, e.g., 70 kg, or unknown)
+
+Return the data as a JSON array with each donor or sample represented by an object. If any value is missing, use ""unknown"" for that field. Example format:
+
+[
+  {
+    ""species"": ""species_name"",
+    ""sex"": ""sex_value"",
+    ""age"": ""age_value"",
+    ""BMI"": ""BMI_value"",
+    ""height"": ""height_value"",
+    ""weight"": ""weight_value""
+  }
+]
+"
+"Extract the following fields for each donor or sample from the abstract:
+- Species
+- Sex
+- Age
+- BMI
+- Height
+- Weight
+
+If the value for any field is not available, write ""unknown"". Return your answer as a JSON array. Example format:
+
+[
+  {
+    ""species"": ""species_name"",
+    ""sex"": ""sex_value"",
+    ""age"": ""age_value"",
+    ""BMI"": ""BMI_value"",
+    ""height"": ""height_value"",
+    ""weight"": ""weight_value""
+  }
+]
+"
+"For each donor or sample described in the abstract, extract:
+- Species
+- Sex
+- Age
+- BMI
+- Height
+- Weight
+
+If any of the details are not available, mark them as ""unknown"". Provide the extracted data in a JSON array. Example format:
+
+[
+  {
+    ""species"": ""species_name"",
+    ""sex"": ""sex_value"",
+    ""age"": ""age_value"",
+    ""BMI"": ""BMI_value"",
+    ""height"": ""height_value"",
+    ""weight"": ""weight_value""
+  }
+]
+"
+"Extract the following details for each donor or sample group from the abstract:
+- Species (e.g., human, mouse)
+- Sex (e.g., male, female, or unknown)
+- Age (e.g., 25 years old, unknown)
+- BMI (e.g., 25.0, unknown)
+- Height (e.g., 175 cm, unknown)
+- Weight (e.g., 70 kg, unknown)
+
+Return the extracted details as a JSON array. If any field is missing, use ""unknown"". Output the data as shown below:
+
+[
+  {
+    ""species"": ""species_name"",
+    ""sex"": ""sex_value"",
+    ""age"": ""age_value"",
+    ""BMI"": ""BMI_value"",
+    ""height"": ""height_value"",
+    ""weight"": ""weight_value""
+  }
+]
+"
+"You are tasked with extracting the following fields for each donor or sample from the provided abstract:
+- Species: the species of the donor or sample (e.g., human, mouse)
+- Sex: the sex of the donor or sample (male, female, or unknown)
+- Age: the age of the donor or sample (e.g., 25 years old, unknown)
+- BMI: Body Mass Index of the donor or sample (if available, otherwise ""unknown"")
+- Height: the height of the donor or sample (if mentioned, otherwise ""unknown"")
+- Weight: the weight of the donor or sample (if mentioned, otherwise ""unknown"")
+
+Return the data as a JSON array, with one object per donor or sample group. If any value is missing, mark it as ""unknown"". Here¡¯s the expected output format:
+
+[
+  {
+    ""species"": ""species_name"",
+    ""sex"": ""sex_value"",
+    ""age"": ""age_value"",
+    ""BMI"": ""BMI_value"",
+    ""height"": ""height_value"",
+    ""weight"": ""weight_value""
+  }
+]
+"
+"From the abstract, extract the following information for each donor or sample:
+- Species
+- Sex
+- Age
+- BMI
+- Height
+- Weight
+
+For missing details, use ""unknown"". Output your result as a JSON array with each donor or sample group represented as an object.
+
+Example:
+[
+  {
+    ""species"": ""species_name"",
+    ""sex"": ""sex_value"",
+    ""age"": ""age_value"",
+    ""BMI"": ""BMI_value"",
+    ""height"": ""height_value"",
+    ""weight"": ""weight_value""
+  }
+]
+"
+"For each donor or sample group in the abstract, extract the following attributes:
+1. Species (e.g., human, mouse)
+2. Sex (e.g., male, female, or unknown)
+3. Age (e.g., 30 years old, unknown)
+4. BMI (Body Mass Index, e.g., 25.0, unknown)
+5. Height (if mentioned, otherwise ""unknown"")
+6. Weight (if provided, otherwise ""unknown"")
+
+Return the extracted details as a JSON array. Each donor or sample should have a separate object in the array. If any data is missing, replace it with ""unknown"". Example format:
+
+[
+  {
+    ""species"": ""species_name"",
+    ""sex"": ""sex_value"",
+    ""age"": ""age_value"",
+    ""BMI"": ""BMI_value"",
+    ""height"": ""height_value"",
+    ""weight"": ""weight_value""
+  }
+]
+"
+"Extract the following details from the abstract for each donor or sample group:
+- Species
+- Sex
+- Age
+- BMI
+- Height
+- Weight
+
+If the data for any attribute is not mentioned, mark it as ""unknown"". Your response should be in the following JSON format:
+
+[
+  {
+    ""species"": ""species_name"",
+    ""sex"": ""sex_value"",
+    ""age"": ""age_value"",
+    ""BMI"": ""BMI_value"",
+    ""height"": ""height_value"",
+    ""weight"": ""weight_value""
+  }
+]
+"
+"Please extract the following data for each donor or sample group mentioned in the abstract:
+- Species (e.g., human, mouse)
+- Sex (male, female, or unknown)
+- Age (e.g., 25 years, 40 years, or unknown)
+- BMI (e.g., 24.5, unknown)
+- Height (e.g., 170 cm, unknown)
+- Weight (e.g., 65 kg, unknown)
+
+Return the result as a JSON array, where each donor or sample group is represented as a separate object. If any field is not mentioned, replace it with ""unknown"". Output the result as follows:
+
+[
+  {
+    ""species"": ""species_name"",
+    ""sex"": ""sex_value"",
+    ""age"": ""age_value"",
+    ""BMI"": ""BMI_value"",
+    ""height"": ""height_value"",
+    ""weight"": ""weight_value""
+  }
+]
+"
+"From the abstract, extract the following information for each donor or sample group:
+- Species: What species is being described? (e.g., human, mouse)
+- Sex: What is the sex of the donor or sample? (male, female, or unknown)
+- Age: Age of the donor or sample group (e.g., 30 years old, unknown)
+- BMI: Body Mass Index value (e.g., 25.0, or unknown)
+- Height: Height of the donor or sample (if available, otherwise ""unknown"")
+- Weight: Weight of the donor or sample (if mentioned, otherwise ""unknown"")
+
+Return the data as a JSON array. Each donor or sample should have a separate object. Use ""unknown"" for any missing fields.
+
+Example format:
+[
+  {
+    ""species"": ""species_name"",
+    ""sex"": ""sex_value"",
+    ""age"": ""age_value"",
+    ""BMI"": ""BMI_value"",
+    ""height"": ""height_value"",
+    ""weight"": ""weight_value""
+  }
+]
+"
+"Please extract the following attributes for each donor or sample group in the provided abstract:
+- Species: The species of the donor or sample (e.g., human, mouse)
+- Sex: The sex (e.g., male, female, or unknown)
+- Age: The age of the donor or sample (e.g., 30 years, unknown)
+- BMI: Body Mass Index (e.g., 23.0, or ""unknown"")
+- Height: The height of the donor or sample (e.g., 170 cm, or ""unknown"")
+- Weight: The weight of the donor or sample (e.g., 70 kg, or ""unknown"")
+
+Your result should be in a valid JSON array, where each object represents a distinct donor or sample. Use ""unknown"" if any of the fields are not provided. Ensure that you return the output in the following format:
+
+[
+  {
+    ""species"": ""species_name"",
+    ""sex"": ""sex_value"",
+    ""age"": ""age_value"",
+    ""BMI"": ""BMI_value"",
+    ""height"": ""height_value"",
+    ""weight"": ""weight_value""
+  }
+]
+"
+"For each donor or sample group in the abstract, extract the following information:
+- Species
+- Sex
+- Age (in years, or unknown)
+- BMI (if provided, otherwise ""unknown"")
+- Height (if mentioned, otherwise ""unknown"")
+- Weight (if available, otherwise ""unknown"")
+
+Return the extracted information in a JSON array. If any field is missing, mark it as ""unknown"". Use the format below:
+
+[
+  {
+    ""species"": ""species_name"",
+    ""sex"": ""sex_value"",
+    ""age"": ""age_value"",
+    ""BMI"": ""BMI_value"",
+    ""height"": ""height_value"",
+    ""weight"": ""weight_value""
+  }
+]
+"
+"From the provided abstract, extract the following details for each donor or sample group:
+- Species
+- Sex
+- Age
+- BMI
+- Height
+- Weight
+
+Ensure each donor or sample is presented as a separate object in the JSON array. For missing information, mark the value as ""unknown"". Output the data in the following format:
+
+[
+  {
+    ""species"": ""species_name"",
+    ""sex"": ""sex_value"",
+    ""age"": ""age_value"",
+    ""BMI"": ""BMI_value"",
+    ""height"": ""height_value"",
+    ""weight"": ""weight_value""
+  }
+]
+"
+"For each donor or sample group in the abstract, extract the following:
+- Species (e.g., human, mouse)
+- Sex (male, female, or unknown)
+- Age (e.g., 20 years old, unknown)
+- BMI (if available, otherwise ""unknown"")
+- Height (if available, otherwise ""unknown"")
+- Weight (if available, otherwise ""unknown"")
+
+Return the result as a JSON array with one object per donor or sample group. If a field is missing, use ""unknown"". 
+
+Example format:
+[
+  {
+    ""species"": ""species_name"",
+    ""sex"": ""sex_value"",
+    ""age"": ""age_value"",
+    ""BMI"": ""BMI_value"",
+    ""height"": ""height_value"",
+    ""weight"": ""weight_value""
+  }
+]
+"
+"Extract the following information from the abstract for each donor or sample group:
+- Species
+- Sex
+- Age
+- BMI
+- Height
+- Weight
+
+If any field is not mentioned, write ""unknown"". Provide the extracted data as a JSON array with each donor or sample as a separate object.
+
+Example:
+[
+  {
+    ""species"": ""species_name"",
+    ""sex"": ""sex_value"",
+    ""age"": ""age_value"",
+    ""BMI"": ""BMI_value"",
+    ""height"": ""height_value"",
+    ""weight"": ""weight_value""
+  }
+]
+"
+"From the abstract, extract the following information for each donor or sample:
+- Species (e.g., human, mouse)
+- Sex (e.g., male, female, unknown)
+- Age (e.g., 40 years old, unknown)
+- BMI (e.g., 22.4, unknown)
+- Height (e.g., 180 cm, unknown)
+- Weight (e.g., 70 kg, unknown)
+
+If a detail is not mentioned, return ""unknown"" for that field. Format your output as a JSON array, with each donor or sample represented as a separate object. Example format:
+
+[
+  {
+    ""species"": ""species_name"",
+    ""sex"": ""sex_value"",
+    ""age"": ""age_value"",
+    ""BMI"": ""BMI_value"",
+    ""height"": ""height_value"",
+    ""weight"": ""weight_value""
+  }
+]
+"
+"Extract the following fields from the abstract for each donor or sample group:
+- Species
+- Sex
+- Age
+- BMI
+- Height
+- Weight
+
+Return the extracted data as a JSON array. For any missing field, use ""unknown"". Example output format:
+
+[
+  {
+    ""species"": ""species_name"",
+    ""sex"": ""sex_value"",
+    ""age"": ""age_value"",
+    ""BMI"": ""BMI_value"",
+    ""height"": ""height_value"",
+    ""weight"": ""weight_value""
+  }
+]
+"
+"For each donor or sample group in the abstract, extract the following:
+- Species
+- Sex
+- Age
+- BMI
+- Height
+- Weight
+
+Ensure that missing information is labeled as ""unknown"". Output your response in the following JSON format:
+
+[
+  {
+    ""species"": ""species_name"",
+    ""sex"": ""sex_value"",
+    ""age"": ""age_value"",
+    ""BMI"": ""BMI_value"",
+    ""height"": ""height_value"",
+    ""weight"": ""weight_value""
+  }
+]
+"
+"Extract the following details from the abstract for each donor or sample group:
+- Species (e.g., human, mouse)
+- Sex (male, female, or unknown)
+- Age (e.g., 45 years old, unknown)
+- BMI (e.g., 25.5, unknown)
+- Height (e.g., 170 cm, unknown)
+- Weight (e.g., 70 kg, unknown)
+
+Return the data in a JSON array format. If any data is missing, mark it as ""unknown"". Each donor or sample should have a separate object in the array.
+
+Example format:
+[
+  {
+    ""species"": ""species_name"",
+    ""sex"": ""sex_value"",
+    ""age"": ""age_value"",
+    ""BMI"": ""BMI_value"",
+    ""height"": ""height_value"",
+    ""weight"": ""weight_value""
+  }
+]
+"
+"Given a scientific abstract, identify all donor or sample groups mentioned. For each group, extract the following details in this order:
+- species
+- sex
+- age
+- BMI
+- height
+- weight
+
+If a value is provided, extract it. If not, return 'unknown'. If multiple groups are mentioned, provide a JSON array with one object per group. For each field, if the information is missing, write 'unknown'. Format the response as a valid JSON array.
+"
+"Please read the following scientific abstract and extract any information related to donors or sample groups. For each distinct donor or sample group, return the following fields in this exact order:
+- species
+- sex
+- age
+- BMI
+- height
+- weight
+
+If the abstract includes any of these details, return the values; if any information is missing, mark it as 'unknown'. If there are multiple groups, list them as separate objects in a JSON array. Ensure the response is valid JSON.
+"
+"Extract donor or sample group information from the following scientific abstract. Provide a JSON array with one object per donor or group. Each object should include the following fields:
+- species
+- sex
+- age
+- BMI
+- height
+- weight
+
+If any field is missing, return 'unknown'.
+"
+"From the scientific abstract, please identify and extract data related to each donor or sample group. For each group, provide the following fields:
+- species
+- sex
+- age
+- BMI
+- height
+- weight
+
+If a value is given, include it; if not, return 'unknown'. If there are multiple groups, provide a separate JSON object for each. The response should strictly follow valid JSON format.
+"
+"Given the scientific abstract, extract the details of each donor or sample group mentioned. For each distinct donor or group, please include:
+- species
+- sex
+- age
+- BMI
+- height
+- weight
+
+If the information is explicitly mentioned in the abstract, extract it. If a value is missing, write 'unknown'. Return the result as a JSON array with one object for each donor or sample group. Each field should be listed in the same order: species, sex, age, BMI, height, and weight. If no value is available for a field, use 'unknown'.
+"
+"Extract donor or sample group details from the provided abstract. For each donor or group, list:
+- species
+- sex
+- age
+- BMI
+- height
+- weight
+
+If the information is present, use the exact details. If any details are missing, input 'unknown'. Return the results in a JSON array format, with one object for each group. Ensure the format is valid JSON.
+"
+"Read through the abstract and extract the following data for each donor or sample group:
+- species
+- sex
+- age
+- BMI
+- height
+- weight
+
+If the data is available, provide the values; if not, label it as 'unknown'. Return a valid JSON array with one object per donor or sample group.
+"
+"Extract the details for each donor or sample group mentioned in the abstract. Provide a JSON array with the following fields:
+- species
+- sex
+- age
+- BMI
+- height
+- weight
+
+If any information is missing, use 'unknown'.
+"
+"Please follow these steps to extract donor or sample group information from the scientific abstract:
+
+1. Identify all donor or sample groups mentioned in the abstract.
+2. For each group, extract the following details in this specific order:
+   - species
+   - sex
+   - age
+   - BMI
+   - height
+   - weight
+3. If a specific value is given for each field, include it.
+4. If any field is missing or not mentioned, return ""unknown"" for that field.
+5. Ensure that each donor or sample group is represented as a separate object.
+6. Return the result as a valid JSON array, with one object per donor or sample group.
+
+Example:
+```json
+[
+  {
+    ""species"": ""human"",
+    ""sex"": ""male"",
+    ""age"": ""50 years old"",
+    ""BMI"": ""22.5"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  }
+]
+"
+"In this task, you will extract specific donor or sample group information from the scientific abstract. For each group mentioned, please extract the following attributes:
+
+- species
+- sex
+- age
+- BMI
+- height
+- weight
+
+### Guidelines:
+- If the value for any attribute is present, include it in your response.
+- If the value for any attribute is missing or not mentioned, write ""unknown"" for that field.
+- If there are multiple donor groups or samples mentioned, separate each group in a distinct object within a JSON array.
+- Please make sure that your response is a valid JSON format with no additional text or explanation.
+
+### Example:
+```json
+[
+  {
+    ""species"": ""human"",
+    ""sex"": ""female"",
+    ""age"": ""unknown"",
+    ""BMI"": ""25.1"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  }
+]
+"
+"Extract the following details for each donor or sample group mentioned in the abstract:
+
+- species
+- sex
+- age
+- BMI
+- height
+- weight
+
+If a field is missing, use ""unknown"". Provide a JSON array with one object per group. The order of fields should be as follows: species, sex, age, BMI, height, weight.
+"
+"Please extract the following details for each donor or sample group:
+
+- species
+- sex
+- age
+- BMI
+- height
+- weight
+
+If any information is not available, write ""unknown"". Return the data in JSON format.
+"
+"Your task is to extract the donor or sample group details mentioned in the scientific abstract. For each donor or group, provide the following data:
+
+1. species
+2. sex
+3. age
+4. BMI
+5. height
+6. weight
+
+If the data for any attribute is missing, return ""unknown"". Ensure that you extract each field in the exact order and that all missing fields are clearly labeled. Your response should be in valid JSON format, with one object per group.
+"
+"Based on the provided abstract, extract the following details for each donor or sample group:
+
+- species
+- sex
+- age
+- BMI
+- height
+- weight
+
+If a field is missing, mark it as ""unknown"". If the data for a field is available, include it exactly as presented. Your response should be a valid JSON array with one object per donor or sample group.
+"
+"Please analyze the following scientific abstract and extract donor or sample group details as follows:
+
+1. **species**: Extract the species mentioned (e.g., human, rat, mouse, etc.).
+2. **sex**: Identify the sex of the group (e.g., male, female, unknown).
+3. **age**: Include the age of the group (e.g., 70 years old, 45 days old, etc.).
+4. **BMI**: Extract the BMI value (e.g., 23.5, unknown).
+5. **height**: Note the height of the group (e.g., 175 cm, unknown).
+6. **weight**: Include the weight of the group (e.g., 70 kg, unknown).
+
+If the abstract does not provide information for a specific field, please return ""unknown"". If multiple groups are present, provide a separate object for each group in the JSON array.
+
+Example JSON Response:
+```json
+[
+  {
+    ""species"": ""human"",
+    ""sex"": ""female"",
+    ""age"": ""unknown"",
+    ""BMI"": ""22.5"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  },
+  {
+    ""species"": ""mouse"",
+    ""sex"": ""male"",
+    ""age"": ""30 days"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""25 grams""
+  }
+]
+"
+"For each donor or sample group in the scientific abstract, please extract the following information:
+
+- species
+- sex
+- age
+- BMI
+- height
+- weight
+
+If any field is not provided, return ""unknown"". The output must be formatted as a valid JSON array, where each group is represented as a separate JSON object."
+"For every donor or sample group in the scientific abstract, extract and return the following details:
+
+- **species**
+- **sex**
+- **age**
+- **BMI**
+- **height**
+- **weight**
+
+If a field is not mentioned, mark it as ""unknown"". Return all the extracted data as a valid JSON array, with one object per donor or group.
+
+Example:
+```json
+[
+  {
+    ""species"": ""human"",
+    ""sex"": ""female"",
+    ""age"": ""40 years"",
+    ""BMI"": ""22.1"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  }
+]
+"
+"Please follow these steps:
+
+1. Look for donor or sample group data in the abstract.
+2. For each group, extract the following information:
+   - species
+   - sex
+   - age
+   - BMI
+   - height
+   - weight
+3. If information is missing, return ""unknown"" for that field.
+4. Return a JSON array, each object should represent one donor or group.
+
+Example:
+```json
+[
+  {
+    ""species"": ""human"",
+    ""sex"": ""male"",
+    ""age"": ""65 years"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  }
+]
+```
+
+You can use these prompts in different scenarios, providing you with more varied ways to structure the request depending on the focus and clarity you want in your results."
+"Extract all relevant details about donor or sample groups from the scientific abstract. For each group, provide the following details:
+
+- species
+- sex
+- age
+- BMI
+- height
+- weight
+
+If any of these details are not provided or unclear, use ""unknown"" for that field. Format your answer as a JSON array, where each object corresponds to a distinct donor or group. Ensure the structure follows this order: species, sex, age, BMI, height, weight.
+"
+"In the provided scientific abstract, extract the details of human donor or sample groups. For each group, include the following fields:
+
+- species: human
+- sex
+- age
+- BMI
+- height
+- weight
+
+If any information is missing, mark it as ""unknown"". If there are multiple human sample groups, separate them as objects in a JSON array. Each field should be listed in the exact order provided.
+"
+"The abstract describes multiple donor or sample groups. For each group, extract the following details:
+
+- species
+- sex
+- age
+- BMI
+- height
+- weight
+
+If any of these details are missing, use ""unknown"". After extracting the data, compare the characteristics of the groups and list them as separate objects in a JSON array. This will help identify similarities and differences across the groups.
+"
+"Analyze the scientific abstract and extract the following information for each donor or sample group:
+
+- species
+- sex
+- age
+- BMI
+- height
+- weight
+
+If any data point is missing, mark it as ""unknown"". If there is ambiguity or unclear information, reflect it as ""unknown"". Your final output should be a valid JSON array, with each donor or group represented as a separate object. Please ensure no field is omitted from the response.
+"
+"If the abstract describes multiple subgroups within a donor or sample group, extract the details of each subgroup. For each subgroup, include the following attributes:
+
+- species
+- sex
+- age
+- BMI
+- height
+- weight
+
+If any information is missing, return ""unknown"". If there are multiple subgroups within one group, list each subgroup as a separate object in a JSON array. Ensure that the response is a valid JSON format with all fields in the correct order.
+"
+"For each donor or sample group mentioned in the abstract, extract and prioritize the following information:
+
+- species
+- sex
+- age
+- BMI
+
+If the BMI or age is missing, mark it as ""unknown"". Include all the fields, even if only some of the information is available. Return the result in a valid JSON array, ensuring each group is separated as an object.
+"
+"From the abstract, identify each donor or sample group and extract the following:
+
+- species
+- sex
+- age
+- BMI
+- height
+- weight
+
+If any information is missing, write ""unknown"". Format your result as a JSON array."
+"Based on the provided abstract, extract the following details for each donor or sample group. If a field is not mentioned, mark it as ""unknown"":
+
+1. **species**: What species is being studied (e.g., human, rat)?
+2. **sex**: Is the group male or female?
+3. **age**: How old is the group or donor (e.g., 65 years)?
+4. **BMI**: If provided, include the BMI of the group.
+5. **height**: Height of the group or donor (if mentioned).
+6. **weight**: Weight of the group or donor (if mentioned).
+
+Provide the extracted data as a valid JSON array, with each donor or group as a separate object.
+"
+"Your task is to extract and present detailed information for each donor or sample group mentioned in the abstract. For each group, include the following:
+
+- species
+- sex
+- age
+- BMI
+- height
+- weight
+
+If any of the information is not clearly provided, label the field as ""unknown"". Present each group as a separate object within a JSON array, maintaining the order of fields exactly as specified.
+"
+"For each donor or sample group mentioned in the abstract, extract and return the following details:
+
+- species
+- sex
+- age
+- BMI
+- height
+- weight
+
+If any information is missing or not provided, return ""unknown"". Make sure that the response is in valid JSON format with one object for each group. Validate that all fields are accounted for in each object, and no field should be omitted.
+"
+"Extract the following details for each donor or sample group in the abstract. Each group may represent a different set of characteristics, so make sure to extract data carefully:
+
+- species
+- sex
+- age
+- BMI
+- height
+- weight
+
+If information is missing, use ""unknown"". Provide the result as a JSON array, with each group represented by an object, maintaining proper formatting and completeness.
+"
+"Follow these steps to extract the donor or sample group details:
+
+1. Review the abstract for donor or sample group data.
+2. For each group, extract the following information:
+   - species
+   - sex
+   - age
+   - BMI
+   - height
+   - weight
+3. If any field is not mentioned, mark it as ""unknown"".
+4. If the abstract has multiple donor groups, list each one as a separate object in a JSON array.
+5. Ensure that the response is formatted as valid JSON, with no additional text or explanations.
+
+If you encounter any issues with the data (e.g., unclear or incomplete fields), ensure that ""unknown"" is used in place of missing data.
+"
+"In the abstract, extract the following details for each donor or sample group mentioned:
+
+- species
+- sex
+- age
+- BMI
+- height
+- weight
+
+If any information is ambiguous or missing, mark it as ""unknown"". If there are multiple groups, ensure each group is represented as a separate object in the JSON array. The output must be valid JSON format with no additional explanations.
+"
+"Please extract and provide the following details for each donor or sample group from the abstract:
+
+- species
+- sex
+- age
+- BMI
+- height
+- weight
+
+Make sure to include all available information. If any data is missing, mark it as ""unknown"". Your final response should be formatted as a valid JSON array, with each object representing a distinct donor or sample group.
+"
+"For each donor or sample group mentioned in the abstract, extract and return the following information. Focus on species and related attributes:
+
+- species
+- sex
+- age
+- BMI
+- height
+- weight
+
+If any field is missing, indicate ""unknown"". Present each group as a separate object in a valid JSON array. Make sure to maintain the exact field order: species, sex, age, BMI, height, weight.
+"
+"Analyze the abstract and extract the following details for each donor or sample group. If the abstract describes distinct subgroups (e.g., based on treatment or condition), treat each as a separate group. For each group, provide:
+
+- species
+- sex
+- age
+- BMI
+- height
+- weight
+
+If information for a particular field is not available, mark it as ""unknown"". Your final output should be a valid JSON array, with one object per group.
+"
+"For each donor or sample group mentioned in the abstract, extract the following details in a consistent order:
+
+- species
+- sex
+- age
+- BMI
+- height
+- weight
+
+If any field is missing or unclear, mark it as ""unknown"". Ensure that the response is a valid JSON array, where each object represents one group and all fields are in the specified order.
+"
+"Please extract the following details for each donor or sample group:
+
+- species
+- sex
+- age
+- BMI
+- height
+- weight
+
+If any field is missing, return ""unknown"". Provide the result as a JSON array, listing each group as an individual object.
+"
+"Extract detailed information for each donor or sample group from the scientific abstract. Each group should be represented as a distinct object with the following fields:
+
+- **species**: The species involved (e.g., human, rat).
+- **sex**: The sex of the group (e.g., male, female).
+- **age**: The age of the group (e.g., 60 years, 12 weeks).
+- **BMI**: The BMI of the group (if provided).
+- **height**: The height of the group (if provided).
+- **weight**: The weight of the group (if provided).
+
+For any field with missing data, write ""unknown"". Ensure the response is a valid JSON array with one object for each group."
+"For each donor or sample group described in the abstract, extract and return:
+
+- species
+- sex
+- age
+
+If any of these fields are missing, mark them as ""unknown"". You don't need to extract BMI, height, or weight. The response should be in a valid JSON format, with one object per group.
+"
+"If a donor or sample group in the abstract has available data, extract:
+
+- species
+- sex
+- age
+- BMI (optional)
+- height (optional)
+- weight (optional)
+
+If any of the optional fields are missing, mark them as ""unknown"". Return the extracted information as a valid JSON array, where each group is represented as an individual object.
+"
+"Please execute the following process:
+1. Read the text.
+2. Identify the donor/sample details: Species, Sex, Age, BMI, Height, Weight.
+3. If any detail is absent, mark it as ""unknown"".
+4. Output your findings as a JSON object with the keys: ""sex"", ""age"", ""BMI"", ""height"", ""weight""."
+"Extract donor/sample info (species, sex, age, BMI, height, weight) from the text. Use ""unknown"" for any missing values. Return in JSON."
+"Hey, check out the text and grab the donor/sample info: species, sex, age, BMI, height, weight. If something¡¯s not there, just say ""unknown"". Please reply in JSON."
+"You are a medical research assistant. Carefully read the scientific abstract and extract the following details for each donor or sample group:
+
+- species  
+- sex  
+- age  
+- BMI  
+- height  
+- weight  
+
+Each group should be formatted as a separate JSON object, and all objects should be returned in a JSON array. If any information is not mentioned, write ""unknown"". Output only valid JSON ¡ª no explanation or additional text.
+"
+"Please answer the following questions and structure your answers in JSON format:
+
+1. What donor or sample groups are mentioned?
+2. What is the species of each group?
+3. What is the sex of each group?
+4. What is the age of each group?
+5. What is the BMI of each group?
+6. What is the height of each group?
+7. What is the weight of each group?
+
+Each group should be formatted as a JSON object and the final output should be a valid JSON array. Use ""unknown"" for any missing information.
+"
+"Extract all donor or sample groups mentioned in the abstract. For each group, collect the following fields in this exact order:
+
+- species  
+- sex  
+- age  
+- BMI  
+- height  
+- weight  
+
+If any field is missing, fill it with ""unknown"". Return your output as a JSON array, one object per group. Do not add any explanation or extra content.
+"
+"Use the following template to extract each sample group from the abstract:
+
+```json
+{
+  ""species"": ""..."",
+  ""sex"": ""..."",
+  ""age"": ""..."",
+  ""BMI"": ""..."",
+  ""height"": ""..."",
+  ""weight"": ""...""
+}
+"
+"Task: Parse the scientific abstract and extract donor/sample group data.
+For each group, output a JSON object with the following keys:
+- species
+- sex
+- age
+- BMI
+- height
+- weight
+
+Use ""unknown"" for missing values.
+Format: JSON array of objects, one per group.
+Do not include any explanation or non-JSON text."
+"Imagine you're building a subject database for a review article. From the abstract, extract each donor or sample group¡¯s details, including:
+
+- species  
+- sex  
+- age  
+- BMI  
+- height  
+- weight  
+
+If information is missing, use ""unknown"". Return a clean JSON array that can be directly imported into a database.
+"
+"Please help me pull out some basic characteristics of each donor or sample group from the abstract. I need:
+
+- species  
+- sex  
+- age  
+- BMI  
+- height  
+- weight  
+
+If any info is missing, just write ""unknown"". Format everything in a JSON array with one object per group. No need for extra explanation!
+"
+"Extract all sample group information from the abstract. If any field is ambiguous (e.g., described as ""about"", ""mostly"", etc.), treat it as missing and return ""unknown"".
+
+Fields to extract:
+
+- species  
+- sex  
+- age  
+- BMI  
+- height  
+- weight  
+
+Return a valid JSON array where each group is an object. Use ""unknown"" for missing or unclear data.
+"
+"What sample groups are mentioned in the abstract? Extract:
+
+- species  
+- sex  
+- age  
+- BMI  
+- height  
+- weight  
+
+Use ""unknown"" for any missing fields. Return only a JSON array ¡ª no explanation needed.
+"
+"Hey! I¡¯ve got this scientific abstract, and I need to pull out some info from it.
+
+For each donor or sample group mentioned, can you give me these details:
+
+- species  
+- sex  
+- age  
+- BMI  
+- height  
+- weight  
+
+If anything¡¯s missing, just write ""unknown"". I need the output as a JSON array ¡ª one object per group, and don¡¯t include any extra comments or text. Thanks!
+"

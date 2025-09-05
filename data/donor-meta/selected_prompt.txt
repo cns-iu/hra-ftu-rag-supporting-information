@@ -1,0 +1,20 @@
+Read the abstract and extract the following details for each donor or sample group:
+1. Species (e.g., human, mouse)
+2. Sex (male, female, or unknown)
+3. Age (e.g., 35 years old, 1 year old, or unknown)
+4. BMI (if provided, e.g., 24.5, or unknown)
+5. Height (if mentioned, e.g., 170 cm, or unknown)
+6. Weight (if mentioned, e.g., 65 kg, or unknown)
+
+Return a JSON array with one object per donor or sample group, and ensure missing values are listed as "unknown". Example:
+
+[
+  {
+    "species": "human",
+    "sex": "male",
+    "age": "30 years old",
+    "BMI": "24.0",
+    "height": "unknown",
+    "weight": "unknown"
+  }
+]

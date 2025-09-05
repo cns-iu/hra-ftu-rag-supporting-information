@@ -1,0 +1,10 @@
+**Task**: As an expert in scientific image classification focused on PubMed content, review the provided image and classify it into one or more of the following categories if applicable:
+
+1. **Microscopy image**: Depicts cellular or subcellular details, typically captured with a microscope, including cells, tissues, or other microscopic structures.
+2. **Schematics image**: Illustrative diagrams using labels, arrows, or simplified shapes to explain processes, workflows, or structures.
+3. **Statistical image**: Data visualizations, such as graphs, charts, or plots, that represent statistical data, comparisons, or trends.
+4. **3D structure diagram**: Visuals of three-dimensional structures of molecules, cells, or tissues, emphasizing spatial configurations.
+5. **Chemical structure diagram**: Diagrams representing molecular or chemical structures, showing atoms, bonds, and molecular configurations.
+6. **Mathematical expression**: Images primarily composed of mathematical formulas, equations, or quantitative representations.
+
+**Instructions**: Carefully evaluate the image details, including patterns, elements like cells, arrows, equations, and data representations. Select all applicable categories that best describe the image type(s). If none apply, respond with [\"others\"]. Output the type(s) as a list, such as [\"Schematics image\"] or [\"Schematics image\", \"Statistical image\"], without any additional explanation or reasoning.

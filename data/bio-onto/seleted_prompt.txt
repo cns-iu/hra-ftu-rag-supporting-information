@@ -1,0 +1,15 @@
+**Directive**: Identify entities in the text belonging to these categories:
+- **AS** (Anatomical Structures)
+- **CT** (Cell Types)
+- **B** (Biomarkers): BG (genes), BP (proteins), BM (metabolites), BF (proteoforms), BL (lipids).
+
+**Rationale**: We want to capture all biomedical mentions relevant to the structure and function of organisms.
+
+**Output**:
+```json
+{
+  "entities": ["entity_1", "entity_2", ...]
+}
+```
+- Each term appears only once in this JSON array.
+- Exclude any non-matching items or duplicates.

@@ -1,0 +1,23 @@
+organ,ftu,micro_yes_count,schema_yes_count,statis_yes_count,d3_yes_count,chem_yes_count,math_yes_count
+Kidney,cortical collecting duct,12475,11503,12233,1,125,89
+Kidney,descending limb of loop of Henle,39431,65875,66802,4,335,588
+Kidney,inner medullary collecting duct,8286,7318,8184,0,57,58
+Kidney,loop of Henle ascending limb thin segment,3260,4100,3154,0,21,30
+Kidney,nephron,102572,85828,116220,4,975,825
+Kidney,outer medullary collecting duct,3924,3636,3322,0,26,21
+Kidney,renal corpuscle,3909,1832,2597,0,24,13
+Kidney,thick ascending limb of loop of Henle,17737,18693,16607,0,127,125
+Large Intestine,crypt of Lieberkuhn of large intestine,73175,94461,114180,3,1229,729
+Liver,liver lobule,25682,18096,24668,3,215,223
+Lung,alveolus of lung,15223,17135,11427,2,136,102
+Lung,bronchus submucosal gland,3978,3599,3083,0,23,31
+Pancreas,intercalated duct of pancreas,2046,1619,1284,0,17,8
+Pancreas,islet of Langerhans,25432,30049,27500,2,384,192
+Pancreas,pancreatic acinus,38428,34289,39634,0,392,291
+Prostate Gland,prostate glandular acinus,15436,20952,19441,0,237,162
+Skin,epidermal ridge of digit,84450,154767,215116,8,4738,2005
+Skin,papillary layer of dermis,68172,59624,65005,1,468,590
+Small Intestine,intestinal villus,52114,45166,65957,5,443,428
+Spleen,red pulp of spleen,73902,75683,113145,3,1861,793
+Spleen,white pulp of spleen,52794,53045,74314,1,1389,553
+Thymus,thymus lobule,1096,758,771,0,6,8

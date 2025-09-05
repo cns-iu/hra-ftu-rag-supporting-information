@@ -1,0 +1,1272 @@
+prompt
+"You are an advanced biomedical text-processing system. Your job is to perform entity extraction on a piece of text. Specifically, identify the following categories:
+
+1. Anatomical Structures (AS)
+2. Cell Types (CT)
+3. Biomarkers (B), subdivided into:
+   - Genes (BG)
+   - Proteins (BP)
+   - Metabolites (BM)
+   - Proteoforms (BF)
+   - Lipids (BL)
+
+Extract all recognized entities from the text and return them in the exact JSON format shown below:
+
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}
+
+Important:
+- Only include the relevant terms as entities.
+- Do not include duplicates.
+- Ensure the JSON output is valid."
+"Please read the provided text carefully and extract all biomedical entities, including anatomical structures, cell types, and biomarkers (genes, proteins, metabolites, etc.).
+
+Output the extracted entities in JSON format, with the following structure:
+
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}"
+"Carefully read the provided text and extract all biomedical entities, including anatomical structures, cell types, and biomarkers (genes, proteins, metabolites, etc.).
+
+Output the extracted entities in JSON format, where the ""entities"" key contains an array of strings representing the entity names.
+
+Output Format:
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}"
+"Extract all biomedical entities (anatomical structures, cells, biomarkers) from the provided text.
+
+List the extracted entities as a JSON array.
+
+Output:
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}"
+"Identify and extract the following types of biomedical entities from the text:
+
+1. Anatomical structures
+2. Cell types
+3. Biomarkers (genes, proteins, metabolites, etc.)
+
+Output the extracted entities as a JSON array.
+
+Output:
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}"
+"Extract biomedical entities from the provided text.
+
+Example:
+Text: ""The prostate gland and bladder are involved in prostate cancer.""
+Output: {""entities"": [""prostate gland"", ""bladder"", ""prostate cancer""]}
+
+Output:"
+"Extract the top 5 most important biomedical entities from the provided text.
+
+Output the extracted entities as a JSON array.
+
+Output:
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}"
+"From the provided text, identify and list all biomedical entities, including anatomical structures, cell types, and biomarkers. Think step by step. Then, provide the final answer in JSON format, where the ""entities"" key is an array of entity names.
+
+Output:
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}"
+"You are a biomedical information extraction expert. Your task is to extract all biomedical entities (anatomical structures, cell types, and biomarkers) from the given text. Provide the output in JSON format, with the ""entities"" key containing an array of entity names.
+
+Output:
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}"
+"Extract all biomedical entities from the provided text, prioritizing anatomical structures and biomarkers. Include cell types if they are directly related to the main topic. Output the result in JSON format, with the ""entities"" key as an array of entity names.
+
+Output:
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}"
+"Answer the following question based on the provided text: What are the biomedical entities (anatomical structures, cell types, and biomarkers) mentioned? Provide the answer as a JSON array under the ""entities"" key.
+
+Output:"
+"Extract all biomedical entities (anatomical structures, cell types, and biomarkers) from the provided text and provide the result in strict JSON format. Do not include any additional text or explanations. The JSON output should have the ""entities"" key containing an array of entity names.
+
+Output:
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}"
+"You are a biomedical information extraction engine. Identify all references to:
+1. **Anatomical Structures (AS)**
+2. **Cell Types (CT)**
+3. **Biomarkers (B)**, including:
+   - Genes (BG)
+   - Proteins (BP)
+   - Metabolites (BM)
+   - Proteoforms (BF)
+   - Lipids (BL)
+
+Then provide these entities in the following JSON structure:
+```json
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}
+```
+
+**Instructions**:
+- Include only relevant terms in your list.
+- No duplicates or extra text.
+- The JSON must be valid."
+"Imagine you are a domain expert in biomedical text mining. Please read the text and pinpoint every mention of:
+1. Anatomical Structures (AS)
+2. Cell Types (CT)
+3. Biomarkers (B):
+   - Genes (BG)
+   - Proteins (BP)
+   - Metabolites (BM)
+   - Proteoforms (BF)
+   - Lipids (BL)
+
+After identifying these entities, compile them into a JSON format exactly as follows:
+```json
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}
+```
+Make sure each term is relevant, unique, and properly categorized.
+"
+"Please perform an extraction of biomedical entities from the provided text, including:
+- **AS**: Anatomical Structures
+- **CT**: Cell Types
+- **B**: Biomarkers (BG, BP, BM, BF, BL)
+
+Return only the extracted terms as an array within this JSON structure:
+```json
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}
+```
+
+**Requirements**:
+1. Include all named entities fitting the categories.
+2. No duplicates or non-relevant items.
+3. JSON syntax must be correct."
+"As a specialized biomedical text-processing system, your goal is to:
+1. Find all **Anatomical Structures (AS)**.
+2. Find all **Cell Types (CT)**.
+3. Find all **Biomarkers (B)** (Genes, Proteins, Metabolites, Proteoforms, Lipids).
+
+Return them in **valid JSON** with this structure:
+```json
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}
+```
+
+**Note**:
+- Only list recognized entities.
+- Do not repeat any item.
+- Do not provide additional commentary or formatting."
+"Identify these categories in the text:
+- Anatomical Structures (AS)
+- Cell Types (CT)
+- Biomarkers (B) [Genes (BG), Proteins (BP), Metabolites (BM), Proteoforms (BF), Lipids (BL)]
+
+Return the results in JSON:
+```json
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}
+```
+Output only unique items, with no extra text."
+"Please locate and list all:
+1. **Anatomical Structures (AS)**
+2. **Cell Types (CT)**
+3. **Biomarkers (B)**: Genes (BG), Proteins (BP), Metabolites (BM), Proteoforms (BF), and Lipids (BL)
+
+Consolidate every matching term in this valid JSON format:
+```json
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}
+```
+
+- Ensure each term is listed only once.
+- Provide no extraneous detail.
+- The JSON must be syntactically correct."
+"**Step 1**: Read the text carefully and extract every mention of:
+  - Anatomical Structures (AS)
+  - Cell Types (CT)
+  - Biomarkers (B), broken down into:
+    - Genes (BG)
+    - Proteins (BP)
+    - Metabolites (BM)
+    - Proteoforms (BF)
+    - Lipids (BL)
+
+**Step 2**: Combine all extracted terms into a single array without repetition.
+
+**Step 3**: Format your final output strictly as:
+```json
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}
+```
+
+No extra commentary or metadata is needed¡ªonly the entity terms in valid JSON.
+"
+"You have been trained on extensive biomedical literature and ontologies. Your objective is to identify key terminology within a given text. Specifically, find:
+1. **Anatomical Structures (AS)**
+2. **Cell Types (CT)**
+3. **Biomarkers (B)**, which can be one of the following:
+   - Genes (BG)
+   - Proteins (BP)
+   - Metabolites (BM)
+   - Proteoforms (BF)
+   - Lipids (BL)
+
+Once identified, output all terms in a JSON object following the structure:
+```json
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}
+```
+
+**Ensure**:
+- Each entity is valid and relevant.
+- The final JSON is correctly formatted.
+- No duplicates appear in the list.
+"
+"Identify every term in the text that corresponds to:
+- **Anatomical Structures (AS)**
+- **Cell Types (CT)**
+- **Biomarkers (B)**, subdivided into Genes (BG), Proteins (BP), Metabolites (BM), Proteoforms (BF), and Lipids (BL).
+
+Return these extracted entities in a JSON array under the key ""entities"":
+```json
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}
+```
+
+**Accuracy Requirements**:
+1. Capture all valid mentions relevant to these categories.
+2. Exclude everything else.
+3. Provide only a single list with no duplicates.
+4. Return valid JSON with no additional text.
+"
+"Extract from the text all items classified as:
+1. Anatomical Structures (AS)
+2. Cell Types (CT)
+3. Biomarkers (B) ¡ª Genes (BG), Proteins (BP), Metabolites (BM), Proteoforms (BF), Lipids (BL).
+
+Present the results in the following JSON format:
+```json
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}
+```
+
+Include only the unique terms that match these categories, and provide no extra commentary.
+"
+"You are tasked with categorizing each mention of biological entities into:
+- **AS** (Anatomical Structures)
+- **CT** (Cell Types)
+- **B** (Biomarkers), which include BG (genes), BP (proteins), BM (metabolites), BF (proteoforms), BL (lipids).
+
+Compile the recognized entities into a valid JSON array:
+```json
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}
+```
+- No duplicates should appear.
+- Only list entities that clearly fit these categories.
+"
+"Find all:
+1. Anatomical structures (AS)
+2. Cell types (CT)
+3. Biomarkers (B): BG (genes), BP (proteins), BM (metabolites), BF (proteoforms), BL (lipids)
+
+Provide your final answer exactly as:
+```json
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}
+```
+
+Return only unique relevant entities, no duplicates, no extra text.
+"
+"As a precise biomedical entity extractor, identify and list all Anatomical Structures (AS), Cell Types (CT), and Biomarkers (B) (Genes (BG), Proteins (BP), Metabolites (BM), Proteoforms (BF), Lipids (BL)) from the provided text. Return the entities in a clean JSON array format, without duplicates or extraneous information.
+
+Output:
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}"
+"Analyze the following biomedical text for relevant entities. Extract all Anatomical Structures (AS), Cell Types (CT), and Biomarkers (B) (Genes (BG), Proteins (BP), Metabolites (BM), Proteoforms (BF), Lipids (BL)) considering the context. Return the entities as a JSON array.
+
+Output:
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}"
+"Your task is to perform comprehensive biomedical entity extraction. Identify and categorize all Anatomical Structures (AS), Cell Types (CT), and Biomarkers (B) (Genes (BG), Proteins (BP), Metabolites (BM), Proteoforms (BF), Lipids (BL)) from the text. Ensure all relevant entities are included in the JSON array output.
+
+Output:
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}"
+"Efficiently extract all biomedical entities (Anatomical Structures (AS), Cell Types (CT), Biomarkers (B) (Genes (BG), Proteins (BP), Metabolites (BM), Proteoforms (BF), Lipids (BL))) from the provided text. Return the entities directly as a JSON array.
+
+Output:
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}"
+"As a specialized biomedical entity extraction system, accurately identify and list all Anatomical Structures (AS), Cell Types (CT), and Biomarkers (B) (Genes (BG), Proteins (BP), Metabolites (BM), Proteoforms (BF), Lipids (BL)) from the provided text. Return the entities in a valid JSON array format.
+
+Output:
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}"
+"Extract biomedical entities from the provided text and present them in the table format below:
+
+| Entity Type | Entity Name |
+|-------------|-------------|
+| Anatomical Structure (AS) | [Entity Name] |
+| Cell Type (CT) | [Entity Name] |
+| Gene (BG) | [Entity Name] |
+| Protein (BP) | [Entity Name] |
+| Metabolite (BM) | [Entity Name] |
+| Other Biomarker (BF/BL) | [Entity Name] |"
+"Extract biomedical entities from the provided text and present them in the list format below:
+
+Anatomical Structures (AS):
+- [Entity Name]
+- [Entity Name]
+
+Cell Types (CT):
+- [Entity Name]
+- [Entity Name]
+
+Biomarkers (B):
+  - Genes (BG):
+    - [Entity Name]
+    - [Entity Name]
+  - Proteins (BP):
+    - [Entity Name]
+    - [Entity Name]
+  - Metabolites (BM):
+    - [Entity Name]
+    - [Entity Name]
+  - Proteoforms (BF):
+    - [Entity Name]
+    - [Entity Name]
+  - Lipids (BL):
+    - [Entity Name]
+    - [Entity Name]"
+"Extract biomedical entities from the provided text and present them in the segmented format below:
+
+Anatomical Structures (AS):
+[Entity Name]: [Brief explanation or context]
+[Entity Name]: [Brief explanation or context]
+
+Cell Types (CT):
+[Entity Name]: [Brief explanation or context]
+[Entity Name]: [Brief explanation or context]
+
+Biomarkers (B):
+  - Genes (BG):
+    [Entity Name]: [Brief explanation or context]
+    [Entity Name]: [Brief explanation or context]
+  - Proteins (BP):
+    [Entity Name]: [Brief explanation or context]
+    [Entity Name]: [Brief explanation or context]
+  - Metabolites (BM):
+    [Entity Name]: [Brief explanation or context]
+    [Entity Name]: [Brief explanation or context]
+  - Proteoforms (BF):
+    [Entity Name]: [Brief explanation or context]
+    [Entity Name]: [Brief explanation or context]
+  - Lipids (BL):
+    [Entity Name]: [Brief explanation or context]
+    [Entity Name]: [Brief explanation or context]"
+"Extract biomedical entities from the provided text and present them in the key-value pair format below:
+
+""Anatomical Structures (AS)"": [""Entity Name"", ""Entity Name""],
+""Cell Types (CT)"": [""Entity Name"", ""Entity Name""],
+""Genes (BG)"": [""Entity Name"", ""Entity Name""],
+""Proteins (BP)"": [""Entity Name"", ""Entity Name""],
+""Metabolites (BM)"": [""Entity Name"", ""Entity Name""],
+""Proteoforms (BF)"": [""Entity Name"", ""Entity Name""],
+""Lipids (BL)"": [""Entity Name"", ""Entity Name""]"
+"Extract biomedical entities from the provided text and present them in any suitable format:
+
+- Table format
+- List format
+- Segmented format
+- Key-value pair format
+- JSON array format"
+"**Task**: Extract the following from the text:
+1. **Anatomical Structures (AS)**
+2. **Cell Types (CT)**
+3. **Biomarkers (B)**:
+   - **Genes (BG)**
+   - **Proteins (BP)**
+   - **Metabolites (BM)**
+   - **Proteoforms (BF)**
+   - **Lipids (BL)**
+
+**Output**: Provide your final extraction results in valid JSON format:
+```json
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}
+```
+- Include no other information beyond the required list.
+- Avoid duplicates and irrelevant items."
+"You have one task: identify all references to **Anatomical Structures (AS)**, **Cell Types (CT)**, and **Biomarkers (B)**¡ªincluding Genes (BG), Proteins (BP), Metabolites (BM), Proteoforms (BF), and Lipids (BL)¡ªin the text.
+
+Return them as JSON:
+```json
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}
+```
+**Notes**:
+- Only relevant terms.
+- No duplicates.
+- No extraneous text."
+"From the given text, list every relevant instance of:
+- Anatomical Structures (AS)
+- Cell Types (CT)
+- Biomarkers (B) including BG (genes), BP (proteins), BM (metabolites), BF (proteoforms), BL (lipids).
+
+Assemble your output in JSON:
+```json
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}
+```
+Every returned item must fit one of these categories exactly, with no redundancy.
+"
+"Your role is to scan the text for:
+1. **AS**: Anatomical Structures
+2. **CT**: Cell Types
+3. **B**: Biomarkers (BG, BP, BM, BF, BL)
+
+Then return the extracted terms as a JSON array in the form:
+```json
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}
+```
+- Make sure there are no duplicates in the final array.
+- The JSON must be syntactically valid.
+"
+"Identify these biomedical entities:
+- AS (Anatomical Structures)
+- CT (Cell Types)
+- B (Biomarkers: BG, BP, BM, BF, BL)
+
+Output them in:
+```json
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}
+```
+**No extra commentary, no duplicates, valid JSON required.**
+"
+"Please extract mentions of:
+1. **Anatomical Structures (AS)**
+2. **Cell Types (CT)**
+3. **Biomarkers (B)**: Genes, Proteins, Metabolites, Proteoforms, and Lipids
+
+Output the list of unique entities in:
+```json
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}
+```
+Only list valid entities; remove any duplicates.
+"
+"1. Scan the text for **Anatomical Structures (AS)**, **Cell Types (CT)**, and **Biomarkers (B)** (BG, BP, BM, BF, BL).
+2. Gather all findings without repetition.
+3. Present them in valid JSON of the format:
+```json
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}
+```
+**No additional formatting** is necessary."
+"Parse the text to find:
+- **AS**: Anatomical Structures
+- **CT**: Cell Types
+- **B**: Biomarkers (BG, BP, BM, BF, BL)
+
+Return the extracted items in:
+```json
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}
+```
+**Ensure**:
+- Strict compliance with JSON format.
+- No duplicates, no extra commentary."
+"Identify every **Anatomical Structure (AS)**, **Cell Type (CT)**, and **Biomarker (B)**¡ªincluding Genes (BG), Proteins (BP), Metabolites (BM), Proteoforms (BF), and Lipids (BL)¡ªthat appears in the text.
+
+Provide all discovered entities in this JSON structure:
+```json
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}
+```
+with no repeated entries."
+"Task: Extract AS, CT, and B (BG, BP, BM, BF, BL) from the text.
+
+Output in JSON:
+```json
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}
+```
+**Rules**:
+- No duplicates.
+- Only return matching entities.
+- Must be valid JSON."
+"Your responsibility is to comb through the text for:
+1. **Anatomical Structures (AS)**
+2. **Cell Types (CT)**
+3. **Biomarkers (B)**, further categorized as:
+   - Genes (BG)
+   - Proteins (BP)
+   - Metabolites (BM)
+   - Proteoforms (BF)
+   - Lipids (BL)
+
+Consolidate all identified entities into a single array within valid JSON:
+```json
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}
+```
+
+**Guidelines**:
+- Include each relevant term only once.
+- Return no additional text beyond the JSON.
+"
+"Extract and categorize each mention of:
+- **AS**: Anatomical Structures
+- **CT**: Cell Types
+- **B**: Biomarkers (Genes, Proteins, Metabolites, Proteoforms, Lipids)
+
+Combine them all in JSON format under the key `""entities""`, like so:
+```json
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}
+```
+
+Each listed term must be unique, and there should be no unrelated content or duplicates.
+"
+"**Question**: What are all the anatomical structures (AS), cell types (CT), and biomarkers (B) mentioned in this text? 
+Specifically, biomarkers include genes (BG), proteins (BP), metabolites (BM), proteoforms (BF), and lipids (BL).
+
+**Answer**: Provide a JSON array listing every distinct matching term in the form:
+```json
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}
+```
+Only return the relevant items, and do not repeat any entity more than once.
+"
+"1. Examine the text for:
+   - **AS** (Anatomical Structures)
+   - **CT** (Cell Types)
+   - **B** (Biomarkers: BG, BP, BM, BF, BL)
+2. Collect each mention that belongs to these categories.
+3. Output the final list of recognized entities in valid JSON:
+```json
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}
+```
+
+**Constraints**:
+- Each entry must be relevant.
+- Do not repeat items.
+- No commentary beyond the JSON.
+"
+"Please extract from the text all instances of:
+- **Anatomical Structures (AS)**
+- **Cell Types (CT)**
+- **Biomarkers (B)**: subdivided into genes (BG), proteins (BP), metabolites (BM), proteoforms (BF), lipids (BL).
+
+Present your findings as a JSON object with one key `""entities""`, which should map to a list of identified terms:
+```json
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}
+```
+**No other output** should be provided.
+"
+"**Format Requirement**: Provide your extraction results as valid JSON in the format:
+```json
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}
+```
+
+**Extraction Task**: Identify:
+1. **Anatomical Structures (AS)**
+2. **Cell Types (CT)**
+3. **Biomarkers (B)** (genes, proteins, metabolites, proteoforms, lipids).
+
+Return each recognized entity only once, omitting any unrelated text.
+"
+"Scan the text thoroughly for any mention of:
+- **Anatomical Structures (AS)**
+- **Cell Types (CT)**
+- **Biomarkers (B)**: genes (BG), proteins (BP), metabolites (BM), proteoforms (BF), and lipids (BL).
+
+Make sure to capture **all** relevant references. List them in this JSON format:
+```json
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}
+```
+**Rules**:
+- No duplicates.
+- Only valid, recognized entities.
+- Maintain correct JSON syntax.
+"
+"**Directive**: Identify entities in the text belonging to these categories:
+- **AS** (Anatomical Structures)
+- **CT** (Cell Types)
+- **B** (Biomarkers): BG (genes), BP (proteins), BM (metabolites), BF (proteoforms), BL (lipids).
+
+**Rationale**: We want to capture all biomedical mentions relevant to the structure and function of organisms.
+
+**Output**:
+```json
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}
+```
+- Each term appears only once in this JSON array.
+- Exclude any non-matching items or duplicates.
+"
+"You are an expert biomedical text-mining model. Read the text and identify:
+- **Anatomical Structures (AS)**
+- **Cell Types (CT)**
+- **Biomarkers (B)**: Genes (BG), Proteins (BP), Metabolites (BM), Proteoforms (BF), and Lipids (BL).
+
+Acknowledge all valid mentions, then list them in the following JSON format:
+```json
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}
+```
+Only valid, unique entities should be included, and no additional commentary.
+"
+"Perform a precise extraction of:
+1. **Anatomical Structures (AS)**
+2. **Cell Types (CT)**
+3. **Biomarkers (B)**, specifically BG (genes), BP (proteins), BM (metabolites), BF (proteoforms), and BL (lipids).
+
+Combine these extracted entities in a JSON array under `""entities""`. The output must be:
+```json
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}
+```
+Be certain to include each entity only once, and exclude unrelated terms.
+"
+"Within the context of human and animal biology, identify all references to:
+- **AS**: Anatomical Structures
+- **CT**: Cell Types
+- **B**: Biomarkers (Genes, Proteins, Metabolites, Proteoforms, Lipids)
+
+Present them in a valid JSON array:
+```json
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}
+```
+Return only unique, relevant terms, and do not include additional text.
+"
+"**Focus 1**: Collect every mention of **Anatomical Structures (AS)** and **Cell Types (CT)** in the text.
+**Focus 2**: Collect all mentions of **Biomarkers (B)**, categorized into Genes (BG), Proteins (BP), Metabolites (BM), Proteoforms (BF), and Lipids (BL).
+**Final Output**: 
+```json
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}
+```
+Each recognized term should appear only once, with no repeats or unrelated items.
+"
+"You have three main categories to extract from the text:
+1. **Anatomical Structures (AS)**
+2. **Cell Types (CT)**
+3. **Biomarkers (B)**, further split into BG (genes), BP (proteins), BM (metabolites), BF (proteoforms), BL (lipids).
+
+Output all recognized terms in a single array within this JSON structure:
+```json
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}
+```
+**No duplication**, and ensure JSON validity.
+"
+"Extract the following entity types from the text:
+- **AS**: Anatomical Structures
+- **CT**: Cell Types
+- **B**: Biomarkers (genes, proteins, metabolites, proteoforms, lipids)
+
+If an entity might belong to more than one category, choose the **most specific** category. Summarize the unique entities in:
+```json
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}
+```
+Do not list duplicates or irrelevancies.
+"
+"You must return only these categories from the text:
+1. Anatomical Structures (AS)
+2. Cell Types (CT)
+3. Biomarkers (B: BG, BP, BM, BF, BL)
+
+Format your output strictly as:
+```json
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}
+```
+**No other keys or commentary** are allowed in the JSON. Each term should appear only once.
+"
+"Identify every mention of:
+- **AS** (Anatomical Structures)
+- **CT** (Cell Types)
+- **B** (Biomarkers: Genes, Proteins, Metabolites, Proteoforms, Lipids)
+
+Return them in:
+```json
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}
+```
+**Do not** include any entity more than once, and maintain JSON validity.
+"
+"**Analyze** the text for references to biological structures and molecules:
+1. **AS**: Anatomical Structures
+2. **CT**: Cell Types
+3. **B**: Biomarkers (BG = genes, BP = proteins, BM = metabolites, BF = proteoforms, BL = lipids)
+
+Compile your findings in a singular JSON object with the form:
+```json
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}
+```
+Keep the list free of duplicates and irrelevant entries.
+"
+"Please extract these items from the text:
+- Anatomical Structures (AS)
+- Cell Types (CT)
+- Biomarkers (B): Genes, Proteins, Metabolites, Proteoforms, Lipids
+
+Respond with a concise, valid JSON object:
+```json
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}
+```
+**Ensure** each term is unique and no extra text is included.
+"
+"Extract biomedical entities from the provided text and also identify any relationships between them. Output the entities and relationships in a structured format (e.g., JSON or table)."
+"Identify biomedical entities from the provided text, considering the surrounding context to disambiguate terms. Output the entities in a JSON array.
+
+Output:
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}"
+"Extract biomedical entities from the provided text and normalize them to standard terminologies (e.g., MeSH, UniProt). Output the normalized entities in a JSON format.
+
+Output:
+{
+  ""entities"": [""normalized_entity_1"", ""normalized_entity_2"", ...]
+}"
+"Extract biomedical entities from the provided text and classify them into Anatomical Structures, Cell Types, and Biomarkers (Genes, Proteins, Metabolites, etc.). Output the entities and their types in a JSON format.
+
+Output:
+{
+  ""entities"": [
+    {""entity"": ""entity_1"", ""type"": ""Anatomical Structure""},
+    {""entity"": ""entity_2"", ""type"": ""Gene""},
+    // ...
+  ]
+}"
+"Extract biomedical entities from the provided text and resolve any entity coreferences (e.g., pronouns, abbreviations). Output the resolved entities in a JSON array.
+
+Output:
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}"
+"
+Extract biological entities based on the following schema:
+- **AS**: Anatomical Structures  
+- **CT**: Cell Types  
+- **B**: Biomarkers  
+  - **BG**: Genes  
+  - **BP**: Proteins  
+  - **BM**: Metabolites  
+  - **BF**: Proteoforms  
+  - **BL**: Lipids  
+
+Return only relevant, unique terms in this valid JSON format:
+```json
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}
+```
+"
+"In the context of biomedical or clinical research data, extract the following:
+- Anatomical Structures (AS)
+- Cell Types (CT)
+- Biomarkers (B): BG (genes), BP (proteins), BM (metabolites), BF (proteoforms), BL (lipids)
+
+Return all valid terms you find in this JSON format:
+```json
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}
+```
+Only include entities. No duplicates. No commentary.
+"
+"Your task is to extract mentions of:
+1. Anatomical Structures (AS)  
+2. Cell Types (CT)  
+3. Biomarkers (B: BG, BP, BM, BF, BL)  
+
+Provide a single array of **unique** terms in this JSON object:
+```json
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}
+```
+Do not add extra formatting or explanations."
+"Extract all entity mentions relevant to:
+- **Anatomical structures (AS)**  
+- **Cell types (CT)**  
+- **Biomarkers (B)**, including:
+  - Genes (BG)  
+  - Proteins (BP)  
+  - Metabolites (BM)  
+  - Proteoforms (BF)  
+  - Lipids (BL)  
+
+Output as clean JSON:
+```json
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}
+```
+No duplicate entries. No other text.
+"
+"Find all mentions of:
+- Anatomical Structures (AS)
+- Cell Types (CT)
+- Biomarkers (B): BG (genes), BP (proteins), BM (metabolites), BF (proteoforms), BL (lipids)
+
+Return the result like this:
+```json
+{
+  ""entities"": [""liver"", ""T cell"", ""TP53"", ""p53 protein""]
+}
+```
+Replace the sample content with actual results from the input text. Ensure each item appears only once.
+"
+"Extract the following from the input:
+- AS: Anatomical Structures  
+- CT: Cell Types  
+- B: Biomarkers (genes, proteins, metabolites, proteoforms, lipids)  
+
+Return them as a **deduplicated array** in this JSON format:
+```json
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}
+```
+Be precise. No other output.
+"
+"Extract all terms that match:
+- Anatomical Structures (AS)  
+- Cell Types (CT)  
+- Biomarkers (B: BG, BP, BM, BF, BL)  
+
+Output:
+```json
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}
+```
+No duplicates. No extra commentary.
+"
+"This prompt is for evaluation purposes. From the input text, extract:
+- AS (Anatomical Structures)  
+- CT (Cell Types)  
+- B (Biomarkers): Genes (BG), Proteins (BP), Metabolites (BM), Proteoforms (BF), Lipids (BL)  
+
+Your final response must be in this JSON format:
+```json
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}
+```
+Validity of format and completeness of extraction will be assessed. No duplicates allowed.
+"
+"Using your knowledge of biomedical ontologies, extract the following:
+- Anatomical Structures (AS)  
+- Cell Types (CT)  
+- Biomarkers (B): BG (genes), BP (proteins), BM (metabolites), BF (proteoforms), BL (lipids)  
+
+Return only the valid terms in this JSON format:
+```json
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}
+```
+"
+"Do not return anything except a valid JSON object with this format:
+```json
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}
+```
+From the input, extract:
+- Anatomical Structures (AS)
+- Cell Types (CT)
+- Biomarkers (B: BG, BP, BM, BF, BL)
+
+All terms must be:
+- Relevant  
+- Unique  
+- Listed only once  
+- Outputted **only** as a JSON array under the `""entities""` key"
+"You are processing biomedical data. Extract any data tokens that represent:
+- Anatomical Structures (AS)  
+- Cell Types (CT)  
+- Biomarkers (B), including:
+  - Genes (BG)  
+  - Proteins (BP)  
+  - Metabolites (BM)  
+  - Proteoforms (BF)  
+  - Lipids (BL)  
+
+Return only a JSON object like this:
+```json
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}
+```
+Make sure the output is clean, accurate, and contains **no duplicates**.
+"
+"Read the input and do the following:
+- Extract all **Anatomical Structures (AS)**  
+- Extract all **Cell Types (CT)**  
+- Extract all **Biomarkers (B)**, including:
+  - Genes (BG)  
+  - Proteins (BP)  
+  - Metabolites (BM)  
+  - Proteoforms (BF)  
+  - Lipids (BL)  
+
+Your output **must be**:
+- A valid JSON object  
+- With one key: `""entities""`  
+- Mapping to a list of strings  
+- With no duplicates  
+
+Example format:
+```json
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}
+```
+"
+"Extract AS, CT, and B (BG, BP, BM, BF, BL) entities from the text and return them uniquely in:
+```json
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}
+```
+"
+"From the biological text, find all references to:
+- Body parts or regions (AS)  
+- Specific cell populations (CT)  
+- Molecular indicators (B: genes, proteins, metabolites, proteoforms, lipids)  
+
+Output only the relevant biological terms in a valid JSON structure:
+```json
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}
+```
+"
+"Start from a high-level scan of the biomedical text and identify:
+- Any anatomical structure (AS)  
+- Any named cell type (CT)  
+- Any known biomarker (B), including:  
+  - Genes (BG)  
+  - Proteins (BP)  
+  - Metabolites (BM)  
+  - Proteoforms (BF)  
+  - Lipids (BL)  
+
+Summarize your results with no commentary in:
+```json
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}
+```
+"
+"Pull out and list:
+- Anatomical Structures (AS)  
+- Cell Types (CT)  
+- Biomarkers (BG, BP, BM, BF, BL)  
+
+Output only valid terms, exactly like this:
+```json
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}
+```
+"
+"You are a component in a biomedical data pipeline. Your job is to extract the following entities from the input:
+- Anatomical Structures (AS)  
+- Cell Types (CT)  
+- Biomarkers (Genes, Proteins, Metabolites, Proteoforms, Lipids)  
+
+Your output must be valid JSON:
+```json
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}
+```
+No duplicates. No additional text. Only the raw entity list."
+"In the context of biomedical research, extract the following:
+- Anatomical references (AS)  
+- Cell classifications (CT)  
+- Biomolecular markers (B), including BG (genes), BP (proteins), BM (metabolites), BF (proteoforms), BL (lipids)  
+
+Return a clean, unique list of all terms found in this JSON format:
+```json
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}
+```
+"
+"Identify and extract every entity that falls into these audit categories:
+- Anatomical Structure (AS)  
+- Cell Type (CT)  
+- Biomarker (B), including:
+  - Genes (BG)  
+  - Proteins (BP)  
+  - Metabolites (BM)  
+  - Proteoforms (BF)  
+  - Lipids (BL)  
+
+Return this in the following valid JSON format with no duplicates:
+```json
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}
+```
+"
+"Identify semantically relevant biological entities:
+- **Anatomical structures** (organs, tissues, regions)  
+- **Cell types** (immune cells, stem cells, etc.)  
+- **Biomarkers**, categorized as:
+  - Genes (BG)  
+  - Proteins (BP)  
+  - Metabolites (BM)  
+  - Proteoforms (BF)  
+  - Lipids (BL)  
+
+Your response must be limited to a valid JSON block:
+```json
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}
+```
+No repetition. No explanations. No extra formatting."
+"Process the input text and extract:
+- Anatomical Structures (AS)
+- Cell Types (CT)
+- Biomarkers (B), which include:
+  - Genes (BG)
+  - Proteins (BP)
+  - Metabolites (BM)
+  - Proteoforms (BF)
+  - Lipids (BL)
+
+Ensure every entity is captured iteratively and then output a deduplicated list in valid JSON:
+```json
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}
+```"
+"Read the text carefully to identify:
+- AS: Anatomical Structures
+- CT: Cell Types
+- B: Biomarkers (BG, BP, BM, BF, BL)
+
+After extraction, verify that each term is unique and relevant. Return the results in a JSON object exactly as:
+```json
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}
+```"
+"Your goal is to extract all biomedical entities from the text:
+1. Anatomical Structures (AS)
+2. Cell Types (CT)
+3. Biomarkers (B) ¨C including Genes (BG), Proteins (BP), Metabolites (BM), Proteoforms (BF), and Lipids (BL)
+
+Ensure that the extraction is both complete and precise. Output a single JSON object with a key ""entities"":
+```json
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}
+```
+No extra text, no duplicates."
+"As a specialized biomedical extractor, identify in the text:
+- Anatomical Structures (AS)
+- Cell Types (CT)
+- Biomarkers (B): Genes (BG), Proteins (BP), Metabolites (BM), Proteoforms (BF), Lipids (BL)
+
+Leverage domain-specific knowledge to ensure accuracy. Return only a JSON formatted list:
+```json
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}
+```"
+"Extract from the text only:
+- Anatomical Structures (AS)
+- Cell Types (CT)
+- Biomarkers (B) (Genes, Proteins, Metabolites, Proteoforms, Lipids)
+
+Provide a response that consists solely of a JSON object with the following structure:
+```json
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}
+```
+Do not include any additional text or comments.
+"
+"Follow these steps:
+1. Identify all occurrences of:
+   - Anatomical Structures (AS)
+   - Cell Types (CT)
+   - Biomarkers (B): Genes (BG), Proteins (BP), Metabolites (BM), Proteoforms (BF), Lipids (BL)
+2. Deduplicate the extracted list.
+3. Validate the terms for relevance.
+
+Finally, return the validated list in the JSON format:
+```json
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}
+```"
+"Identify all relevant terms in the text that belong to the following categories:
+- Anatomical Structures (AS)
+- Cell Types (CT)
+- Biomarkers (B) including Genes, Proteins, Metabolites, Proteoforms, Lipids
+
+Output only the JSON with a single key ""entities"":
+```json
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}
+```
+Avoid any superfluous text."
+"Extract terms from the text that match these categories:
+- **AS**: Anatomical Structures
+- **CT**: Cell Types
+- **B**: Biomarkers, specifically:
+  - **BG**: Genes
+  - **BP**: Proteins
+  - **BM**: Metabolites
+  - **BF**: Proteoforms
+  - **BL**: Lipids
+
+Return all terms in a deduplicated array formatted as valid JSON:
+```json
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}
+```"
+"Your assignment: extract all biomedical entities from the text corresponding to:
+- Anatomical Structures (AS)
+- Cell Types (CT)
+- Biomarkers (B), including:
+  - Genes (BG)
+  - Proteins (BP)
+  - Metabolites (BM)
+  - Proteoforms (BF)
+  - Lipids (BL)
+
+Output only a deduplicated JSON array under the key ""entities"", exactly as shown:
+```json
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}
+```
+No extra keys or explanations allowed."
+"Scan the text and extract every unique instance of:
+- Anatomical Structures (AS)
+- Cell Types (CT)
+- Biomarkers (B) [including Genes (BG), Proteins (BP), Metabolites (BM), Proteoforms (BF), Lipids (BL)]
+
+Ensure that every term is unique and relevant. Then output the terms in the following JSON format:
+```json
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}
+```
+Do not output any duplicates or additional commentary."
+"From the text, extract only the biomedical entities that fit these categories:
+- Anatomical Structures (AS)
+- Cell Types (CT)
+- Biomarkers (B): Genes (BG), Proteins (BP), Metabolites (BM), Proteoforms (BF), Lipids (BL)
+
+**Exclude** any term that does not strictly belong to these groups. Return your output as a JSON object:
+```json
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}
+```
+"
+"Analyze the text for semantically significant biomedical entities belonging to:
+- Anatomical Structures (AS)
+- Cell Types (CT)
+- Biomarkers (B) ¨C including Genes (BG), Proteins (BP), Metabolites (BM), Proteoforms (BF), and Lipids (BL)
+
+Filter out any noise and output a deduplicated list in valid JSON:
+```json
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}
+```
+"
+"Your task is to extract all the following biomedical entities from the text:
+- Anatomical Structures (AS)
+- Cell Types (CT)
+- Biomarkers (B): which include Genes (BG), Proteins (BP), Metabolites (BM), Proteoforms (BF), Lipids (BL)
+
+Do not output the category labels¡ªonly provide the unique entity names in this JSON format:
+```json
+{
+  ""entities"": [""entity_1"", ""entity_2"", ...]
+}
+```
+No extra commentary or formatting is allowed.
+"

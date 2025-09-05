@@ -1,0 +1,6 @@
+LVM,Accuracy,Avg Response Time (s)
+LLaVa,0.8017,3.36
+LLaMA3.2,0.9009,9.11
+Phi-3,0.8319,5.59
+Phi-3.5,0.7996,4.1
+Pixtral,0.8017,3.81

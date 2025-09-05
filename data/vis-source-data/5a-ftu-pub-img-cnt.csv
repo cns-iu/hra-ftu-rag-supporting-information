@@ -1,0 +1,23 @@
+organ,ftu,pmcid,image
+Kidney,cortical collecting duct,3852,40648
+Kidney,descending limb of loop of Henle,20879,221355
+Kidney,inner medullary collecting duct,2761,27620
+Kidney,loop of Henle ascending limb thin segment,728,12296
+Kidney,nephron,38566,356100
+Kidney,outer medullary collecting duct,1088,11940
+Kidney,renal corpuscle,859,10049
+Kidney,thick ascending limb of loop of Henle,4843,63536
+Large Intestine,crypt of Lieberkuhn of large intestine,40095,359711
+Liver,liver lobule,7574,81347
+Lung,alveolus of lung,4559,54082
+Lung,bronchus submucosal gland,1303,12740
+Pancreas,intercalated duct of pancreas,471,5191
+Pancreas,islet of Langerhans,10279,99086
+Pancreas,pancreatic acinus,13123,126170
+Prostate Gland,prostate glandular acinus,7368,66857
+Skin,epidermal ridge of digit,56538,662247
+Skin,papillary layer of dermis,23620,237878
+Small Intestine,intestinal villus,20648,190294
+Spleen,red pulp of spleen,32027,350347
+Spleen,white pulp of spleen,22820,244492
+Thymus,thymus lobule,296,3074

@@ -1,0 +1,1088 @@
+type,num,itype,pmcid,content,answer
+abstract,1,,PMC5968072,"<abstract id=""Abs1""><sec><title>Objective</title><p id=""Par1"">Ileal transposition (IT) procedure leads to higher secretion of incretin hormones what is associated with a beneficial metabolic effect. However, IT will also have an influence on the related jejunum and ileum function. The aim of this research was to investigate the morphology of the jejunum and transposed ileum with the use of light and transmission electron microscopy (TEM) in order to determine the local alternations in the intestine resulting from the transposition.</p></sec><sec><title>Methods</title><p id=""Par2"">Twenty male, 8-week-old, obese Zucker rats underwent IT and six of them sham surgery. To compare both groups, the transection was made at all corresponding ileum positions among both groups of animals. The ileal anastomoses among the rats of sham procedure were subsequently formed accordingly without IT. Three months following the surgery, the tissue samples of jejunum and ileum were harvested.</p></sec><sec><title>Results</title><p id=""Par3"">A significant increase in villus length, a decrease in the crypt depth, and an increased thickness of mucosa-muscularis-serosa (MMS) as well as cellular hyperplasia, with increased mitochondrial density of the transposed ileum segment, were observed among the group of rats which underwent IT comparing to the ones undergoing sham surgery. In rats undergoing IT, microvillus degeneration in jejunum regions was observed.</p></sec><sec><title>Conclusions</title><p id=""Par4"">Ileal transposition alters the morphology and ultrastructure of the ileum as well as the jejunum. Given that the microvillus membrane represents an important aspect of the enterocyte functions, a further biochemical and molecular research is necessary in order to assess whether the observed changes are beneficial or not and to explore the phenomenon of gut adaptability after metabolic surgery.</p></sec></abstract>","[
+  {
+    ""species"": ""rat"",
+    ""sex"": ""male"",
+    ""age"": ""8 weeks old"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  }
+]"
+abstract,2,,PMC8793315,"<abstract><p>Systemic lupus erythematosus (SLE) is an autoimmune disease that affects multiple organs. SLE can affect the lung, the pulmonary vasculature, and the pleura. A 38-year-old female with limb pain and ecchymosis who later developed pulmonary thromboembolism and alveolar hemorrhage is presented here. Clinical, imaging, laboratory, and histopathological evidence is presented. The patient met the European League Against Rheumatism (EULAR) and the American College of Rheumatology (ACR) criteria for SLE. Furthermore, the patient had a Systemic Lupus Erythematosus Disease Activity Index 2000 (SLEDAI-2K) score of 35; thus, indicating severe disease. This case is an example of concomitant venous and arterial lung complications in an SLE patient.</p></abstract>","[
+  {
+    ""species"": ""human"",
+    ""sex"": ""female"",
+    ""age"": ""38 years old"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  }
+]"
+abstract,3,,PMC5968881,"<abstract><p>Grinding is a key physical element in America＊s Cup sailing. This study aimed to describe kinematics and muscle activation patterns in relation to torque applied in forward and backward grinding. Ten male America＊s Cup sailors (33.6 ㊣ 5.7 years, 97.9 ㊣ 13.4 kg, 186.6 ㊣ 7.4 cm) completed forward and backward grinding on a customised grinding ergometer. In forward grinding peak torque (77 Nm) occurred at 95～ (0～ = crank vertically up) on the downward section of the rotation at the end of shoulder flexion and elbow extension. Backward grinding torque peaked at 35～ (69 Nm) following the pull action (shoulder extension, elbow flexion) across the top of the rotation. During forward grinding, relatively high levels of torque (&gt;50 Nm) were maintained through the majority (72%) of the cycle, compared to 47% for backward grinding, with sections of low torque corresponding with low numbers of active muscles. Variation in torque was negatively associated with forward grinding performance (<italic>r</italic> = ?0.60; 90% CI ?0.88 to ?0.02), but positively associated with backward performance (<italic>r</italic> = 0.48; CI = ?0.15 to 0.83). Magnitude and distribution of torque generation differed according to grinding direction and presents an argument for divergent training methods to improve forward and backward grinding performance.</p></abstract>","[
+  {
+    ""species"": ""human"",
+    ""sex"": ""male"",
+    ""age"": ""33.6 ㊣ 5.7 years"",
+    ""BMI"": ""unknown"",
+    ""height"": ""186.6 ㊣ 7.4 cm"",
+    ""weight"": ""97.9 ㊣ 13.4 kg""
+  }
+]
+"
+abstract,4,,PMC3480353,"<abstract><p>The mammalian <italic>Interferon induced transmembrane protein 1 (Ifitm1</italic>) gene was originally identified as a member of a gene family highly inducible by type I and type II interferons. Based on expression analyses, it was suggested to be required for normal primordial germ cell migration. The knockdown of <italic>Ifitm1</italic> in mouse embryos provided evidence for a role in somitogenesis. We generated the first targeted knockin allele of the <italic>Ifitm1</italic> gene to systematically reassess all inferred functions. Sperm motility and the fertility of male and female mutant mice are as in wild type littermates. Embryonic somites and the adult vertebral column appear normal in homozygous <italic>Ifitm1</italic> knockout mice, demonstrating that <italic>Ifitm1</italic> is not essential for normal segmentation of the paraxial mesoderm. Proportions of leucocyte subsets, including granulocytes, monocytes, B-cells, T-cells, NK-cells, and NKT-cells, are unchanged in mutant mice. Based on a normal immune response to <italic>Listeria monocytogenes</italic> infection, there is no evidence for a dysfunction in downstream IFN污 signaling in <italic>Ifitm1</italic> mutant mice. Expression from the <italic>Ifitm1</italic> locus from E8.5 to E14.5 is highly dynamic. In contrast, in adult mice, <italic>Ifitm1</italic> expression is highly restricted and strong in the bronchial epithelium. Intriguingly, IFITM1 is highly overexpressed in tumor epithelia cells of human squamous cell carcinomas and in adenocarcinomas of NSCLC patients. These analyses underline the general importance of targeted <italic>in vivo</italic> studies for the functional annotation of the mammalian genome. The first comprehensive description of the <italic>Ifitm1</italic> expression pattern provides a rational basis for the further examination of <italic>Ifitm1</italic> gene functions. Based on our data, the fact that IFITM1 can function as a negative regulator of cell proliferation, and because the gene maps to chromosome band 11p15.5, previously associated with NSCLC, it is likely that IFITM1 in man has a key role in tumor formation.</p></abstract>","[
+  {
+    ""species"": ""mouse"",
+    ""sex"": ""male and female"",
+    ""age"": ""unknown"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  }
+]"
+abstract,5,,PMC6016639,"<abstract id=""phy213743-abs-0001""><title>Abstract</title><p>Sodium and fluid retention is a hallmark and a therapeutic challenge of the nephrotic syndrome (<styled-content style=""fixed-case"">NS</styled-content>). Studies support the ※overfill§ theory of <styled-content style=""fixed-case"">NS</styled-content> with pathophysiological proteolytic activation of the epithelial sodium channel (<styled-content style=""fixed-case"">EN</styled-content>aC) which explains the common observation of suppressed renin 每angiotensin system and poor therapeutic response to <styled-content style=""fixed-case"">ACE</styled-content> inhibitors. Blockade of <styled-content style=""fixed-case"">EN</styled-content>aC by the diuretic amiloride would be a rational intervention compared to the traditionally used loop diuretics. We describe a 38坼year坼old male patient with type1 diabetes who developed severe hypertension (200/140?mmHg), progressive edema (of at least 10?L), and overt proteinuria (18.5?g/24?h), despite combined administration of five antihypertensive drugs. Addition of amiloride (5?mg/day) to treatment resulted in resolution of edema, weight loss of 7?kg, reduction in blood pressure (150/100每125/81?mmHg), increased 24?h urinary sodium excretion (127每165?mmol/day), decreased <styled-content style=""fixed-case"">eGFR</styled-content> (41每29?mL/min), and increased plasma potassium concentration (4.6每7.8?mmol/L). Blocking of <styled-content style=""fixed-case"">EN</styled-content>aC mobilizes nephrotic edema and lowers blood pressure in <styled-content style=""fixed-case"">NS</styled-content>. However, acute kidney injury and dangerous hyperkalemia is a potential risk if amiloride is added to multiple other antihypertensive medications as <styled-content style=""fixed-case"">ACE</styled-content>i and spironolactone. The findings support that <styled-content style=""fixed-case"">EN</styled-content>aC is active in <styled-content style=""fixed-case"">NS</styled-content> and is a relevant target in adult <styled-content style=""fixed-case"">NS</styled-content> patients.</p></abstract>","[
+  {
+    ""species"": ""human"",
+    ""sex"": ""male"",
+    ""age"": ""38 years old"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  }
+]
+"
+abstract,6,,PMC10101451,"<abstract><p>To accurately assess pain and support broadly-based analgesic protocols to mitigate swine pain, it is imperative to develop and validate a species-specific pain scale. The objective of this study was to investigate the clinical validity and reliability of an acute pain scale (UPAPS) adapted for newborn piglets undergoing castration. Thirty-nine male piglets (five days of age, 1.62 ㊣ 0.23 kg BW) served as their own control, were enrolled in the study and underwent castration in conjunction with an injectable analgesic administered one-hour post-castration (flunixin meglumine 2.2 mg/kg IM). An additional 10, non-painful female piglets were included to account for the effect of natural behavioral variation by day on pain scale results. Behavior of each piglet was video recorded continuously at four recording periods (24 h pre-castration, 15 min post-castration, 3 and 24 h post-castration). Pre- and post-operative pain was assessed by using a 4-point scale (score 0每3) including the following six behavioral items: posture, interaction and interest in surroundings, activity, attention to the affected area, nursing, and miscellaneous behavior. Behavior was assessed by two trained blinded observers and statistical analysis was performed using R software. Inter-observer agreement was very good (ICC = 0.81). The scale was unidimensional based on the principal component analysis, all items except for nursing were representative (<italic toggle=""yes"">r</italic><sub><italic toggle=""yes"">s</italic></sub> ≡ 0.74) and had excellent internal consistency (Cronbach＊s alpha ≡ 0.85). The sum of scores were higher in castrated piglets post-procedure compared to pre-procedure, and higher than in non-painful female piglets confirming responsiveness and construct validity, respectively. Scale sensitivity was good when piglets were awake (92.9%) and specificity was moderate (78.6%). The scale had excellent discriminatory ability (area under the curve &gt; 0.92) and the optimal cut-off sum for analgesia was 4 out of 15. The UPAPS scale is a valid and reliable clinical tool to assess acute pain in castrated pre-weaned piglets.</p></abstract>","[
+  {
+    ""species"": ""pig"",
+    ""sex"": ""male"",
+    ""age"": ""5 days old"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""1.62 ㊣ 0.23 kg""
+  },
+  {
+    ""species"": ""pig"",
+    ""sex"": ""female"",
+    ""age"": ""5 days old"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  }
+]
+"
+abstract,7,,PMC11129499,"<abstract id=""Abs1""><sec><title>Background</title><p id=""Par1"">The liver serves as a metabolic hub within the human body, playing a crucial role in various essential functions, such as detoxification, nutrient metabolism, and hormone regulation. Therefore, protecting the liver against endogenous and exogenous insults has become a primary focus in medical research. Consequently, the potential hepatoprotective properties of multiple 4-phenyltetrahydroquinolines inspired us to thoroughly study the influence of four specially designed and synthesized derivatives on carbon tetrachloride (CCl4)-induced liver injury in rats.</p></sec><sec><title>Methods and results</title><p id=""Par2"">Seventy-seven Wistar albino male rats weighing 140?㊣?18 g were divided into eleven groups to investigate both the toxicity profile and the hepatoprotective potential of 4-phenyltetrahydroquinolines. An in-vivo hepatotoxicity model was conducted using CCl4 (1 ml/kg body weight, a 1:1 v/v mixture with corn oil, i.p.) every 72?h for 14?days. The concurrent treatment of rats with our newly synthesized compounds (each at a dose of 25 mg/kg body weight, suspended in 0.5% CMC, p.o.) every 24?h effectively lowered transaminases, preserved liver tissue integrity, and mitigated oxidative stress and inflammation. Moreover, the histopathological examination of liver tissues revealed a significant reduction in liver fibrosis, which was further supported by the immunohistochemical analysis of 汐-SMA. Additionally, the expression of the apoptotic genes BAX and BCL2 was monitored using real-time PCR, which showed a significant decrease in liver apoptosis. Further investigations unveiled the ability of the compounds to significantly decrease the expression of autophagy-related proteins, Beclin-1 and LC3B, consequently inhibiting autophagy. Finally, our computer-assisted simulation dockingonfirmed the obtained experimental activities.</p></sec><sec><title>Conclusion</title><p id=""Par3"">Our findings suggest that derivatives of 4-phenyltetrahydroquinoline demonstrate hepatoprotective properties in CCl4-induced liver damage and fibrosis in rats. The potential mechanism of action may be due to the inhibition of autophagy in liver cells.</p></sec></abstract>","[
+  {
+    ""species"": ""rat"",
+    ""sex"": ""male"",
+    ""age"": ""unknown"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""140 ㊣ 18 g""
+  }
+]
+"
+abstract,8,,PMC8884462,"<abstract><p>Colonic lipomas (CLs) are a rare benign neoplasm of the gastrointestinal tract and the second most common tumor of the colon after adenomatous polyps. The clinical presentation of lipomas depends on the size of the tumor. Lesions that are less than 2 cm are mostly asymptomatic and are incidental findings during procedures like colonoscopies, imaging, or surgery. CLs that are greater than 2 cm can present with abdominal pain, nausea, intestinal obstruction, diarrhea, bleeding, and intussusception. Barium enema and colonoscopy can provide diagnostic clues; however, abdominal computed tomography (CT) confirms the diagnosis. Treatment modalities range from observation?to segmental colectomy and endoscopic or laparoscopic procedures. Surgical resection is preferred for CLs that are either?symptomatic or greater than 2 cm. Giant lipomas are often symptomatic and amenable to treatment, with surgical resection, laparoscopy, and endoscopic resection being the preferred treatment modalities. In this case report, we discuss a case of a 71-year-old white female who presented with abdominal pain and was found to have a relevant intestinal obstruction due to a 7.2 x 4.7 x 5.3 cm fatty mass arising from the transverse colon. Right hemicolectomy was performed, and histopathological examination revealed a lipoma of the transverse?colon.</p></abstract>","[
+  {
+    ""species"": ""human"",
+    ""sex"": ""female"",
+    ""age"": ""71 years old"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  }
+]
+"
+abstract,9,,PMC6003684,"<abstract><p>High Intensity Functional Training (HIFT) is a training modality, characterized by multimodal exercises performed at high-intensity. Little is known about the training adaptations that occur as a prolonged training program. The purpose of this study was to examine changes in body composition, bone metabolism, strength, and skill-specific performance over 16-weeks of HIFT. Twenty-six recreationally active adult males (n = 9; 34.2 ㊣ 9.1 y; 91.5 ㊣ 17.7 kg; 178.5 ㊣ 5.4 cm) and females (n = 17 = 36.4 ㊣ 7.9 y; 91.5 ㊣ 17.7 kg; 162.9 ㊣ 7.0 cm) completed pre and post training assessments of body composition (Dual-Energy X-Ray Absorptiometry) and performance measures. Performance was assessed using three HIFT workouts (WOD 1每3) to assess strength, skill, and metabolic performance. Aside from the body composition measurements, all assessments were carried out at the local training facility. Training included participation in HIFT a minimum of twice a week for 16-weeks. Repeated measures analysis of variance revealed a significant gender x time interaction in Bone Mineral Content (BMC) (p = 0.027), where improvements favored women (1.0% ㊣ 1.1%, p = 0.004) over men (-0.1% + 0.8%, p = 0.625). Further, region-specific analysis indicated that women (2.5% ㊣ 3.0%, p &lt; 0.005) experienced greater improvements in the trunk compared to men (-0.3% ㊣ 1.8%, p = 0.621), while changes in leg BMC were comparable between women (0.8% ㊣ 1.0%, p &lt; 0.001) and men (0.3% ㊣ 0.6%, p &lt; 0.001). Although no other interactions were observed, significant performance improvements were noted for all participants in WOD 1 (18.3% ㊣ 16.8%), absolute 5RM (14.4% ㊣ 9.7%), relative 5RM (15.4% ㊣ 9.2%), WOD 2 (5.7% ㊣ 6.5%), and WOD 3 (每17.3% ㊣ 14.7%). These data indicate that 16-weeks of HIFT resulted in positive outcomes in strength, metabolic conditioning performance, and body composition.</p></abstract>","[
+  {
+    ""species"": ""human"",
+    ""sex"": ""male"",
+    ""age"": ""34.2 ㊣ 9.1 years"",
+    ""BMI"": ""unknown"",
+    ""height"": ""178.5 ㊣ 5.4 cm"",
+    ""weight"": ""91.5 ㊣ 17.7 kg""
+  },
+  {
+    ""species"": ""human"",
+    ""sex"": ""female"",
+    ""age"": ""36.4 ㊣ 7.9 years"",
+    ""BMI"": ""unknown"",
+    ""height"": ""162.9 ㊣ 7.0 cm"",
+    ""weight"": ""91.5 ㊣ 17.7 kg""
+  }
+]
+"
+abstract,10,,PMC11069328,"<abstract><p>Panniculus morbidus (PM) is a presentation of severe chronic abdominal lymphoedema associated with obesity resulting in oedema and chronic fibrosis. It is a multifaceted condition with significant clinical and psychosocial implications.</p><p>A 29-year-old female weighing?260 kg with a body mass index of 95 kg/m<sup>2</sup> had recurrent infections and sepsis associated with an abdominal pannus extending to her knees and an area of ulceration. The pannus was indurated with extensive fibrosis that significantly affected her quality of life (QOL) requiring assistance for all activities of daily living (ADLs). A panniculectomy was performed with a negative pressure skin dressing?over the skin wound. She was discharged after two days. Two months postoperatively, she reported significant improvement in QOL and can now mobilise and perform ADLs independently with no recurrent admissions.</p><p>The global prevalence of obesity is reaching pandemic proportions and so will its complications. It can be functionally debilitating and worsen obesity. Surgical resection is indicated to restore mobility and function, prevent recurrent infections, improve QOL, and reduce economic burden. Patients report high satisfaction rates following surgery. Panniculectomy is an effective treatment to alleviate morbidity in severe obesity and should be considered in patients with recurrent infections and a significant impact on QOL.</p></abstract","[
+  {
+    ""species"": ""human"",
+    ""sex"": ""female"",
+    ""age"": ""29 years old"",
+    ""BMI"": ""95 kg/m2"",
+    ""height"": ""unknown"",
+    ""weight"": ""260 kg""
+  }
+]
+"
+full-text,1,,PMC6749055,"Male C57BL/6 mice weighing 20?g were purchased from Sprague-Dawley (The Jackson Laboratory, Bar Harbor, ME). They were housed in the animal facilities at the Seoul National University Boramae Medical Center with free access to food and water. Unilateral ureteral obstruction (UUO) was performed using an established procedure. Briefly, mice under general anesthesia were subjected to complete ureteral obstruction by double-ligating the left ureter using 4每0 silk after exposure via a flack incision. Sham-operated mice had their ureters exposed and manipulated but not ligated42,43. Mice were randomly assigned into three groups (n? M6): (1) sham normal control; (2) UUO; (3) UUO receiving cMet agonistic Ab. cMet Ab was injected via tail vein four times (D-1, D?b 1, D?, 3, D?, 7) at a dose of 20?mg/kg (300?米l, PBS) per injection.","[
+  {
+    ""species"": ""mouse"",
+    ""sex"": ""male"",
+    ""age"": ""unknown"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""20 g""
+  }
+]
+"
+full-text,2,,PMC11595861,Male Wistar rats weighing 300每380 g (n = 30) from the laboratory animal nursery of ※KrolInfo§ LLC were used to streptozotocin-induced T1DM (recipient animals) and isolate the islets of Langerhans (donor animals). The acclimatization and maintenance of laboratory animals were carried out in accordance with the interstate standard GOST ISO 10993-2-2009 ※Medical devices. Assessment of the biological effect of medical devices. Part 2. Requirements for the treatment of animals§ [36].,"[
+  {
+    ""species"": ""rat"",
+    ""sex"": ""male"",
+    ""age"": ""unknown"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""300每380 g""
+  }
+]
+"
+full-text,3,,PMC10843809,"All animal experiments were performed under guidelines approved by the Florida State University Animal Care and Use Committee, protocol 202000078. Murine islets were obtained by digesting the pancreas from male CD-1 mice (20-40 g) with collagenase as previously described [39,40]. During each isolation, islets from at least two mice were combined and incubated at 37～C with 5% CO2 in RPMI 1640 (Corning, Manassas, VA) with 11 mM glucose, l-glutamine, 10% fetal bovine serum, 100 U mL?1 penicillin, 100 米g mL?1 streptomycin, and 10 米g mL?1 gentamycin. Islets were used within 48 h after isolation.","[
+  {
+    ""species"": ""mouse"",
+    ""sex"": ""male"",
+    ""age"": ""unknown"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""20每40 g""
+  }
+]
+"
+full-text,4,,PMC6061145,"Islets were isolated from 10 to 12 weeks old male mice of the inbred C57BL/6 (C57; Charles River) and outbred Crl:CD1 (ICR) mice (Charles River) strains by collagenase digestion of the exocrine pancreas [16]. All animal procedures were carried out in accordance with the UK Home Office Animals (Scientific Procedures) Act 1986. Human islets were isolated from heart-beating non-diabetic donors as previously described [17], with appropriate ethical approval for research use. Isolated mouse and human islets were maintained in culture overnight (mouse: RPMI 1640; human: CMRL) at 37 ～C, 5% CO2 before experimental use.","[
+  {
+    ""species"": ""mouse"",
+    ""sex"": ""male"",
+    ""age"": ""10 to 12 weeks old"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  },
+  {
+    ""species"": ""human"",
+    ""sex"": ""unknown"",
+    ""age"": ""unknown"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  }
+]
+"
+full-text,5,,PMC7787786,"In this experimental study, adult Naval Medical Research Institute (NMRI) mice (20-25?g) were kept at a 12?:?12 hour light?:?dark cycle. The animals were treated in accordance with the principles and guidelines on animal care of Dezful University of Medical Sciences as reviewed by an ethics committee (IR.DUMS.REC.1398.022), as well as free access to tap water and commercial chow ad libitum.","[
+  {
+    ""species"": ""mouse"",
+    ""sex"": ""unknown"",
+    ""age"": ""adult"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""20每25 g""
+  }
+]
+"
+full-text,6,,PMC8433206,"Pancreata were obtained from diseased donors within the framework for the Nordic Network for Clinical Islet Transplantation (NNCIT). For the samples displayed in Figs. 1每3, the following clinical parameters describing the donors disease history applied with the ND donor listed first and the T2D second; Sex: male, male; Donor age: 69, 66; BMI: 27.5, 34.3; HbA1c: 35, 83; Diabetes duration: NA?>10 years; glucose-lowering therapy: None, (Dapagliflozin Metformin, Insulin, Detemir); Donor cause of death: Donation after brain death (DBD), DBD; Warm ischemia time: none, none; Cold ischemia time: 5.5?h, 6?h. The donated pancreata were dissected from the duodenum in Ringer＊s acetate (Braun Melsungen AG Hessen Germany) and washed in 1℅ PBS (Medicago AB, Uppsala, Sweden) before fixation in formaldehyde (Solveco, Rosersberga, Sweden). After 24?h the formaldehyde was replaced with a fresh formaldehyde solution and fixed for another 24?h, followed by stepwise dehydration into ethanol (2?℅?75% v/v and 2?℅?96% v/v, VWR chemicals) at 4?～C. At this stage, the pancreata were stored and transported in 96% ethanol (v/v) at room temperature. The organs were extensively washed on an orbital shaker in 96% (v/v) ethanol at 4?～C. The ethanol was replaced daily until the alcohol stayed transparent after washing. At this stage, images of the organs (see Supplementary Fig. 1) were obtained with a Nikon D5200 camera.","[
+  {
+    ""species"": ""human"",
+    ""sex"": ""male"",
+    ""age"": ""69 years old"",
+    ""BMI"": ""27.5"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  },
+  {
+    ""species"": ""human"",
+    ""sex"": ""male"",
+    ""age"": ""66 years old"",
+    ""BMI"": ""34.3"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  }
+]
+"
+full-text,7,,PMC9216495,"Juvenile porcine islets were purchased from University of California-Irvine and cultured according to previously described protocol.35 Mouse islets were isolated from male 12-16-week-old C57BL/6J (Jackson Laboratory, USA) as described previously.36 Human islets were obtained from the Clinical Islet Cell Laboratory, isolated according to previously described protocols.37 Islet preparations (75%-90% purity as assessed by dithizone staining) from 4 donors were received within 48 h of pancreas harvest from deceased donors.","[
+  {
+    ""species"": ""pig"",
+    ""sex"": ""unknown"",
+    ""age"": ""juvenile"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  },
+  {
+    ""species"": ""mouse"",
+    ""sex"": ""male"",
+    ""age"": ""12每16 weeks old"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  },
+  {
+    ""species"": ""human"",
+    ""sex"": ""unknown"",
+    ""age"": ""unknown"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  }
+]
+"
+full-text,8,,PMC3275611,"Isolated human pancreatic islets from non-diabetic males (age 58+6 years; Hb1Ac<6.1 and MBI: 27+2) were provided by the Nordic network for clinical islet transplantation (Professor Olle Korsgren, Uppsala University, Sweden). All procedures were approved by the ethical committees at Uppsala and Lund Universities. Prior to the experiments the islets had been cultured at 37～C (5% CO2) for 2 days in CMRL 1066 (ICN Biomedicals, Costa Mesa, CA) supplemented with 10 mmol/l HEPES, 2 mmol/l L-glutamine, 50 米g/ml gentamicin, 0.25 米g/ml Fungizone (Gibco, BRL, Gaithersburg, MD), 20 米g/ml ciprofloxacin (Bayer Healthcare, Leverkusen, Germany) and 10 mmol/l nicotinamide. The islets had 70每90% purity when they arrived; the islets were then hand-picked under stereomicroscope prior to use. All islet preparations were treated in exactly the same way to avoid results being due to handling differences. All procedures were approved by the ethical committees at Uppsala and Lund Universities.","[
+  {
+    ""species"": ""human"",
+    ""sex"": ""male"",
+    ""age"": ""58 ㊣ 6 years"",
+    ""BMI"": ""27 ㊣ 2"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  }
+]
+"
+full-text,9,,PMC6157638,"Human islets were also obtained from the University of Minnesota Schulze Diabetes Institute (Minneapolis, MN, USA) in collaboration with Josh Wilhelm. Islets were isolated from living donors with pancreatitis undergoing total pancreatectomy with islet auto-transplantation (Patient 1: 57 years old, non-diabetic female, BMI = 25, HbA1c = 4.8%; Patient 2: 57 years old, non-diabetic male with hyperlipidemia, BMI = 23, HbA1C = 5.8%). Islets were shipped overnight (4 ～C, with Cryopaks) in Transplant Media (CMRL supplemented with 2.5% human serum albumin, 25 mM HEPES and 20 米g/mL ciprofloxacin). Upon arrival, islets were further purified from exocrine pancreas and cellular debris by visual inspection and picking. Islets were then cultured for 1每2 h at 37 ～C 5% CO2 in CMRL media supplemented with 10 mM niacinamide, 1% (v/v) insulin-transferrin-selenium, 16.7 米M ZnSO4, 5 mM sodium pyruvate, 1% (v/v) Glutamax, 25 mM HEPES, 10% (v/v) FBS, and 1% (v/v) pen/strep. Respirometry was conducted on the same day that the islets arrived at UCLA. Approximately 1每2% of the final isolated islet product from pancreatitis patients was used for experiments.","[
+  {
+    ""species"": ""human"",
+    ""sex"": ""female"",
+    ""age"": ""57 years old"",
+    ""BMI"": ""25"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  },
+  {
+    ""species"": ""human"",
+    ""sex"": ""male"",
+    ""age"": ""57 years old"",
+    ""BMI"": ""23"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  }
+]
+"
+full-text,10,,PMC10810165,"Human islets were procured at Tebubio. Two batches were used in our study: 58?years old, BMI 29, HbA1c 5.0%, and 32?years old, BMI 26.9, HbA1c 4.9%. After reception, they were cultured for 48?hours, as instructed by the provider, to allow for recovery.","[
+  {
+    ""species"": ""human"",
+    ""sex"": ""unknown"",
+    ""age"": ""58 years old"",
+    ""BMI"": ""29"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  },
+  {
+    ""species"": ""human"",
+    ""sex"": ""unknown"",
+    ""age"": ""32 years old"",
+    ""BMI"": ""26.9"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  }
+]
+"
+reference-text,1,micro,PMC11024155,"To determine islet spatial organization in 3D space, the INS+ surfaces were first divided into three size categories (Fig. 3) in Imaris, corresponding to equal fractions of the total INS+ volume. Surfaces were then converted into spots by first applying the distance transformation function which effectively generates a channel based on the surface volumes. The resulting channels were then the basis for generating spots that more accurately correspond to the initial surface segmentation. The spots function was used to evaluate average distance to neighboring objects within categories, as well as determining the average shortest distance between size categories. In the spot function, distances are calculated between the center of mass of any two objects. A similar pipeline for comparison between human and mouse INS+ islet distribution was carried out on five 10-week-old male C57BL/6J control mice from a pre-processed and segmented public dataset24. Isolation and processing of these mouse pancreata is described in refs. 24,47 (and references therein). Division into size categories was performed as for the human dataset.","[
+  {
+    ""species"": ""mouse"",
+    ""sex"": ""male"",
+    ""age"": ""10 weeks old"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  },
+  {
+    ""species"": ""human"",
+    ""sex"": ""unknown"",
+    ""age"": ""unknown"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  }
+]
+"
+reference-text,2,micro,PMC110684,"The liver of 5-week-old Hnf-1汐?/? mice was about 50% larger than that of normal littermates, while other organs appeared to be allometric to body size, although the mice showed stunted growth (data not shown). The enlarged liver suggests that a dysfunctional liver may be the result of HNF-1汐 deficiency. Indeed, the levels of the liver enzymes aspartate aminotransferase (AST) and alanine aminotransferase (ALT) in serum were elevated in the Hnf-1汐?/? mice, and a progressive severity of liver damage with age was observed (Table 1). In agreement with the elevated activities of AST and ALT, the liver of the Hnf-1汐?/? mice developed central lobular hypertrophy with degeneration of individual hepatocytes. The degeneration of hepatocytes did not occur in the liver of young Hnf-1汐?/? mice (5 weeks old; data not shown) but was obvious in that of 12-week-old mice (Fig. 3A to D).","[
+  {
+    ""species"": ""mouse"",
+    ""sex"": ""unknown"",
+    ""age"": ""5 weeks old"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  },
+  {
+    ""species"": ""mouse"",
+    ""sex"": ""unknown"",
+    ""age"": ""12 weeks old"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  }
+]
+"
+reference-text,3,micro,PMC7719084,"Rrm2b?/? mice18 appeared normal at weaning and developed albuminuria from age 7 weeks onwards (Figure 4a, Supplementary Figure 2a), with a peak albuminuria of about 780 fold increase at age 10 weeks compared to age 7 weeks, and they develop hypercholesterolemia from age 8 weeks (Figure 4b). Serum PCSK9 levels increase in Rrm2b?/? mice from age 8 weeks but stay stable in Rrmb2+/+ mice (Figure 4c, Supplementary Figure 2b). Light microscopy study shows development of capillary loop collapse from age 10 weeks in Rrm2b?/? mice (Figure 4d).","[
+  {
+    ""species"": ""mouse"",
+    ""sex"": ""unknown"",
+    ""age"": ""7 weeks old"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  },
+  {
+    ""species"": ""mouse"",
+    ""sex"": ""unknown"",
+    ""age"": ""8 weeks old"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  },
+  {
+    ""species"": ""mouse"",
+    ""sex"": ""unknown"",
+    ""age"": ""10 weeks old"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  }
+]
+"
+reference-text,4,micro,PMC6139524,Immunohistochemistry also demonstrated sex-dependent differences in Rhcg expression. Rhcg immunolabel was substantially greater in female than male mice in the cortex and OMi (Fig. 10). The overall increase in these regions was due to increased immunolabel intensity in connecting segment cells and the basolateral membrane of collecting duct intercalated and principal cells in the OMi. These findings suggest that differences in Rhbg- and Rhcg-mediated ammonia secretion may contribute to sex differences in ammonia excretion.,"[
+  {
+    ""species"": ""mouse"",
+    ""sex"": ""female"",
+    ""age"": ""unknown"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  },
+  {
+    ""species"": ""mouse"",
+    ""sex"": ""male"",
+    ""age"": ""unknown"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  }
+]
+"
+reference-text,5,micro,PMC8192546,"Zeb1 deletion in the pancreas affects pancreas homeostasis. To experimentally increase Zeb1 levels we made use of the indZeb1 knock-in allele (R26-Zeb1tg), harboring Zeb1-HA cDNA driven by the Rosa26 locus42 activated by Pdx1-Cre in indZeb1 mice (Fig. 4A). To our surprise, these mice died shortly after birth showing severe growth retardation with only a few individuals reaching 2每7 weeks of age (Fig. 4B, C), due to pancreas agenesis to variable extend and sporadic cyst formation. This observation was combined with more severe reduction of the islet mass (Fig. 4C). To discriminate whether moderate elevation of Zeb1 expression impaired pancreas specification or affected cell survival later, we analyzed E15.5 embryos, when the secondary transition was almost completed in control embryos. Although the size of the embryonic pancreas was slightly reduced, all indZeb1 embryos displayed a clearly discernible pancreas with proper gross morphology but included sporadic cystic or blood-filled structures (Fig. 4D). Zeb1 overexpression was confirmed by immunofluorescence staining, showing expression at the detection limit, with a few patches of more robust expression (Fig. 4E and inset). We observed a slight global reduction in the expression of the Zeb1 target E-cad with almost negative patches of higher Zeb1 levels in mutant embryos (Fig. 4D). mRNA analysis of pancreata from embryos and pups confirmed a moderate 1.5 and 3-fold increase in Zeb1 transcripts resulting in lower Cdh1 and higher Vim levels in indZeb1, whereas Zeb1 depletion had no robust effect (Fig. 4F).","[
+  {
+    ""species"": ""mouse"",
+    ""sex"": ""unknown"",
+    ""age"": ""2每7 weeks old"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  },
+  {
+    ""species"": ""mouse"",
+    ""sex"": ""unknown"",
+    ""age"": ""E15.5 embryo"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  }
+]
+"
+reference-text,6,schema,PMC11825823,"Pancreas development, cell differentiation, and transdifferentiation. At E8.5, the dorsal and ventral endoderm thickens to form two buds, called dorsal buds and ventral buds respectively. Cells in the two buds are Pdx1+ multipotent progenitor cells. At E9.5, the curled structure forms. Subsequently, these multipotent stem cells differentiate into two domains that together form a ramified structure. ※Tip§ domain cells differentiated into Ptf1a+ acinar precursor cells, while ※Trunk§ domain cells differentiated into SOX9+ duct precursor cells and Ngn3+ endocrine precursor cells. Transdifferentiation of acinar cells and ductal cells into islet endocrine cells and ADM can occur in mature pancreas under specific conditions. Created in BioRender.com","[
+  {
+    ""species"": ""mouse"",
+    ""sex"": ""unknown"",
+    ""age"": ""E8.5 embryo"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  },
+  {
+    ""species"": ""mouse"",
+    ""sex"": ""unknown"",
+    ""age"": ""E9.5 embryo"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  }
+]
+"
+reference-text,7,schema,PMC7916718,"The expansion of islet macrophages in obesity conditions is accompanied by a transcriptional reprogramming. Nackiewicz and colleagues reported an increase in islet macrophages in 8-week-old obese and diabetic db/db mice. Gene transcription analysis showed the induction of Igf1 and reduction in IL6 and Tnf gene expression, supporting the hypothesis that obesity triggers a switch to a macrophage reparative state, probably in response to increased 汕-cell death [27]. Indeed, the same gene expression profile was observed after administration of streptozotocin, an antineoplastic agent with specific toxicity for pancreatic 汕-cells, alone or in combination with a high-fat diet (HFD) [27]. Another recent report confirmed the expansion of islet macrophages in HFD-induced obesity and in db/db mice [71]. In this report, transcriptomic analysis unveiled a peculiar macrophage activation profile, in which only some pro-inflammatory genes were upregulated, whereas others were even downregulated. In addition, the expression of a subset of M2 macrophage-specific genes was decreased. These observations demonstrate that islet macrophages are highly specialised and present specific phenotypes in response to their microenvironment, rather than a classic pro-inflammatory activation profile. Ying and colleagues further analysed the effect of islet macrophage expansion in obesity [71]. Co-culture with macrophages derived from obese mice impaired glucose-stimulated insulin secretion from clonal Min6 汕-cells [71]. This may be mediated by the uptake of insulin-containing secretory vesicles released from 汕-cells. It has been proposed that direct contact between macrophages and 汕-cells is required for this mechanism, maybe via tunnelling nanotubes transporting cytoplasmic material [79] (Figure 3). In addition, macrophages isolated from obese mice show increased 汕-cell proliferation in a mechanism dependent on PDGF-receptor activation [71].","[
+  {
+    ""species"": ""mouse"",
+    ""sex"": ""unknown"",
+    ""age"": ""8 weeks old"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  }
+]
+"
+reference-text,8,schema,PMC3901368,"We investigated the vascular anatomy of the adult mouse prostate vasculature by intra-cardiac injection of India ink and light microscopy (Figure 1 A and B). The India ink angiograms revealed one main artery on each side of the ventral aspect of the bladder supplying the prostate/seminal vesicle complex. This artery branches into three vessels near the neck of the bladder to supply the bladder, prostate, seminal vesicle and the urethra. The central branch bifurcates - giving off one vessel that runs along the anterior prostate to supply the anterior prostatic ducts and parts of the adjacent seminal vesicle and another vessel that directly supplies the anterior prostate. The dorsal branch supplies the dorsolateral prostate while the ventral branch supplies the ventral surface of the bladder and the ventral prostate. Vessels supplying the ventral and dorsolateral prostate lobes enter near the junction of the main prostate ducts with the urethra and arborize as they extend distally (Figure 1C and D). Schematic illustrations of the vascular anatomy of the adult male mouse urogenital tract are shown in Figure 1E and F.","[
+  {
+    ""species"": ""mouse"",
+    ""sex"": ""male"",
+    ""age"": ""adult"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  }
+]
+"
+reference-text,9,schema,PMC1809596,"Type 1 diabetes (T1D) is an autoimmune disease, where lymphocytes destroy the insulin producing 汕-cells of the pancreatic islets of Langerhans. The development of T1D is influenced by multiple genetic and environmental factors of which most remain unknown. The non-obese diabetic (NOD) mouse strain [1] spontaneously develops a disease very similar to human T1D, and constitutes a major animal model used for investigating the cause of autoimmune diabetes [2,3]. Disease can be transferred by T lymphocytes, demonstrating that these cells are central to T1D development, but other immune cells such as B cells, dendritic cells, macrophages and possibly natural killer (NK) cells are also known to play an important role in diabetes pathogenesis. The autoimmune activities leading to disease progress over a relatively long period of time, and have been described to transit discrete checkpoints [4] (Fig. 1). As early as around 2 weeks after birth, the pancreas experiences a wave of 汕-cell death (Fig. 1a), also occurring in non-diabetic mouse strains, leading to the presentation of pancreas-derived antigens in the draining pancreatic lymph nodes [5] (Fig. 1b). In the NOD mouse, this leads to the stimulation of autoreactive T lymphocytes. The insufficiently controlled initiation of T cell autoreactivity, specific for the NOD strain, is regarded as a failure at the first checkpoint. Soon after, at 3每4 weeks of age, leucocytes enter into the pancreas of NOD mice (Fig. 1c). As insulitis proceeds, cells continue to accumulate around the islets, initially as a peri-islet infiltrate (Fig. 1d). The transformation from this benign state to invasive infiltration and 汕-cell destruction is seen as passage through the second checkpoint (Fig. 1e). When more than 90% of the islets have been destroyed and insulin production is too low to regulate blood glucose levels, diabetes precipitates occurring from around 12 weeks of age (Fig. 1f). At 25每30 weeks of age, around 80% of female NOD mice have been affected (Fig. 1g). Insulitis develops in both female and male NOD mice; however, only 20每30% of the male mice become diabetic, suggesting that the second checkpoint is more effective in males.","[
+  {
+    ""species"": ""mouse"",
+    ""sex"": ""female"",
+    ""age"": ""2每30 weeks old"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  },
+  {
+    ""species"": ""mouse"",
+    ""sex"": ""male"",
+    ""age"": ""2每30 weeks old"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  }
+]
+"
+reference-text,10,schema,PMC5340679,"The preferred method of organ preservation for transplantation is simple cold storage (CS), which involves flushing the organ with a preservation solution and storing at 0-4～C. We established a rat model of kidney cold ischemia-reperfusion for testing the effect of a cold preservation solution on kidney injury at reperfusion after cold perfusion and storage (cold ischemia) (Figure 1). Briefly, a male F744 rat was anesthetized by an intraperitoneal injection of a mixture of ketamine any xylazine, and its anesthesia was maintained by using isoflurane when needed. After the abdominal cavity was exposed via a ventral midline incision, the right kidney was removed after ligation. The aorta was ligated with 11-0 nylon ties (Shanghai Pudong Jinhuan Medical Products Co. Ltd, Shanghai, China) at both the distal and the proximal sites. Renal vein was clamped and subsequently a tiny hole was made at the proximal site near the kidney to allow perfusate to flow freely out of the kidney. At the proximal aorta a needle (22 G) was inserted and was linked to a syringe that contained 4 mL of ice-cold perfusion solution (HPG, UW or HTK solution), and cold kidney perfusion was completed within a period of 3 min. The perfused kidney was then kept under ice-cold temperature for 1 h, followed by blood reperfusion.","[
+  {
+    ""species"": ""rat"",
+    ""sex"": ""male"",
+    ""age"": ""unknown"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  }
+]
+"
+figure-caption,1,micro,PMC10502961,"Visualising insulitis in three dimensions. Image of a 3D reconstruction of an nPOD donor (20-year-old T1D subject with 7 months disease duration) stained for glucagon (blue) and CD3 (yellow), revealing the presence of infiltrating immune cells within the islet of Langerhans, interspersed with endocrine cells. 3D reconstruction was performed using Arivis Vision4D.","[
+  {
+    ""species"": ""human"",
+    ""sex"": ""unknown"",
+    ""age"": ""20 years old"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  }
+]
+"
+figure-caption,2,micro,PMC4186970,a. Insulitis in a patient with T1D showing infiltrating CD45+ leucocytes (red) in an insulin-positive islet of Langerhans (green) (℅600). b. Insulitis in a 20-week-old female NOD mouse showing infiltrating CD3+ T cells in an insulin-positive islet (green) (℅300),"[
+  {
+    ""species"": ""human"",
+    ""sex"": ""unknown"",
+    ""age"": ""unknown"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  },
+  {
+    ""species"": ""mouse"",
+    ""sex"": ""female"",
+    ""age"": ""20 weeks old"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  }
+]
+"
+figure-caption,3,micro,PMC10184699,"CD45 staining of pancreas. (A) Typical example of Langerhans islet of a 30 days old NOD mouse, demonstrating infiltration of CD45+ leukocytes. (B) Typical example of Langerhans islet of a 60 days old NOD mouse, demonstrating infiltration of CD45+ leukocytes. (C) Typical example of fibrotic tissue and vacuoles implying remnants of Langerhans islet of a non-treated sick NOD mouse (125 days old). (D) Typical example of Langerhans islet of chimeric NOD mouse, with no infiltration of CD45+ leukocytes (260 days old). Scale bar: 50 米m.","[
+  {
+    ""species"": ""mouse"",
+    ""sex"": ""unknown"",
+    ""age"": ""30 days old"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  },
+  {
+    ""species"": ""mouse"",
+    ""sex"": ""unknown"",
+    ""age"": ""60 days old"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  },
+  {
+    ""species"": ""mouse"",
+    ""sex"": ""unknown"",
+    ""age"": ""125 days old"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  },
+  {
+    ""species"": ""mouse"",
+    ""sex"": ""unknown"",
+    ""age"": ""260 days old"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  }
+]
+"
+figure-caption,4,micro,PMC5502839,"An 80-year-old male with a clinical diagnosis of Alzheimer＊s disease with mixed pathology seen in the amygdala. Note the rounded amyloid-汕 labeled aggregates in the brain parenchyma (A), the hyperphosphorylated-而 labeled neurites and intraneuronal tangles (B), the 汐-synuclein labeled neurites and intraneuronal Lewy bodies (C), and the phosphorylated transactive DNA binding protein 43 labeled cytoplasmic inclusions (D). Pancreas tissue from an 85-year-old female with diabetes mellitus and signs of depression. Note the protein aggregates in an islet of Langerhans labeled with antibody directed to islet amyloid polypeptide (E). The same islet of Langerhans seen in Congo stain (F); note the birefringence of the protein. Scale bar: 100 米m in A-D and 50 米m in E,F.","[
+  {
+    ""species"": ""human"",
+    ""sex"": ""male"",
+    ""age"": ""80 years old"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  },
+  {
+    ""species"": ""human"",
+    ""sex"": ""female"",
+    ""age"": ""85 years old"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  }
+]
+"
+figure-caption,5,micro,PMC3154446,"Histopathology of islets of Langerhans from a two year old female patient with recent onset (9 days) type 1 diabetes (case SP57/130 from W Gepts collection; ref. 12): insulitis in an islet immunohistochemically stained for insulin (A), pseudoatrophic islet stained for glucagon (B), islet with normal architecture stained for insulin (C). Section of pancreas from a three year old male patient with recent onset (60 days) type 1 diabetes (case ChHB 60/184 from W Gepts collection; ref. 12), showing marked islet hyperplasia in a single lobe (D). Insulitis in a 59 year old potentially pre-diabetic male organ donor with serum positivity for multiple autoantibodies against islet cell antigens and a susceptible HLA-DQ genotype (case two from ref. 40) (E). Immunofluorescent staining showing infiltrating CD8+ T-cells (red) and residual b-cells stained for insulin (blue) in islets from case two (F).","[
+  {
+    ""species"": ""human"",
+    ""sex"": ""female"",
+    ""age"": ""2 years old"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  },
+  {
+    ""species"": ""human"",
+    ""sex"": ""male"",
+    ""age"": ""3 years old"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  },
+  {
+    ""species"": ""human"",
+    ""sex"": ""male"",
+    ""age"": ""59 years old"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  }
+]
+"
+figure-caption,6,schema,PMC10858916,"Schematic showing the 3 mouse models of our study; (Rosa26-Rainbow (Rosa26rbw) Cre-mediated recombination mice, TMX-inducible albumin Cre mice (Alb-CreERT2) and Alb-CreERT2 Rosa26rbw mice) (created with BioRender.com) and representative images of liver sections from 10-week-old male Rosa26rbw and Alb-CreERT2 Rosa26rbw mice (n?=?4). The bottom panel shows a detail view of the liver lobule from a Alb-CreERT2 Rosa26rbw male mouse, showing the 3 zones along the portal-central axis; zone 1 or periportal area (PP) that encircles the portal tracts identified by bile ducts (arrowhead); zone 3 or pericentral area (PC) that is located around central veins; and zone 2 or midlobular area (Mid) that is located in between. The Cre-activated fluorophores (CAG-EGFP, mCerulean, mOrange and mCherry) plus DAPI staining are shown in the images. CV central vein, PV portal vein. TMX tamoxifen. Scale bars, 100 米m.","[
+  {
+    ""species"": ""mouse"",
+    ""sex"": ""male"",
+    ""age"": ""10 weeks old"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  }
+]
+"
+figure-caption,7,schema,PMC4560408,"VASPH expression (in red): in juvenile males (first circle on the left) few, stained PGCs are localized in the intestine among batiprismatic cells, and other stained germ cells are found in the connective tissue or around the few simple-structured acini localized in the connective tissue. In gametogenic males (circle in the middle) PGCs are massively proliferating among batiprismatic cells and are strongly immunostained. In mature male acini full of spermatozoa, a diffused VASPH-staining is present in the spermatogenic cells located near the acinus wall (see also [10]). Spermatozoon midpiece appears slightly stained. RPHM21 expression (in violet): only a subpopulation of PGCs located in the intestinal epithelium appears to express RPHM21, other PGCs, recognizable for their round nucleus, result completely negative to the RPHM21 staining. Some cells with a weak RPHM21 labelling (spermatogenic cells) are recognizable in the acinus wall [41]. RPHM21 is expressed in mature spermatozoa localized in the acinus lumen, both in mitochondria and the nucleus [41]. The staining of both factors (VASPH and RPHM21) is almost always condensed in a big cluster at one side of the cell cytoplasm.","[
+  {
+    ""species"": ""unknown"",
+    ""sex"": ""male"",
+    ""age"": ""juvenile"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  },
+  {
+    ""species"": ""unknown"",
+    ""sex"": ""male"",
+    ""age"": ""gametogenic"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  },
+  {
+    ""species"": ""unknown"",
+    ""sex"": ""male"",
+    ""age"": ""mature"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  }
+]
+"
+figure-caption,8,schema,PMC1435365,"Fusion between BMDCs and intestinal epithelium. Intestine from a male recipient transplanted with female donor EGFP-expressing BMDCs analyzed for EGFP expression and Y chromosome. (A) EGFP-stained intestinal epithelium detected with EGFP antibodies and DAB staining (brown). Red rectangle represents a region containing EGFP-positive cells. Epithelium is demarcated with solid and dashed black lines. (B) Y chromosome probe (red) and Hoechst-stained nuclei (blue) detected on the same tissue section in A. EGFP-expressing region is denoted by a white rectangle. The boxed region is magnified in C. Nuclei in C are outlined in white. (D每F) Intestinal tissue section from a 汕-gal-expressing recipient transplanted with EGFP-positive BMDCs was analyzed for coexpression of 汕-gal and EGFP by confocal microscopy. White line indicates the boundary between the epithelium and lamina propria. White asterisk denotes a villus lacking EGFP epithelial expression. (D) 汕-gal (red) is uniformly expressed in the intestinal epithelium as detected with antibodies to 汕-gal and Cy5-conjugated secondary antibodies. (E) EGFP expression (green) on the same tissue section as D detected by direct fluorescence. (F) Merge of 汕-gal- and EGFP-stained tissue showing colocalization of markers for both donor and recipient populations (yellow). Epithelial cells expressing 汕-gal only appear red, and EGFP-positive lamina propria cells are green. (Scale bars: 25 米m.)","[
+  {
+    ""species"": ""mouse"",
+    ""sex"": ""male"",
+    ""age"": ""unknown"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  },
+  {
+    ""species"": ""mouse"",
+    ""sex"": ""female"",
+    ""age"": ""unknown"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  }
+]
+"
+figure-caption,9,schema,PMC4426478,"(A) Squamous epithelia consist of layers of keratinocytes, SCs (green) reside in the basal cell layer, along with post-mitotic cells waiting to stratify (red). When a differentiating cell leaves the niche (arrow), a nearby SC divides with one of the three division outcomes shown to maintain constant cell density in the niche. The probabilities of each outcome (expressed as per cent, oesophageal epithelium shown) are balanced, so equal numbers of SCs and differentiated cells are produced across the population. (B) The hair follicle cycles between a resting stage (telogen) and expansion of the lower follicle (anagen). Multiple SCs have been identified, in the junctional zone (purple), the bulge (green) and the hair germ (blue), which lie in contact with the mesenchymal cells of the dermal papilla (blue). The hair shaft (black) is surrounded by concentric layers of inner root sheath cells that have been omitted for clarity. In the transition into anagen, hair germ and upper bulge cells self-duplicate. In the bulge, divisions are aligned parallel with the axis of the hair shaft (inset). Lower bulge cells contribute differentiating progeny to greatly expand the root sheath. Later in anagen, hair germ cells assemble around the dermal papilla and then generate inner root sheath cells (arrows). Self-renewal and differentiation are balanced, so the numbers of SCs in each compartment is maintained at a constant level across multiple hair cycles. (C) Intestinal epithelium contains four lineages sustained by SCs (green) that lie between Paneth cells in the crypt base. Differentiating cells migrate through a progenitor compartment in the upper crypt from which post-mitotic cells populate the villus, from which they are shed. Inset shows a simplified top-down view of the niche. As a differentiating SC exits the niche, it is replaced by the self-duplicating division of an immediately adjacent SC. (D) Heamatopoietic SCs reside close to blood vessels in the bone marrow. Dormant SCs (green) lie close to arterioles, receiving paracrine signals from endothelial cells (red), perivascular cells expressing Ng2 and sympathetic nerve endings (blue). On activation, SCs migrate to be close to venous sinusoids that support Lepr-expressing perivascular cells. (E) Asymmetric fate and symmetric fate of haematopoietic SCs. Transplantation of daughter cells of a single SC reveals self-duplicating and asymmetric divisions: dark green: long-term-reconstituting SCs; light green: short- or intermediate-term-reconstituting SCs; yellow: megakaryocyte progenitor; and blue: common myeloid progenitor. (F) Native haematopoiesis. Lineage tracing in homoeostasis suggests that myeloid lineages may be maintained by self-sustaining progenitor cells (yellow) exhibiting ＆population asymmetry＊ by generating equal proportions of progenitor and differentiating cells (grey) (see inset). Haematopoietic SCs (green) make negligible contribution to myelopoiesis in homoeostasis, but function as ＆reserve＊ cells. (G) Male germ cell SCs are diverse in appearance but functionally equivalent. Male germ cells expressing GFR汐1 reside in the outermost layer of the seminiferous tubule. SCs (green) exist as singles or 2每4 cell syncytia connected by cytoplasmic bridges, which may self-duplicate (blue arrows) to generate two SCs or undergo fragmentation (short red arrows). Upon differentiation (pink arrow) into Ngn3-positive cells (red), the same behaviour continues, but Ngn3+ cells are unlikely to revert to GFR汐1+ SCs in homoeostasis. Once in the Ngn3 compartment, syncytia larger than 4 cells form which may undergo further differentiation into cKit-expressing cells (not shown), which are even less likely to revert to GFR汐1-positive cells. (H) Neural SCs exhibit symmetric and asymmetric cell divisions. Quiescent neural SCs (light green) reside in the subventricular zone niche, extending processes into cerebrospinal fluid (blue) that fills the lateral ventricles (LV) and underlying endothelial cells (red) lining blood vessels (BV). Endothelial cells that line the LV are shown in grey. Differentiating transit amplifying cells (pink) and neural precursor cells (orange) lie adjacent to the SCs. Figure after Silva-Vargas et al (). (I) Division outcomes of neural SCs in the dentate gyrus inferred from lineage tracing. Neural SCs interconvert between quiescent (light green) and proliferating (dark green) states. Division of SCs has a range of symmetric and asymmetric outcomes as shown, generating neural SCs, neuroblasts (orange) or differentiated astrocytes (blue).","[
+  {
+    ""species"": ""mouse"",
+    ""sex"": ""male"",
+    ""age"": ""unknown"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  }
+]
+"
+figure-caption,10,schema,PMC10500611,"Schematic representation of the roles of PfEMP1, cytoadherence and sequestration of infected RBCs in symptomatic and asymptomatic malaria. Left green box: Symptomatic malaria cases during a rainy/transmission season or any symptomatic malaria cases characterized by high parasitemia: in the latter half of 48-hour replicative cycle, parasite-infected RBCs display the surface protein PfEMP1, the primary component mediating adhesion to variable receptors on the endothelial surface of the vasculature within different organs. This leads to sequestration of parasites in the deep tissue capillary beds, thereby avoiding filtration by the spleen. A. Display of PfEMP1 on the surface of infected RBC involves multiple other parasite-produced proteins, including knob associated histidine rich protein (KAHRP), Plasmodium falciparum 332 kd protein (Pf332), and ring expressed surface antigen (RESA). Other proteins displayed on the infected RBC surface include Rifins and Clag3. The specific PfEMP1 receptors on human endothelial cells associated with cerebral malaria include endothelial protein complex receptor (EPCR) and intracellular adhesion molecule 1 (ICAM-1), and pregnancy-associated malaria has been linked to the epithelial receptor chondroitin sulfate A (CSA) displayed on the surface of syncytiotrophoblasts, however receptors related to other malaria manifestations remain largely unknown. B. In the human host, P. falciparum asexual replication leads to exponential growth of infected erythrocytes, while less than 20% of parasites commit to sexual development generating female and male gametocytes. During blood meals, female Anopheles mosquitos ingest male and female gametocytes, where they mate, develop and produce sporozoites that will be inoculated into a new human host, thereby perpetuating the parasite＊s life cycle. Due to sequestration and splenic filtration, only the early stages of the asexual cycle (ring stages) are observed in blood smears of symptomatic malaria cases. Right gray box: Asymptomatic malaria cases during a dry season or after a lengthy infection: cases manifest as extremely low parasitemias and routine detection methods (blood smears and PCR) often fail to detect the parasites. In this review, we present a model that parasites not expressing PfEMP1 are primarily responsible for chronic, asymptomatic infections. Non-PfEMP1 expressing parasites lose the ability to cytoadhere, hence parasites numbers are held in check and infected humans don＊t suffer from severe symptoms. C. The vast majority of infected RBCs are filtered and pitted by the spleen. There is evidence that some parasites can complete both sexual and asexual development inside the red pulp, however only infected RBCs that remain deformable, including ring stages and stage V gametocytes, can travel back to the circulation (the function of spleen during malaria infections was comprehensively discussed by Henry et al [54]. D. The bone marrow is another possible reservoir for parasites escaping both immune elimination and spleen clearance. Merozoites are likely the only form that can travel from the sinusoids to the bone marrow parenchyma. In the parenchyma, both asexual and sexually committed merozoites could invade and develop in erythrocyte precursor cells within erythroblastic islands. While orthochromatic cells can support merozoite entry, only enucleating reticulocytes support intracellular parasites growth [43]. Due the loss of deformability, only ring-infected or stage V gametocyte-infected reticulocytes can return to the peripheral blood. Neveu et al. [40] have shown that infection of erythroblasts by gametocytes and parasite-derived extracellular vesicles delay erythroid differentiation, enabling the stage V gametocyte-infected reticulocytes to successfully leave the bone marrow parenchyma, however it is unknown if asexual parasites have a similar mechanism. It is possible that asexual parasites instead tend to stay in the parenchyma where the bone marrow environment promotes sexual commitment. Thus, the bone marrow could serve as a reservoir for gametocytes, with occasional release of ring-infected reticulocytes.","[
+  {
+    ""species"": ""human"",
+    ""sex"": ""unknown"",
+    ""age"": ""unknown"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  },
+  {
+    ""species"": ""mosquito"",
+    ""sex"": ""female"",
+    ""age"": ""unknown"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  }
+]
+"
+figure-nodes,1,schema,PMC10492885,"{
+  ""entities"": [
+    ""Metabolism"",
+    ""BMI"",
+    ""MHNW"",
+    ""MHOW"",
+    ""MHO"",
+    ""MUNW"",
+    ""MUOW"",
+    ""MUO"",
+    ""NW"",
+    ""OW"",
+    ""OB""
+  ]
+}
+","[
+  {
+    ""species"": ""unknown"",
+    ""sex"": ""unknown"",
+    ""age"": ""unknown"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  }
+]
+"
+figure-nodes,2,schema,PMC6941051,"{
+  ""entities"": [
+    ""Normal Pregnancy"",
+    ""Normal Birth"",
+    ""Risk of Diseases"",
+    ""T2DM"",
+    ""Metabolic Diseases"",
+    ""Hypertension"",
+    ""Cardiovascular Alteration"",
+    ""Kidney Diseases"",
+    ""Risk of GDM"",
+    ""Uncompensated Insulin Resistance"",
+    ""Hyperglycemia"",
+    ""Pathologic Inflammation"",
+    ""Neonatal Alterations"",
+    ""Pre-term Birth"",
+    ""Macrosomy"",
+    ""Adiposity"",
+    ""Risk of Obesity T2DM"",
+    ""Epigenetic Factors"",
+    ""Genetic Factors""
+  ]
+}
+","[
+  {
+    ""species"": ""unknown"",
+    ""sex"": ""unknown"",
+    ""age"": ""unknown"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  }
+]
+"
+figure-nodes,3,schema,PMC11482241,"{
+  ""entities"": [
+    ""BMI"",
+    ""< 25"",
+    ""≡ 25"",
+    ""NBW"",
+    ""OWO"",
+    ""Glucose Tolerance"",
+    ""NFG"",
+    ""IFG"",
+    ""DM"",
+    ""99 mg/dL or below"",
+    ""100-125 mg/dL"",
+    ""126 mg/dL or above"",
+    ""CA.M.E.L.I.A population"",
+    ""All causes"",
+    ""Cancer"",
+    ""Cardio-cerebrovascular"",
+    ""Other causes"",
+    ""Unspecified causes"",
+    ""Mortality""
+  ]
+}
+","[
+  {
+    ""species"": ""unknown"",
+    ""sex"": ""unknown"",
+    ""age"": ""unknown"",
+    ""BMI"": ""< 25"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  },
+  {
+    ""species"": ""unknown"",
+    ""sex"": ""unknown"",
+    ""age"": ""unknown"",
+    ""BMI"": ""≡ 25"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  }
+]
+"
+figure-nodes,4,schema,PMC10093290,"{
+  ""entities"": [
+    ""Hypothalamus"",
+    ""Pituitary gland"",
+    ""Adrenal glands"",
+    ""Thyroid gland"",
+    ""Pineal body"",
+    ""Ovary"",
+    ""Testis"",
+    ""Pancreatic islets"",
+    ""Age (Year)"",
+    ""6"",
+    ""20"",
+    ""25"",
+    ""30"",
+    ""40"",
+    ""45"",
+    ""50""
+  ]
+}
+","[
+  {
+    ""species"": ""unknown"",
+    ""sex"": ""female"",
+    ""age"": ""6 years"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  },
+  {
+    ""species"": ""unknown"",
+    ""sex"": ""female"",
+    ""age"": ""20 years"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  },
+  {
+    ""species"": ""unknown"",
+    ""sex"": ""female"",
+    ""age"": ""25 years"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  },
+  {
+    ""species"": ""unknown"",
+    ""sex"": ""female"",
+    ""age"": ""30 years"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  },
+  {
+    ""species"": ""unknown"",
+    ""sex"": ""female"",
+    ""age"": ""40 years"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  },
+  {
+    ""species"": ""unknown"",
+    ""sex"": ""female"",
+    ""age"": ""45 years"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  },
+  {
+    ""species"": ""unknown"",
+    ""sex"": ""female"",
+    ""age"": ""50 years"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  }
+]
+"
+figure-nodes,5,schema,PMC8554531,"{
+  ""entities"": [
+    ""Ageing"",
+    ""1 year"",
+    ""Glucose-induced insulin"",
+    ""Islet IL-1beta"",
+    ""Islet IL-1Ra"",
+    ""Aged islet"",
+    ""Control"",
+    ""Myeloid cell"",
+    ""IL-1beta"",
+    ""Beta cell"",
+    ""Insulin"",
+    ""IL-1beta ko"",
+    ""MyeloIL-1beta ko""
+  ]
+}
+","[
+  {
+    ""species"": ""unknown"",
+    ""sex"": ""unknown"",
+    ""age"": ""1 year"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  }
+]
+"
+figure-nodes,6,schema,PMC5943033 ,"{
+  ""entities"": [
+    ""1-month-old"",
+    ""3-months-old"",
+    ""1-year-old"",
+    ""Proliferation"",
+    ""NFkB"",
+    ""Beta-cells"",
+    ""Immune cells"",
+    ""tnf汐-positive Immune cells""
+  ]
+}
+","[
+  {
+    ""species"": ""unknown"",
+    ""sex"": ""unknown"",
+    ""age"": ""1 month"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  },
+  {
+    ""species"": ""unknown"",
+    ""sex"": ""unknown"",
+    ""age"": ""3 months"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  },
+  {
+    ""species"": ""unknown"",
+    ""sex"": ""unknown"",
+    ""age"": ""1 year"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  }
+]
+"
+figure-nodes,7,schema,PMC1809596,"{
+  ""entities"": [
+    ""Islet of Langerhans"",
+    ""Blood vessel"",
+    ""Dendritic cell"",
+    ""Autoreactive T lymphocyte"",
+    ""汕-cell apoptosis"",
+    ""Activation of autoreactive T cells in pancreatic lymph nodes"",
+    ""Initiation of infiltration"",
+    ""Disease"",
+    ""Diabetes occurs"",
+    ""80% of female NOD diabetic"",
+    ""Age"",
+    ""2 weeks"",
+    ""3每4 weeks"",
+    ""12 weeks"",
+    ""30 weeks""
+  ]
+}
+","[
+  {
+    ""species"": ""mouse"",
+    ""sex"": ""female"",
+    ""age"": ""2 weeks"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  },
+  {
+    ""species"": ""mouse"",
+    ""sex"": ""female"",
+    ""age"": ""3每4 weeks"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  },
+  {
+    ""species"": ""mouse"",
+    ""sex"": ""female"",
+    ""age"": ""12 weeks"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  },
+  {
+    ""species"": ""mouse"",
+    ""sex"": ""female"",
+    ""age"": ""30 weeks"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  }
+]
+"
+figure-nodes,8,schema,PMC9760040,"{
+  ""entities"": [
+    ""Healthy male"",
+    ""Overweight diabetic patients"",
+    ""Obese diabetic patients (Class I)"",
+    ""Obese diabetic patients (Class II)"",
+    ""BMI"",
+    ""HDL-C"",
+    ""Glucose"",
+    ""Insulin"",
+    ""IRI"",
+    ""TC"",
+    ""TG"",
+    ""TNF-汐"",
+    ""MCP-1"",
+    ""TGF-B1"",
+    ""TBARS"",
+    ""Vanin 1"",
+    ""iNOS gene expression"",
+    ""SOD"",
+    ""HbA1C"",
+    ""CAT"",
+    ""23.25+-4.37"",
+    ""30.47+-6.20"",
+    ""35.20+-4.6"",
+    ""38.10+-3.37""
+  ]
+}
+","[
+  {
+    ""species"": ""human"",
+    ""sex"": ""male"",
+    ""age"": ""unknown"",
+    ""BMI"": ""23.25 ㊣ 4.37"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  },
+  {
+    ""species"": ""human"",
+    ""sex"": ""unknown"",
+    ""age"": ""unknown"",
+    ""BMI"": ""30.47 ㊣ 6.20"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  },
+  {
+    ""species"": ""human"",
+    ""sex"": ""unknown"",
+    ""age"": ""unknown"",
+    ""BMI"": ""35.20 ㊣ 4.6"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  },
+  {
+    ""species"": ""human"",
+    ""sex"": ""unknown"",
+    ""age"": ""unknown"",
+    ""BMI"": ""38.10 ㊣ 3.37"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  }
+]
+"
+figure-nodes,9,schema,PMC9021550,"{
+  ""entities"": [
+    ""Obese adult"",
+    ""Dysbiosis"",
+    ""Prebiotics and Probiotics"",
+    ""Child's obesity risk"",
+    ""Shift in maternal metabolites"",
+    ""Fetal programming"",
+    ""Shift of placental microbiome"",
+    ""Seeding of the infant's gut microbiome"",
+    ""Dysbiosis persists into pregnancy""
+  ]
+}
+","[
+  {
+    ""species"": ""human"",
+    ""sex"": ""female"",
+    ""age"": ""adult"",
+    ""BMI"": ""obese"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  },
+  {
+    ""species"": ""human"",
+    ""sex"": ""unknown"",
+    ""age"": ""child"",
+    ""BMI"": ""obesity"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  }
+]
+"
+figure-nodes,10,schema,PMC4864151,"{
+  ""entities"": [
+    ""Juvenile"",
+    ""Adult"",
+    ""Pancreas"",
+    ""Purified islet and exocrine cells"",
+    ""Islet gene expression"",
+    ""Proliferation"",
+    ""Maturation"",
+    ""Islet chromatin expression"",
+    ""MKI67"",
+    ""SIX3"",
+    ""汕-cell function"",
+    ""Glucose"",
+    ""Insulin"",
+    ""汕-cell""
+  ]
+}
+","[
+  {
+    ""species"": ""unknown"",
+    ""sex"": ""unknown"",
+    ""age"": ""juvenile"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  },
+  {
+    ""species"": ""unknown"",
+    ""sex"": ""unknown"",
+    ""age"": ""adult"",
+    ""BMI"": ""unknown"",
+    ""height"": ""unknown"",
+    ""weight"": ""unknown""
+  }
+]
+"

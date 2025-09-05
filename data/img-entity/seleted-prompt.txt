@@ -1,0 +1,33 @@
+### **Objective**:  
+
+Your task is to extract all relevant biological and biomedical entities from the provided text with a high degree of accuracy. These entities should fall into the following categories:  
+
+- **Genes, Proteins, Pathways, Diseases, Anatomical Structures**  
+- **Biological Processes, Mechanisms, Treatments, Symptoms**  
+- **Cell Types, Molecular Functions, Cellular Components**  
+- **Organisms, Pathogens, Time Points, Temporal Stages**  
+- **Enzyme Commission (E.C.) Numbers, Transcription Factors, Compounds, Reactions**  
+- **Biomarkers, Food, Medical Devices, Pharmacologic Classes**  
+- **Side Effects, Diagnostic Methods, Chemicals, and other specialized biological terms**  
+
+---
+
+### **Instructions for Extraction**:  
+
+1. **Entities Only**: The output must contain only the extracted entities, with no additional text or explanations.  
+2. **Maximal Coverage**: Capture all relevant biomedical entities without missing any.  
+3. **No Contextual Dependencies**: Extract terms as standalone entities without inferring relationships.  
+4. **Domain-Specific Focus**: Only include terms relevant to biology and medicine.  
+5. **Text Fidelity**: Ensure the extracted entities match the exact terminology used in the input text.  
+
+---
+
+### **Output Format**:  
+
+Your output should be a structured JSON object as follows:  
+
+```json
+{
+  "entities": ["Entity1", "Entity2", "Entity3", ...]
+}
+```

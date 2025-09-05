@@ -1,0 +1,5 @@
+Model,Accuracy,Avg Response Time (s)
+LVMs+Gemma2,0.9142,42.21
+LVMs+LLaMA3.1,0.8948,108.37
+LVMs+LLaMA3.2,0.9056,18.86
+LVMs+Qwen2.5,0.9185,200.88

@@ -1,0 +1,557 @@
+species_tag,sex_tag,age_tag,age_yearold_tag,bmi_tag,count
+Callithrix jacchus,male,others,unknown,others,1
+Callithrix jacchus,others,others,unknown,others,12
+Callithrix jacchus,female,postnatal,<1 year old,others,3
+Callithrix jacchus,female,postnatal,"[5 years old, 10 years old)",others,1
+Callithrix jacchus,male,postnatal,<1 year old,others,1
+Callithrix jacchus,male,postnatal,"[5 years old, 10 years old)",others,1
+Callithrix jacchus,others,postnatal,<1 year old,others,3
+Callithrix jacchus,others,postnatal,"[1 year old, 5 years old)",others,1
+Callithrix jacchus,others,postnatal,"[10 years old, 15 years old)",others,2
+Callithrix jacchus,others,postnatal,"[15 years old, 20 years old)",others,1
+Callithrix jacchus,others,postnatal,others,others,4
+Callithrix jacchus,others,prenatal,unknown,others,18
+Callithrix jacchus,female,unknown,unknown,others,7
+Callithrix jacchus,male,unknown,unknown,others,10
+Callithrix jacchus,others,unknown,unknown,others,238
+Homo sapiens,female,others,unknown,Normal weight,14
+Homo sapiens,female,others,unknown,Obesity,5
+Homo sapiens,female,others,unknown,Overweight,6
+Homo sapiens,female,others,unknown,others,990
+Homo sapiens,female,others,unknown,unknown,349
+Homo sapiens,male,others,unknown,Normal weight,1
+Homo sapiens,male,others,unknown,Obesity,4
+Homo sapiens,male,others,unknown,Overweight,24
+Homo sapiens,male,others,unknown,others,659
+Homo sapiens,male,others,unknown,unknown,491
+Homo sapiens,others,others,unknown,Normal weight,8
+Homo sapiens,others,others,unknown,Obesity,25
+Homo sapiens,others,others,unknown,Overweight,4
+Homo sapiens,others,others,unknown,Underweight,1
+Homo sapiens,others,others,unknown,others,8049
+Homo sapiens,others,others,unknown,unknown,23
+Homo sapiens,unknown,others,unknown,unknown,1
+Homo sapiens,female,postnatal,"[20 years old, 25 years old)",Normal weight,24
+Homo sapiens,female,postnatal,"[25 years old, 30 years old)",Normal weight,10
+Homo sapiens,female,postnatal,"[30 years old, 35 years old)",Normal weight,171
+Homo sapiens,female,postnatal,"[35 years old, 40 years old)",Normal weight,2
+Homo sapiens,female,postnatal,"[40 years old, 45 years old)",Normal weight,21
+Homo sapiens,female,postnatal,"[50 years old, 55 years old)",Normal weight,3
+Homo sapiens,female,postnatal,"[65 years old, 70 years old)",Normal weight,1
+Homo sapiens,female,postnatal,"[70 years old, 75 years old)",Normal weight,1
+Homo sapiens,female,postnatal,"[85 years old, 90 years old)",Normal weight,2
+Homo sapiens,female,postnatal,"[90 years old, 95 years old)",Normal weight,1
+Homo sapiens,female,postnatal,"[25 years old, 30 years old)",Obesity,1
+Homo sapiens,female,postnatal,"[35 years old, 40 years old)",Obesity,2
+Homo sapiens,female,postnatal,"[40 years old, 45 years old)",Obesity,5
+Homo sapiens,female,postnatal,"[45 years old, 50 years old)",Obesity,2
+Homo sapiens,female,postnatal,"[50 years old, 55 years old)",Obesity,4
+Homo sapiens,female,postnatal,"[65 years old, 70 years old)",Obesity,1
+Homo sapiens,female,postnatal,"[85 years old, 90 years old)",Obesity,1
+Homo sapiens,female,postnatal,"[95 years old, 100 years old)",Obesity,1
+Homo sapiens,female,postnatal,"[20 years old, 25 years old)",Overweight,1
+Homo sapiens,female,postnatal,"[30 years old, 35 years old)",Overweight,29
+Homo sapiens,female,postnatal,"[35 years old, 40 years old)",Overweight,8
+Homo sapiens,female,postnatal,"[40 years old, 45 years old)",Overweight,12
+Homo sapiens,female,postnatal,"[45 years old, 50 years old)",Overweight,9
+Homo sapiens,female,postnatal,"[50 years old, 55 years old)",Overweight,2
+Homo sapiens,female,postnatal,"[55 years old, 60 years old)",Overweight,2
+Homo sapiens,female,postnatal,"[60 years old, 65 years old)",Overweight,8
+Homo sapiens,female,postnatal,"[65 years old, 70 years old)",Overweight,1
+Homo sapiens,female,postnatal,"[70 years old, 75 years old)",Overweight,2
+Homo sapiens,female,postnatal,"[75 years old, 80 years old)",Overweight,1
+Homo sapiens,female,postnatal,"[80 years old, 85 years old)",Overweight,2
+Homo sapiens,female,postnatal,"[40 years old, 45 years old)",Underweight,2
+Homo sapiens,female,postnatal,"[45 years old, 50 years old)",Underweight,1
+Homo sapiens,female,postnatal,"[65 years old, 70 years old)",Underweight,1
+Homo sapiens,female,postnatal,"[85 years old, 90 years old)",Underweight,1
+Homo sapiens,female,postnatal,<1 year old,others,277
+Homo sapiens,female,postnatal,>=100 years old,others,1
+Homo sapiens,female,postnatal,"[1 year old, 5 years old)",others,136
+Homo sapiens,female,postnatal,"[10 years old, 15 years old)",others,275
+Homo sapiens,female,postnatal,"[15 years old, 20 years old)",others,292
+Homo sapiens,female,postnatal,"[20 years old, 25 years old)",others,476
+Homo sapiens,female,postnatal,"[25 years old, 30 years old)",others,1558
+Homo sapiens,female,postnatal,"[30 years old, 35 years old)",others,766
+Homo sapiens,female,postnatal,"[35 years old, 40 years old)",others,392
+Homo sapiens,female,postnatal,"[40 years old, 45 years old)",others,685
+Homo sapiens,female,postnatal,"[45 years old, 50 years old)",others,553
+Homo sapiens,female,postnatal,"[5 years old, 10 years old)",others,224
+Homo sapiens,female,postnatal,"[50 years old, 55 years old)",others,512
+Homo sapiens,female,postnatal,"[55 years old, 60 years old)",others,414
+Homo sapiens,female,postnatal,"[60 years old, 65 years old)",others,514
+Homo sapiens,female,postnatal,"[65 years old, 70 years old)",others,577
+Homo sapiens,female,postnatal,"[70 years old, 75 years old)",others,351
+Homo sapiens,female,postnatal,"[75 years old, 80 years old)",others,259
+Homo sapiens,female,postnatal,"[80 years old, 85 years old)",others,131
+Homo sapiens,female,postnatal,"[85 years old, 90 years old)",others,67
+Homo sapiens,female,postnatal,"[90 years old, 95 years old)",others,30
+Homo sapiens,female,postnatal,"[95 years old, 100 years old)",others,6
+Homo sapiens,female,postnatal,others,others,39
+Homo sapiens,female,postnatal,"[20 years old, 25 years old)",unknown,46
+Homo sapiens,female,postnatal,"[25 years old, 30 years old)",unknown,38
+Homo sapiens,female,postnatal,"[30 years old, 35 years old)",unknown,30
+Homo sapiens,female,postnatal,"[35 years old, 40 years old)",unknown,5
+Homo sapiens,female,postnatal,"[40 years old, 45 years old)",unknown,19
+Homo sapiens,female,postnatal,"[45 years old, 50 years old)",unknown,5
+Homo sapiens,female,postnatal,"[50 years old, 55 years old)",unknown,1
+Homo sapiens,female,postnatal,"[60 years old, 65 years old)",unknown,5
+Homo sapiens,female,postnatal,"[65 years old, 70 years old)",unknown,2
+Homo sapiens,male,postnatal,"[20 years old, 25 years old)",Normal weight,5
+Homo sapiens,male,postnatal,"[25 years old, 30 years old)",Normal weight,3
+Homo sapiens,male,postnatal,"[30 years old, 35 years old)",Normal weight,141
+Homo sapiens,male,postnatal,"[35 years old, 40 years old)",Normal weight,4
+Homo sapiens,male,postnatal,"[40 years old, 45 years old)",Normal weight,2
+Homo sapiens,male,postnatal,"[45 years old, 50 years old)",Normal weight,3
+Homo sapiens,male,postnatal,"[5 years old, 10 years old)",Normal weight,1
+Homo sapiens,male,postnatal,"[50 years old, 55 years old)",Normal weight,2
+Homo sapiens,male,postnatal,"[55 years old, 60 years old)",Normal weight,3
+Homo sapiens,male,postnatal,"[60 years old, 65 years old)",Normal weight,2
+Homo sapiens,male,postnatal,"[65 years old, 70 years old)",Normal weight,2
+Homo sapiens,male,postnatal,"[80 years old, 85 years old)",Normal weight,2
+Homo sapiens,male,postnatal,"[20 years old, 25 years old)",Obesity,1
+Homo sapiens,male,postnatal,"[30 years old, 35 years old)",Obesity,2
+Homo sapiens,male,postnatal,"[35 years old, 40 years old)",Obesity,2
+Homo sapiens,male,postnatal,"[40 years old, 45 years old)",Obesity,7
+Homo sapiens,male,postnatal,"[45 years old, 50 years old)",Obesity,2
+Homo sapiens,male,postnatal,"[50 years old, 55 years old)",Obesity,5
+Homo sapiens,male,postnatal,"[55 years old, 60 years old)",Obesity,1
+Homo sapiens,male,postnatal,"[60 years old, 65 years old)",Obesity,5
+Homo sapiens,male,postnatal,"[65 years old, 70 years old)",Obesity,1
+Homo sapiens,male,postnatal,"[75 years old, 80 years old)",Obesity,1
+Homo sapiens,male,postnatal,"[25 years old, 30 years old)",Overweight,2
+Homo sapiens,male,postnatal,"[30 years old, 35 years old)",Overweight,36
+Homo sapiens,male,postnatal,"[35 years old, 40 years old)",Overweight,4
+Homo sapiens,male,postnatal,"[40 years old, 45 years old)",Overweight,15
+Homo sapiens,male,postnatal,"[45 years old, 50 years old)",Overweight,1
+Homo sapiens,male,postnatal,"[50 years old, 55 years old)",Overweight,1
+Homo sapiens,male,postnatal,"[55 years old, 60 years old)",Overweight,1
+Homo sapiens,male,postnatal,"[60 years old, 65 years old)",Overweight,9
+Homo sapiens,male,postnatal,"[65 years old, 70 years old)",Overweight,6
+Homo sapiens,male,postnatal,"[70 years old, 75 years old)",Overweight,1
+Homo sapiens,male,postnatal,"[75 years old, 80 years old)",Overweight,4
+Homo sapiens,male,postnatal,<1 year old,others,334
+Homo sapiens,male,postnatal,>=100 years old,others,1
+Homo sapiens,male,postnatal,"[1 year old, 5 years old)",others,190
+Homo sapiens,male,postnatal,"[10 years old, 15 years old)",others,301
+Homo sapiens,male,postnatal,"[15 years old, 20 years old)",others,338
+Homo sapiens,male,postnatal,"[20 years old, 25 years old)",others,422
+Homo sapiens,male,postnatal,"[25 years old, 30 years old)",others,578
+Homo sapiens,male,postnatal,"[30 years old, 35 years old)",others,547
+Homo sapiens,male,postnatal,"[35 years old, 40 years old)",others,283
+Homo sapiens,male,postnatal,"[40 years old, 45 years old)",others,588
+Homo sapiens,male,postnatal,"[45 years old, 50 years old)",others,496
+Homo sapiens,male,postnatal,"[5 years old, 10 years old)",others,266
+Homo sapiens,male,postnatal,"[50 years old, 55 years old)",others,556
+Homo sapiens,male,postnatal,"[55 years old, 60 years old)",others,474
+Homo sapiens,male,postnatal,"[60 years old, 65 years old)",others,686
+Homo sapiens,male,postnatal,"[65 years old, 70 years old)",others,787
+Homo sapiens,male,postnatal,"[70 years old, 75 years old)",others,473
+Homo sapiens,male,postnatal,"[75 years old, 80 years old)",others,292
+Homo sapiens,male,postnatal,"[80 years old, 85 years old)",others,180
+Homo sapiens,male,postnatal,"[85 years old, 90 years old)",others,61
+Homo sapiens,male,postnatal,"[90 years old, 95 years old)",others,21
+Homo sapiens,male,postnatal,"[95 years old, 100 years old)",others,4
+Homo sapiens,male,postnatal,others,others,39
+Homo sapiens,male,postnatal,<1 year old,unknown,1
+Homo sapiens,male,postnatal,"[20 years old, 25 years old)",unknown,3
+Homo sapiens,male,postnatal,"[25 years old, 30 years old)",unknown,4
+Homo sapiens,male,postnatal,"[30 years old, 35 years old)",unknown,130
+Homo sapiens,male,postnatal,"[35 years old, 40 years old)",unknown,5
+Homo sapiens,male,postnatal,"[40 years old, 45 years old)",unknown,83
+Homo sapiens,male,postnatal,"[45 years old, 50 years old)",unknown,5
+Homo sapiens,male,postnatal,"[50 years old, 55 years old)",unknown,1
+Homo sapiens,male,postnatal,"[60 years old, 65 years old)",unknown,6
+Homo sapiens,male,postnatal,"[65 years old, 70 years old)",unknown,5
+Homo sapiens,others,postnatal,"[10 years old, 15 years old)",Normal weight,2
+Homo sapiens,others,postnatal,"[15 years old, 20 years old)",Normal weight,1
+Homo sapiens,others,postnatal,"[20 years old, 25 years old)",Normal weight,1
+Homo sapiens,others,postnatal,"[25 years old, 30 years old)",Normal weight,4
+Homo sapiens,others,postnatal,"[30 years old, 35 years old)",Normal weight,2
+Homo sapiens,others,postnatal,"[35 years old, 40 years old)",Normal weight,2
+Homo sapiens,others,postnatal,"[45 years old, 50 years old)",Normal weight,2
+Homo sapiens,others,postnatal,"[5 years old, 10 years old)",Normal weight,1
+Homo sapiens,others,postnatal,"[50 years old, 55 years old)",Normal weight,2
+Homo sapiens,others,postnatal,"[55 years old, 60 years old)",Normal weight,1
+Homo sapiens,others,postnatal,"[60 years old, 65 years old)",Normal weight,2
+Homo sapiens,others,postnatal,<1 year old,Obesity,1
+Homo sapiens,others,postnatal,"[10 years old, 15 years old)",Obesity,2
+Homo sapiens,others,postnatal,"[15 years old, 20 years old)",Obesity,1
+Homo sapiens,others,postnatal,"[30 years old, 35 years old)",Obesity,2
+Homo sapiens,others,postnatal,"[35 years old, 40 years old)",Obesity,1
+Homo sapiens,others,postnatal,"[40 years old, 45 years old)",Obesity,2
+Homo sapiens,others,postnatal,"[45 years old, 50 years old)",Obesity,4
+Homo sapiens,others,postnatal,"[50 years old, 55 years old)",Obesity,2
+Homo sapiens,others,postnatal,"[55 years old, 60 years old)",Obesity,2
+Homo sapiens,others,postnatal,"[60 years old, 65 years old)",Obesity,2
+Homo sapiens,others,postnatal,"[65 years old, 70 years old)",Obesity,2
+Homo sapiens,others,postnatal,others,Obesity,2
+Homo sapiens,others,postnatal,"[25 years old, 30 years old)",Overweight,1
+Homo sapiens,others,postnatal,"[30 years old, 35 years old)",Overweight,2
+Homo sapiens,others,postnatal,"[40 years old, 45 years old)",Overweight,2
+Homo sapiens,others,postnatal,"[45 years old, 50 years old)",Overweight,3
+Homo sapiens,others,postnatal,"[50 years old, 55 years old)",Overweight,4
+Homo sapiens,others,postnatal,"[55 years old, 60 years old)",Overweight,2
+Homo sapiens,others,postnatal,"[65 years old, 70 years old)",Overweight,4
+Homo sapiens,others,postnatal,"[70 years old, 75 years old)",Overweight,3
+Homo sapiens,others,postnatal,"[75 years old, 80 years old)",Overweight,1
+Homo sapiens,others,postnatal,"[85 years old, 90 years old)",Overweight,1
+Homo sapiens,others,postnatal,others,Overweight,1
+Homo sapiens,others,postnatal,"[10 years old, 15 years old)",Underweight,3
+Homo sapiens,others,postnatal,"[15 years old, 20 years old)",Underweight,1
+Homo sapiens,others,postnatal,<1 year old,others,3369
+Homo sapiens,others,postnatal,>=100 years old,others,8
+Homo sapiens,others,postnatal,"[1 year old, 5 years old)",others,429
+Homo sapiens,others,postnatal,"[10 years old, 15 years old)",others,437
+Homo sapiens,others,postnatal,"[15 years old, 20 years old)",others,335
+Homo sapiens,others,postnatal,"[20 years old, 25 years old)",others,344
+Homo sapiens,others,postnatal,"[25 years old, 30 years old)",others,184
+Homo sapiens,others,postnatal,"[30 years old, 35 years old)",others,263
+Homo sapiens,others,postnatal,"[35 years old, 40 years old)",others,159
+Homo sapiens,others,postnatal,"[40 years old, 45 years old)",others,239
+Homo sapiens,others,postnatal,"[45 years old, 50 years old)",others,193
+Homo sapiens,others,postnatal,"[5 years old, 10 years old)",others,478
+Homo sapiens,others,postnatal,"[50 years old, 55 years old)",others,217
+Homo sapiens,others,postnatal,"[55 years old, 60 years old)",others,165
+Homo sapiens,others,postnatal,"[60 years old, 65 years old)",others,320
+Homo sapiens,others,postnatal,"[65 years old, 70 years old)",others,257
+Homo sapiens,others,postnatal,"[70 years old, 75 years old)",others,159
+Homo sapiens,others,postnatal,"[75 years old, 80 years old)",others,92
+Homo sapiens,others,postnatal,"[80 years old, 85 years old)",others,50
+Homo sapiens,others,postnatal,"[85 years old, 90 years old)",others,20
+Homo sapiens,others,postnatal,"[90 years old, 95 years old)",others,11
+Homo sapiens,others,postnatal,"[95 years old, 100 years old)",others,9
+Homo sapiens,others,postnatal,others,others,494
+Homo sapiens,others,postnatal,<1 year old,unknown,4
+Homo sapiens,others,postnatal,"[15 years old, 20 years old)",unknown,1
+Homo sapiens,others,postnatal,"[20 years old, 25 years old)",unknown,2
+Homo sapiens,others,postnatal,"[25 years old, 30 years old)",unknown,1
+Homo sapiens,others,postnatal,"[30 years old, 35 years old)",unknown,1
+Homo sapiens,others,postnatal,"[40 years old, 45 years old)",unknown,1
+Homo sapiens,others,postnatal,"[45 years old, 50 years old)",unknown,2
+Homo sapiens,others,postnatal,"[5 years old, 10 years old)",unknown,2
+Homo sapiens,others,postnatal,"[50 years old, 55 years old)",unknown,2
+Homo sapiens,others,postnatal,"[70 years old, 75 years old)",unknown,2
+Homo sapiens,others,postnatal,others,unknown,1
+Homo sapiens,female,prenatal,unknown,others,158
+Homo sapiens,female,prenatal,unknown,unknown,1
+Homo sapiens,male,prenatal,unknown,others,97
+Homo sapiens,others,prenatal,unknown,Obesity,1
+Homo sapiens,others,prenatal,unknown,others,2740
+Homo sapiens,others,prenatal,unknown,unknown,3
+Homo sapiens,unknown,prenatal,unknown,unknown,1
+Homo sapiens,female,unknown,unknown,Normal weight,25
+Homo sapiens,female,unknown,unknown,Obesity,52
+Homo sapiens,female,unknown,unknown,Overweight,18
+Homo sapiens,female,unknown,unknown,Underweight,3
+Homo sapiens,female,unknown,unknown,others,8631
+Homo sapiens,female,unknown,unknown,unknown,73
+Homo sapiens,male,unknown,unknown,Normal weight,9
+Homo sapiens,male,unknown,unknown,Obesity,29
+Homo sapiens,male,unknown,unknown,Overweight,7
+Homo sapiens,male,unknown,unknown,Underweight,3
+Homo sapiens,male,unknown,unknown,others,6679
+Homo sapiens,male,unknown,unknown,unknown,63
+Homo sapiens,others,unknown,unknown,Normal weight,107
+Homo sapiens,others,unknown,unknown,Obesity,287
+Homo sapiens,others,unknown,unknown,Overweight,82
+Homo sapiens,others,unknown,unknown,Underweight,52
+Homo sapiens,others,unknown,unknown,others,175133
+Homo sapiens,others,unknown,unknown,unknown,1609
+Homo sapiens,unknown,unknown,unknown,unknown,71
+Macaca mulatta,others,others,unknown,others,2
+Macaca mulatta,others,postnatal,<1 year old,others,1
+Macaca mulatta,others,prenatal,unknown,others,1
+Macaca mulatta,female,unknown,unknown,others,2
+Macaca mulatta,male,unknown,unknown,others,3
+Macaca mulatta,others,unknown,unknown,others,52
+Mus musculus,female,others,unknown,others,263
+Mus musculus,female,others,unknown,unknown,7
+Mus musculus,male,others,unknown,others,474
+Mus musculus,male,others,unknown,unknown,6
+Mus musculus,others,others,unknown,others,5280
+Mus musculus,others,others,unknown,unknown,3
+Mus musculus,unknown,others,unknown,unknown,2
+Mus musculus,female,postnatal,<1 year old,others,1860
+Mus musculus,female,postnatal,>=100 years old,others,1
+Mus musculus,female,postnatal,"[1 year old, 5 years old)",others,28
+Mus musculus,female,postnatal,"[10 years old, 15 years old)",others,15
+Mus musculus,female,postnatal,"[15 years old, 20 years old)",others,9
+Mus musculus,female,postnatal,"[20 years old, 25 years old)",others,9
+Mus musculus,female,postnatal,"[25 years old, 30 years old)",others,8
+Mus musculus,female,postnatal,"[30 years old, 35 years old)",others,2
+Mus musculus,female,postnatal,"[35 years old, 40 years old)",others,2
+Mus musculus,female,postnatal,"[40 years old, 45 years old)",others,3
+Mus musculus,female,postnatal,"[45 years old, 50 years old)",others,1
+Mus musculus,female,postnatal,"[5 years old, 10 years old)",others,13
+Mus musculus,female,postnatal,"[50 years old, 55 years old)",others,1
+Mus musculus,female,postnatal,"[60 years old, 65 years old)",others,1
+Mus musculus,female,postnatal,"[70 years old, 75 years old)",others,4
+Mus musculus,female,postnatal,"[75 years old, 80 years old)",others,2
+Mus musculus,female,postnatal,"[90 years old, 95 years old)",others,4
+Mus musculus,female,postnatal,"[95 years old, 100 years old)",others,1
+Mus musculus,female,postnatal,others,others,72
+Mus musculus,female,postnatal,<1 year old,unknown,22
+Mus musculus,female,postnatal,"[10 years old, 15 years old)",unknown,4
+Mus musculus,male,postnatal,<1 year old,Obesity,1
+Mus musculus,male,postnatal,<1 year old,others,3197
+Mus musculus,male,postnatal,>=100 years old,others,1
+Mus musculus,male,postnatal,"[1 year old, 5 years old)",others,58
+Mus musculus,male,postnatal,"[10 years old, 15 years old)",others,21
+Mus musculus,male,postnatal,"[15 years old, 20 years old)",others,16
+Mus musculus,male,postnatal,"[20 years old, 25 years old)",others,20
+Mus musculus,male,postnatal,"[25 years old, 30 years old)",others,7
+Mus musculus,male,postnatal,"[30 years old, 35 years old)",others,4
+Mus musculus,male,postnatal,"[35 years old, 40 years old)",others,4
+Mus musculus,male,postnatal,"[40 years old, 45 years old)",others,8
+Mus musculus,male,postnatal,"[45 years old, 50 years old)",others,2
+Mus musculus,male,postnatal,"[5 years old, 10 years old)",others,19
+Mus musculus,male,postnatal,"[50 years old, 55 years old)",others,4
+Mus musculus,male,postnatal,"[55 years old, 60 years old)",others,3
+Mus musculus,male,postnatal,"[60 years old, 65 years old)",others,6
+Mus musculus,male,postnatal,"[65 years old, 70 years old)",others,1
+Mus musculus,male,postnatal,"[70 years old, 75 years old)",others,5
+Mus musculus,male,postnatal,"[75 years old, 80 years old)",others,3
+Mus musculus,male,postnatal,"[80 years old, 85 years old)",others,2
+Mus musculus,male,postnatal,"[90 years old, 95 years old)",others,6
+Mus musculus,male,postnatal,"[95 years old, 100 years old)",others,1
+Mus musculus,male,postnatal,others,others,77
+Mus musculus,male,postnatal,<1 year old,unknown,35
+Mus musculus,male,postnatal,"[10 years old, 15 years old)",unknown,1
+Mus musculus,others,postnatal,<1 year old,others,20540
+Mus musculus,others,postnatal,>=100 years old,others,14
+Mus musculus,others,postnatal,"[1 year old, 5 years old)",others,447
+Mus musculus,others,postnatal,"[10 years old, 15 years old)",others,704
+Mus musculus,others,postnatal,"[15 years old, 20 years old)",others,366
+Mus musculus,others,postnatal,"[20 years old, 25 years old)",others,441
+Mus musculus,others,postnatal,"[25 years old, 30 years old)",others,127
+Mus musculus,others,postnatal,"[30 years old, 35 years old)",others,176
+Mus musculus,others,postnatal,"[35 years old, 40 years old)",others,50
+Mus musculus,others,postnatal,"[40 years old, 45 years old)",others,63
+Mus musculus,others,postnatal,"[45 years old, 50 years old)",others,35
+Mus musculus,others,postnatal,"[5 years old, 10 years old)",others,925
+Mus musculus,others,postnatal,"[50 years old, 55 years old)",others,37
+Mus musculus,others,postnatal,"[55 years old, 60 years old)",others,58
+Mus musculus,others,postnatal,"[60 years old, 65 years old)",others,87
+Mus musculus,others,postnatal,"[65 years old, 70 years old)",others,11
+Mus musculus,others,postnatal,"[70 years old, 75 years old)",others,23
+Mus musculus,others,postnatal,"[75 years old, 80 years old)",others,18
+Mus musculus,others,postnatal,"[80 years old, 85 years old)",others,18
+Mus musculus,others,postnatal,"[85 years old, 90 years old)",others,7
+Mus musculus,others,postnatal,"[90 years old, 95 years old)",others,47
+Mus musculus,others,postnatal,"[95 years old, 100 years old)",others,10
+Mus musculus,others,postnatal,others,others,2079
+Mus musculus,others,postnatal,<1 year old,unknown,18
+Mus musculus,others,postnatal,"[1 year old, 5 years old)",unknown,1
+Mus musculus,others,postnatal,"[10 years old, 15 years old)",unknown,2
+Mus musculus,others,postnatal,"[15 years old, 20 years old)",unknown,1
+Mus musculus,others,postnatal,"[20 years old, 25 years old)",unknown,3
+Mus musculus,others,postnatal,"[30 years old, 35 years old)",unknown,1
+Mus musculus,others,postnatal,"[5 years old, 10 years old)",unknown,3
+Mus musculus,others,postnatal,others,unknown,5
+Mus musculus,unknown,postnatal,<1 year old,unknown,2
+Mus musculus,unknown,postnatal,"[1 year old, 5 years old)",unknown,1
+Mus musculus,unknown,postnatal,"[10 years old, 15 years old)",unknown,1
+Mus musculus,female,prenatal,unknown,others,239
+Mus musculus,male,prenatal,unknown,others,239
+Mus musculus,others,prenatal,unknown,others,11515
+Mus musculus,others,prenatal,unknown,unknown,12
+Mus musculus,unknown,prenatal,unknown,unknown,2
+Mus musculus,female,unknown,unknown,Obesity,1
+Mus musculus,female,unknown,unknown,others,3511
+Mus musculus,female,unknown,unknown,unknown,9
+Mus musculus,male,unknown,unknown,Obesity,1
+Mus musculus,male,unknown,unknown,others,4906
+Mus musculus,male,unknown,unknown,unknown,24
+Mus musculus,others,unknown,unknown,Normal weight,2
+Mus musculus,others,unknown,unknown,Obesity,7
+Mus musculus,others,unknown,unknown,others,113830
+Mus musculus,others,unknown,unknown,unknown,323
+Mus musculus,unknown,unknown,unknown,unknown,58
+Pan troglodytes,male,others,unknown,others,2
+Pan troglodytes,male,others,unknown,unknown,1
+Pan troglodytes,others,others,unknown,others,1
+Pan troglodytes,female,postnatal,<1 year old,unknown,1
+Pan troglodytes,others,postnatal,<1 year old,others,1
+Pan troglodytes,others,postnatal,"[1 year old, 5 years old)",others,1
+Pan troglodytes,others,postnatal,others,others,1
+Pan troglodytes,others,prenatal,unknown,others,2
+Pan troglodytes,female,unknown,unknown,others,1
+Pan troglodytes,male,unknown,unknown,others,3
+Pan troglodytes,others,unknown,unknown,Underweight,1
+Pan troglodytes,others,unknown,unknown,others,221
+Pan troglodytes,others,unknown,unknown,unknown,1
+Sus scrofa domesticus,female,others,unknown,others,44
+Sus scrofa domesticus,female,others,unknown,unknown,2
+Sus scrofa domesticus,male,others,unknown,others,26
+Sus scrofa domesticus,male,others,unknown,unknown,2
+Sus scrofa domesticus,others,others,unknown,others,316
+Sus scrofa domesticus,female,postnatal,<1 year old,others,75
+Sus scrofa domesticus,female,postnatal,"[1 year old, 5 years old)",others,8
+Sus scrofa domesticus,female,postnatal,"[15 years old, 20 years old)",others,1
+Sus scrofa domesticus,female,postnatal,"[30 years old, 35 years old)",others,1
+Sus scrofa domesticus,female,postnatal,others,others,10
+Sus scrofa domesticus,female,postnatal,<1 year old,unknown,1
+Sus scrofa domesticus,male,postnatal,<1 year old,others,155
+Sus scrofa domesticus,male,postnatal,"[1 year old, 5 years old)",others,2
+Sus scrofa domesticus,male,postnatal,"[15 years old, 20 years old)",others,1
+Sus scrofa domesticus,male,postnatal,others,others,1
+Sus scrofa domesticus,others,postnatal,<1 year old,others,2458
+Sus scrofa domesticus,others,postnatal,"[1 year old, 5 years old)",others,12
+Sus scrofa domesticus,others,postnatal,"[10 years old, 15 years old)",others,5
+Sus scrofa domesticus,others,postnatal,"[15 years old, 20 years old)",others,2
+Sus scrofa domesticus,others,postnatal,"[20 years old, 25 years old)",others,8
+Sus scrofa domesticus,others,postnatal,"[25 years old, 30 years old)",others,1
+Sus scrofa domesticus,others,postnatal,"[30 years old, 35 years old)",others,4
+Sus scrofa domesticus,others,postnatal,"[35 years old, 40 years old)",others,1
+Sus scrofa domesticus,others,postnatal,"[40 years old, 45 years old)",others,7
+Sus scrofa domesticus,others,postnatal,"[45 years old, 50 years old)",others,1
+Sus scrofa domesticus,others,postnatal,"[5 years old, 10 years old)",others,9
+Sus scrofa domesticus,others,postnatal,others,others,78
+Sus scrofa domesticus,unknown,postnatal,<1 year old,unknown,1
+Sus scrofa domesticus,female,prenatal,unknown,others,19
+Sus scrofa domesticus,male,prenatal,unknown,others,4
+Sus scrofa domesticus,others,prenatal,unknown,others,185
+Sus scrofa domesticus,female,unknown,unknown,others,423
+Sus scrofa domesticus,male,unknown,unknown,others,174
+Sus scrofa domesticus,others,unknown,unknown,Normal weight,1
+Sus scrofa domesticus,others,unknown,unknown,Obesity,2
+Sus scrofa domesticus,others,unknown,unknown,others,7202
+Sus scrofa domesticus,others,unknown,unknown,unknown,8
+others,female,others,unknown,Obesity,2
+others,female,others,unknown,others,675
+others,female,others,unknown,unknown,39
+others,male,others,unknown,Obesity,1
+others,male,others,unknown,others,1046
+others,male,others,unknown,unknown,24
+others,others,others,unknown,Obesity,4
+others,others,others,unknown,Underweight,2
+others,others,others,"[15 years old, 20 years old)",others,1
+others,others,others,unknown,others,11417
+others,others,others,unknown,unknown,19
+others,unknown,others,unknown,unknown,18
+others,female,postnatal,<1 year old,others,951
+others,female,postnatal,>=100 years old,others,2
+others,female,postnatal,"[1 year old, 5 years old)",others,119
+others,female,postnatal,"[10 years old, 15 years old)",others,53
+others,female,postnatal,"[15 years old, 20 years old)",others,37
+others,female,postnatal,"[20 years old, 25 years old)",others,18
+others,female,postnatal,"[25 years old, 30 years old)",others,11
+others,female,postnatal,"[30 years old, 35 years old)",others,9
+others,female,postnatal,"[35 years old, 40 years old)",others,6
+others,female,postnatal,"[40 years old, 45 years old)",others,8
+others,female,postnatal,"[45 years old, 50 years old)",others,6
+others,female,postnatal,"[5 years old, 10 years old)",others,112
+others,female,postnatal,"[50 years old, 55 years old)",others,6
+others,female,postnatal,"[55 years old, 60 years old)",others,1
+others,female,postnatal,"[60 years old, 65 years old)",others,5
+others,female,postnatal,"[65 years old, 70 years old)",others,1
+others,female,postnatal,"[70 years old, 75 years old)",others,3
+others,female,postnatal,"[85 years old, 90 years old)",others,1
+others,female,postnatal,"[90 years old, 95 years old)",others,2
+others,female,postnatal,others,others,96
+others,female,postnatal,<1 year old,unknown,5
+others,female,postnatal,"[1 year old, 5 years old)",unknown,2
+others,male,postnatal,"[10 years old, 15 years old)",Overweight,1
+others,male,postnatal,<1 year old,others,1569
+others,male,postnatal,"[1 year old, 5 years old)",others,165
+others,male,postnatal,"[10 years old, 15 years old)",others,84
+others,male,postnatal,"[15 years old, 20 years old)",others,20
+others,male,postnatal,"[20 years old, 25 years old)",others,28
+others,male,postnatal,"[25 years old, 30 years old)",others,14
+others,male,postnatal,"[30 years old, 35 years old)",others,22
+others,male,postnatal,"[35 years old, 40 years old)",others,6
+others,male,postnatal,"[40 years old, 45 years old)",others,8
+others,male,postnatal,"[45 years old, 50 years old)",others,6
+others,male,postnatal,"[5 years old, 10 years old)",others,119
+others,male,postnatal,"[50 years old, 55 years old)",others,2
+others,male,postnatal,"[55 years old, 60 years old)",others,1
+others,male,postnatal,"[60 years old, 65 years old)",others,10
+others,male,postnatal,"[65 years old, 70 years old)",others,3
+others,male,postnatal,"[70 years old, 75 years old)",others,4
+others,male,postnatal,"[80 years old, 85 years old)",others,2
+others,male,postnatal,"[85 years old, 90 years old)",others,1
+others,male,postnatal,"[90 years old, 95 years old)",others,4
+others,male,postnatal,others,others,76
+others,male,postnatal,<1 year old,unknown,3
+others,male,postnatal,"[1 year old, 5 years old)",unknown,3
+others,others,postnatal,<1 year old,Obesity,3
+others,others,postnatal,"[60 years old, 65 years old)",Obesity,1
+others,others,postnatal,"[80 years old, 85 years old)",Obesity,1
+others,others,postnatal,<1 year old,Underweight,1
+others,others,postnatal,<1 year old,others,18150
+others,others,postnatal,>=100 years old,others,67
+others,others,postnatal,"[1 year old, 5 years old)",others,790
+others,others,postnatal,"[10 years old, 15 years old)",others,594
+others,others,postnatal,"[15 years old, 20 years old)",others,314
+others,others,postnatal,"[20 years old, 25 years old)",others,404
+others,others,postnatal,"[25 years old, 30 years old)",others,103
+others,others,postnatal,"[30 years old, 35 years old)",others,181
+others,others,postnatal,"[35 years old, 40 years old)",others,65
+others,others,postnatal,"[40 years old, 45 years old)",others,107
+others,others,postnatal,"[45 years old, 50 years old)",others,61
+others,others,postnatal,"[5 years old, 10 years old)",others,900
+others,others,postnatal,"[50 years old, 55 years old)",others,46
+others,others,postnatal,"[55 years old, 60 years old)",others,26
+others,others,postnatal,"[60 years old, 65 years old)",others,112
+others,others,postnatal,"[65 years old, 70 years old)",others,31
+others,others,postnatal,"[70 years old, 75 years old)",others,33
+others,others,postnatal,"[75 years old, 80 years old)",others,22
+others,others,postnatal,"[80 years old, 85 years old)",others,20
+others,others,postnatal,"[85 years old, 90 years old)",others,10
+others,others,postnatal,"[90 years old, 95 years old)",others,24
+others,others,postnatal,"[95 years old, 100 years old)",others,7
+others,others,postnatal,others,others,2314
+others,others,postnatal,<1 year old,unknown,12
+others,others,postnatal,"[1 year old, 5 years old)",unknown,1
+others,others,postnatal,"[10 years old, 15 years old)",unknown,1
+others,others,postnatal,"[15 years old, 20 years old)",unknown,2
+others,others,postnatal,"[40 years old, 45 years old)",unknown,1
+others,others,postnatal,"[5 years old, 10 years old)",unknown,1
+others,others,postnatal,"[75 years old, 80 years old)",unknown,1
+others,others,postnatal,others,unknown,3
+others,unknown,postnatal,<1 year old,unknown,2
+others,unknown,postnatal,"[1 year old, 5 years old)",unknown,1
+others,unknown,postnatal,"[45 years old, 50 years old)",unknown,1
+others,unknown,postnatal,"[5 years old, 10 years old)",unknown,1
+others,unknown,postnatal,others,unknown,1
+others,female,prenatal,unknown,others,128
+others,female,prenatal,unknown,unknown,1
+others,male,prenatal,unknown,others,124
+others,others,prenatal,unknown,others,10689
+others,others,prenatal,unknown,unknown,12
+others,female,unknown,unknown,Normal weight,1
+others,female,unknown,unknown,Obesity,3
+others,female,unknown,unknown,Underweight,2
+others,female,unknown,unknown,others,6447
+others,female,unknown,unknown,unknown,17
+others,male,unknown,unknown,Normal weight,2
+others,male,unknown,unknown,Obesity,3
+others,male,unknown,unknown,Underweight,1
+others,male,unknown,unknown,others,8334
+others,male,unknown,unknown,unknown,14
+others,others,unknown,unknown,Normal weight,21
+others,others,unknown,unknown,Obesity,78
+others,others,unknown,unknown,Overweight,17
+others,others,unknown,unknown,Underweight,33
+others,others,unknown,unknown,others,692893
+others,others,unknown,unknown,unknown,6375
+others,unknown,unknown,unknown,others,8
+others,unknown,unknown,unknown,unknown,266
+unknown,male,others,unknown,unknown,2
+unknown,others,others,unknown,others,6
+unknown,unknown,others,unknown,unknown,18
+unknown,female,postnatal,others,others,1
+unknown,female,postnatal,"[10 years old, 15 years old)",unknown,1
+unknown,others,postnatal,<1 year old,others,3
+unknown,others,postnatal,"[1 year old, 5 years old)",others,3
+unknown,others,postnatal,"[5 years old, 10 years old)",others,2
+unknown,unknown,postnatal,<1 year old,unknown,2
+unknown,unknown,postnatal,"[10 years old, 15 years old)",unknown,1
+unknown,unknown,postnatal,"[20 years old, 25 years old)",unknown,1
+unknown,unknown,postnatal,others,unknown,1
+unknown,others,prenatal,unknown,others,2
+unknown,female,unknown,unknown,others,4
+unknown,male,unknown,unknown,others,6
+unknown,others,unknown,unknown,others,210
+unknown,others,unknown,unknown,unknown,3
