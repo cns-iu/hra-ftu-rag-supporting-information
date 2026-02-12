@@ -1,0 +1,5 @@
+LVM,Accuracy,Avg Response Time (s)
+llama+gemma,80.47%,9.83
+llama+llama3.1,85.19%,19.03
+llama+llama3.2,78.33%,2.59
+llama+qwen,84.76%,34.63

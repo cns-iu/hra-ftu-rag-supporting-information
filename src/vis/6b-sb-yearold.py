@@ -146,7 +146,7 @@ cbar.set_label("Mean scale bar (μm, log scale)")
 legend_ax2 = fig.add_subplot(gs_bottom[1])
 legend_ax2.axis("off")
 
-legend_counts = [1, 10, 50, 100, 126]
+legend_counts = [1, 50, 126]
 legend_counts = [c for c in legend_counts if c <= max_p]
 
 handles = []
@@ -161,7 +161,7 @@ for c in legend_counts:
 legend_ax2.legend(
     handles,
     [str(int(c)) for c in legend_counts],
-    title="# PMCID (log scale)",
+    # title="# PMCID (log scale)",
     loc="center",
     ncol=len(legend_counts),
     frameon=True,
