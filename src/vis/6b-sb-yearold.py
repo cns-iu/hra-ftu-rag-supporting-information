@@ -1,294 +1,183 @@
-# # import pandas as pd
-# # import numpy as np
-# # import matplotlib.pyplot as plt
-# # import matplotlib as mpl
-
-# # mpl.rcParams.update({
-# #     'font.family': 'sans-serif',
-# #     'font.sans-serif': ['Arial'],  
-# #     'font.size': 10,
-# #     'axes.labelsize': 10,
-# #     'axes.titlesize': 10,
-# #     'xtick.labelsize': 9,
-# #     'ytick.labelsize': 9,
-# #     'legend.fontsize': 9,
-# #     'axes.linewidth': 0.5,
-# #     'xtick.major.width': 0.5,
-# #     'ytick.major.width': 0.5,
-# #     'xtick.major.size': 2,
-# #     'ytick.major.size': 2
-# # })
-
-# # df = pd.read_csv(r'data\vis-source-data\6b-sb-yearold.csv')
-
-# # def pick_linestyle(org):
-# #     if org == 'Kidney':
-# #         return '--'
-# #     elif org in ('Pancreas', 'Skin'):
-# #         return ':'
-# #     else:
-# #         return '-'
-
-# # df['linestyle'] = df['organ'].apply(pick_linestyle)
-
-# # color_mapping = {}
-# # for ls, sub in df.groupby('linestyle'):
-# #     ftus = sub['ftu'].unique()
-# #     palette = plt.cm.tab10(np.linspace(0, 1, len(ftus)))
-# #     color_mapping[ls] = dict(zip(ftus, palette))
-
-# # fig, ax = plt.subplots(figsize=(10, 6))
-# # fig.subplots_adjust(right=0.75)
-# # x = ['young', 'medium', 'old']
-
-# # for _, row in df.iterrows():
-# #     ls = row['linestyle']
-# #     ftu = row['ftu']
-# #     color = color_mapping[ls][ftu]
-
-# #     # y 值（数值）
-# #     # y = [row['young'], row['medium'], row['old']]
-# #     # ax.plot(x, y, linestyle=ls, color=color, linewidth=2, label=ftu)
-# #     y = [row['young'], row['medium'], row['old']]
-# #     mask = np.isfinite(y)  # 只保留不是 NaN 的位置
-# #     ax.plot(np.array(x)[mask], np.array(y)[mask],
-# #         linestyle=ls, color=color, linewidth=2, label=ftu)
-
-# #     # 对应 pmcid 数量
-# #     pmcids = [row['young-pmcid'], row['medium-pmcid'], row['old-pmcid']]
-
-# #     # 画散点，大小与 pmcid 成正比
-# #     ax.scatter(x, y, s=np.array(pmcids) * 2,  # 这里调整比例因子 20 可调
-# #                facecolors='none', edgecolors=color, linewidths=1.5, zorder=3)
-
-# # ax.set_yscale('log')
-# # ax.set_xlabel('Age group')
-# # ax.set_ylabel('Mean scale bar (µm)')
-# # ax.set_ylim(1, 100000)
-
-# # ftu_order = list(dict.fromkeys(df['ftu']))  
-# # handles, labels = ax.get_legend_handles_labels()
-# # ordered = [(handles[labels.index(ftu)], ftu) for ftu in ftu_order if ftu in labels]
-# # if ordered:
-# #     ordered_handles, ordered_labels = zip(*ordered)
-# #     ax.legend(ordered_handles, ordered_labels,
-# #               loc='center left', bbox_to_anchor=(1.02, 0.5),
-# #               title='FTU', fontsize='small', ncol=1)
-# # else:
-# #     ax.legend(loc='center left', bbox_to_anchor=(1.02, 0.5),
-# #               title='FTU', fontsize='small', ncol=1)
-
-# # plt.tight_layout()
-# # plt.show()
-# # # plt.savefig(r"vis\6b-sb-yearold-v2.svg", bbox_inches='tight')
-# # # plt.close()
-
-
-# import pandas as pd
-# import numpy as np
-# import matplotlib.pyplot as plt
-# import matplotlib as mpl
-# from matplotlib.lines import Line2D
-
-# mpl.rcParams.update({
-#     'font.family': 'sans-serif',
-#     'font.sans-serif': ['Arial'],  
-#     'font.size': 10,
-#     'axes.labelsize': 10,
-#     'axes.titlesize': 10,
-#     'xtick.labelsize': 9,
-#     'ytick.labelsize': 9,
-#     'legend.fontsize': 9,
-#     'axes.linewidth': 0.5,
-#     'xtick.major.width': 0.5,
-#     'ytick.major.width': 0.5,
-#     'xtick.major.size': 2,
-#     'ytick.major.size': 2
-# })
-
-# df = pd.read_csv(r'data\vis-source-data\6b-sb-yearold.csv')
-
-# def pick_linestyle(org):
-#     if org == 'Kidney':
-#         return '--'
-#     elif org in ('Pancreas', 'Skin'):
-#         return ':'
-#     else:
-#         return '-'
-
-# df['linestyle'] = df['organ'].apply(pick_linestyle)
-
-# color_mapping = {}
-# for ls, sub in df.groupby('linestyle'):
-#     ftus = sub['ftu'].unique()
-#     palette = plt.cm.tab10(np.linspace(0, 1, len(ftus)))
-#     color_mapping[ls] = dict(zip(ftus, palette))
-
-# fig, ax = plt.subplots(figsize=(10, 6))
-# fig.subplots_adjust(right=0.75)
-# x = ['young', 'medium', 'old']
-
-# scale_factor = 2  # 控制圆的缩放比例
-
-# for _, row in df.iterrows():
-#     ls = row['linestyle']
-#     ftu = row['ftu']
-#     color = color_mapping[ls][ftu]
-
-#     # y 值（数值），自动跳过 NaN
-#     y = [row['young'], row['medium'], row['old']]
-#     mask = np.isfinite(y)
-#     ax.plot(np.array(x)[mask], np.array(y)[mask],
-#             linestyle=ls, color=color, linewidth=2, label=ftu)
-
-#     # 对应 pmcid 数量
-#     pmcids = [row['young-pmcid'], row['medium-pmcid'], row['old-pmcid']]
-
-#     # 画散点，大小与 pmcid 成正比
-#     ax.scatter(x, y, s=np.array(pmcids) * scale_factor,
-#                facecolors='none', edgecolors=color, linewidths=1.5, zorder=3)
-
-# ax.set_yscale('log')
-# ax.set_xlabel('Age group')
-# ax.set_ylabel('Mean scale bar (µm)')
-# ax.set_ylim(1, 100000)
-
-# # ------- FTU legend -------
-# ftu_order = list(dict.fromkeys(df['ftu']))  
-# handles, labels = ax.get_legend_handles_labels()
-# ordered = [(handles[labels.index(ftu)], ftu) for ftu in ftu_order if ftu in labels]
-# if ordered:
-#     ordered_handles, ordered_labels = zip(*ordered)
-#     ftu_legend = ax.legend(ordered_handles, ordered_labels,
-#                            loc='center left', bbox_to_anchor=(1.02, 0.5),
-#                            title='FTU', fontsize='small', ncol=1)
-#     ax.add_artist(ftu_legend)
-
-# # ------- Circle legend (PMCID count) -------
-# all_pmcids = pd.concat([df['young-pmcid'], df['medium-pmcid'], df['old-pmcid']]).dropna()
-# sizes = [all_pmcids.min(), all_pmcids.median(), all_pmcids.max()]
-
-# circle_handles = [
-#     plt.scatter([], [], s=s*scale_factor, facecolors='none', edgecolors='black', linewidths=1.5)
-#     for s in sizes
-# ]
-
-# ax.legend(circle_handles, 
-#           [f"{int(s)} pmcid" for s in sizes],
-#           title="PMCID count",
-#           loc='center left', bbox_to_anchor=(1.22, 0.5),
-#           labelspacing=1.2, borderpad=1, frameon=True)
-
-# plt.tight_layout()
-# plt.show()
-# # plt.savefig(r"vis\6b-sb-yearold-v2.svg", bbox_inches='tight')
-# # plt.close()
-
-
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+from matplotlib.colors import LogNorm
+from matplotlib.gridspec import GridSpec
 import matplotlib as mpl
-from matplotlib.lines import Line2D
+
+# ---------------------------
+# Input data
+# ---------------------------
+
 
 mpl.rcParams.update({
     'font.family': 'sans-serif',
-    'font.sans-serif': ['Arial'],  
+    'font.sans-serif': ['Arial'],
     'font.size': 10,
     'axes.labelsize': 10,
     'axes.titlesize': 10,
     'xtick.labelsize': 9,
     'ytick.labelsize': 9,
     'legend.fontsize': 9,
-    'axes.linewidth': 0.5,
-    'xtick.major.width': 0.5,
-    'ytick.major.width': 0.5,
-    'xtick.major.size': 2,
-    'ytick.major.size': 2
+    'axes.linewidth': 0.8,
+    'xtick.major.width': 0.8,
+    'ytick.major.width': 0.8,
+    'xtick.major.size': 3,
+    'ytick.major.size': 3
 })
 
-df = pd.read_csv(r'data\vis-source-data\6b-sb-yearold.csv')
+df = pd.read_csv(r"data\vis-source-data\6b-sb-yearold.csv")
 
-def pick_linestyle(org):
-    if org == 'Kidney':
-        return '--'
-    elif org in ('Pancreas', 'Skin'):
-        return ':'
-    else:
-        return '-'
+age_cols = ["young", "medium", "old"]
+pmcid_cols = ["young-pmcid", "medium-pmcid", "old-pmcid"]
+age_to_pmcid = dict(zip(age_cols, pmcid_cols))
 
-df['linestyle'] = df['organ'].apply(pick_linestyle)
+# ---------------------------
+# Long format
+# ---------------------------
+long = df.melt(
+    id_vars=["organ", "ftu"],
+    value_vars=age_cols,
+    var_name="Age",
+    value_name="Value"
+)
 
-# 颜色映射
-color_mapping = {}
-for ls, sub in df.groupby('linestyle'):
-    ftus = sub['ftu'].unique()
-    palette = plt.cm.tab10(np.linspace(0, 1, len(ftus)))
-    color_mapping[ls] = dict(zip(ftus, palette))
+pmcid_map = df.set_index(["organ", "ftu"])[pmcid_cols]
+long["pmcid"] = long.apply(
+    lambda r: pmcid_map.loc[(r["organ"], r["ftu"]), age_to_pmcid[r["Age"]]],
+    axis=1
+)
 
-fig, ax = plt.subplots(figsize=(10, 6))
-fig.subplots_adjust(right=0.75)
-x = ['young', 'medium', 'old']
+plot_data = long.dropna(subset=["Value"]).copy()
 
-scale_factor = 2  # 控制圆的缩放比例
+# ---------------------------
+# LOG scaling
+# ---------------------------
+vmin = plot_data["Value"].min()
+vmax = plot_data["Value"].max()
+color_norm = LogNorm(vmin=vmin, vmax=vmax)
 
-for _, row in df.iterrows():
-    ls = row['linestyle']
-    ftu = row['ftu']
-    color = color_mapping[ls][ftu]
+max_p = np.nanmax(df[pmcid_cols].values.astype(float))
+dmax = 26.0
+k = dmax / np.log1p(max_p)
 
-    # y 值（自动跳过 NaN）
-    y = [row['young'], row['medium'], row['old']]
-    mask = np.isfinite(y)
-    ax.plot(np.array(x)[mask], np.array(y)[mask],
-            linestyle=ls, color=color, linewidth=2, label=ftu)
+plot_data["diam"] = k * np.log1p(plot_data["pmcid"].astype(float))
+plot_data["s"] = plot_data["diam"] ** 2
 
-    # 对应 pmcid 数量
-    pmcids = [row['young-pmcid'], row['medium-pmcid'], row['old-pmcid']]
+# ---------------------------
+# Positions (FTU on X axis)
+# ---------------------------
+x_spacing = 1.2
 
-    # 画散点
-    ax.scatter(x, y, s=np.array(pmcids) * scale_factor,
-               facecolors='none', edgecolors=color, linewidths=1.5, zorder=3)
+df["Label"] = df["ftu"]
+labels = df["Label"].tolist()
+x_map = {lab: i * x_spacing for i, lab in enumerate(labels)}
 
-ax.set_yscale('log')
-ax.set_xlabel('Age group')
-ax.set_ylabel('Mean scale bar (µm)')
-ax.set_ylim(10, 100000)
-ax.set_box_aspect(1)
+plot_data["x"] = plot_data["ftu"].map(x_map)
+y_map = {"young": 0, "medium": 1, "old": 2}
+plot_data["y"] = plot_data["Age"].map(y_map)
 
-# ================= Legends =================
-# FTU legend 顺序
-ftu_order = list(dict.fromkeys(df['ftu']))  
-handles, labels = ax.get_legend_handles_labels()
-ordered = [(handles[labels.index(ftu)], ftu) for ftu in ftu_order if ftu in labels]
+# ---------------------------
+# Figure layout (2:1 ratio)
+# ---------------------------
+fig_w = max(12, 0.4 * len(df))
+fig_h = 5
 
-# Legend 位置参数
-ftu_legend_y = 0.75
-circle_legend_y = 0.2
+fig = plt.figure(figsize=(fig_w, fig_h))
+gs = GridSpec(2, 1, height_ratios=[2, 1], hspace=0.05)
 
-if ordered:
-    ordered_handles, ordered_labels = zip(*ordered)
-    ftu_legend = ax.legend(ordered_handles, ordered_labels,
-                           loc='center left', bbox_to_anchor=(1.02, ftu_legend_y),
-                           title='FTU', fontsize='small', ncol=1)
-    ax.add_artist(ftu_legend)
+ax = fig.add_subplot(gs[0])          # Main plot (top)
+legend_ax = fig.add_subplot(gs[1])   # Legend area (bottom)
+legend_ax.axis("off")
 
-# Circle legend (PMCID count)
-all_pmcids = pd.concat([df['young-pmcid'], df['medium-pmcid'], df['old-pmcid']]).dropna()
-sizes = [all_pmcids.min(), all_pmcids.median(), all_pmcids.max()]
+# ---------------------------
+# Main scatter plot
+# ---------------------------
+sc = ax.scatter(
+    plot_data["x"], plot_data["y"],
+    s=plot_data["s"],
+    c=plot_data["Value"],
+    cmap="Blues",
+    norm=color_norm,
+    edgecolors="black",
+    linewidths=0.4
+)
 
-circle_handles = [
-    plt.scatter([], [], s=s*scale_factor, facecolors='none', edgecolors='black', linewidths=1.5)
-    for s in sizes
-]
+# Axis formatting
+ax.set_yticks([0, 1, 2])
+ax.set_yticklabels(["young", "medium", "old"])
 
-ax.legend(circle_handles, 
-          [f"{int(s)} pmcid" for s in sizes],
-          title="PMCID count",
-          loc='center left', bbox_to_anchor=(1.02, circle_legend_y),
-          labelspacing=1.2, borderpad=1, frameon=True)
+ax.set_xticks([i * x_spacing for i in range(len(labels))])
+ax.set_xticklabels(labels, rotation=45, ha="right", fontsize=8)
 
-plt.tight_layout()
-# plt.show()
-plt.savefig(r"vis\6b-sb-yearold.svg", bbox_inches='tight')
+ax.set_ylim(-0.5, 2.5)
+ax.grid(axis="y", linestyle=":", linewidth=0.6)
+ax.set_ylabel("Age group")
+ax.set_xlabel("")
+
+# ---------------------------
+# Bottom section layout
+# ---------------------------
+
+# Create two sub-areas inside bottom panel
+gs_bottom = GridSpec(
+    1, 2,
+    width_ratios=[1, 1],
+    left=0.08,
+    right=0.95,
+    bottom=0.05,
+    top=0.30,
+    wspace=0.25
+)
+
+# ---- Colorbar (left) ----
+cax_parent = fig.add_subplot(gs_bottom[0])
+cax_parent.axis("off")
+cax = cax_parent.inset_axes([0.275, 0.45, 0.6, 0.06])
+# cax = fig.add_subplot(gs_bottom[0])
+cbar = fig.colorbar(
+    sc,
+    cax=cax,
+    orientation="horizontal"
+)
+cbar.set_label("Mean scale bar (μm, log scale)")
+
+# ---- Size legend (right) ----
+legend_ax2 = fig.add_subplot(gs_bottom[1])
+legend_ax2.axis("off")
+
+legend_counts = [1, 10, 50, 100, 126]
+legend_counts = [c for c in legend_counts if c <= max_p]
+
+handles = []
+for c in legend_counts:
+    diam = k * np.log1p(c)
+    handles.append(
+        legend_ax2.scatter([], [], s=diam**2,
+                           facecolors="none",
+                           edgecolors="black")
+    )
+
+legend_ax2.legend(
+    handles,
+    [str(int(c)) for c in legend_counts],
+    title="# PMCID (log scale)",
+    loc="center",
+    ncol=len(legend_counts),
+    frameon=True,
+    borderpad=1.2,
+    columnspacing=1.5,
+    handletextpad=1.0
+)
+
+pos=ax.get_position()
+new_h=pos.height *0.5
+ax.set_position([pos.x0, pos.y1 - new_h, pos.width, new_h])
+
+plt.savefig(
+    r"vis\6b-sb-yearold.svg",
+    dpi=300,
+    bbox_inches="tight"
+)
+
 plt.close()
