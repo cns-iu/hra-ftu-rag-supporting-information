@@ -334,8 +334,8 @@ def evaluate_uberon_id_level(
 
 if __name__ == "__main__":
     # TODO: replace these paths with your actual files
-    UBERON_PATH = "uberon.csv"            # your UBERON table
-    PRED_PATH = "predictions.csv"         # your combined CSV with answer + model columns
+    UBERON_PATH = r"data\bio-onto\uberon-id.csv"            # your UBERON table
+    PRED_PATH = r"data\bio-onto\biology-ontology-test-results.csv"         # your combined CSV with answer + model columns
 
     evaluate_uberon_id_level(
         uberon_csv_path=UBERON_PATH,
