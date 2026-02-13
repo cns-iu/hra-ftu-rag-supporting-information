@@ -10,7 +10,7 @@ RC = {
     'font.size': 10,
     'axes.labelsize': 10,
     'axes.titlesize': 10,
-    'xtick.labelsize': 9,
+    'xtick.labelsize': 11,
     'ytick.labelsize': 9,
     'legend.fontsize': 9,
     'axes.linewidth': 0.8,
