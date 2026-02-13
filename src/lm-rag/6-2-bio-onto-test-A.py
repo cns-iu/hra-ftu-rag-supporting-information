@@ -381,7 +381,7 @@ if __name__ == "__main__":
     evaluate_uberon_id_level(
         uberon_csv_path=UBERON_PATH,
         predictions_csv_path=PRED_PATH,
-        out_csv_path="uberon_id_level_eval.csv",
+        out_csv_path=r"data\vis-source-data\sf-7a-uberon_id_level_eval.csv",
         gt_col="answer",
         model_cols=["llama31", "llama32", "qwen", "gemma"],
     )

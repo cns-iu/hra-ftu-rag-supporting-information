@@ -20,3 +20,6 @@ tmp2.py
 tmp2.csv
 output_aggregated.csv
 uberon_id_level_eval.csv
+data\vis-source-data\sf-7c-b_level_eval.csv
+data\vis-source-data\sf-7b-cl_level_eval.csv
+data\vis-source-data\sf-7a-uberon_id_level_eval.csv
