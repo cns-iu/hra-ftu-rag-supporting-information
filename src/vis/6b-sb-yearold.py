@@ -108,7 +108,7 @@ ax.set_yticks([0, 1, 2])
 ax.set_yticklabels(["young", "medium", "old"])
 
 ax.set_xticks([i * x_spacing for i in range(len(labels))])
-ax.set_xticklabels(labels, rotation=45, ha="right", fontsize=8)
+ax.set_xticklabels(labels, rotation=45, ha="right")
 
 ax.set_ylim(-0.5, 2.5)
 ax.grid(axis="y", linestyle=":", linewidth=0.6)

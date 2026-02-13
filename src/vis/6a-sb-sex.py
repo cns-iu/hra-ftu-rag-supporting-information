@@ -6,21 +6,22 @@ import textwrap
 
 mpl.rcParams.update({
     'font.family': 'sans-serif',
-    'font.sans-serif': ['Arial'],  
+    'font.sans-serif': ['Arial'],
     'font.size': 10,
     'axes.labelsize': 10,
     'axes.titlesize': 10,
     'xtick.labelsize': 9,
     'ytick.labelsize': 9,
     'legend.fontsize': 9,
-    'axes.linewidth': 0.5,
-    'xtick.major.width': 0.5,
-    'ytick.major.width': 0.5,
-    'xtick.major.size': 2,
-    'ytick.major.size': 2
+    'axes.linewidth': 0.8,
+    'xtick.major.width': 0.8,
+    'ytick.major.width': 0.8,
+    'xtick.major.size': 3,
+    'ytick.major.size': 3
 })
 
 sns.set_theme(style="whitegrid", rc=mpl.rcParams)
+
 
 df = pd.read_csv(r'data\vis-source-data\6a-sb-sex.csv')
 df['value'] = pd.to_numeric(df['value'], errors='coerce')
@@ -78,8 +79,7 @@ for organ, row in positions.iterrows():
     ax.text(
         mid, 1.02, organ,
         transform=ax.get_xaxis_transform(),
-        ha='center', va='bottom',
-        fontsize=10
+        ha='center', va='bottom'
     )
 
 # reference_color = 	(255/255, 140/255, 0/255)
