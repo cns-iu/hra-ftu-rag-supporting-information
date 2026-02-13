@@ -22,7 +22,7 @@ mpl.rcParams.update({
 
 MODELS = ["llama31", "llama32", "qwen", "gemma"]
 CATS = ["AS", "CT", "B"]
-CAT_COLORS = {"AS": "#eaaa60", "CT": "#e68b81", "B": "#b7b2d0"}
+CAT_COLORS = {"AS": "#eaaa60", "CT": "#7da6c6", "B": "#b7b2d0"}
 
 def _compute_micro_from_tp_fp_fn(tp: int, fp: int, fn: int):
     p = tp / (tp + fp) if (tp + fp) else 0.0
@@ -95,7 +95,7 @@ def plot_metric(all_micro, metric: str, outfile_svg: str):
     x = np.arange(len(pivot.index))
     width = 0.23
 
-    fig, ax = plt.subplots(figsize=(8.5, 4.8))
+    fig, ax = plt.subplots(figsize=(3, 2))
     for i, cat in enumerate(CATS):
         ax.bar(
             x + (i - 1) * width,
@@ -109,14 +109,15 @@ def plot_metric(all_micro, metric: str, outfile_svg: str):
     ax.set_xticklabels(pivot.index)
     ax.set_ylim(0, 1.0)
     ax.set_ylabel(metric)
-    ax.set_title(f"Micro {metric} (ID-level) across AS / CT / B by model")
-    ax.legend(frameon=False)
+    # ax.set_title(f"Micro {metric} (ID-level) across AS / CT / B by model")
+    # ax.legend(frameon=False)
+    ax.legend().remove()
 
     plt.tight_layout()
     if not outfile_svg.lower().endswith(".svg"):
         outfile_svg += ".svg"
     plt.savefig(outfile_svg, format="svg")
-    plt.show()
+    # plt.close()
 
 if __name__ == "__main__":
     # ====== TODO: 改成你自己的三个CSV路径 ======
@@ -136,6 +137,6 @@ if __name__ == "__main__":
     print(all_micro.sort_values(["category", "model"]).to_string(index=False))
 
     # 画三张图：P / R / F1
-    plot_metric(all_micro, "P",  outfile=r"vis\sf-7a-micro_precision_as_ct_b.svg")
-    plot_metric(all_micro, "R",  outfile=r"vis\sf-7b-micro_recall_as_ct_b.svg")
-    plot_metric(all_micro, "F1", outfile=r"vis\sf-7c-micro_f1_as_ct_b.svg")
+    plot_metric(all_micro, "P",  r"vis\sf-7a-micro_precision_as_ct_b.svg")
+    plot_metric(all_micro, "R",  r"vis\sf-7b-micro_recall_as_ct_b.svg")
+    plot_metric(all_micro, "F1", r"vis\sf-7c-micro_f1_as_ct_b.svg")
