@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import matplotlib as mpl
 import textwrap
 
-mpl.rcParams.update({
+RC = {
     'font.family': 'sans-serif',
     'font.sans-serif': ['Arial'],
     'font.size': 10,
@@ -18,10 +18,10 @@ mpl.rcParams.update({
     'ytick.major.width': 0.8,
     'xtick.major.size': 3,
     'ytick.major.size': 3
-})
+}
 
-sns.set_theme(style="whitegrid", rc=mpl.rcParams)
-
+sns.set_theme(style="whitegrid")
+mpl.rcParams.update(RC)
 
 df = pd.read_csv(r'data\vis-source-data\6a-sb-sex.csv')
 df['value'] = pd.to_numeric(df['value'], errors='coerce')
@@ -64,7 +64,8 @@ ax = sns.violinplot(
 ax.legend_.remove()
 
 plt.xticks(rotation=45, ha='right')
-plt.xlabel('FTU')
+plt.setp(ax.get_xticklabels(), fontname='Arial', fontsize=RC['xtick.labelsize'])
+ax.set_xlabel('FTU', fontname='Arial', fontsize=RC['axes.labelsize'])
 plt.ylabel('Value (µm)')
 plt.ylim(0, 1000)
 
