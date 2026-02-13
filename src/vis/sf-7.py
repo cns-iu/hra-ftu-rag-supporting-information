@@ -21,8 +21,8 @@ mpl.rcParams.update({
 
 
 MODELS = ["llama31", "llama32", "qwen", "gemma"]
-CATS = [("AS", "AS"), ("CT", "CT"), ("B", "B")]  # (label, column-name-in-plot)
-CAT_COLORS =
+CATS = ["AS", "CT", "B"]
+CAT_COLORS = {"AS": "#eaaa60", "CT": "#e68b81", "B": "#b7b2d0"}
 
 def _compute_micro_from_tp_fp_fn(tp: int, fp: int, fn: int):
     p = tp / (tp + fp) if (tp + fp) else 0.0
@@ -78,38 +78,44 @@ def load_micro_table(path: str, category_label: str, models=MODELS) -> pd.DataFr
 
     return pd.DataFrame(rows)
 
-def plot_metric(all_micro: pd.DataFrame, metric: str, outfile: str = None):
+def plot_metric(all_micro, metric: str, outfile_svg: str):
     """
     all_micro columns: model, category, P, R, F1
     metric in {"P","R","F1"}
     """
-    # pivot: index=model, columns=category, values=metric
     pivot = all_micro.pivot_table(index="model", columns="category", values=metric, aggfunc="mean")
-
-    # ensure order
     pivot = pivot.reindex(MODELS)
-    for cat, _ in CATS:
-        if cat not in pivot.columns:
-            pivot[cat] = np.nan
-    pivot = pivot[[c[0] for c in CATS]]
+
+    # ensure columns order
+    for c in CATS:
+        if c not in pivot.columns:
+            pivot[c] = np.nan
+    pivot = pivot[CATS]
 
     x = np.arange(len(pivot.index))
-    width = 0.25
+    width = 0.23
 
     fig, ax = plt.subplots(figsize=(8.5, 4.8))
-    for i, (cat, cat_display) in enumerate(CATS):
-        ax.bar(x + (i - 1) * width, pivot[cat].values, width, label=cat_display)
+    for i, cat in enumerate(CATS):
+        ax.bar(
+            x + (i - 1) * width,
+            pivot[cat].values,
+            width,
+            label=cat,
+            color=CAT_COLORS[cat]
+        )
 
     ax.set_xticks(x)
     ax.set_xticklabels(pivot.index)
     ax.set_ylim(0, 1.0)
     ax.set_ylabel(metric)
     ax.set_title(f"Micro {metric} (ID-level) across AS / CT / B by model")
-    ax.legend()
-    plt.tight_layout()
+    ax.legend(frameon=False)
 
-    if outfile:
-        plt.savefig(outfile, dpi=300)
+    plt.tight_layout()
+    if not outfile_svg.lower().endswith(".svg"):
+        outfile_svg += ".svg"
+    plt.savefig(outfile_svg, format="svg")
     plt.show()
 
 if __name__ == "__main__":
