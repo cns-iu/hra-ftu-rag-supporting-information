@@ -331,6 +331,47 @@ def evaluate_uberon_id_level(
 
     print(f"\nSaved detailed results to: {out_csv_path}")
 
+    # -----------------------------
+    # Summary: micro + macro table (for plotting)
+    # -----------------------------
+    summary_rows = []
+    for m in model_cols:
+        # Micro
+        TP = int(sum(metrics_map[m]["TP"]))
+        FP = int(sum(metrics_map[m]["FP"]))
+        FN = int(sum(metrics_map[m]["FN"]))
+        micro_p = TP / (TP + FP) if (TP + FP) else 0.0
+        micro_r = TP / (TP + FN) if (TP + FN) else 0.0
+        micro_f1 = (2 * micro_p * micro_r / (micro_p + micro_r)) if (micro_p + micro_r) else 0.0
+
+        # Macro
+        n = len(metrics_map[m]["P"])
+        macro_p = (sum(metrics_map[m]["P"]) / n) if n else 0.0
+        macro_r = (sum(metrics_map[m]["R"]) / n) if n else 0.0
+        macro_f1 = (sum(metrics_map[m]["F1"]) / n) if n else 0.0
+
+        summary_rows.append({
+            "model": m,
+            "micro_P": micro_p,
+            "micro_R": micro_r,
+            "micro_F1": micro_f1,
+            "macro_P": macro_p,
+            "macro_R": macro_r,
+            "macro_F1": macro_f1,
+            "TP_total": TP,
+            "FP_total": FP,
+            "FN_total": FN,
+            "n_samples": n,
+        })
+
+    summary_df = pd.DataFrame(summary_rows).sort_values("model")
+    print("\n=== UBERON ID-level summary (micro/macro) ===")
+    print(summary_df.to_string(index=False))
+
+    summary_path = out_csv_path.replace(".csv", "_summary.csv")
+    summary_df.to_csv(summary_path, index=False)
+    print(f"\nSaved summary to: {summary_path}")
+
 
 if __name__ == "__main__":
     # TODO: replace these paths with your actual files
