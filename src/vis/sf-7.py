@@ -113,9 +113,9 @@ def plot_metric(all_micro: pd.DataFrame, metric: str, outfile: str = None):
 
 if __name__ == "__main__":
     # ====== TODO: 改成你自己的三个CSV路径 ======
-    AS_CSV = "as_results.csv"   # 可以是 as_summary.csv 或 as_eval.csv（详细TP/FP/FN那种也行）
-    CT_CSV = "ct_results.csv"
-    B_CSV  = "b_results.csv"
+    AS_CSV = r"data\vis-source-data\sf-7a-uberon_id_level_eval_summary.csv"   # 可以是 as_summary.csv 或 as_eval.csv（详细TP/FP/FN那种也行）
+    CT_CSV = r"data\vis-source-data\sf-7b-cl_level_eval_summary.csv"
+    B_CSV  = r"data\vis-source-data\sf-7c-b_level_eval_summary.csv"
     # ========================================
 
     as_micro = load_micro_table(AS_CSV, "AS")
