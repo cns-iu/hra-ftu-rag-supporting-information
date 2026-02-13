@@ -22,6 +22,7 @@ mpl.rcParams.update({
 
 MODELS = ["llama31", "llama32", "qwen", "gemma"]
 CATS = [("AS", "AS"), ("CT", "CT"), ("B", "B")]  # (label, column-name-in-plot)
+CAT_COLORS =
 
 def _compute_micro_from_tp_fp_fn(tp: int, fp: int, fn: int):
     p = tp / (tp + fp) if (tp + fp) else 0.0
@@ -129,6 +130,6 @@ if __name__ == "__main__":
     print(all_micro.sort_values(["category", "model"]).to_string(index=False))
 
     # 画三张图：P / R / F1
-    plot_metric(all_micro, "P",  outfile="micro_precision_as_ct_b.png")
-    plot_metric(all_micro, "R",  outfile="micro_recall_as_ct_b.png")
-    plot_metric(all_micro, "F1", outfile="micro_f1_as_ct_b.png")
+    plot_metric(all_micro, "P",  outfile=r"vis\sf-7a-micro_precision_as_ct_b.svg")
+    plot_metric(all_micro, "R",  outfile=r"vis\sf-7b-micro_recall_as_ct_b.svg")
+    plot_metric(all_micro, "F1", outfile=r"vis\sf-7c-micro_f1_as_ct_b.svg")
