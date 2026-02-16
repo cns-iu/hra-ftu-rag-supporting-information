@@ -20,7 +20,7 @@ mpl.rcParams.update({
 })
 
 
-MODELS = ["llama31", "llama32", "qwen", "gemma"]
+MODELS = ["LLaMA3.1", "LLaMA3.2", "Qwen2.5", "Gemma2"]
 CATS = ["AS", "CT", "B"]
 CAT_COLORS = {"AS": "#eaaa60", "CT": "#7da6c6", "B": "#b7b2d0"}
 

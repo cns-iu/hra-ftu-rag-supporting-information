@@ -1,5 +1,5 @@
 LVM,Accuracy,Avg Response Time (s)
-llama+gemma,0.8047,9.83
-llama+llama3.1,0.8519,19.03
-llama+llama3.2,0.7833,2.59
-llama+qwen,0.8476,34.63
+LLaMA+Gemma2,0.8047,9.83
+LLaMA+LLaMA3.1,0.8519,19.03
+LLaLA+LLaMA3.2,0.7833,2.59
+LLaMA+Qwen2.5,0.8476,34.63
