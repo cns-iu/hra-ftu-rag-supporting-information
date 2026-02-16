@@ -18,7 +18,7 @@ mpl.rcParams.update({
     'ytick.major.size': 3
 })
 
-file_path = r"data\vis-source-data\sf-2-ftu-sb-it-cnt.csv"
+file_path = r"data\vis-source-data\sf-6-ftu-sb-it-cnt.csv"
 df = pd.read_csv(file_path)
 
 df["micro_scaled"] = df["micro_yes_count"] / 1000
@@ -63,6 +63,6 @@ ax.legend(frameon=False)
 
 plt.tight_layout()
 
-plt.savefig(r"vis\sf-2-ftu-sb-it.svg", bbox_inches='tight')
+plt.savefig(r"vis\sf-6-ftu-sb-it.svg", bbox_inches='tight')
 
 plt.close()

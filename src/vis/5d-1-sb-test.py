@@ -21,7 +21,7 @@ mpl.rcParams.update({
 })
 
 
-df = pd.read_csv(r'data\vis-source-data\4d-1-sb-test.csv') 
+df = pd.read_csv(r'data\vis-source-data\5d-1-sb-test.csv') 
 
 
 color_a = '#879db6'
@@ -43,7 +43,7 @@ ax.grid(False)
 clean_axes(ax)
 plt.tight_layout()
 # plt.savefig(r"vis\4d-1-sb-accu.png", dpi=600, bbox_inches='tight')
-plt.savefig(r"vis\4d-1-sb-accu.svg", bbox_inches='tight')
+plt.savefig(r"vis\5d-1-sb-accu.svg", bbox_inches='tight')
 plt.close()
 
 
@@ -60,5 +60,5 @@ ax.grid(False)
 clean_axes(ax)
 plt.tight_layout()
 # plt.savefig(r"vis\4d-1-sb-time.png", dpi=600, bbox_inches='tight')
-plt.savefig(r"vis\4d-1-sb-time.svg", bbox_inches='tight')
+plt.savefig(r"vis\5d-1-sb-time.svg", bbox_inches='tight')
 plt.close()

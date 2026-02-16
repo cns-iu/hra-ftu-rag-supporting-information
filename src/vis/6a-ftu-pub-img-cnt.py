@@ -21,7 +21,7 @@ mpl.rcParams.update({
 })
 
 
-df = pd.read_csv(r"data\vis-source-data\5a-ftu-pub-img-cnt.csv")
+df = pd.read_csv(r"data\vis-source-data\6a-ftu-pub-img-cnt.csv")
 
 df = df[::-1].reset_index(drop=True)
 
@@ -70,4 +70,4 @@ ax2.invert_yaxis()
 
 plt.subplots_adjust(left=0.4, right=0.75)
 # plt.savefig(r"vis\5a-ftu-pub-img-cnt.png", dpi=300, bbox_inches='tight')
-plt.savefig(r"vis\5a-ftu-pub-img-cnt.svg", bbox_inches='tight')
+plt.savefig(r"vis\6a-ftu-pub-img-cnt.svg", bbox_inches='tight')

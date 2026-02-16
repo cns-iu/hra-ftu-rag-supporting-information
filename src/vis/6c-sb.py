@@ -66,7 +66,7 @@ output_table = grouped[['ftu', 'standard_unit', 'value_new', 'count']].copy()
 output_table.to_csv('output_aggregated.csv', index=False)
 
 
-ref_order_df = pd.read_csv(r'data\vis-source-data\5a-ftu-pub-img-cnt.csv')
+ref_order_df = pd.read_csv(r'data\vis-source-data\6a-ftu-pub-img-cnt.csv')
 ftu_categories = ref_order_df['ftu'].drop_duplicates().tolist()
 ftu_to_num = {ftu: i for i, ftu in enumerate(ftu_categories)}
 grouped['ftu_num'] = grouped['ftu'].map(ftu_to_num)
@@ -91,7 +91,7 @@ for ftu in ftu_categories:
     size_col = pivot_table['size'].get(ftu)
     formatted_table[ftu] = [format_cell(c, s) for c, s in zip(count_col, size_col)]
 
-formatted_table.to_csv(r'data\vis-source-data\5c-output-sb-size-cnt.csv')
+formatted_table.to_csv(r'data\vis-source-data\6c-output-sb-size-cnt.csv')
 
 min_count = grouped['count'].min()
 
@@ -101,7 +101,7 @@ def size_with_conditional_floor(c, min_size=2):
 grouped['size'] = grouped['count'].apply(lambda c: size_with_conditional_floor(c, min_size=2))
 grouped['log10_length'] = np.log10(grouped['rep_length_um'])
 
-ref_df = pd.read_csv(r'data\vis-source-data\5c-ftu-sb-ref.csv')
+ref_df = pd.read_csv(r'data\vis-source-data\6c-ftu-sb-ref.csv')
 ref_df = ref_df[ref_df['size'].apply(is_numeric)]
 ref_df['numeric_value'] = ref_df['size'].astype(float)
 ref_df['log10_length'] = np.log10(ref_df['numeric_value'])
@@ -117,7 +117,7 @@ for ftu in ftu_categories:
     size_col = pivot_ref['size_val'].get(ftu)
     formatted_ref[ftu] = [format_cell(c, s) for c, s in zip(count_col, size_col)]
 
-formatted_ref.to_csv(r'data\vis-source-data\5c-output-sb-ref-size-cnt.csv')
+formatted_ref.to_csv(r'data\vis-source-data\6c-output-sb-ref-size-cnt.csv')
 
 
 plt.figure(figsize=(8, 11))
@@ -184,5 +184,5 @@ plt.legend(
 
 plt.subplots_adjust(left=0.3)
 # plt.savefig(r"vis\5c-ftu-sb.png", dpi=300, bbox_inches='tight')
-plt.savefig(r"vis\5c-ftu-sb.svg", bbox_inches='tight')
+plt.savefig(r"vis\6c-ftu-sb.svg", bbox_inches='tight')
 # plt.show()

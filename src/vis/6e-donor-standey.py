@@ -2,7 +2,7 @@ import pandas as pd
 import plotly.graph_objects as go
 
 
-df = pd.read_csv(r'data\vis-source-data\5e-donor-cnt.csv')
+df = pd.read_csv(r'data\vis-source-data\6e-donor-cnt.csv')
 
 
 merge_species = ['Callithrix jacchus', 'Macaca mulatta', 'Pan troglodytes']

@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import matplotlib as mpl
 
 
-file_path = r"data\vis-source-data\5b-itype-ratio.csv" 
+file_path = r"data\vis-source-data\6b-itype-ratio.csv" 
 df = pd.read_csv(file_path)
 
 mpl.rcParams.update({
@@ -65,4 +65,4 @@ plt.legend(loc="center left", bbox_to_anchor=(1.0, 0.5))
 plt.tight_layout(rect=[0, 0, 0.85, 1])
 
 # plt.savefig(r"vis\5b-itype-ratio.png", dpi=300, bbox_inches='tight')
-plt.savefig(r"vis\5b-itype-ratio.svg", bbox_inches='tight')
+plt.savefig(r"vis\6b-itype-ratio.svg", bbox_inches='tight')

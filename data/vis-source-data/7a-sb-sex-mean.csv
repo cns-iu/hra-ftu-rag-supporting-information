@@ -1,0 +1,23 @@
+organ,ftu,male,female,reference-size
+Kidney,cortical collecting duct,76.97849462,74.03896104,35
+Kidney,descending limb of loop of Henle,75.68782946,92.27705357,26
+Kidney,inner medullary collecting duct,73.76060606,75.66666667,50
+Kidney,loop of Henle ascending limb thin segment,114.4444444,70,26
+Kidney,nephron,8591.65477,483.1205146,40000
+Kidney,outer medullary collecting duct,99.62857143,115.8076923,40
+Kidney,renal corpuscle,32.43392857,38.606,200
+Kidney,thick ascending limb of loop of Henle,55.2537234,65.59649123,26
+Large Intestine,crypt of Lieberkuhn of large intestine,74.44390323,74.80157509,50
+Liver,liver lobule,76.77160494,76.19852941,1750
+Lung,alveolus of lung,98.83783784,99.31168831,192
+Lung,bronchus submucosal gland,98.92307692,80.84931507,1500
+Pancreas,intercalated duct of pancreas,46.3,73,2500
+Pancreas,islet of Langerhans,75.88178571,69.28695652,100
+Pancreas,pancreatic acinus,75.48444444,82.03947368,17
+Prostate Gland,prostate glandular acinus,82.3119403,,500
+Skin,epidermal ridge of digit,4187.276292,87.25066079,590
+Skin,papillary layer of dermis,1317.784255,1975.887363,800
+Small Intestine,intestinal villus,12943.68355,116.2612676,750
+Spleen,red pulp of spleen,106.939314,110.4549356,30
+Spleen,white pulp of spleen,133.1576763,109.054878,750
+Thymus,thymus lobule,34.2,36.66666667,1250

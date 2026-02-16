@@ -6,7 +6,7 @@ import numpy as np
 
 mpl.rcParams.update({
     'font.family': 'sans-serif',
-    'font.sans-serif': ['Arial'],  
+    'font.sans-serif': ['Arial'], 
     'font.size': 10,
     'axes.labelsize': 10,
     'axes.titlesize': 10,
@@ -20,7 +20,9 @@ mpl.rcParams.update({
     'ytick.major.size': 2
 })
 
-df = pd.read_csv(r'data\vis-source-data\4d-2-donor-test.csv')  
+
+df = pd.read_csv(r'data\vis-source-data\5d-3-bio-onto-test.csv') 
+
 
 color_a = '#879db6'
 color_b = '#bfbcda'
@@ -40,8 +42,8 @@ ax.set_xticklabels(df['LLM'], rotation=45, ha='right')
 ax.grid(False)
 clean_axes(ax)
 plt.tight_layout()
-# plt.savefig(r"vis\4d-2-donor-accu.png", dpi=600, bbox_inches='tight')
-plt.savefig(r"vis\4d-2-donor-accu.svg", bbox_inches='tight')
+plt.savefig(r"vis\5d-3-bio-onto-accu.png", dpi=600, bbox_inches='tight')
+plt.savefig(r"vis\5d-3-bio-onto-accu.svg", bbox_inches='tight')
 plt.close()
 
 
@@ -50,13 +52,13 @@ fig, ax = plt.subplots(figsize=(2.5, 2))
 ax.bar(df['LLM'], df['Avg Response Time (s)'], color=color_b, width=0.6)
 ax.set_ylabel('Avg Response Time (s)')
 ax.set_xlabel('LLM')
-ax.set_ylim(0, 60)
-ax.set_yticks([0, 20, 40, 60])
+ax.set_ylim(0, 50)
+ax.set_yticks([0, 25, 50])
 ax.set_xticks(range(len(df['LLM'])))
 ax.set_xticklabels(df['LLM'], rotation=45, ha='right')
 ax.grid(False)
 clean_axes(ax)
 plt.tight_layout()
-# plt.savefig(r"vis\4d-2-donor-time.png", dpi=600, bbox_inches='tight')
-plt.savefig(r"vis\4d-2-donor-time.svg", bbox_inches='tight')
+# plt.savefig(r"vis\4d-3-bio-onto-time.png", dpi=600, bbox_inches='tight')
+plt.savefig(r"vis\4d-3-bio-onto-time.svg", bbox_inches='tight')
 plt.close()

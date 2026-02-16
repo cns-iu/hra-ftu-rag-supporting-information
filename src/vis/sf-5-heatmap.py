@@ -19,7 +19,7 @@ mpl.rcParams.update({
 })
 
 # visualization: age
-df = pd.read_csv(r"data\vis-source-data\sf-1a-age.csv")
+df = pd.read_csv(r"data\vis-source-data\sf-5a-age.csv")
 df = df.set_index("FTU").fillna(0)
 
 plt.figure(figsize=(7, 7))
@@ -32,12 +32,12 @@ plt.xlabel("Age group")
 plt.ylabel("FTU")
 
 plt.tight_layout()
-plt.savefig(r"vis\sf-1a-age.svg", bbox_inches='tight')
+plt.savefig(r"vis\sf-5a-age.svg", bbox_inches='tight')
 plt.close()
 
 
 # visualization: sex
-df = pd.read_csv(r"data\vis-source-data\sf-1b-sex.csv")
+df = pd.read_csv(r"data\vis-source-data\sf-5b-sex.csv")
 df = df.set_index("FTU").fillna(0)
 
 plt.figure(figsize=(4.2, 4.2))
@@ -50,11 +50,11 @@ plt.xlabel("Sex")
 plt.ylabel("FTU")
 
 plt.tight_layout()
-plt.savefig(r"vis\sf-1b-sex.svg", bbox_inches='tight')
+plt.savefig(r"vis\sf-5b-sex.svg", bbox_inches='tight')
 plt.close()
 
 # visualization: BMI
-df = pd.read_csv(r"data\vis-source-data\sf-1c-bmi.csv")
+df = pd.read_csv(r"data\vis-source-data\sf-5c-bmi.csv")
 df = df.set_index("FTU").fillna(0)
 
 plt.figure(figsize=(4.6, 4.6))
@@ -66,7 +66,7 @@ plt.xlabel("BMI")
 plt.ylabel("FTU")
 
 plt.tight_layout()
-plt.savefig(r"vis\sf-1c-bmi.svg", bbox_inches='tight')
+plt.savefig(r"vis\sf-5c-bmi.svg", bbox_inches='tight')
 plt.close()
 
 

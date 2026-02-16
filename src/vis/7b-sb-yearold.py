@@ -26,7 +26,7 @@ mpl.rcParams.update({
     'ytick.major.size': 3
 })
 
-df = pd.read_csv(r"data\vis-source-data\6b-sb-yearold.csv")
+df = pd.read_csv(r"data\vis-source-data\7b-sb-yearold.csv")
 
 age_cols = ["young", "medium", "old"]
 pmcid_cols = ["young-pmcid", "medium-pmcid", "old-pmcid"]
@@ -175,7 +175,7 @@ new_h=pos.height *0.5
 ax.set_position([pos.x0, pos.y1 - new_h, pos.width, new_h])
 
 plt.savefig(
-    r"vis\6b-sb-yearold.svg",
+    r"vis\7b-sb-yearold.svg",
     dpi=300,
     bbox_inches="tight"
 )

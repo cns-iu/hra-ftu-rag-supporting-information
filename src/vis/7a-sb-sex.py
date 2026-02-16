@@ -4,45 +4,26 @@ import matplotlib.pyplot as plt
 import matplotlib as mpl
 import textwrap
 
-sex_file = r'data\vis-source-data\6a-sb-sex.csv'
-health_file = r'data\scale-bar\sb-health.csv'
-output_file = r'data\vis-source-data\sf-5a-sb-sex-health.csv'
-
-df_sex = pd.read_csv(sex_file, encoding='utf-8-sig')
-df_health = pd.read_csv(health_file, encoding='utf-8-sig')
-
-df_sex.columns = df_sex.columns.str.strip()
-df_health.columns = df_health.columns.str.strip()
-
-health_keys = set(zip(df_health['pmcid'], df_health['graphic']))
-
-df_filtered = df_sex[
-    df_sex.apply(lambda row: (row['pmcid'], row['graphic']) in health_keys, axis=1)
-]
-
-df_filtered.to_csv(output_file, index=False)
-
-
-
-mpl.rcParams.update({
+RC = {
     'font.family': 'sans-serif',
-    'font.sans-serif': ['Arial'],  
+    'font.sans-serif': ['Arial'],
     'font.size': 10,
     'axes.labelsize': 10,
     'axes.titlesize': 10,
-    'xtick.labelsize': 9,
+    'xtick.labelsize': 11,
     'ytick.labelsize': 9,
     'legend.fontsize': 9,
-    'axes.linewidth': 0.5,
-    'xtick.major.width': 0.5,
-    'ytick.major.width': 0.5,
-    'xtick.major.size': 2,
-    'ytick.major.size': 2
-})
+    'axes.linewidth': 0.8,
+    'xtick.major.width': 0.8,
+    'ytick.major.width': 0.8,
+    'xtick.major.size': 3,
+    'ytick.major.size': 3
+}
 
-sns.set_theme(style="whitegrid", rc=mpl.rcParams)
+sns.set_theme(style="whitegrid")
+mpl.rcParams.update(RC)
 
-df = pd.read_csv(r'data\vis-source-data\sf-5a-sb-sex-health.csv')
+df = pd.read_csv(r'data\vis-source-data\7a-sb-sex.csv')
 df['value'] = pd.to_numeric(df['value'], errors='coerce')
 df = df.groupby(['ftu', 'sex_tag']).filter(lambda x: x['value'].nunique() > 1)
 df = df[~((df['ftu'] == 'prostate glandular acinus') & (df['sex_tag'] == 'female'))]
@@ -83,8 +64,9 @@ ax = sns.violinplot(
 ax.legend_.remove()
 
 plt.xticks(rotation=45, ha='right')
-plt.xlabel('FTU')
-plt.ylabel('Scale bar (µm)')
+plt.setp(ax.get_xticklabels(), fontname='Arial', fontsize=RC['xtick.labelsize'])
+ax.set_xlabel('FTU', fontname='Arial', fontsize=RC['axes.labelsize'])
+plt.ylabel('Value (µm)')
 plt.ylim(0, 1000)
 
 positions = ftu_order_df.reset_index().groupby('organ_wrapped')['index'].agg(['min', 'max'])
@@ -98,14 +80,13 @@ for organ, row in positions.iterrows():
     ax.text(
         mid, 1.02, organ,
         transform=ax.get_xaxis_transform(),
-        ha='center', va='bottom',
-        fontsize=10
+        ha='center', va='bottom'
     )
 
 # reference_color = 	(255/255, 140/255, 0/255)
 reference_color = (255/255,0/255,0/255)
 
-mean_df = pd.read_csv(r'data\vis-source-data\6a-sb-sex-mean.csv')
+mean_df = pd.read_csv(r'data\vis-source-data\7a-sb-sex-mean.csv')
 ref_map = mean_df.set_index('ftu')['reference-size'].to_dict()
 
 for i, ftu in enumerate(ftu_order):
@@ -122,5 +103,5 @@ ax.grid(False)
 ax.set_xlim(-0.5, len(ftu_order) - 0.5)
 plt.tight_layout()
 # plt.show()
-plt.savefig(r"vis\sf-5a-sb-sex-health.svg", bbox_inches='tight')
+plt.savefig(r"vis\7a-sb-sex.svg", bbox_inches='tight')
 plt.close()

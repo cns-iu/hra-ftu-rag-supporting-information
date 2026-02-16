@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import matplotlib as mpl
 
 
-file_path = r'data\vis-source-data\5d-entity-cnt.csv'  
+file_path = r'data\vis-source-data\6d-entity-cnt.csv'  
 df = pd.read_csv(file_path)
 
 mpl.rcParams.update({
@@ -33,5 +33,5 @@ plt.ylabel('ftu')
 plt.gca().invert_yaxis()
 plt.tight_layout()
 # plt.savefig(r"vis\5d-entity-cnt.png", dpi=600, bbox_inches='tight')
-plt.savefig(r"vis\5d-entity-cnt.svg", bbox_inches='tight')
+plt.savefig(r"vis\6d-entity-cnt.svg", bbox_inches='tight')
 plt.close()

@@ -43,7 +43,7 @@ mpl.rcParams.update({
 
 sns.set_theme(style="whitegrid", rc=mpl.rcParams)
 
-df = pd.read_csv(r'data\vis-source-data\sf-5b-sb-sex-disease.csv')
+df = pd.read_csv(r'data\vis-source-data\sf-7b-sb-sex-disease.csv')
 df['value'] = pd.to_numeric(df['value'], errors='coerce')
 df = df.groupby(['ftu', 'sex_tag']).filter(lambda x: x['value'].nunique() > 1)
 df = df[~((df['ftu'] == 'prostate glandular acinus') & (df['sex_tag'] == 'female'))]
@@ -123,5 +123,5 @@ ax.grid(False)
 ax.set_xlim(-0.5, len(ftu_order) - 0.5)
 plt.tight_layout()
 # plt.show()
-plt.savefig(r"vis\sf-5b-sb-sex-disease.svg", bbox_inches='tight')
+plt.savefig(r"vis\sf-7b-sb-sex-disease.svg", bbox_inches='tight')
 plt.close()
